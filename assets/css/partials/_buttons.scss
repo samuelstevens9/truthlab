@@ -1,0 +1,99 @@
+.elm-button {
+	border:5px solid $blue;
+	background-color:transparent;
+	color:$blue;
+	padding:10px 40px;
+	font-weight:400;
+	font-size: 1.35rem;
+  transition: .2s ease;
+  border-radius:0;
+  font-family:'PT Sans Narrow',sans-serif;
+	border-radius: 2px;
+}
+.elm-button:hover, .elm-button:active, .elm-button:focus {
+	background-color:$blue;
+	color:white;
+}
+
+.button {
+	border:5px solid $red;
+	background-color:$red;
+	color:#fff;
+	padding:10px 40px!important;
+	font-weight:400;
+	font-size: 1.35rem!important;
+  transition: .2s ease!important;
+  font-family:'PT Sans Narrow',sans-serif;
+	border-radius: 2px;
+	box-shadow: 1px 2px 3px rgba(7, 7, 78, .2);
+		&:after {
+			content: "\f105";
+			font-family: FontAwesome;
+			margin-left:10px;
+		}
+		&:hover {
+			border:5px solid $red;
+			background-color:white;
+			color:$red;
+			box-shadow:1px 2px 3px rgba(7, 7, 78, .6);
+			text-decoration:none;
+		}
+		& i {
+			font-size:1.35rem;
+		}
+		&--arrow:after {
+			content: "\f054";
+			font-family: FontAwesome;
+			margin-left:10px;
+		}
+		&--red-outline {
+			border:5px solid $red;
+			background-color:white;
+			color:$red;
+		}
+		&--red-outline:hover {
+			border:5px solid $red;
+			background-color:$red;
+			color:white;
+		}
+		&--white {
+			border:5px solid white;
+			background-color:transparent;
+			color:white;
+		}
+		&--white:hover {
+			border:5px solid white;
+			background-color:white;
+			color:$red;
+		}
+		&--white-blue {
+			border:5px solid white;
+			background-color:$blue;
+			color:white;
+		}
+		&--white-blue:hover {
+			border:5px solid white;
+			background-color:transparent;
+			color:$blue;
+		}
+		&--blue {
+			border:5px solid $blue;
+			background-color:white;
+			color:$blue;
+		}
+		&--blue:hover {
+			border:5px solid $blue;
+			background-color:$blue;
+			color:white;
+		}
+		&--blue-outline {
+			border:5px solid $blue;
+			background-color:transparent;
+			color:$blue;
+		}
+		&--blue-outline:hover {
+			border:5px solid $blue;
+			background-color:$blue;
+			color:white;
+		}
+}

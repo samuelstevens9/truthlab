@@ -7,16 +7,211 @@ get_header();
 
 ?>
 
-<div class="wrap">
-	<div class="content">
-		<h1>WP Gulp Boilerplate!</h1>
-		<p>A simple to use gulp boilerplate for gulp beginners and WordPress developers.</p>
-		
+<section id="curtain-slider">
+	<div class="row">
+		<div class="container">
+			<div class="slider">
+			<div class="slide-header active">
+		   	<div class="panel">
+		      	<div class="top" data-back="BETTER"></div>
+					<div class="bottom" data-back="BETTER"></div>
+		   	</div>
+				<div class="center">
+		   		<h1>Create Better</h1>
+		   		<a href="#" class="button button--white" style="padding-top:100px">Read Now!!</a>
+		   	</div>
+			</div>
+			<div class="slide-header">
+		   	<div class="panel">
+		      	<div class="top" data-back="PROFITABLE"></div>
+					<div class="bottom" data-back="PROFITABLE"></div>
+				</div>
+				<div class="center">
+		      	<h1>More Profitable</h1>
+		      	<a href="#" class="button button--white">Read Now</a>
+		   		</div>
+			</div>
+			<div class="slide-header">
+		   	<div class="panel">
+		      	<div class="top" data-back="EXPERIENCES"></div>
+					<div class="bottom" data-back="EXPERIENCES"></div>
+		   	</div>
+				<div class="center">
+		      	<h1>Customer Experiences</h1>
+		      	<a href="#" class="button button--white">Read Now</a>
+		   	</div>
+			</div>
+			<div class="slide-header">
+		   	<div class="panel">
+		      	<div class="top" data-back="TRUTHLAB"></div>
+					<div class="bottom" data-back="TRUTHLAB"></div>
+		   	</div>
+				<div class="center">
+					<h1>with Truthlab</h1>
+					<a href="#" class="button button--white">Read Now</a>
+		   	</div>
+			</div>
+		</div>
+		</div>
 	</div>
-	<!-- /.content -->
-</div>
-<!-- /.wrap -->
+</section>
 
+<section id="about">
+	<div class="row">
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2 text-center heading">
+				<h1>Truthlab is a<br/>Customer Experience Management (CXM) company</h1>
+				<p>Our proven solutions help B2B companies to deliver consistently amazing customer experiences that drive satisfaction, retention and advocacy.</p>
+				<p>We enable companies to orchestrate and analyze customer data, insights and interactions – all on one powerful CXM platform.</p>
+			</div>
+		</div>
+	</div>
+</section>
 
+<section id="main-content">
+	<div class="row results">
+		<div class="container callout__insights">
+			<div class="col-md-6 text-center">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.jpg" />
+			</div>
+			<div class="col-md-5 pull-right text-right insights-blurb">
+				<h2>Get Immediate Insights</h2>
+				<p>Instantly extract quantitative and qualitative insights that allow you to make educated customer experience decisions. No more watching hundreds of videos to get what you need.</p>
+				<a href="#" class="button button--blue-outline">Read More</a>
+			</div>
+		</div>
+		<div class="pattern">
+
+		</div>
+		<div class="container callout__highlight">
+			<div class="col-md-5 pull-left text-left insights-blurb">
+				<h2>Watch Highlight Reels</h2>
+				<p>The Truthlab platform instantly generates highlight reels of your videos, whether they were created on the platform or elsewhere. No more expensive professional service costs to create actionable insights.</p>
+				<a href="#" class="button button--blue-outline">Watch Now</a>
+			</div>
+			<div class="col-md-6 pull-right">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.jpg" />
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="panel-management">
+	<div class="row" style="">
+		<div class="container">
+			<div class="col-md-7 pull-left">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+			</div>
+			<div class="col-md-5 text-left">
+				<h2>Take Action with Panel Management</h2>
+				<p>Easily invite, register and onboard your testers via email, Slack, IM and message boards, without training or IT involvement. No more professional testers from panel companies.</p>
+				<a href="#" class="button button--blue-outline">Find Out How</a>
+			</div>
+		</div>
+		<div class="container" style="padding-top:500px;">
+			<div class="col-md-5 text-left">
+				<h2>Analyze Full Length Video</h2>
+				<p>Full access and unlimited storage of your testers’ entire journey with transcription, event logging and complete search capabilities.  And, no more hidden costs.</p>
+				<a href="#" class="button button--blue-outline">See Video</a>
+			</div>
+			<div class="col-md-7 pull-right">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png" />
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="clients">
+	<div class="row">
+		<div class="container text-center">
+			<h2>We work with great people</h2>
+			<div class="col-md-3 logo">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
+			</div>
+			<div class="col-md-3 logo">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
+			</div>
+			<div class="col-md-3 logo">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
+			</div>
+			<div class="col-md-3 logo">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
+			</div>
+
+      <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#tcb-testimonial-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#tcb-testimonial-carousel" data-slide-to="1"></li>
+              <li data-target="#tcb-testimonial-carousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <div class="row">
+										<div class="col-md-6 col-md-offset-1 text-left">
+											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
+										</div>
+										<div class="col-md-4 testimonial__author">
+											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
+											<div>
+											Amanda Morgan</br>
+											UI Designer</br>
+											Truthlab Technologies</div>
+										</div>
+                  </div>
+              </div>
+							<div class="item">
+                  <div class="row">
+										<div class="col-md-6 col-md-offset-1 text-left">
+											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
+										</div>
+										<div class="col-md-4 testimonial__author">
+											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
+											<div>
+											Amanda Morgan</br>
+											UI Designer</br>
+											Truthlab Technologies</div>
+										</div>
+                  </div>
+              </div>
+							<div class="item">
+                  <div class="row">
+										<div class="col-md-6 col-md-offset-1 text-left">
+											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
+										</div>
+										<div class="col-md-4 testimonial__author">
+											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
+											<div>
+											Amanda Morgan</br>
+											UI Designer</br>
+											Truthlab Technologies</div>
+										</div>
+                  </div>
+              </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+    	</div>
+    </div>
+	</div>
+</section>
+
+<section id="cta">
+  <div class="row">
+    <div class="container cta__red">
+      <div class="col-md-7">
+        <h2>Create Better Customer Experiences</h2>
+        <div class="white"></div>
+        <p>Learn how Truthlab can help you track, measure and improve every aspect of your customers’ journey.</p>
+      </div>
+			<div class="col-md-1"></div>
+      <div class="col-md-3 text-right">
+        <p><a href="#" class="button button--white">Request a Demo</a></p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php get_footer(); ?>

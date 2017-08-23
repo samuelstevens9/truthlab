@@ -21,13 +21,11 @@ html {
 }
 
 body {
+    font-family:'PT Sans Narrow', sans-serif;
     font: 400 11px/1.4 sans-serif;
-    color: $c2;
     margin: 0;
-    background: $w !important;
     height:100%;
     min-height:100%;
-
 
 }
 /* clear */
@@ -69,10 +67,6 @@ a:active {
     outline: 0;
 }
 
-input:focus {
-    outline: 0;
-    border: 1px solid $c2;
-}
 
 ol, ul {
 

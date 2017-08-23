@@ -1,0 +1,11 @@
+@mixin heading {
+  color:$blue;font-weight:600;padding:10px 0px;
+}
+
+@mixin redGradient {
+  background: linear-gradient(to right, #75000e 0%,#dd0035 100%);
+}
+
+@mixin transition {
+  transition: .2s ease;
+}

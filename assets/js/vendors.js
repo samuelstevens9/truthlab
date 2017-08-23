@@ -5,7 +5,7 @@
  *
  * @since 1.0.0
  */
-console.log('VendorJS1');
+console.log('VendorJS1WTF');
 /**
  * Vendor JS 2.
  *

@@ -11,11 +11,13 @@ Tags: gulp, boilerpate
 Text Domain: wpgulp-theme
 */
 
+
+
 /* ----------------------------------------------------------------------------
  * Mixins & Variables
  * ------------------------------------------------------------------------- */
-@import "partials/mixins";
 @import "partials/variables";
+@import "partials/mixins";
 
 /* ----------------------------------------------------------------------------
  * Normalize & Santize
@@ -23,10 +25,12 @@ Text Domain: wpgulp-theme
 @import "vendors/normalize";
 @import "vendors/sanitize";
 @import "vendors/bootstrap";
+@import "vendors/fontawesome";
 
 /* ----------------------------------------------------------------------------
  * Structure
  * ------------------------------------------------------------------------- */
+
 @import "partials/structure";
 
 /* WPCore */
@@ -35,4 +39,8 @@ Text Domain: wpgulp-theme
 /* Base */
 @import "partials/base";
 
-
+/* Buttons */
+@import "partials/header";
+@import "partials/buttons";
+@import "partials/index";
+@import "partials/footer";

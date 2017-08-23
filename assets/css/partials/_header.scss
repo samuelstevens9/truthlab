@@ -1,0 +1,65 @@
+.navbar-header img {
+  height:37px;
+  width:144px;
+}
+
+.navbar-brand {height:auto;padding:0 15px;}
+.navbar {padding:1.2rem 15px;}
+.navbar-right {margin-right:-15px;}
+
+.navbar-default {background-color:white;}
+.navbar-default .navbar-nav>li>a {
+    color: $blue;
+    font-size:1.35rem;
+    padding:0 15px;
+}
+
+
+
+.navbar-default .navbar-nav > li > a > i {color:$blue!important;}
+.navbar-default .navbar-nav > li > a > i:hover {color:$red!important;}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: $red;
+    background-color:white;
+    text-decoration:underline;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: $red;
+    background-color: transparent;
+    text-decoration:underline;
+}
+.navbar-default .navbar-nav>li>a>i {
+  color:$red;
+  margin-right:15px
+}
+
+.navbar-default .navbar-nav > li {height:46px;}
+.navbar-default .navbar-nav > li > a {margin-top:13px;}
+.navbar-default .navbar-nav>li>a.button {color:white;padding:7px 40px!important;margin-top:0px;}
+.navbar-default .navbar-nav>li>a.button:hover {color:$red;text-decoration:none;}
+
+nav.navbar {
+  @include transition;
+}
+
+nav.navbar.shrink {
+  padding:10px 15px;
+  box-shadow: 0px 2px 3px rgba(7,7,78, .6);
+}
+/*
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+ßΩ
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+*/
