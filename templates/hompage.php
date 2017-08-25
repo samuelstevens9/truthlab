@@ -9,7 +9,7 @@
 get_header(); ?>
 
 <section id="curtain-slider">
-	<div class="row">
+	<div class="container">
 		<div class="container">
 			<div class="slider">
 			<div class="slide-header active">
@@ -19,7 +19,8 @@ get_header(); ?>
 		   	</div>
 				<div class="center">
 		   		<h1>Create Better</h1>
-		   		<a href="#" class="button button--white" style="padding-top:100px">Read Now!!</a>
+		   		<a href="#" class="button button--white" style="padding-top:100px">Request Demo</a>
+					<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   	</div>
 			</div>
 			<div class="slide-header">
@@ -30,6 +31,7 @@ get_header(); ?>
 				<div class="center">
 		      	<h1>More Profitable</h1>
 		      	<a href="#" class="button button--white">Read Now</a>
+						<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   		</div>
 			</div>
 			<div class="slide-header">
@@ -40,6 +42,7 @@ get_header(); ?>
 				<div class="center">
 		      	<h1>Customer Experiences</h1>
 		      	<a href="#" class="button button--white">Read Now</a>
+						<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   	</div>
 			</div>
 			<div class="slide-header">
@@ -50,6 +53,7 @@ get_header(); ?>
 				<div class="center">
 					<h1>with Truthlab</h1>
 					<a href="#" class="button button--white">Read Now</a>
+					<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   	</div>
 			</div>
 		</div>
@@ -69,28 +73,33 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="main-content">
-	<div class="row results">
-		<div class="container callout__insights">
-			<div class="col-md-6 text-center">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.jpg" />
+<section id="middle">
+	<div class="row top-row">
+		<div class="container">
+			<div class="col-md-7 image">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.jpg"/>
 			</div>
-			<div class="col-md-5 pull-right text-right insights-blurb">
+			<div class="col-md-5 text-right copy">
 				<h2>Get Immediate Insights</h2>
 				<p>Instantly extract quantitative and qualitative insights that allow you to make educated customer experience decisions. No more watching hundreds of videos to get what you need.</p>
 				<a href="#" class="button button--blue-outline">Read More</a>
 			</div>
 		</div>
-		<div class="pattern">
+	</div>
 
+	<div class="row blank" style="z-index:5;">
+		<div class="container">
 		</div>
-		<div class="container callout__highlight">
-			<div class="col-md-5 pull-left text-left insights-blurb">
+	</div>
+
+	<div class="row bottom-row">
+		<div class="container">
+			<div class="col-md-5 text-left copy">
 				<h2>Watch Highlight Reels</h2>
 				<p>The Truthlab platform instantly generates highlight reels of your videos, whether they were created on the platform or elsewhere. No more expensive professional service costs to create actionable insights.</p>
 				<a href="#" class="button button--blue-outline">Watch Now</a>
 			</div>
-			<div class="col-md-6 pull-right">
+			<div class="col-md-7 image">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.jpg" />
 			</div>
 		</div>
@@ -98,24 +107,26 @@ get_header(); ?>
 </section>
 
 <section id="panel-management">
-	<div class="row" style="">
+	<div class="bg-image-red" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
+	<div class="row">
+		<div class="bg-image-blue" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
 		<div class="container">
-			<div class="col-md-7 pull-left">
+			<div class="col-md-6 image">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
 			</div>
-			<div class="col-md-5 text-left">
+			<div class="col-md-6 text-left copy">
 				<h2>Take Action with Panel Management</h2>
 				<p>Easily invite, register and onboard your testers via email, Slack, IM and message boards, without training or IT involvement. No more professional testers from panel companies.</p>
 				<a href="#" class="button button--blue-outline">Find Out How</a>
 			</div>
 		</div>
-		<div class="container" style="padding-top:500px;">
-			<div class="col-md-5 text-left">
+		<div class="container analyze">
+			<div class="col-md-6 text-left copy">
 				<h2>Analyze Full Length Video</h2>
 				<p>Full access and unlimited storage of your testers’ entire journey with transcription, event logging and complete search capabilities.  And, no more hidden costs.</p>
 				<a href="#" class="button button--blue-outline">See Video</a>
 			</div>
-			<div class="col-md-7 pull-right">
+			<div class="col-md-6 pull-right image">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png" />
 			</div>
 		</div>
@@ -126,18 +137,16 @@ get_header(); ?>
 	<div class="row">
 		<div class="container text-center">
 			<h2>We work with great people</h2>
-			<div class="col-md-3 logo">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
-			</div>
-			<div class="col-md-3 logo">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
-			</div>
-			<div class="col-md-3 logo">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
-			</div>
-			<div class="col-md-3 logo">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" />
-			</div>
+			   <section class="customer-logos">
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
+			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
+			   </section>
 
       <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -148,12 +157,12 @@ get_header(); ?>
           </ol>
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
-              <div class="item active">
+							<div class="item active">
                   <div class="row">
-										<div class="col-md-6 col-md-offset-1 text-left">
+										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
 											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
 										</div>
-										<div class="col-md-4 testimonial__author">
+										<div class="col-xs-12 col-md-4 testimonial__author">
 											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
 											<div>
 											Amanda Morgan</br>
@@ -164,10 +173,10 @@ get_header(); ?>
               </div>
 							<div class="item">
                   <div class="row">
-										<div class="col-md-6 col-md-offset-1 text-left">
+										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
 											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
 										</div>
-										<div class="col-md-4 testimonial__author">
+										<div class="col-xs-12 col-md-4 testimonial__author">
 											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
 											<div>
 											Amanda Morgan</br>
@@ -178,10 +187,10 @@ get_header(); ?>
               </div>
 							<div class="item">
                   <div class="row">
-										<div class="col-md-6 col-md-offset-1 text-left">
+										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
 											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
 										</div>
-										<div class="col-md-4 testimonial__author">
+										<div class="col-xs-12 col-md-4 testimonial__author">
 											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
 											<div>
 											Amanda Morgan</br>
@@ -191,28 +200,32 @@ get_header(); ?>
                   </div>
               </div>
           </div>
-          <!-- Controls -->
+          <!-- Controls --
           <a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
           <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+					-->
+					<a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-left.svg"/></a>
+          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-right.svg"/></a>
     	</div>
     </div>
 	</div>
 </section>
 
 <section id="cta">
-  <div class="row">
-    <div class="container cta__red">
+  <div class="container">
+    <div class="row cta__red">
       <div class="col-md-7">
         <h2>Create Better Customer Experiences</h2>
         <div class="white"></div>
         <p>Learn how Truthlab can help you track, measure and improve every aspect of your customers’ journey.</p>
       </div>
 			<div class="col-md-1"></div>
-      <div class="col-md-3 text-right">
-        <p><a href="#" class="button button--white">Request a Demo</a></p>
+      <div class="col-md-4 text-right">
+        <a href="#" class="button button--white">Request a Demo</a>
       </div>
     </div>
   </div>
 </section>
 
+<?
 get_footer();

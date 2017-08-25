@@ -30,3 +30,31 @@ body {
 }
 
 .row {padding: 7rem 0px;}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#curtain-slider {
+  height:800px;
+}
+
+.round {
+  border-radius:50%;
+  border:1px solid $blue;
+}
+
+.search-dropdown, .sub-dropdown {
+	display:block;
+  width: 100%;
+  padding:0 100px;
+  background: rgba(255,255,255, .9);
+  z-index:999999999999!important;
+  position:fixed;
+  top:0!important;
+  border-top:2px solid #d1d1d1;
+  border-bottom:2px solid #d1d1d1;
+}

@@ -48,7 +48,7 @@
 		}
 		&--red-outline {
 			border:5px solid $red;
-			background-color:white;
+			background-color:transparent;
 			color:$red;
 		}
 		&--red-outline:hover {
@@ -95,5 +95,9 @@
 			border:5px solid $blue;
 			background-color:$blue;
 			color:white;
+		}
+		& .no-background {
+			background-color:none!important;
+			color:blue;
 		}
 }

@@ -18,7 +18,6 @@ jQuery(window).scroll(function() {
   }
 });
 
-
 /* Hero Slider */
 //jQuery(document).hover(nextSlide);
 jQuery(document).on('click',nextSlide);
@@ -33,9 +32,51 @@ function nextSlide(){
   }
 }
 
-/* Carousel Auto-Cycle */
+
+
+
 jQuery(document).ready(function() {
+  /* Search Dropdown */
+  jQuery('.search-toggle').click(function () {
+      jQuery('.search-dropdown').slideToggle();
+  });
+
+  /* Subscribe Dropdown */
+  jQuery('.subscribe-toggle').click(function () {
+      jQuery('.subscribe-dropdown').slideToggle();
+  });
+
+  /* Request Dropdown */
+  jQuery('.request-toggle').click(function () {
+      jQuery('.request-dropdown').slideToggle();
+  });
+
+  /* Logo Slider */
+  jQuery('.customer-logos').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 4
+          }
+      }, {
+          breakpoint: 520,
+          settings: {
+              slidesToShow: 2,
+              arrows: true
+          }
+      }]
+  });
+
+  /* Testimonial Slider */
   jQuery('.carousel').carousel({
     interval: 6000
-  })
+  });
+
 });

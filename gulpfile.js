@@ -1,3 +1,5 @@
+ process.env.DISABLE_NOTIFIER = true;
+
 /**
  * Gulpfile.
  *
