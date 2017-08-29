@@ -1,3 +1,4 @@
+hr.blue-bar{border-top: 15px solid #07074e;}
 .tl-red{color:$red;}/*#910811*/
 #primary.container{margin-bottom: 380px;/*to push footer down*/}
 #primary .row{ padding:0;}
@@ -32,3 +33,13 @@
   color: transparent;
 }
 .socialShare:hover,.socialShare:active,.socialShare:visited,.socialShare:focus{color: transparent;}
+
+.navbar.landing{top: 0 !important;}
+
+.request-dropdown-mobile.request-toggle{display: none;}
+@media only screen and (max-width: 768px){
+  #primary.container {
+    margin-top: 50px;
+  }
+  .request-dropdown-mobile.request-toggle{display: block;}
+}

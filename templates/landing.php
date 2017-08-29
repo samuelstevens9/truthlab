@@ -33,7 +33,7 @@
 
 <body <?php body_class(); ?>>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top landing">
   	<div class="container">
   		<div class="navbar-header">
         <a class="navbar-brand" href="<?php echo get_site_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" /></a>
