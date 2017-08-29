@@ -2,7 +2,7 @@
 
 /**
  * Template Name: Homepage
- *
+ *<li class="request-toggle"><a href="#" class="button button--red">Request a Demo</a></li>
  * @package Truthlab
  */
 
@@ -19,7 +19,7 @@ get_header(); ?>
 		   	</div>
 				<div class="center">
 		   		<h1>Create Better</h1>
-		   		<a href="#" class="button button--white" style="padding-top:100px">Request Demo</a>
+		   		<a href="#" class="button button--white request-toggle" style="padding-top:100px">Request Demo</a>
 					<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   	</div>
 			</div>
@@ -30,7 +30,7 @@ get_header(); ?>
 				</div>
 				<div class="center">
 		      	<h1>More Profitable</h1>
-		      	<a href="#" class="button button--white">Read Now</a>
+		      	<a href="#" class="button button--white request-toggle">Request Demo</a>
 						<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   		</div>
 			</div>
@@ -41,7 +41,7 @@ get_header(); ?>
 		   	</div>
 				<div class="center">
 		      	<h1>Customer Experiences</h1>
-		      	<a href="#" class="button button--white">Read Now</a>
+		      	<a href="#" class="button button--white request-toggle">Request Demo</a>
 						<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   	</div>
 			</div>
@@ -52,14 +52,14 @@ get_header(); ?>
 		   	</div>
 				<div class="center">
 					<h1>with Truthlab</h1>
-					<a href="#" class="button button--white">Read Now</a>
+					<a href="#" class="button button--white request-toggle">Request Demo</a>
 					<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   	</div>
 			</div>
 		</div>
 		</div>
 	</div>
-</section>
+</section><script>setInterval(nextSlide, 4*1000);</script>
 
 <section id="about">
 	<div class="row">
@@ -137,6 +137,7 @@ get_header(); ?>
 	<div class="row">
 		<div class="container text-center">
 			<h2>We work with great people</h2>
+			<?php /*
 			   <section class="customer-logos">
 			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
 			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
@@ -146,8 +147,8 @@ get_header(); ?>
 			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
 			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
 			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
-			   </section>
-
+			   </section> */ ?>
+			<h5>Hear what some have to say</h5>
       <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">

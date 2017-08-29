@@ -72,7 +72,7 @@
 
 	<div class="request-dropdown">
 
-			<form action="//truthlab.us14.list-manage.com/subscribe/post?u=c2bfa3ee50aeeb2e544284a99&amp;id=c1e42fec0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form action="https://dev.truthlab.com/p/api/v2/demo/handler/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<h2>Request a Demo</h2>
 				<div class="col-md-5">
 					<input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
