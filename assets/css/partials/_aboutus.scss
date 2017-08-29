@@ -1,0 +1,185 @@
+/***************************************************/
+/* ABOUT US                                        */
+/***************************************************/
+
+/*
+#hero {
+  height:600px;
+  position:relative;
+  background-color:white;
+  background-image:url('//localhost:3000/wp-content/themes/truthlab//assets/img/home/bluelines-top.svg'),url('//localhost:3000/wp-content/themes/truthlab/assets/img/home/redlines-bottom.svg');background-repeat:no-repeat,no-repeat;background-position:left 0px top 0px,right 0px bottom 0px;background-size:30%;
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 650px;
+    width: 100%;
+    height: 10px;
+    transform: skewY(3deg);
+    box-shadow: 0px 5px 10px rgba(145,8,17, .6);
+    -webkit-backface-visibility: hidden;
+  }
+}
+*/
+
+#hero {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 74%);
+  height:800px;
+  box-shadow: 0px 5px 10px rgba(145,8,17, .6);
+  background-image:url('//localhost:3000/wp-content/themes/truthlab//assets/img/home/bluelines-top.svg'),url('//localhost:3000/wp-content/themes/truthlab/assets/img/home/redlines-bottom.svg');background-repeat:no-repeat,no-repeat;background-position:left 0px top 0px,right 0px bottom 0px;background-size:30%;
+  /*
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 754px;
+    width: 100%;
+    height:10px;
+    transform: skewY(7deg);
+    box-shadow: 0px 5px 10px rgba(145,8,17, .6);
+    -webkit-backface-visibility: hidden;
+  }*/
+}
+
+
+
+#hero {
+  & .front {
+     position:absolute;
+     top:50%;
+     transform:translateY(-50%);
+     left:0;
+     width:100%;
+     text-align:center;
+     color:#dedee3;
+     font-size:22rem;
+  }
+  & .back {
+     position:absolute;
+     top:50%;
+     transform:translateY(-50%);
+     left:0;
+     width:100%;
+     text-align:center;
+     color:$blue;
+     font-size:6rem;
+  }
+}
+
+
+.page-template-aboutus #heading {
+}
+
+.page-template-aboutus {
+  h1 {
+    margin:0px;
+    padding:0px;
+  }
+  h2 {
+    margin:0px;
+    padding-bottom:50px;
+  }
+  & .profile {
+    border:5px solid $red;
+    border-radius:2px;
+    margin-left:16%;
+    padding:5% 7%;
+  }
+  & ul {
+    display:inline;
+    margin-left:15px;
+  }
+  & a {
+    display:inline;
+    color:$grey-medium;
+  }
+  & a:hover {
+    color:$red;
+  }
+  & ul li {
+    display:inline;
+    margin-right:1rem;
+  }
+  & ul li:last-child {
+    margin-right:0px;
+  }
+  & [class*="fa-"] {
+    color:$grey-medium;
+  }
+  & .fa-linkedin-square:hover{
+  	color:#0077b5;
+  }
+  & .fa-facebook-square:hover{
+  	color:#3c5a99;
+  }
+  & .fa-twitter-square:hover{
+  	color:#1da1f2;
+  }
+  & .fa-google-plus-square:hover{
+  	color:#db3236;
+  }
+  & .fa-linkedin-square, & .fa-facebook-square, & .fa-twitter-square, & .fa-google-plus-square{
+    transition: color .6s ease-out;
+  }
+  & .fa-linkedin-square:hover, & .fa-facebook-square:hover, & .fa-twitter-square:hover, & .fa-google-plus-square:hover{
+    transform: translateY(-5px);
+    text-shadow: 1px 1px rgba(7,7,78,.5);
+  }
+  & .profile-image {
+    width: 200px;
+    height: 200px;
+    top: 250px;
+    margin-left: -680px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    left:50%;
+    border:1px solid $blue;
+    border-radius:50%;
+  }
+  & .hexagon {
+    width: 200px;
+    height: 200px;
+    top: 350px;
+    margin-left: -680px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    left:50%;
+    border:1px solid $blue;
+    border-radius:50%;
+  }
+
+  /*cover up extra shadows*/
+  & .hexagon span {
+      display: block;
+      position: absolute;
+      top:2.8867513459481287px;
+      left: 0;
+      width:290px;
+      height:167.4316px;
+      z-index: 2;
+      background: inherit;
+    }
+}
+
+.page-template-aboutus #cta {
+  transform:translateY(0px);
+  position:relative;
+}
+
+.cta__blue {
+  margin-bottom:200px;
+  @include blueGradient;
+  &:before {
+    @include blueGradient;
+  }
+}
+
+.page-template-aboutus footer {
+  margin-top:25px;
+  transform:translateY(0px);
+  position:relative;
+}

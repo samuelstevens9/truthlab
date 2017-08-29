@@ -4,6 +4,10 @@
     padding:0 35px;
   }
 
+.request-dropdown-mobile {
+    display:block;
+}
+
 
   /*************************/
   /** Header              **/
@@ -98,6 +102,12 @@
       border-bottom-color:$blue;
       background-color:white;
     }
+  }
+
+  .row__copy {
+    padding:0 35px;
+    font-size:1.6rem;
+
   }
 
   .panel-title {
@@ -431,5 +441,354 @@
         display:none;
       }
   }
+
+  /*************************/
+  /** Solutions           **/
+  /*************************/
+  #curtain-slider__solutions {
+    height:500px;
+  }
+  #heading__solutions {
+    & h1 {
+      font-size:2rem!important;
+    }
+    & .row {
+      padding:0px;
+    }
+    & .heading {
+      margin-top:0px;
+    }
+  }
+
+  #tabs {
+    padding-bottom:0px;
+    & ul {
+      list-style: none;
+      position: relative;
+      float:none;
+      display: block;
+      left:auto;
+      text-align:center;
+    }
+    & ul li {
+      position:relative;
+      float: none;
+      display: block;
+      right:auto;
+      margin:0 auto;
+      text-align:center;
+    }
+    & ul li a {
+      padding:0px;
+    }
+    & ul li:first-child a {
+      padding-left:0px;
+    }
+    & ul li:last-child a {
+      padding-right:0px;
+    }
+    .nav {
+      border-bottom:none;
+    }
+    & .nav>li>a:hover {
+      text-decoration: none;
+      background-color:white;
+      color:$red;
+      text-decoration:underline;
+    }
+    & .nav>li>a:focus {
+      text-decoration: none;
+      background-color:white;
+      color:$red;
+      text-decoration:underline;
+    }
+    & .nav-tabs>li>a:hover {
+      border-color:white;
+      background-color:none;
+    }
+    & .nav-tabs>li.active>a {
+        border:none;
+    }
+    & .tab-pane img {
+      padding:100px 0px 50px 0px;
+    }
+    & .button {
+      display:inline-block;
+      margin-top:50px;
+    }
+    & .content {
+      text-align:center;
+      padding:25px 0 00px 0px;
+    }
+    & img {
+      margin-bottom:50px;
+    }
+    & .content h3 {
+      margin:75px 0 25 0;
+    }
+  }
+
+  #content__marketing {
+    & .row__copy {
+      margin-top:150px;
+    }
+      & .bg-image-red {
+        width: 1000px;
+        height: 1000px;
+        top: 2300px;
+        margin-left: -850px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        z-index:-2;
+      }
+      & .float-image-left {
+        width: 350px;
+        height: 250px;
+        background-image: url(//static.mailchimp.com/web/root/blank.gif);
+        top: 300px;
+        margin-left: -175px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+        left: 50%;
+      }
+      & .float-image-right {
+        width: 300px;
+        height: 150px;
+        top: -400px;
+        margin-right: 140px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 3;
+        right: -20%;
+      }
+      & .float-image-right-top {
+        width: 550px;
+        height: 187px;
+        top: -700px;
+        margin-right: -0px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: -1;
+        right: 15%;
+      }
+      & .marketing {
+        padding:0px;
+        transform:translateY(50%);
+        margin-bottom:1000px;
+        background-color:transparent;
+        height:75px;
+        padding:100px 0px;
+        text-align:center;
+        &:before {
+          content: '';
+          position: relative;
+          left: 0;
+          top: -55px;
+          width: 100%;
+          height: 110px;
+          background: transparent;
+          transform: skewY(-3deg);
+          -webkit-backface-visibility: hidden;
+          z-index:-2;
+        }
+        &:after {
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
+          background-color:transparent;
+          position: absolute;
+          padding:300px 0px;
+          left: 0;
+          top: 100px;
+          width: 100%;
+          height: 135px;
+          z-index:-2;
+        }
+        & .round {
+          transform:translateY(-92%);
+          width:200%!important;
+          height:200%!important;
+          right:-25%;
+          box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+          position:fixed;
+        }
+      }
+  }
+  #content__product {
+      & .bg-image-blue {
+        width: 1000px;
+        height: 1000px;
+        background-image: url(//static.mailchimp.com/web/root/blank.gif);
+        top: 3800px;
+        margin-right: -850px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        z-index: -1;
+        right: 50%;
+      }
+      & .float-image-left {
+        width: 350px;
+        height: 250px;
+        background-image: url(//static.mailchimp.com/web/root/blank.gif);
+        top: 20px;
+        margin-left: -175px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+        left: 50%;
+      }
+      & .float-image-right {
+        width: 300px;
+        height: 150px;
+        top: -700px;
+        margin-right: 140px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 3;
+        right: -20%;
+      }
+      & .float-image-right-top {
+        width: 550px;
+        height: 187px;
+        top: -1000px;
+        margin-right: -0px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: -1;
+        right: 15%;
+      }
+      & .round {
+        transform:translateY(-55%);
+        box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+      }
+      & .marketing {
+        padding:0px;
+        transform:translateY(800px);
+        margin-bottom:1000px;
+        background-color:white;
+        height:275px;
+        padding:100px 0px;
+        text-align:center;
+        &:before {
+          clip-path: polygon(0 0, 100% 40%, 100% 77%, 0% 100%);
+          background-color:white;
+          position: absolute;
+          padding:300px 0px;
+          left: 0;
+          top: -250px;
+          width: 100%;
+          height: 135px;
+          z-index:-2;
+        }
+        &:after {
+          content:none;
+          background-color:none;
+        }
+        & .round {
+          transform:translateY(-150%);
+          left:-25%;
+          box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+          position:fixed;
+        }
+      }
+  }
+
+  #content__designers {
+    & .row__copy {
+      margin-top:225px;
+    }
+      & .round {
+        transform:translateY(-115%);
+        width:200%!important;
+        height:200%!important;
+        right:-25%;
+        box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+        position:fixed;
+      }
+      & .bg-image-red {
+        width: 1000px;
+        height: 1000px;
+        top: 5500px;
+        margin-left: -850px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        z-index:-2;
+      }
+      & .float-image-left {
+        width: 400px;
+        height: 250px;
+        top: 100px;
+        margin-left: -100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+        left: 25%;
+      }
+      & .float-image-right {
+        width: 300px;
+        height: 150px;
+        top: -600px;
+        margin-right: -50px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 3;
+        right: -10%;
+      }
+      & .marketing {
+        padding:0px;
+        transform:translateY(1000px);
+        margin-bottom:1000px;
+        background-color:transparent;
+        height:75px;
+        padding:100px 0px;
+        text-align:center;
+        &:before {
+          content:none;
+          position: relative;
+          left: 0;
+          top: -155px;
+          width: 100%;
+          height: 110px;
+          background: none;
+          transform: skewY(-3deg);
+          -webkit-backface-visibility: hidden;
+          z-index:-2;
+        }
+        &:after {
+          clip-path:hidden;
+          background-color:transparent;
+          position: absolute;
+          padding:300px 0px;
+          left: 0;
+          top: 100px;
+          width: 100%;
+          height: 135px;
+          z-index:-2;
+        }
+      }
+  }
+
+  .page-template-solutions #cta {
+    transform:translateY(800px);
+  }
+
+  .page-template-solutions footer {
+    margin-top:0px;
+    transform:translateY(800px);
+  }
+
+
 
 }
