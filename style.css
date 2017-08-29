@@ -4762,6 +4762,16 @@ footer .row { padding-top: 0px; }
 
 #content__solutions .marketing .round { -webkit-transform: translateY(-35%); -ms-transform: translateY(-35%); transform: translateY(-35%); }
 
+#primary.container{margin-bottom: 380px;/*to push footer down*/}
+.whitepaper_form{ }
+.whitepaper_form input{ width: 100%; }
+.whitepaper_form input[type="checkbox"],.whitepaper_form input[type="radio"]{ width: auto; }
+.whitepaper_form input[type="submit"], .whitepaper_form button, .whitepaper_form input[type="button"]{width:100%;border:none;padding:9px;background-color: #910811;box-shadow: 1px 2px 3px rgba(7, 7, 78, .2);border-radius: 2px;color:#FFF; }
+.triangle-ramp { 
+  
+}
+
+
 /* Responsive */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) { .container { padding: 0 35px; }
