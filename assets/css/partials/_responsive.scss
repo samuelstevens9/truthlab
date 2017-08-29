@@ -327,13 +327,13 @@
         z-index:-2;
     }
     & .image {
-        width:200%;
-        height:200%;
+        width:50%;
+        height:50%;
     }
     & .image:last-child {
-        width:200%;
-        height:200%;
-        right:-100%;
+        width:50%;
+        height:50%;
+        right:0;
         transform:translateY(-115%);
     }
     & .analyze .copy {

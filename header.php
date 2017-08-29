@@ -89,7 +89,14 @@
 					<div class="response" id="mce-success-response" style="display:none"></div>
 				</div>
 			</form>
-			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[3]='FULLNAME';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script>
+(function( $ ) {
+	$('#mc-embedded-subscribe-form').submit(function(event){event.preventDefault();
+		$.post('https://dev.truthlab.com/p/api/v2/demo/handler/', $("#mc-embedded-subscribe-form").serialize());
+		$('#mce-success-response').text("Thanks for requesting a demo.  We will reach out soon.");
+	})
+})(jQuery.noConflict());
+</script>
 		    <a href="#" class="request-toggle" style="position:absolute;top:2%;right:2%;font-size:40px;"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
 
   </div>
