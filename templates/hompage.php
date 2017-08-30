@@ -223,7 +223,7 @@ get_header(); ?>
       </div>
 			<div class="col-md-1"></div>
       <div class="col-md-4 text-right">
-        <a href="#" class="button button--white request-dropdown-mobile request-toggle">Request a Demo</a>
+        <a href="#" class="button button--white request-toggle">Request a Demo</a>
       </div>
     </div>
   </div>
