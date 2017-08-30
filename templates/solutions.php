@@ -8,19 +8,17 @@
 
 get_header(); ?>
 
-<section id="curtain-slider">
+<section id="curtain-slider__solutions">
 	<div class="container">
 		<div class="container">
 			<div class="slider">
 			<div class="slide-header active">
-		   	<div class="panel">
+		   	<div class="panel" style="background-color:white;">
 		      	<div class="top" data-back="SOLVED"></div>
 					<div class="bottom" data-back="SOLVED"></div>
 		   	</div>
 				<div class="center">
 		   		<h1>Problem Solved</h1>
-		   		<a href="#" class="button button--white" style="padding-top:100px">Request Demo</a>
-					<a href="#" class="down-chevron"><img style="width:30px;height:30px;" src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
 		   	</div>
 			</div>
 		</div>
@@ -42,67 +40,137 @@ get_header(); ?>
 	<div class="row">
 		<div class="container">
 			<ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
-        <li><a data-toggle="tab" href="#marketers">For Marketers</a></li>
-				<li><a data-toggle="tab" href="#product-managers">For Product Managers</a></li>
-				<li><a data-toggle="tab" href="#ux-professionals">For UX Professionals</a></li>
+        <li class="active"><a data-toggle="tab" href="#content__solution">Overview</a></li>
+        <li><a data-toggle="tab" href="#content__marketing">For Marketers</a></li>
+				<li><a data-toggle="tab" href="#content__product">For Product Managers</a></li>
+				<li><a data-toggle="tab" href="#content__designers">For UX Professionals</a></li>
 	    </ul>
-	    <div class="tab-content">
-        <div id="overview" class="tab-pane fade in active">
-					<div class="col-md-8 col-md-offset-2">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
-            <h3>Our CXM Solutions</h3>
-						<div class="content">
-							<p>The current customer feedback loop takes weeks and doesn't fit into anyone's release cycles. With Truthlab, you gt instant insights to make critical changes.</p>
-							<p>What you once paid agencies or tester recruiting applications to do is now on demand.</p>
-							<p>Truthlab allows you to get the insights that are buried within thousands of hours of user research videos without requiring you or your team watching a single frame.</p>
-						</div>
-						<a href="#" class="button button--blue-outline">Request a Demo</a>
-					</div>
-        </div>
-        <div id="marketers" class="tab-pane fade">
-					<div class="col-md-8 col-md-offset-2">
-						<h3>For Marketers</h3></h3>
-						<p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
-					</div>
-        </div>
-				<div id="product-managers" class="tab-pane fade">
-					<div class="col-md-8 col-md-offset-2">
-						<h3>For Product Managers</h3>
-						<p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
-					</div>
-        </div>
-				<div id="ux-professionals" class="tab-pane fade">
-					<div class="col-md-8 col-md-offset-2">
-						<h3>For UX Professionals</h3>
-						<p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
-					</div>
-        </div>
-	    </div>
+	    <div class="col-md-8 col-md-offset-2 content">
+				<div class="content" id="content__solution">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+					<h3>Our CXM Solutions</h3>
+					<p>The current customer feedback loop takes weeks and doesn't fit into anyone's release cycles. With Truthlab, you gt instant insights to make critical changes.</p>
+					<p>What you once paid agencies or tester recruiting applications to do is now on demand.</p>
+					<p>Truthlab allows you to get the insights that are buried within thousands of hours of user research videos without requiring you or your team watching a single frame.</p>
+					<a href="#" class="button button--blue-outline request-toggle">Request a Demo</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
+
 
 <!--
 <div class="bg-image-blue" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
 -->
 
-<section id="content__solutions" style=="background-color:white;">
+<section id="content__marketing">
 	<div class="bg-image-red" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
 		<div class="row marketing">
 			<div class="container">
 				<div class="col-md-2">
-					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png');"></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
+				-->
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 image">
 					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/marketer.jpg"/>
 				</div>
 				<div class="col-md-2">
+					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg');"></div>
+					<div class="float-image-right-top" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg');"></div>
+					<!--
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+				-->
+				</div>
+			</div>
+			<div class="row row__copy">
+				<div class="container">
+					<div class="col-md-6"></div>
+					<div class="col-md-6">
+						<div class="solutions__copy">
+							<h2>Marketing</h2>
+							<p>Driven by the speed of insights, the Truthlab CXM playform meets the daily demands faced by Marketing teams.</p>
+							<a href="#">Read out Customer Case Study >></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 </section>
+
+<section id="content__product">
+	<div class="bg-image-blue" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
+		<div class="row marketing">
+			<div class="container">
+				<div class="col-md-2">
+					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png');"></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
+				-->
+				</div>
+				<div class="col-md-8 image">
+					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
+				</div>
+				<div class="col-md-2">
+					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg');"></div>
+					<div class="float-image-right-top" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg');"></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+				-->
+				</div>
+			</div>
+			<div class="row row__copy">
+				<div class="container">
+					<div class="col-md-6">
+						<div class="solutions__copy">
+							<h2>Product Managers</h2>
+							<p>Understand and map the customer journey with custom interactive data visualizations that identify key product opportunities.</p>
+							<a href="#">Talk to a Specialist Today >></a>
+						</div>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+			</div>
+		</div>
+</section>
+
+<section id="content__designers">
+	<div class="bg-image-red" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
+		<div class="row marketing">
+			<div class="container">
+				<div class="col-md-2">
+					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png');"></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
+				-->
+				</div>
+				<div class="col-md-8 image">
+					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/designers.png"/>
+				</div>
+				<div class="col-md-2">
+					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png');"></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+				-->
+				</div>
+			</div>
+			<div class="row row__copy">
+				<div class="container">
+					<div class="col-md-6"></div>
+					<div class="col-md-6">
+						<div class="solutions__copy">
+							<h2>Experience Designers</h2>
+							<p>Identify and analyze audience segments by connecting your user research panel to customizable personas.</p>
+							<a href="#">Take a Product Tour Now >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+
 
 
 <section id="cta">
@@ -115,7 +183,7 @@ get_header(); ?>
       </div>
 			<div class="col-md-1"></div>
       <div class="col-md-4 text-right">
-        <a href="#" class="button button--white">Request a Demo</a>
+        <a href="#" class="button button--white request-toggle">Request a Demo</a>
       </div>
     </div>
   </div>

@@ -6,6 +6,10 @@
   background: linear-gradient(to right, #75000e 0%,#dd0035 100%);
 }
 
+@mixin blueGradient {
+  background: linear-gradient(to right, #000055 0%,#0016a3 100%);
+}
+
 @mixin transition {
   transition: .2s ease;
 }

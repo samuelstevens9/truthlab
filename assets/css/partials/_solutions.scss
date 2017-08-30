@@ -1,28 +1,56 @@
-.page-template-solutions #heading__solutions {
-  margin-top:100px;
-  /*
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 825px;
-    width: 100%;
-    height: 110px;
-    background: white;
-    transform: skewY(-3deg);
-    -webkit-backface-visibility: hidden;
-  }*/
+#curtain-slider__solutions {
+  height:700px;
+}
 
+.slide-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#curtain-slider__solutions  {
+  width:100%;
+  & .center h1 {
+      font-size: 10vh;
+      line-height: 1;
+      font-family: "PT Sans Narrow",sans-serif;
+      color: $red;
+      margin-bottom: 100px;
+  }
+  & .slide-header:nth-child(1) .panel>* {
+    background: white;
+    background: white;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 60s ease infinite;
+    animation: Gradient 60s ease infinite;
+    color: rgba(145,8,17,.6);
+  }
+  & .slider {
+     background-image:url('../truthlab/assets/img/solutions/hero-bottom.svg');
+     background-position:bottom;
+  }
 }
 
 .page-template-solutions #cta {
-  transform:translateY(0px);
+  transform:translateY(3500px);
 }
 
 .page-template-solutions footer {
   margin-top:25px;
-  transform:translateY(0px);
+  transform:translateY(3500px);
 }
+
+.row__copy {
+  & a {
+    color:$blue;
+  }
+  padding:0px;
+  transform:translateY(-150px);
+}
+
 
 #solutions {
   & .container {
@@ -45,7 +73,7 @@
 }
 
 #tabs {
-  padding-bottom:150px;
+  padding-bottom:370px;
   & ul {
     list-style: none;
     position: relative;
@@ -70,11 +98,6 @@
   }
   .nav {
     border-bottom:none;
-  }
-  & .tab-content {
-    min-height:500px;
-    text-align:center;
-    padding-bottom:200px;
   }
   & .nav>li>a:hover {
     text-decoration: none;
@@ -102,39 +125,86 @@
     display:inline-block;
     margin-top:50px;
   }
+  & .content {
+    text-align:center;
+    padding:100px 0 200px 0px;
+  }
+  & img {
+    margin-bottom:50px;
+  }
+  & .content h3 {
+    margin:75px 0 25 0;
+  }
 }
 
-#content__solutions {
+#content__marketing {
     & .bg-image-red {
-        width: 1750px;
-        height: 1750px;
-        background-image: url(//static.mailchimp.com/web/root/blank.gif);
-        top: 2900px;
-        margin-left: -1700px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: absolute;
-        left: 50%;
-        z-index:-2;
+      width: 2750px;
+      height: 2750px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 2600px;
+      margin-left: -2550px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: 50%;
+      z-index:-2;
     }
     & .bg-image-blue {
-        width: 1750px;
-        height: 1750px;
-        background-image: url(//static.mailchimp.com/web/root/blank.gif);
-        top: 3800px;
-        margin-left: -1500px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: absolute;
-        z-index: -1;
-        left: 50%;
+      width: 1750px;
+      height: 1750px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 3800px;
+      margin-left: -1500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      z-index: -1;
+      left: 50%;
+    }
+    & .float-image-left {
+      width: 550px;
+      height: 311px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 225px;
+      margin-left: -250px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: 2;
+      left: 50%;
+    }
+    & .float-image-right {
+      width: 550px;
+      height: 187px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: -50px;
+      margin-right: -50px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: 3;
+      right: 75%;
+    }
+    & .float-image-right-top {
+      width: 550px;
+      height: 187px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: -390px;
+      margin-right: -50px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: -1;
+      right: 85%;
     }
     & .marketing {
       padding:0px;
       transform:translateY(50%);
       margin-bottom:1000px;
       background-color:#f5f3f3;
-      height:475px;
+      height:75px;
+      padding:100px 0px;
       &:before {
         content: '';
         position: relative;
@@ -145,22 +215,194 @@
         background: #f5f3f3;
         transform: skewY(-3deg);
         -webkit-backface-visibility: hidden;
+        z-index:-2;
       }
       &:after {
-        content: '';
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
+        background-color:#f5f3f3;
         position: absolute;
+        padding:300px 0px;
         left: 0;
-        top: 300px;
+        top: 100px;
         width: 100%;
-        height: 335px;
-        background: white;
-        transform: skewY(10deg);
-        border-top:20px solid #d2d5df;
-        -webkit-backface-visibility: hidden;
-        z-index:-4;
+        height: 135px;
+        z-index:-2;
       }
       & .round {
         transform:translateY(-35%);
+        box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+      }
+    }
+}
+
+#content__product {
+    & .bg-image-red {
+      width: 2750px;
+      height: 2750px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 2600px;
+      margin-left: -2550px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: 50%;
+      z-index:-2;
+    }
+    & .bg-image-blue {
+      width: 2750px;
+      height: 2750px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 5200px;
+      margin-right: -2500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      z-index: -1;
+      right: 50%;
+    }
+    & .float-image-left {
+      width: 550px;
+      height: 311px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 100px;
+      margin-left: -250px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: 2;
+      left: 50%;
+    }
+    & .float-image-right {
+      width: 550px;
+      height: 187px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: -100px;
+      margin-right: -50px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: 3;
+      right: 75%;
+    }
+    & .float-image-right-top {
+      width: 550px;
+      height: 187px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: -200px;
+      margin-right: -50px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: -1;
+      right: 85%;
+    }
+    & .round {
+      transform:translateY(-55%);
+      box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+    }
+    & .marketing {
+      padding:0px;
+      transform:translateY(1900px);
+      margin-bottom:1000px;
+      background-color:#f5f3f3;
+      height:275px;
+      padding:100px 0px;
+      &:before {
+        clip-path: polygon(0 0, 100% 40%, 100% 77%, 0% 100%);
+        background-color:#f5f3f3;
+        position: absolute;
+        padding:300px 0px;
+        left: 0;
+        top: -250px;
+        width: 100%;
+        height: 135px;
+        z-index:-2;
+      }
+      &:after {
+        content: '';
+        position: relative;
+        left: 0;
+        top: -900px;
+        width: 100%;
+        height: 110px;
+        background: #f5f3f3;
+        transform: skewY(-3deg);
+        -webkit-backface-visibility: hidden;
+        z-index:-2;
+      }
+    }
+}
+
+#content__designers {
+    & .round {
+      transform:translateY(-45%);
+      box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+    }
+    & .bg-image-red {
+      width: 2750px;
+      height: 2750px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 7800px;
+      margin-left: -2550px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: 50%;
+      z-index:-2;
+    }
+    & .float-image-left {
+      width: 550px;
+      height: 311px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 100px;
+      margin-left: -100px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: 2;
+      left: 50%;
+    }
+    & .float-image-right {
+      width: 500px;
+      height: 266px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: -350px;
+      margin-right: -50px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      z-index: 3;
+      right: 75%;
+    }
+    & .marketing {
+      padding:0px;
+      transform:translateY(2800px);
+      margin-bottom:1000px;
+      background-color:#f5f3f3;
+      height:75px;
+      padding:100px 0px;
+      &:before {
+        content: '';
+        position: relative;
+        left: 0;
+        top: -155px;
+        width: 100%;
+        height: 110px;
+        background: #f5f3f3;
+        transform: skewY(-3deg);
+        -webkit-backface-visibility: hidden;
+        z-index:-2;
+      }
+      &:after {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
+        background-color:#f5f3f3;
+        position: absolute;
+        padding:300px 0px;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        height: 135px;
+        z-index:-2;
       }
     }
 }
