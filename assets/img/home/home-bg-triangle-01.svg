@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1919" height="1140" viewBox="0 0 1919 1140">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#radial-gradient);
+        filter: url(#filter);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="958.5" cy="552.5" r="1029.906" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f3f3"/>
+      <stop offset="1" stop-color="#f4f4f4"/>
+    </radialGradient>
+    <filter id="filter" x="-7" y="0" width="1932" height="1135" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="25" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-color="#202e5d" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M1920,1105L1919,0-3,141s0.3,280.705,3,284C3.45,429.205,1920,1105,1920,1105Z"/>
+</svg>

@@ -215,21 +215,23 @@
 }
 
 #middle {
-  margin-top:200px;
+  /*margin-top:200px;*/
   & img {
     border-radius:50%;
-    width:600px;
-    height:600px;
+    width:100%;
+    height:100%;
   }
 }
 
 .top-row {
-  margin-top:100px;
-  height:450px;
+  /*margin-top:100px;*/
+  height:860px;
   padding:0px;
   background-color:#f5f3f3;
+  background: url("assets/img/home/home-bg-triangle-01.svg") no-repeat;
+  background-size: 100%;
     &:before {
-      content: '';
+      /*content: '';
       position: relative;
       left: 0;
       top: -85px;
@@ -237,15 +239,16 @@
       height: 300px;
       background: #f5f3f3;
       transform: skewY(-4deg);
-      -webkit-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;*/
     }
     & .image {
-      transform:translateY(-80%);
-      z-index:20;
+      /*transform:translateY(-80%);
+      z-index:20;*/
     }
     & .copy {
-       z-index:20;
-       transform:translateY(-100%);
+       /*z-index:20;
+       transform:translateY(-100%);*/
+       margin-top: 20%;
     }
 }
 
@@ -268,7 +271,9 @@
   background: white;
   transform: skewY(12deg);
   -webkit-backface-visibility: hidden;
-  background-image:url('//localhost:3000/wp-content/themes/truthlab//assets/img/home/bluelines-top.svg'),url('//localhost:3000/wp-content/themes/truthlab/assets/img/home/redlines-bottom.svg');background-position:left 0px top 0px,right 0px bottom 0px;background-size:30%;
+  background-image:url('assets/img/home/bluelines-top.svg'),url('assets/img/home/redlines-bottom.svg');
+  background-position:left 0px top 0px,right 0px bottom 0px;
+  background-size:30%;
 }
 
 .bottom-row {
@@ -542,26 +547,3 @@ footer {
   }
 }
 
-@media only screen and (max-width: 991px){
-  
-}
-@media only screen and (max-width: 768px){
-#panel-management .image:last-child {
-    width: 100%; 
-    height: 100%;
-    /* right: -100%; */
-    -webkit-transform: translateY(-115%);
-    -ms-transform: translateY(-115%);
-    transform: translateY(-115%);
-}
-
-  #panel-management .image {
-      width: 50%;
-      height: 50%;
-  }
-  #middle img {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-  }
-}
