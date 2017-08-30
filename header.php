@@ -94,6 +94,7 @@
 	$('#mc-embedded-subscribe-form').submit(function(event){event.preventDefault();
 		$.post('https://dev.truthlab.com/p/api/v2/demo/handler/', $("#mc-embedded-subscribe-form").serialize());
 		$('#mce-success-response').text("Thanks for requesting a demo.  We will reach out soon.");
+		$('#mce-success-response').show();
 	})
 })(jQuery.noConflict());
 </script>
