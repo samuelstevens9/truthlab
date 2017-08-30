@@ -1,0 +1,12 @@
+.course .img-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.course img {
+    display: block;
+    width: 100%;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}

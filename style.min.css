@@ -2195,6 +2195,8 @@ hr.blue-bar{border-top:15px solid #07074e}
 .cta__blue{margin-bottom:200px;background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
 .cta__blue:before{background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
+.course .img-container{position:relative;overflow:hidden;width:100%}
+.course img{display:block;width:100%;-webkit-transition:all .2s ease;transition:all .2s ease}
 @media screen{[hidden~="screen"]{display:inherit}
 [hidden~="screen"]:not(:active):not(:focus):not(:target){clip:rect(0 0 0 0) !important;position:absolute !important}
 }@media screen and (-webkit-min-device-pixel-ratio:0){input[type="date"].form-control,input[type="time"].form-control,input[type="datetime-local"].form-control,input[type="month"].form-control{line-height:34px}

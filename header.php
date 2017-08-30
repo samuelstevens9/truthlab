@@ -45,7 +45,7 @@
   			<ul class="nav navbar-nav">
   				<li><a href="./solutions">Solutions</a></li>
   				<li><a href="./about-us">About</a></li>
-  				<li><a href="#contact">Blog</a></li>
+  				<li><a href="./blog">Blog</a></li>
   			</ul>
   			<ul class="nav navbar-nav navbar-right">
   				<li><a href="../navbar/">Sign In</a></li>
