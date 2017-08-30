@@ -254,10 +254,10 @@
 
 .bottom-row {
   & .copy {
-     z-index:20;
+     margin-top: 10%;
   }
   & .image {
-     z-index:3000!important;
+     margin-top: 20%;
   }
 }
 
@@ -265,28 +265,32 @@
   content: '';
   position: relative;
   left: 0;
-  top: -175px;
+  top: -363px;
   width: 110%;
-  height: 700px;
+  height: 711px;
   background: white;
-  transform: skewY(12deg);
+  -webkit-transform: skewY(19deg);
+  -ms-transform: skewY(19deg);
+  transform: skewY(19deg);
   -webkit-backface-visibility: hidden;
-  background-image:url('assets/img/home/bluelines-top.svg'),url('assets/img/home/redlines-bottom.svg');
-  background-position:left 0px top 0px,right 0px bottom 0px;
-  background-size:30%;
+  background-image: url(assets/img/home/bluelines-top.svg),url(assets/img/home/redlines-bottom.svg);
+  background-position: left 0 top 0,right 0 bottom 0;
+  background-size: 30%;
+  margin-bottom: -666px;
+  background-repeat: repeat-x;
 }
 
 .bottom-row {
-  height:600px;
-  padding:0;
-  background-color:#f5f3f3;
-  transform:translateY(-75%);
-  padding-top:125px;
+  height: 874px;
+  padding: 0;
+  background-color: #f5f3f3;
+  background: url(assets/img/home/home-bg-triangle-02.svg) no-repeat;
+  background-size: 100%;
   & .container {
     padding:7rem 0 0 0;
   }
   &:after {
-    content: '';
+    /*content: '';
     position: relative;
     left: 0;
     top: -400px;
@@ -295,14 +299,15 @@
     background: #f5f3f3;
     transform: skewY(-4deg);
     -webkit-backface-visibility: hidden;
-    z-index:-1;
+    z-index:-1;*/
   }
 }
 
 #panel-management {
     padding:00px 0 600px 0;
     & .analyze {
-       padding-top:450px;
+       /*padding-top:450px;*/
+       margin-top: 20% !important;
     }
     & h2 {
       margin-top:0px;
@@ -333,7 +338,7 @@
         z-index:-2;
     }
     & .container {
-      transform:translateY(-220px);
+      margin-top: 15%;
     }
 }
 

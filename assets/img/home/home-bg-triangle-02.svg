@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1919" height="1141" viewBox="0 0 1919 1141">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1919" height="1134" viewBox="0 0 1919 1134">
   <defs>
     <style>
       .cls-1 {
@@ -7,17 +7,17 @@
         filter: url(#filter);
       }
     </style>
-    <linearGradient id="linear-gradient" x1="959.5" y1="1105" x2="959.5" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="959.5" y1="1134" x2="959.5" y2="29" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f5f3f3"/>
       <stop offset="1" stop-color="#f4f4f4"/>
     </linearGradient>
-    <filter id="filter" x="-6" y="0" width="1932" height="1135" filterUnits="userSpaceOnUse">
-      <feOffset result="offset" dy="25" in="SourceAlpha"/>
+    <filter id="filter" x="-3" y="0" width="1932" height="1134" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="3.479" dy="-24.757" in="SourceAlpha"/>
       <feGaussianBlur result="blur" stdDeviation="1.732"/>
       <feFlood result="flood" flood-color="#07074e" flood-opacity="0.2"/>
       <feComposite result="composite" operator="in" in2="blur"/>
       <feBlend result="blend" in="SourceGraphic"/>
     </filter>
   </defs>
-  <path id="Polygon_1_copy_3" data-name="Polygon 1 copy 3" class="cls-1" d="M-2,0l1,1105L1921,964s-0.3-280.705-3-284C1914.55,675.8-2,0-2,0Z"/>
+  <path id="Polygon_1_copy_3" data-name="Polygon 1 copy 3" class="cls-1" d="M-2,29l1,1105L1921,993s-0.3-280.705-3-284C1914.55,704.8-2,29-2,29Z"/>
 </svg>

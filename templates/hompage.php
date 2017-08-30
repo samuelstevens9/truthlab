@@ -87,20 +87,21 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<div class="row blank" style="z-index:5;">
+	<div class="row blank" style="z-index:-1;">
 		<div class="container">
 		</div>
 	</div>
 
 	<div class="row bottom-row">
 		<div class="container">
-			<div class="col-md-5 text-left copy">
+			
+			<div class="col-md-7 col-md-push-5 image">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png" />
+			</div>
+			<div class="col-md-5 col-md-pull-7 text-left copy">
 				<h2>Watch Highlight Reels</h2>
 				<p>The Truthlab platform instantly generates highlight reels of your videos, whether they were created on the platform or elsewhere. No more expensive professional service costs to create actionable insights.</p>
 				<a href="#" class="button button--blue-outline">Watch Now</a>
-			</div>
-			<div class="col-md-7 image">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png" />
 			</div>
 		</div>
 	</div>

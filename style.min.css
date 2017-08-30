@@ -2048,18 +2048,17 @@ footer .row{padding-bottom:0}
 #middle img{border-radius:50%;width:100%;height:100%}
 .top-row{height:860px;padding:0;background-color:#f5f3f3;background:url("assets/img/home/home-bg-triangle-01.svg") no-repeat;background-size:100%}
 .top-row .copy{margin-top:20%}
-.bottom-row .copy{z-index:20}
-.bottom-row .image{z-index:3000 !important}
-.blank{content:'';position:relative;left:0;top:-175px;width:110%;height:700px;background:white;-webkit-transform:skewY(12deg);-ms-transform:skewY(12deg);transform:skewY(12deg);-webkit-backface-visibility:hidden;background-image:url("assets/img/home/bluelines-top.svg"),url("assets/img/home/redlines-bottom.svg");background-position:left 0 top 0,right 0 bottom 0;background-size:30%}
-.bottom-row{height:600px;padding:0;background-color:#f5f3f3;-webkit-transform:translateY(-75%);-ms-transform:translateY(-75%);transform:translateY(-75%);padding-top:125px}
+.bottom-row .copy{margin-top:10%}
+.bottom-row .image{margin-top:20%}
+.blank{content:'';position:relative;left:0;top:-363px;width:110%;height:711px;background:white;-webkit-transform:skewY(19deg);-ms-transform:skewY(19deg);transform:skewY(19deg);-webkit-backface-visibility:hidden;background-image:url(assets/img/home/bluelines-top.svg),url(assets/img/home/redlines-bottom.svg);background-position:left 0 top 0,right 0 bottom 0;background-size:30%;margin-bottom:-666px;background-repeat:repeat-x}
+.bottom-row{height:874px;padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%}
 .bottom-row .container{padding:7rem 0 0 0}
-.bottom-row:after{content:'';position:relative;left:0;top:-400px;width:100%;height:300px;background:#f5f3f3;-webkit-transform:skewY(-4deg);-ms-transform:skewY(-4deg);transform:skewY(-4deg);-webkit-backface-visibility:hidden;z-index:-1}
 #panel-management{padding:00px 0 600px 0}
-#panel-management .analyze{padding-top:450px}
+#panel-management .analyze{margin-top:20% !important}
 #panel-management h2{margin-top:0;padding-top:0}
 #panel-management .bg-image-blue{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-left:-1500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
 #panel-management .bg-image-red{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:2950px;margin-right:-1470px;background-repeat:no-repeat;background-size:contain;position:absolute;right:50%;z-index:-2}
-#panel-management .container{-webkit-transform:translateY(-220px);-ms-transform:translateY(-220px);transform:translateY(-220px)}
+#panel-management .container{margin-top:15%}
 #clients .row{padding-top:0}
 #clients .container{background:#fff;background:-webkit-linear-gradient(top,#fff 0,#eff1fa 100%);background:linear-gradient(to bottom,#fff 0,#eff1fa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#eff1fa',GradientType=0);padding-bottom:5rem}
 #clients h5{text-align:center}
@@ -2404,6 +2403,16 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .visible-lg-inline{display:inline !important}
 .visible-lg-inline-block{display:inline-block !important}
 .hidden-lg{display:none !important}
+}@media only screen and (min-width:1200px){.top-row .copy{margin-top:0}
+.bottom-row .image{margin-top:0}
+.bottom-row .copy{margin-top:15px}
+.blank{height:400px}
+#panel-management{margin-top:28%}
+}@media only screen and (max-width:1220px){.top-row .copy{margin-top:0}
+.bottom-row .image{margin-top:0}
+.bottom-row .copy{margin-top:15px}
+.blank{height:400px}
+#panel-management{margin-top:28%}
 }@media only screen and (max-width:768px){#primary.container{margin-top:50px}
 .request-dropdown-mobile.request-toggle{display:block}
 .container{padding:0 35px}
@@ -2415,7 +2424,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:white}
 .navbar{top:55px}
 .navbar-default .navbar-nav>li.request-toggle{display:none}
-#curtain-slider{margin-top:200px}
+#curtain-slider{margin-top:200px;height:300px}
 .mobile-footer{display:block;padding:0}
 .mobile-footer a:hover{text-decoration:none}
 .mobile-footer .accordion-toggle:hover{text-decoration:none;color:#910811}
@@ -2454,31 +2463,29 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 .slide-header .top{font-size:9vh;line-height:70vh;height:35vh}
 .slide-header .bottom{font-size:9vh;height:35vh}
 #about h1{font-size:3rem}
-.heading{margin-top:250px}
+.heading{margin-top:0}
 #middle{margin-top:200px}
 #middle img{border-radius:50%;width:100%;height:100%}
 .top-row{height:1000px}
-.top-row .image{-webkit-transform:translateY(-160%);-ms-transform:translateY(-160%);transform:translateY(-160%)}
 .top-row .copy{text-align:center}
-.blank{height:500px}
+.blank{height:200px;background-image:none;margin-bottom:0}
 .bottom-row{height:1000px}
 .bottom-row .container{padding:0 35px}
-.bottom-row .image{-webkit-transform:translateY(-85%);-ms-transform:translateY(-85%);transform:translateY(-85%);z-index:100}
-.bottom-row .copy{text-align:center;-webkit-transform:translateY(115%);-ms-transform:translateY(115%);transform:translateY(115%)}
-.bottom-row:after{height:900px}
+.bottom-row .copy{text-align:center}
 #panel-management{padding-bottom:0}
-#panel-management .row{margin-top:0;-webkit-transform:translateY(-200px);-ms-transform:translateY(-200px);transform:translateY(-200px)}
+#panel-management .row{margin-top:0}
 #panel-management .container{padding:0}
 #panel-management .copy{text-align:center;background-color:white;padding:0 50px 15px 50px;margin:100px 0}
 #panel-management a.button{margin:0 auto}
 #panel-management .row{margin-top:250px;padding-bottom:0;padding-top:0}
-#panel-management .bg-image-blue{width:2000px;height:2000px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:500px;margin-left:-1750px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
-#panel-management .bg-image-red{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3850px;margin-left:-1520px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
-#panel-management .image{width:50%;height:50%}
-#panel-management .image:last-child{width:50%;height:50%;right:0;-webkit-transform:translateY(-115%);-ms-transform:translateY(-115%);transform:translateY(-115%)}
-#panel-management .analyze .copy{-webkit-transform:translateY(115%);-ms-transform:translateY(115%);transform:translateY(115%)}
+#panel-management .bg-image-blue{display:none;width:2000px;height:2000px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:500px;margin-left:-1750px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
+#panel-management .bg-image-red{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3850px;margin-left:-1520px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
+#panel-management .image{width:100%;height:100%;overflow:hidden}
+#panel-management .image img{margin-left:30%}
+#panel-management .image:last-child{width:100%;height:100%;right:0}
+#panel-management .image:last-child img{margin-left:30%}
 #panel-management .container{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
-#clients{margin-top:-100px}
+#clients{margin-top:10px}
 .carousel-inner{margin-top:100px;text-align:center}
 .carousel-inner .item .text-left{text-align:center}
 .carousel-control.left{display:none}
