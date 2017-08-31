@@ -2195,8 +2195,26 @@ hr.blue-bar{border-top:15px solid #07074e}
 .cta__blue{margin-bottom:200px;background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
 .cta__blue:before{background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
-.course .img-container{position:relative;overflow:hidden;width:100%}
-.course img{display:block;width:100%;-webkit-transition:all .2s ease;transition:all .2s ease}
+.author-header-container{padding-top:50px;min-height:300px}
+.author-header{min-height:300px;border-bottom:1px solid #07074e;background-repeat:no-repeat;background-size:contain;background-position:right bottom}
+.blog-author-hero-avatar{height:300px}
+.author-header-copy{display:table-cell;vertical-align:top}
+.author-header p.spotlight{color:#07074e;font-size:1rem;margin-bottom:10px}
+.author-header h2{font-family:'PT Sans',sans-serif;color:#910811;font-size:2rem;width:auto}
+.author-header p{font-famiy:'PT Sans Narrow',sans-serif;font-size:1.3rem;color:#07074e}
+#blog-filters .navbar{border:0;box-shadow:none}
+#blog-posts .thumbnail{border:0}
+.course .img-container{position:relative;overflow:hidden;width:100%;height:314px;border:1px solid #2c3a66}
+.course img{display:block;min-width:100%;height:100%;-webkit-transition:all .2s ease;transition:all .2s ease;max-width:-webkit-max-content;max-width:-moz-max-content;max-width:max-content}
+#blog-posts .cat{margin:.6rem 0 1rem 0;font-weight:400;font-size:1.1rem;color:#58595b}
+.course .title{position:relative;margin-bottom:10px}
+#main article h1,#main article h2,#main article h3,#main article .entry-content>*:not(img):not(div),#main article #comments>div{max-width:1110px;display:block;margin-left:auto;margin-right:auto}
+.blog #main p,.contact #main article p,.thank-you #main article p,.pass-req p{text-align:left;color:#888;font-size:17.5px;font-size:1.25rem;color:#58595b}
+.course h2{color:#910811;font-weight:bold;font-family:'PT Sans Caption',sans-serif;font-size:1.6rem;height:70px;margin-bottom:0}
+.course .line{height:3px;width:30%;background-color:#910811;position:absolute;bottom:0;-webkit-transition:.2s ease;transition:.2s ease}
+.course a:hover{text-decoration:none}
+.course a:hover .line{width:100%}
+#blog-posts .time{font-size:1.1rem;margin:0;padding:.7rem 0}
 @media screen{[hidden~="screen"]{display:inherit}
 [hidden~="screen"]:not(:active):not(:focus):not(:target){clip:rect(0 0 0 0) !important;position:absolute !important}
 }@media screen and (-webkit-min-device-pixel-ratio:0){input[type="date"].form-control,input[type="time"].form-control,input[type="datetime-local"].form-control,input[type="month"].form-control{line-height:34px}
