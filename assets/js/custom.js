@@ -32,6 +32,21 @@ function nextSlide(){
   }
 }
 
+jQuery(function () {
+    jQuery(".row-tester").hide();
+    jQuery(".user, .tester").bind("click", function () {
+      jQuery(".row-users, .row-tester").hide();
+      if (jQuery(this).attr("class") == "user")
+        {
+          jQuery(".row-users").show();
+        }
+        else
+        {
+          jQuery(".row-tester").show();
+        }
+    });
+});
+
 
 
 

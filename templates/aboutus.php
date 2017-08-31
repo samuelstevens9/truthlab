@@ -8,25 +8,6 @@
 
 get_header(); ?>
 
-<!--
-<section id="curtain-slider__solutions">
-	<div class="container">
-		<div class="container">
-			<div class="slider">
-			<div class="slide-header active">
-		   	<div class="panel" style="background-color:white;">
-		      	<div class="top" data-back="SOLVED"></div>
-					<div class="bottom" data-back="SOLVED"></div>
-		   	</div>
-				<div class="center">
-		   		<h1>ABOUT US</h1>
-		   	</div>
-			</div>
-		</div>
-		</div>
-	</div>
-</section>
--->
 <section id="hero">
 	<h1 class="front">JOURNEY</h1>
 	<h3 class="back">We're all about the journey</h3>
@@ -56,26 +37,234 @@ customer journey.</p>
   </div>
 </section>
 
-<section id="team">
+<section id="team-left">
 	<div class="row">
-
-	
-		<div class="hexagaon" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagaon.png');"></div>
+		<div class="hexagon" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png');"></div>
+		<div class="profile-image" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png');"></div>
 		<div class="col-md-10 col-md-offset-2 profile">
 			<div class="col-md-8">
 				<h1>Patrick Donnelly</h1>
 				<h2>CEO &amp; Co-Founder</h2>
-				<p>Truthlab’s CXM platform orchestrates the collection and analysis of disparate customer data and instantly transforms it into actionable insights.</p>
-				<p>Our aim is to help companies win in the new Experience Economy by helping them to create better, more profitable customer relationships. Truthlab’s CXM platform enables companies to orchestrate the collection, analysis and storage of structured and unstructured data that is essential to delivering amazing experiences across the entire
-	customer journey.</p>
+		      <div class="panel-group" id="accordion">
+		        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+		          <div class="panel panel-default">
+		            <div class="panel-heading">
+		              <h4 class="panel-title">
+		                <div class="accordion-toggle"></div>
+		              </h4>
+		            </div>
+		            <div id="collapseOne" class="panel-collapse collapse">
+		              <div class="panel-body">
+		                <div class="container">
+											<p>A leader with a mean golf swing and a fresh perspective, Patrick is a proud dad with coaching skills on and off the field. Formerly VP of Sales at Marketo, he has more than 20 years of experience in software industry leadership. Patrick is dedicated to helping Truthlab’s customers create amazing customer experiences.</p>
+											<p>Patrick is obsessed with making it easier and faster for companies to create and actually use customer insights. The Truthlab Customer Experience Platform enables you to instantly capture and analyze customer experience data and integrate the insights into every interaction with your customers, employees and partners.</p>
+											<p>Truthlab is taking a fresh look at nearly every aspect of the digital customer experience. Currently, it’s too difficult and time consuming to transform massive volumes of customer data into truly actionable insights. The Truthlab CXM platform is fixing this problem.</p>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 social">
 				<ul>
 					<li><a href="https://www.linkedin.com/company-beta/10992459/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.facebook.com/truthlabtech/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
 				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="team-right">
+	<div class="row">
+		<div class="hexagon" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon-red.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon-red.png');"></div>
+		<div class="profile-image" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png');"></div>
+		<div class="col-md-10 profile">
+			<div class="col-md-8">
+				<h1>Scott Hutchins</h1>
+				<h2>Co-Founder</h2>
+		      <div class="panel-group" id="accordion">
+		        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+		          <div class="panel panel-default">
+		            <div class="panel-heading">
+		              <h4 class="panel-title">
+		                <div class="accordion-toggle"></div>
+		              </h4>
+		            </div>
+		            <div id="collapseTwo" class="panel-collapse collapse">
+		              <div class="panel-body">
+		                <div class="container">
+											<p>A leader with a mean golf swing and a fresh perspective, Patrick is a proud dad with coaching skills on and off the field. Formerly VP of Sales at Marketo, he has more than 20 years of experience in software industry leadership. Patrick is dedicated to helping Truthlab’s customers create amazing customer experiences.</p>
+											<p>Patrick is obsessed with making it easier and faster for companies to create and actually use customer insights. The Truthlab Customer Experience Platform enables you to instantly capture and analyze customer experience data and integrate the insights into every interaction with your customers, employees and partners.</p>
+											<p>Truthlab is taking a fresh look at nearly every aspect of the digital customer experience. Currently, it’s too difficult and time consuming to transform massive volumes of customer data into truly actionable insights. The Truthlab CXM platform is fixing this problem.</p>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+			</div>
+			<div class="col-md-4 social">
+				<ul>
+					<li><a href="https://www.linkedin.com/company-beta/10992459/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="culture">
+	<div class="container text-center values">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="heading">
+					<h2>Culture &amp; Values</h2>
+					<p>Just one block from the downtown San Mateo CalTrain station, our team helps companies orchestrate amazing customer experiences. We start each day with the goal of providing real value for our customers and each other.</p>
+					<p>Read on to find out what is important to our team.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="padding:0px;">
+			<div class="col-md-6 copy">
+				<h3>We Provide Amazing Customer Experiences</h3>
+				<p>Out most important and guiding principal, providing amaszing customer experiences.</p>
+			</div>
+			<div class="col-md-6 customer-experiences">
+
+			</div>
+		</div>
+		<div class="row" style="padding:0px;">
+			<div class="col-md-6 great-product"></div>
+			<div class="col-md-6 copy">
+				<h3>We Build Great Product</h3>
+				<p>We build with a roadmap because we hold each other accountable.</p>
+			</div>
+		</div>
+		<div class="row" style="padding:0px;">
+			<div class="col-md-6 copy">
+				<h3>We Solve a Real Need for a Large Market</h3>
+				<p>We listen to customers and understand what they truly want and need.</p>
+			</div>
+			<div class="col-md-6 large-market"></div>
+		</div>
+		<div class="row" style="padding:0px;">
+			<div class="col-md-6 not-comfort"></div>
+			<div class="col-md-6 copy">
+				<h3>We Focus on Growth and Not Comfort</h3>
+				<p>We are building a high growth SaaS company, not running an antique shop.</p>
+			</div>
+		</div>
+		<div class="row" style="padding:0px;">
+			<div class="col-md-6 copy">
+				<h3>We Believe in Better</h3>
+				<p>We know that there is always another level of greatness that we can achieve together.</p>
+			</div>
+			<div class="col-md-6 believe"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="sub-heading">
+					<h2>&amp;</h2>
+					<h2>We surround ourselves with Smart People Who Hate to lose</h2>
+					<p>For those of you who have been on a team like this, you know how great it is.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section id="careers">
+	<div class="container text-center values">
+		<div class="row" style="padding-top:3rem;">
+			<h2>Careers</h2>
+			<div class="red-box">
+				<div class="blue-box">
+
+					<div class="panel-group" id="accordion">
+						<div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#jobOne">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<div class="accordion-toggle">Back End/Full Stack Engineer</div>
+									</h4>
+								</div>
+								<div id="jobOne" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="container">
+											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
+											<p>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</p>
+											<p>Bachelor’s Degree in Computer Science, Engineering, or equivalent</p>
+											<p>Experience with designing/developing in Django, Flask, React, or Angular</p>
+											<p>Working knowledge in modern languages Python, Node</p>
+											<p>Strong understanding of distributed software design</p>
+											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
+											<p>Familiarity with machine learning modeling frameworks</p>
+											<p>SQL/No-SQL query and implementation strategies</p>
+											<a href="#" class="button button--blue-outline">Apply Now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#jobTwo">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<div class="accordion-toggle">Front End/Full Stack Engineer</div>
+									</h4>
+								</div>
+								<div id="jobTwo" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="container">
+											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
+											<p>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</p>
+											<p>Bachelor’s Degree in Computer Science, Engineering, or equivalent</p>
+											<p>Experience with designing/developing in Django, Flask, React, or Angular</p>
+											<p>Working knowledge in modern languages Python, Node</p>
+											<p>Strong understanding of distributed software design</p>
+											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
+											<p>Familiarity with machine learning modeling frameworks</p>
+											<p>SQL/No-SQL query and implementation strategies</p>
+											<a href="#" class="button button--blue-outline">Apply Now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#jobThree">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<div class="accordion-toggle">Sales Development Representative</div>
+									</h4>
+								</div>
+								<div id="jobThree" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="container">
+											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
+											<p>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</p>
+											<p>Bachelor’s Degree in Computer Science, Engineering, or equivalent</p>
+											<p>Experience with designing/developing in Django, Flask, React, or Angular</p>
+											<p>Working knowledge in modern languages Python, Node</p>
+											<p>Strong understanding of distributed software design</p>
+											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
+											<p>Familiarity with machine learning modeling frameworks</p>
+											<p>SQL/No-SQL query and implementation strategies</p>
+											<a href="#" class="button button--blue-outline">Apply Now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
 			</div>
 		</div>
 	</div>

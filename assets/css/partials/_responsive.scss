@@ -27,11 +27,14 @@
     @include redGradient;
     z-index:333555;
     width:100%;
-    color:white;
+    color:white!important;
     border-bottom:3px solid $blue;
     font-size:1.2rem;
     padding:.8rem;
     text-align:center;
+    & i {
+      color:white!important;
+    }
     &:hover {
       text-decoration:underline;
       color:white;
@@ -790,5 +793,64 @@
   }
 
 
+  /*************************/
+  /** About               **/
+  /*************************/
+  #hero {
+    height:400px;
+    & .front {
+       position:absolute;
+       top:50%;
+       transform:translateY(-200%);
+       left:0;
+       width:100%;
+       text-align:center;
+       color:#dedee3;
+       font-size:6rem;
+    }
+    & .back {
+       position:absolute;
+       top:50%;
+       transform:translateY(-360%);
+       left:0;
+       width:100%;
+       text-align:center;
+       color:$blue;
+       font-size:2rem;
+    }
+  }
+
+  .page-template-aboutus .heading {
+    margin-top:0px!important;
+  }
+
+  #cta {
+    & .cta__red {
+      @include blueGradient;
+    }
+  }
+
+
+
+  /*************************/
+  /** Terms & Privacy     **/
+  /*************************/
+  #terms-hero {
+    margin-top:60px;
+    & h1{
+      font-size:1.5rem;
+    }
+  }
+
+  #accordions {
+    & .panel-body > .container {
+      width:100%;
+      padding:0 1rem;
+    }
+  }
+
+  #user-type {
+    text-align:center;
+  }
 
 }
