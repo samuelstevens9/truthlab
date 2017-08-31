@@ -830,6 +830,151 @@
     }
   }
 
+  .page-template-aboutus {
+    & #team-left {
+      & .profile {
+        border:none;
+        border-radius:none;
+        margin-left:5%;
+        padding:5% 6%;
+        margin-top:250px;
+        text-align:center;
+      }
+      & h1 {
+        font-size:2.5rem;
+        color:$blue;
+      }
+      & h2 {
+        font-size:1.75rem;
+        font-weight:400;
+      }
+      & .social ul li {
+        font-size:1rem;
+      }
+      & .panel-heading .accordion-toggle:after {
+        font-family: 'FontAwesome';
+        content: "\f0d7";
+        float: right;
+        font-size:2rem;
+        color: $blue;
+        margin-right:50%;
+      }
+      & .profile-image {
+        width: 175px;
+        height: 175px;
+        top: 250px;
+        margin-left:-0%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+        left:50%;
+        border:1px solid $blue;
+        border-radius:50%;
+      }
+      & .hexagon {
+        width: 300px;
+        height: 315px;
+        top: 425px;
+        /*
+        margin-left: -780px;
+        */
+        margin-left:-30%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+        left:50%;
+      }
+    }
+  }
+
+  .page-template-aboutus {
+    & #team-right {
+      & .profile {
+        border:none;
+        border-radius:none;
+        margin-left:5%;
+        padding:5% 6%;
+        margin-top:250px;
+        text-align:center;
+      }
+      & h1 {
+        font-size:2.5rem;
+        color:$blue;
+      }
+      & h2 {
+        font-size:1.75rem;
+        font-weight:400;
+      }
+      & .social ul li {
+        font-size:1rem;
+      }
+      & .panel-heading .accordion-toggle:after {
+        font-family: 'FontAwesome';
+        content: "\f0d7";
+        float: right;
+        font-size:2rem;
+        color: $blue;
+        margin-right:50%;
+      }
+      & .profile-image {
+        width: 175px;
+        height: 175px;
+        top: 250px;
+        margin-left:-30%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+        left:50%;
+        border:1px solid $blue;
+        border-radius:50%;
+      }
+      & .hexagon {
+        width: 300px;
+        height: 315px;
+        top: 425px;
+        /*
+        margin-left: -780px;
+        */
+        margin-left:-30%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+        left:50%;
+      }
+    }
+  }
+
+  #careers {
+    background-image:url('//localhost:3000/wp-content/themes/truthlab//assets/img/about/careers.gif');
+    background-size:cover;
+    height:600px;
+    position:relative;
+    transform:translateY(350%);
+    background-position:center center;
+    & .values {
+      transform:translateY(18%);
+      margin-top:23%;
+      background-color:white;
+      padding:2%;
+    }
+    & .red-box {
+      display:none;
+    }
+    & .blue-box {
+      position:relative;
+      float:left;
+      border:none;
+      width:100%;
+      margin-left:0%;
+      top:0px;
+      padding:5%;
+    }
+  }
+
 
 
   /*************************/

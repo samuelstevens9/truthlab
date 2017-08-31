@@ -2225,7 +2225,7 @@ footer .row{padding-top:0}
 .page-template-aboutus #cta{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
 .cta__blue{margin-bottom:200px;background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
 .cta__blue:before{background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
-.page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
+.page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(2000px);-ms-transform:translateY(2000px);transform:translateY(2000px);position:relative}
 .page-template-terms .row{padding:1.5rem 0}
 .page-template-privacy .row{padding:1.5rem 0}
 #terms-hero{border-bottom:10px solid #666}
@@ -2654,6 +2654,24 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #hero .back{position:absolute;top:50%;-webkit-transform:translateY(-360%);-ms-transform:translateY(-360%);transform:translateY(-360%);left:0;width:100%;text-align:center;color:#07074e;font-size:2rem}
 .page-template-aboutus .heading{margin-top:0 !important}
 #cta .cta__red{background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
+.page-template-aboutus #team-left .profile{border:0;border-radius:none;margin-left:5%;padding:5% 6%;margin-top:250px;text-align:center}
+.page-template-aboutus #team-left h1{font-size:2.5rem;color:#07074e}
+.page-template-aboutus #team-left h2{font-size:1.75rem;font-weight:400}
+.page-template-aboutus #team-left .social ul li{font-size:1rem}
+.page-template-aboutus #team-left .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e;margin-right:50%}
+.page-template-aboutus #team-left .profile-image{width:175px;height:175px;top:250px;margin-left:-0;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
+.page-template-aboutus #team-left .hexagon{width:300px;height:315px;top:425px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
+.page-template-aboutus #team-right .profile{border:0;border-radius:none;margin-left:5%;padding:5% 6%;margin-top:250px;text-align:center}
+.page-template-aboutus #team-right h1{font-size:2.5rem;color:#07074e}
+.page-template-aboutus #team-right h2{font-size:1.75rem;font-weight:400}
+.page-template-aboutus #team-right .social ul li{font-size:1rem}
+.page-template-aboutus #team-right .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e;margin-right:50%}
+.page-template-aboutus #team-right .profile-image{width:175px;height:175px;top:250px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
+.page-template-aboutus #team-right .hexagon{width:300px;height:315px;top:425px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
+#careers{background-image:url("//localhost:3000/wp-content/themes/truthlab//assets/img/about/careers.gif");background-size:cover;height:600px;position:relative;-webkit-transform:translateY(350%);-ms-transform:translateY(350%);transform:translateY(350%);background-position:center center}
+#careers .values{-webkit-transform:translateY(18%);-ms-transform:translateY(18%);transform:translateY(18%);margin-top:23%;background-color:white;padding:2%}
+#careers .red-box{display:none}
+#careers .blue-box{position:relative;float:left;border:0;width:100%;margin-left:0;top:0;padding:5%}
 #terms-hero{margin-top:60px}
 #terms-hero h1{font-size:1.5rem}
 #accordions .panel-body>.container{width:100%;padding:0 1rem}
