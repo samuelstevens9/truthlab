@@ -141,9 +141,6 @@ get_header(); ?>
 	            <?php endwhile;  ?>
 	        </section>
 			</div>
-			<!--
-	        <?php load_more_button() ?>
-	        -->
 
 	        <div class="navigation" style="margin-top:25px;">
 					<div class="next-posts"><?php next_posts_link(); ?></div>
@@ -161,6 +158,23 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+
+	<section id="cta">
+	  <div class="container">
+	    <div class="row cta__red">
+	      <div class="col-md-7">
+	        <h2>Create Better Customer Experiences</h2>
+	        <div class="white"></div>
+	        <p>Learn how Truthlab can help you track, measure and improve every aspect of your customers’ journey.</p>
+	      </div>
+				<div class="col-md-1"></div>
+	      <div class="col-md-4 text-right">
+	        <a href="#" class="button button--white request-toggle">Request a Demo</a>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	
 <?php
 
 get_footer();

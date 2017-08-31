@@ -9,9 +9,7 @@
 
 get_header('single'); ?>
 
-	<div id="primary" class="content-area">
-
-
+	<div id="primary" class="container single-post">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post();?>
@@ -104,7 +102,7 @@ get_header('single'); ?>
 								
 								$authorid = get_the_author_meta('ID');
 								$url = get_site_url();
-								$siteurl = $url.'/blog/#author=.auth';
+								$siteurl = $url.'/blog/?author='.$authorid;
 								$currentauthorurl = $siteurl.$authorid;
 
 							?>
@@ -141,8 +139,26 @@ get_header('single'); ?>
 
 	</div>
 
+
+	
+		<section id="cta">
+		  <div class="container">
+		    <div class="row cta__blue">
+		      <div class="col-md-7">
+		        <h2>Watch Highlight Reels</h2>
+		        <div class="white">
+		        <p>Find out how Truthlab can shed light on the customer experience with the truth quotient.</p>
+						</div>
+		      </div>
+					<div class="col-md-1"></div>
+		      <div class="col-md-4 text-right">
+		        <a href="#" class="button button--white request-toggle">Request a Demo</a>
+		      </div>
+		    </div>
+		  </div>
+		</section>
+		
+		<div style="clear:both;">
 <?php
 
-get_sidebar();
-
-get_footer('single');
+get_footer();

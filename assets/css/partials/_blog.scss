@@ -121,3 +121,182 @@
     margin: 0px;
     padding: .7rem 0;
 }
+/**** SINGLE POST ******/
+.single-post .slider-header{margin-bottom: 50px;}
+.single-post a:hover{text-decoration: none;}
+.single-post h2{font-size: 2.2rem;}
+.page-text p, .page-content p, .entry-content p {
+    color: #231f20;
+}
+#main article p {
+    text-align: left;
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+.blog-post p, .blog-post ol, .blog-post ul {
+    padding: 0 25% 0 0%;
+    padding-top: 0px;
+    padding-right: 25%;
+    padding-bottom: 0px;
+    padding-left: 0%;
+}
+/*.page-text, .page-content, .entry-content*/
+#main article {
+    font-size: 1.35rem;
+    color: #231f20;
+}
+.twitter {
+  text-align: center;
+    display: inline;
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-top: 5px solid #07074e;
+    padding-top: 25px;
+    margin-right: 5%;
+    color: #07074e;
+}
+.twitter-dropdown {
+    display: none;
+}
+.twitter-mobile {
+    display: none;
+}
+.twitter-card, blockquote {
+  text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #07074e;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(32,46,93,0.05);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(32,46,93,0.05);
+    box-shadow: 8px 8px 0px 0px rgba(32,46,93,0.05);
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+.twitter-card i {
+    color: #818486;
+    margin-top: 15px;
+    display: block;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+.share {
+    background-image: url(http://client.blackbearnj.com/tl/wp-content/themes/truthlab/assets/img/social-share.svg);
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    right: 55px;
+    top: 15%;
+}
+.social-menu {
+    display: none;
+    float: right;
+    margin-right: -38px;
+}
+.blog-post {
+    display: inline;
+    width: 70%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+.blog-post .rt-reading-time {
+    display: none!important;
+}
+.blog-post img.alignright {
+    margin: 20px -115px 20px 20px;
+}
+.blog-post img.alignleft {
+    margin: 20px 20px 20px -255px;
+}
+.more-author-mobile {
+    display: none;
+}
+.post img {
+    border: 1px solid #07074e;
+}
+#main article blockquote {
+    width: 70%;
+    padding: 10% 10% 10% 0;
+    border-left: none;
+    margin: 40px 40px 40px -325px;
+    margin-bottom: 40px!important;
+    float: left;
+}
+#main article blockquote p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: right;
+}
+.more-author {
+    height: auto;
+    position: relative;
+    background: #75000e;
+    background: -moz-linear-gradient(left, #75000e 0%, #dd0035 100%);
+    background: -webkit-linear-gradient(left, #75000e 0%,#dd0035 100%);
+    background: linear-gradient(to right, #75000e 0%,#dd0035 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75000e', endColorstr='#dd0035',GradientType=1 );
+    -ms-box-orient: horizontal;
+    color: white;
+    width: 90%;
+    padding: 25px;
+}
+.more-author p.more {
+    font-style: italic;
+    display: inline;
+    width: 30%;
+    float: left;
+    padding-right: 0px;
+    color: white;
+}
+.more-author .name {
+    display: inline;
+    width: 50%;
+    float: left;
+    transform: translateX(25%);
+    margin-top: 20px;
+}
+.more-author img {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    transform: translateX(100%);
+    background: #FFF;
+}
+.more-author .name h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    margin: 0px;
+    text-align: right;
+    padding: 0px;
+}
+.more-author .name p {
+    text-align: right;
+    padding-right: 0px;
+}
+.more-author:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    float: left;
+    left: 0;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: left bottom;
+    transform: skewY(3deg);
+}

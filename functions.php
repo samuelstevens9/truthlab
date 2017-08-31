@@ -176,6 +176,24 @@ function scrapeImage($text) {
 
 }
 /**
+ * Tweet Quote Box on Post Page shortcode
+ *
+ * @since 1.0.0
+ */
+function tweet_quote_func($atts) {
+   extract(shortcode_atts(array(
+      'quote'  => 'Place an interesting quote in this section. It should highlight an important point.',
+      'author' => 'Name Here'
+   ), $atts));
+   
+$tweet = 'https://twitter.com/home?status='.$quote.' -'.$author.'';
+return '<a href="'.$tweet.'" class="tweet-quote" target="popup" onclick="window.open(\''.$tweet.'\',\'popup\',\'width=600,height=600\'); return false;"><blockquote><p>"'. $quote . '"</p><p class="author">- ' . $author . '</p><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></blockquote></a>';
+}
+
+add_shortcode('tweetquote', 'tweet_quote_func');
+
+
+/**
  *
  * Get the free white paper form shortcode
  * [tl_free_whitepaper_form target="https://dev.truthlab.com/p/api/v2/form/handler/" redirect="https://dev.truthlab.com/p/gated/customer-experience-advantage" download=""]
