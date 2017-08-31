@@ -45,7 +45,31 @@ get_header('single'); ?>
 				</div>
 				
 				<div class="twitter twitter-mobile">
-					<h2>Top Takeaways</h2>
+					<div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<h2>Top Takeaways <span class="glyphicon glyphicon-triangle-bottom"></span></h2></a>
+						<div class="takeaways dropdown-menu">
+							<?php if( have_rows('takeaway') ): ?>
+							    <?php while( have_rows('takeaway') ): the_row(); ?>
+							    
+						    		<?php
+										$tweet = get_sub_field('tweet');
+										$tweet = str_replace('\'', '', $tweet);
+										$finalTweet = 'https://twitter.com/home?status='.$tweet;
+								    ?>
+									<a href="<?php echo $finalTweet ?>" target="popup" onclick="window.open('<?php echo $finalTweet ?>','popup','width=600,height=600');">
+									<div class="twitter-card">
+										<?php the_sub_field('tweet'); ?>
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</div>
+									</a>
+				
+							    <?php endwhile; ?>
+							<?php endif; ?>
+          	</div>
+        </div>
+			</div>
+				<?php /*
 					<img class="twitter-dropdown" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/dropdown.svg"/>
 					<div class="takeaways">
 						<?php if( have_rows('takeaway') ): ?>
@@ -67,7 +91,7 @@ get_header('single'); ?>
 						<?php endif; ?>
 					</div>
 				</div>
-				
+				*/ ?>
 				
 				
 				<div class="share">
@@ -146,9 +170,8 @@ get_header('single'); ?>
 		    <div class="row cta__blue">
 		      <div class="col-md-7">
 		        <h2>Watch Highlight Reels</h2>
-		        <div class="white">
-		        <p>Find out how Truthlab can shed light on the customer experience with the truth quotient.</p>
-						</div>
+		        <div class="white"></div>
+						<p>Find out how Truthlab can shed light on the customer experience with the truth quotient.</p>
 		      </div>
 					<div class="col-md-1"></div>
 		      <div class="col-md-4 text-right">

@@ -279,7 +279,7 @@ $(document).ready(function() {
   	if (!error_free){
   		event.preventDefault();
   	} else {
-
+      /*
       let custom_a = document.createElement('a');
        custom_a.href = '<?php echo $a['download']; ?>';
        if(custom_a.href == ""){$("#gated_content").submit(); return;}
@@ -287,7 +287,8 @@ $(document).ready(function() {
        var custom_event = document.createEvent('Event');
        custom_event.initEvent('click', true, true);
        custom_a.dispatchEvent(event);
-
+       */
+       var win = window.open('<?php echo $a['download']; ?>', '_blank');
       $("#gated_content").submit()
     }
   });

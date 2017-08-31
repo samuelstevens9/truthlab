@@ -27,7 +27,7 @@
 <body <?php body_class(); ?>>
 
   <!-- Fixed navbar -->
-	<a class="request-dropdown-mobile request-toggle" style="z-index:555;">Request a Demo <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	<a class="request-dropdown-mobile request-toggle" style="z-index:5555;">Request a Demo <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 
 	</div>
   <nav class="navbar navbar-default navbar-fixed-top">

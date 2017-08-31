@@ -545,7 +545,9 @@ button.slick-prev, button.slick-next {display:none!important;}
   }
 }
 .cta__blue {
+  position:relative;
   color:white;
+  /*padding: 0 15px 1rem 15px;*/
   &:before {
     display:block;
     content: '';
