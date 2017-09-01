@@ -1,0 +1,85 @@
+/***************************************************/
+/* TERMS & CONDITIONS                              */
+/***************************************************/
+
+.page-template-terms {
+  & .row {
+    padding:1.5rem 0px;
+  }
+}
+
+.page-template-privacy {
+  & .row {
+    padding:1.5rem 0px;
+  }
+}
+
+#terms-hero {
+  & .container-fluid {
+    color:white;
+    padding:1.2rem 0;
+  }
+  & .row:first-child {
+    padding:0px;
+    background-color:$teal;
+  }
+  & h1 {
+    color:white;
+  }
+  border-bottom:10px solid $grey-medium;
+}
+
+#user-type {
+  & .row {
+    padding:.5rem 0;
+  }
+  & a:hover{
+    color:$red;
+  }
+  & a:focus {
+    color:$red;
+  }
+  border-bottom:1px solid $grey-medium;
+}
+
+#accordions {
+  margin-bottom:400px;
+  font-size:1.5rem;
+  & .panel-default {
+    border:none;
+  }
+  & .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color:white!important;
+    border-bottom-color:white;
+  }
+  & .panel-default>.panel-heading {
+    background-color: white;
+    border-color:white;
+  }
+  & .panel-heading, & .panel-body {
+    padding:0px;
+  }
+  & .panel-body > .container {
+    padding:0px;
+    width:75%;
+    float:left;
+    padding-left:2%;
+  }
+  & .panel-heading .accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f0d7";
+    float: right;
+    font-size:2rem;
+    color: $grey-medium;
+    margin-top:-50px;
+  }
+  & h4 {
+    color:$grey-medium;
+  }
+}
+
+.page-template-aboutus footer {
+  margin-top:25px;
+  transform:translateY(0px);
+  position:relative;
+}

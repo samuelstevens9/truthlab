@@ -20,17 +20,33 @@ jQuery(window).scroll(function() {
 
 /* Hero Slider */
 //jQuery(document).hover(nextSlide);
-jQuery(document).on('click',nextSlide);
+//jQuery(document).on('click',nextSlide);
+//setInterval(nextSlide, 1000);
 function nextSlide(){
-  console.log(jQuery('.active + .slide').length);
+  //console.log(jQuery('.active + .slide-header').length);
   if (jQuery('.active + .slide-header').length > 0){
     jQuery('.active + .slide-header').addClass('active');
-    jQuery(jQuery('.active')[0]).removeClass('active');
+    jQuery(jQuery('.slider .active')[0]).removeClass('active');
   } else{
-    jQuery('.active').removeClass('active');
+    jQuery('.slider .active').removeClass('active');
     jQuery('.slide-header:nth-child(1)').addClass('active');
   }
 }
+
+jQuery(function () {
+    jQuery(".row-tester").hide();
+    jQuery(".user, .tester").bind("click", function () {
+      jQuery(".row-users, .row-tester").hide();
+      if (jQuery(this).attr("class") == "user")
+        {
+          jQuery(".row-users").show();
+        }
+        else
+        {
+          jQuery(".row-tester").show();
+        }
+    });
+});
 
 
 

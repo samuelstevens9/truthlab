@@ -43,6 +43,7 @@ get_header(); ?>
 			
 			
 <div id="blog-filters">
+	<h4>Filter Articles</h4>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<ul class="nav navbar-nav">

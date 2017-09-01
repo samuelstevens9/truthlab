@@ -1919,6 +1919,7 @@ a:hover{color:#444}
 a:focus{outline:0}
 a:hover,a:active{outline:0}
 select{width:100%}
+.container{padding:0}
 .alignnone{margin:5px 20px 20px 0}
 .aligncenter,div.aligncenter{display:block;margin:5px auto 5px auto}
 .alignright{float:right;margin:5px 0 20px 20px}
@@ -2099,6 +2100,8 @@ button.slick-prev,button.slick-next{display:none !important}
 #cta h2{color:white}
 #cta .white{height:3px;background-color:white;width:100%;display:block;float:left;margin:-10px 0 10px 0}
 #cta .text-right{padding:140px 10px 0 0}
+#cta a{color:white !important}
+#cta a:hover{color:#910811}
 .cta__red{background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);position:relative;padding:0 15px 1rem 15px;color:white}
 .cta__red:before{display:block;content:'';position:absolute;left:0;top:-45px;width:100%;height:105px;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:-1}
 .cta__blue{position:relative;color:white}
@@ -2172,17 +2175,12 @@ hr.blue-bar{border-top:15px solid #07074e}
 .socialShare:hover,.socialShare:active,.socialShare:visited,.socialShare:focus{color:transparent}
 .navbar.landing{top:0 !important}
 .request-dropdown-mobile.request-toggle{display:none}
-#hero{-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 74%);clip-path:polygon(0 0,100% 0,100% 100%,0 74%);height:800px;box-shadow:0 5px 10px rgba(145,8,17,0.6);background-image:url("//localhost:3000/wp-content/themes/truthlab//assets/img/home/bluelines-top.svg"),url("//localhost:3000/wp-content/themes/truthlab/assets/img/home/redlines-bottom.svg");background-repeat:no-repeat,no-repeat;background-position:left 0 top 0,right 0 bottom 0;background-size:30%}
+br{clear:both}
+#hero{-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 74%);clip-path:polygon(0 0,100% 0,100% 100%,0 74%);height:800px;box-shadow:0 5px 10px rgba(145,8,17,0.6);background-image:url("assets/img/home/bluelines-top.svg"),url("assets/img/home/redlines-bottom.svg");background-repeat:no-repeat,no-repeat;background-position:left 0 top 0,right 0 bottom 0;background-size:30%}
 #hero .front{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:0;width:100%;text-align:center;color:#dedee3;font-size:22rem}
 #hero .back{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:0;width:100%;text-align:center;color:#07074e;font-size:6rem}
 .page-template-aboutus h1{margin:0;padding:0}
 .page-template-aboutus h2{margin:0;padding-bottom:50px}
-.page-template-aboutus .profile{border:5px solid #910811;border-radius:2px;margin-left:16%;padding:5% 7%}
-.page-template-aboutus ul{display:inline;margin-left:15px}
-.page-template-aboutus a{display:inline;color:#666}
-.page-template-aboutus a:hover{color:#910811}
-.page-template-aboutus ul li{display:inline;margin-right:1rem}
-.page-template-aboutus ul li:last-child{margin-right:0}
 .page-template-aboutus [class*="fa-"]{color:#666}
 .page-template-aboutus .fa-linkedin-square:hover{color:#0077b5}
 .page-template-aboutus .fa-facebook-square:hover{color:#3c5a99}
@@ -2190,11 +2188,72 @@ hr.blue-bar{border-top:15px solid #07074e}
 .page-template-aboutus .fa-google-plus-square:hover{color:#db3236}
 .page-template-aboutus .fa-linkedin-square,.page-template-aboutus .fa-facebook-square,.page-template-aboutus .fa-twitter-square,.page-template-aboutus .fa-google-plus-square{-webkit-transition:color .6s ease-out;transition:color .6s ease-out}
 .page-template-aboutus .fa-linkedin-square:hover,.page-template-aboutus .fa-facebook-square:hover,.page-template-aboutus .fa-twitter-square:hover,.page-template-aboutus .fa-google-plus-square:hover{-webkit-transform:translateY(-5px);-ms-transform:translateY(-5px);transform:translateY(-5px);text-shadow:1px 1px rgba(7,7,78,0.5)}
-.page-template-aboutus .profile-image{width:200px;height:200px;top:250px;margin-left:-680px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
-.page-template-aboutus .hexagon{width:200px;height:200px;top:350px;margin-left:-680px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
-.page-template-aboutus .hexagon span{display:block;position:absolute;top:2.8867513459481287px;left:0;width:290px;height:167.4316px;z-index:2;background:inherit}
+.page-template-aboutus #team-left ul li{display:inline;margin-right:1rem}
+.page-template-aboutus #team-left .profile{border:5px solid #910811;border-radius:2px;margin-left:17%;padding:5% 6%}
+.page-template-aboutus #team-left .panel-default{border:0}
+.page-template-aboutus #team-left .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white}
+.page-template-aboutus #team-left .panel-default>.panel-heading{background-color:white;border-color:white;height:50px}
+.page-template-aboutus #team-left .panel-heading,.page-template-aboutus #team-left .panel-body{padding:0}
+.page-template-aboutus #team-left .panel-body>.container{padding:0;width:auto}
+.page-template-aboutus #team-left .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
+.page-template-aboutus #team-left .profile-image{width:175px;height:175px;top:250px;margin-left:-38%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
+.page-template-aboutus #team-left .hexagon{width:300px;height:315px;top:425px;margin-left:-46%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
+.page-template-aboutus #team-right ul li{display:inline;margin-right:1rem}
+.page-template-aboutus #team-right .profile{border:5px solid #07074e;border-radius:2px;margin-left:0;padding:5% 6%}
+.page-template-aboutus #team-right .panel-default{border:0;border-bottom-color:white !important}
+.page-template-aboutus #team-right .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white !important}
+.page-template-aboutus #team-right .panel-default>.panel-heading{background-color:white;border-color:white;height:50px}
+.page-template-aboutus #team-right .panel-heading,.page-template-aboutus #team-right .panel-body{padding:0}
+.page-template-aboutus #team-right .panel-body>.container{padding:0;width:auto}
+.page-template-aboutus #team-right .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
+.page-template-aboutus #team-right .profile-image{width:175px;height:175px;top:250px;margin-left:28%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
+.page-template-aboutus #team-right .hexagon{width:300px;height:315px;top:425px;margin-left:30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
+#culture{background:url("assets/img/about/culture-and-values.jpg") no-repeat;background-size:100%;position:relative}
+#culture .values{-webkit-transform:translateY(28%);-ms-transform:translateY(28%);transform:translateY(28%);margin-top:23%;background-color:white;padding:2%}
+#culture .values .heading{width:55%;margin:0 auto}
+#culture .values .sub-heading{width:50%;margin:auto}
+#culture .values .row{padding:3rem 0}
+#culture .values .copy{text-align:left;padding:3%}
+#culture .values .copy h3{padding-top:0;margin-top:0;font-weight:400}
+#culture .values .customer-experiences{background-image:url("assets/img/about/customer-experiences.jpg");background-size:cover;height:288px}
+#culture .values .great-product{background-image:url("assets/img/about/great-product.jpg");background-size:cover;height:288px}
+#culture .values .large-market{background-image:url("assets/img/about/large-market.jpg");background-size:cover;height:288px}
+#culture .values .not-comfort{background-image:url("assets/img/about/not-comfort.jpg");background-size:cover;height:288px}
+#culture .values .believe{background-image:url("assets/img/about/believe.jpg");background-size:cover;height:288px}
+#careers{background:url("assets/img/about/careers.gif") no-repeat;background-size:100%;margin-top:20px;margin-bottom:450px;padding-top:600px;position:relative;background-position:0 600px}
+#careers .values{-webkit-transform:translateY(18%);-ms-transform:translateY(18%);transform:translateY(18%);margin-top:23%;background-color:white;padding:2%}
+#careers .red-box{position:relative;float:right;border:5px solid #910811;border-radius:2px;width:90%}
+#careers .blue-box{position:relative;float:left;border:5px solid #07074e;border-radius:2px;width:100%;margin-left:-10%;top:100px;padding:5%}
+#careers .blue-box .panel-group{width:85%;float:right;text-align:left}
+#careers .blue-box .panel-default{border:0}
+#careers .blue-box .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white}
+#careers .blue-box .panel-default>.panel-heading{background-color:white;border-color:white;height:50px}
+#careers .blue-box .panel-heading,#careers .blue-box .panel-body{padding:0}
+#careers .blue-box .panel-body>.container{padding:0;width:auto}
+#careers .blue-box .accordion-toggle{padding-bottom:20px}
+#careers .blue-box .panel-title{color:#07074e;font-size:2rem}
+#careers .blue-box .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
 .page-template-aboutus #cta{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
 .cta__blue{margin-bottom:200px;background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
+.page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(2000px);-ms-transform:translateY(2000px);transform:translateY(2000px);position:relative}
+.page-template-terms .row{padding:1.5rem 0}
+.page-template-privacy .row{padding:1.5rem 0}
+#terms-hero{border-bottom:10px solid #666}
+#terms-hero .container-fluid{color:white;padding:1.2rem 0}
+#terms-hero .row:first-child{padding:0;background-color:#139fac}
+#terms-hero h1{color:white}
+#user-type{border-bottom:1px solid #666}
+#user-type .row{padding:.5rem 0}
+#user-type a:hover{color:#910811}
+#user-type a:focus{color:#910811}
+#accordions{margin-bottom:400px;font-size:1.5rem}
+#accordions .panel-default{border:0}
+#accordions .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white}
+#accordions .panel-default>.panel-heading{background-color:white;border-color:white}
+#accordions .panel-heading,#accordions .panel-body{padding:0}
+#accordions .panel-body>.container{padding:0;width:75%;float:left;padding-left:2%}
+#accordions .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#666;margin-top:-50px}
+#accordions h4{color:#666}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
 .author-header-container{padding-top:50px;min-height:300px}
 .author-header{min-height:300px;border-bottom:1px solid #07074e;background-repeat:no-repeat;background-size:contain;background-position:right bottom}
@@ -2608,7 +2667,8 @@ blockquote:hover{box-shadow:none}
 .request-dropdown-mobile{display:block}
 .request-dropdown{padding:0 20px}
 .request-dropdown input{width:100%;margin-bottom:10px}
-.request-dropdown-mobile{display:block;position:fixed;top:0;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);z-index:333555;width:100%;color:white;border-bottom:3px solid #07074e;font-size:1.2rem;padding:.8rem;text-align:center}
+.request-dropdown-mobile{display:block;position:fixed;top:0;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);z-index:333555;width:100%;color:white !important;border-bottom:3px solid #07074e;font-size:1.2rem;padding:.8rem;text-align:center}
+.request-dropdown-mobile i{color:white !important}
 .request-dropdown-mobile:hover{text-decoration:underline;color:white}
 .navbar-toggle{padding:0;margin:0;border:0}
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:white}
@@ -2743,6 +2803,33 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #content__designers .marketing:after{-webkit-clip-path:hidden;clip-path:hidden;background-color:transparent;position:absolute;padding:300px 0;left:0;top:100px;width:100%;height:135px;z-index:-2}
 .page-template-solutions #cta{-webkit-transform:translateY(800px);-ms-transform:translateY(800px);transform:translateY(800px)}
 .page-template-solutions footer{margin-top:0;-webkit-transform:translateY(800px);-ms-transform:translateY(800px);transform:translateY(800px)}
+#hero{height:400px}
+#hero .front{position:absolute;top:50%;-webkit-transform:translateY(-200%);-ms-transform:translateY(-200%);transform:translateY(-200%);left:0;width:100%;text-align:center;color:#dedee3;font-size:6rem}
+#hero .back{position:absolute;top:50%;-webkit-transform:translateY(-360%);-ms-transform:translateY(-360%);transform:translateY(-360%);left:0;width:100%;text-align:center;color:#07074e;font-size:2rem}
+.page-template-aboutus .heading{margin-top:0 !important}
+#cta .cta__red{background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
+.page-template-aboutus #team-left .profile{border:0;border-radius:none;margin-left:5%;padding:5% 6%;margin-top:250px;text-align:center}
+.page-template-aboutus #team-left h1{font-size:2.5rem;color:#07074e}
+.page-template-aboutus #team-left h2{font-size:1.75rem;font-weight:400}
+.page-template-aboutus #team-left .social ul li{font-size:1rem}
+.page-template-aboutus #team-left .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e;margin-right:50%}
+.page-template-aboutus #team-left .profile-image{width:175px;height:175px;top:250px;margin-left:-0;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
+.page-template-aboutus #team-left .hexagon{width:300px;height:315px;top:425px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
+.page-template-aboutus #team-right .profile{border:0;border-radius:none;margin-left:5%;padding:5% 6%;margin-top:250px;text-align:center}
+.page-template-aboutus #team-right h1{font-size:2.5rem;color:#07074e}
+.page-template-aboutus #team-right h2{font-size:1.75rem;font-weight:400}
+.page-template-aboutus #team-right .social ul li{font-size:1rem}
+.page-template-aboutus #team-right .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e;margin-right:50%}
+.page-template-aboutus #team-right .profile-image{width:175px;height:175px;top:250px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
+.page-template-aboutus #team-right .hexagon{width:300px;height:315px;top:425px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
+#careers{background-image:url("assets/img/about/careers.gif");background-size:cover;height:600px;position:relative;-webkit-transform:translateY(350%);-ms-transform:translateY(350%);transform:translateY(350%);background-position:center center}
+#careers .values{-webkit-transform:translateY(18%);-ms-transform:translateY(18%);transform:translateY(18%);margin-top:23%;background-color:white;padding:2%}
+#careers .red-box{display:none}
+#careers .blue-box{position:relative;float:left;border:0;width:100%;margin-left:0;top:0;padding:5%}
+#terms-hero{margin-top:60px}
+#terms-hero h1{font-size:1.5rem}
+#accordions .panel-body>.container{width:100%;padding:0 1rem}
+#user-type{text-align:center}
 }@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
 .table-responsive>.table{margin-bottom:0}
 .table-responsive>.table>thead>tr>th,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}

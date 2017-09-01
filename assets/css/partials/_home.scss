@@ -523,6 +523,12 @@ button.slick-prev, button.slick-next {display:none!important;}
   & .text-right {
     padding:140px 10px 0 0;
   }
+  & a {
+    color:white!important;
+  }
+  & a:hover {
+    color:$red;
+  }
 }
 
 .cta__red {

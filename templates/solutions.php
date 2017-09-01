@@ -43,12 +43,12 @@ get_header(); ?>
         <li class="active"><a data-toggle="tab" href="#content__solution">Overview</a></li>
         <li><a data-toggle="tab" href="#content__marketing">For Marketers</a></li>
 				<li><a data-toggle="tab" href="#content__product">For Product Managers</a></li>
-				<li><a data-toggle="tab" href="#content__designers">For UX Professionals</a></li>
+				<li><a data-toggle="tab" href="#content__designers">For Experience Designers</a></li>
 	    </ul>
 	    <div class="col-md-8 col-md-offset-2 content">
 				<div class="content" id="content__solution">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
-					<h3>Our CXM Solutions</h3>
+					<h3>Our CXM Solution</h3>
 					<p>The current customer feedback loop takes weeks and doesn't fit into anyone's release cycles. With Truthlab, you gt instant insights to make critical changes.</p>
 					<p>What you once paid agencies or tester recruiting applications to do is now on demand.</p>
 					<p>Truthlab allows you to get the insights that are buried within thousands of hours of user research videos without requiring you or your team watching a single frame.</p>
@@ -91,8 +91,8 @@ get_header(); ?>
 					<div class="col-md-6">
 						<div class="solutions__copy">
 							<h2>Marketing</h2>
-							<p>Driven by the speed of insights, the Truthlab CXM playform meets the daily demands faced by Marketing teams.</p>
-							<a href="#">Read out Customer Case Study >></a>
+							<p>Driven by the speed of insights, the Truthlab CXM platform meets the daily demands faced by Marketing teams.</p>
+							<a href="#">Read our White Paper &gt;&gt;</a>
 						</div>
 					</div>
 				</div>
