@@ -52,6 +52,7 @@ jQuery(function () {
 
 
 jQuery(document).ready(function() {
+  jQuery('.accordion-toggle').on('click', '.button', function(e) { e.stopPropagation(); })
   /* Search Dropdown */
   jQuery('.search-toggle').click(function () {
       jQuery('.search-dropdown').slideToggle();

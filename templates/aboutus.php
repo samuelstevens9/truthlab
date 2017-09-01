@@ -41,7 +41,7 @@ customer journey.</p>
 <section id="team-left">
 	<div class="row">
 		<div class="hexagon" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png');"></div>
-		<div class="profile-image" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png');"></div>
+		<div class="profile-image" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/patrick.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/patrick.png');"></div>
 		<div class="col-md-10 col-md-offset-2 profile">
 			<div class="col-md-8">
 				<h1>Patrick Donnelly</h1>
@@ -109,9 +109,9 @@ customer journey.</p>
 			</div>
 			<div class="col-md-4 social">
 				<ul>
-					<li><a href="https://www.linkedin.com/company-beta/10992459/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/sahutchi" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://plus.google.com/u/0/103787897438509801954" target="_blank"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -206,7 +206,7 @@ customer journey.</p>
 											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
 											<p>Familiarity with machine learning modeling frameworks</p>
 											<p>SQL/No-SQL query and implementation strategies</p>
-											<a href="#" class="button button--blue-outline">Apply Now</a>
+											<a href="mailto:careers@truthlab.com?subject=Back End/Full Stack Engineer" class="button button--blue-outline">Apply Now</a>
 										</div>
 									</div>
 								</div>
@@ -231,7 +231,7 @@ customer journey.</p>
 											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
 											<p>Familiarity with machine learning modeling frameworks</p>
 											<p>SQL/No-SQL query and implementation strategies</p>
-											<a href="#" class="button button--blue-outline">Apply Now</a>
+											<a href="mailto:careers@truthlab.com?subject=Front End/Full Stack Engineer" class="button button--blue-outline">Apply Now</a>
 										</div>
 									</div>
 								</div>
@@ -256,7 +256,7 @@ customer journey.</p>
 											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
 											<p>Familiarity with machine learning modeling frameworks</p>
 											<p>SQL/No-SQL query and implementation strategies</p>
-											<a href="#" class="button button--blue-outline">Apply Now</a>
+											<a href="mailto:careers@truthlab.com?subject=Sales Development Representative" class="button button--blue-outline">Apply Now</a>
 										</div>
 									</div>
 								</div>

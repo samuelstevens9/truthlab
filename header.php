@@ -43,9 +43,9 @@
   		</div>
   		<div id="navbar" class="navbar-collapse collapse">
   			<ul class="nav navbar-nav">
-  				<li><a href="./solutions">Solutions</a></li>
-  				<li><a href="./about">About</a></li>
-  				<li><a href="./blog">Blog</a></li>
+  				<li><a href="/solutions/">Solutions</a></li>
+  				<li><a href="/about/">About</a></li>
+  				<li><a href="/blog/">Blog</a></li>
   			</ul>
   			<ul class="nav navbar-nav navbar-right">
   				<li><a href="https://app.truthlab.com/c/login/">Sign In</a></li>
