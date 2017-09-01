@@ -48,7 +48,7 @@
   				<li><a href="./blog">Blog</a></li>
   			</ul>
   			<ul class="nav navbar-nav navbar-right">
-  				<li><a href="../navbar/">Sign In</a></li>
+  				<li><a href="https://app.truthlab.com/c/login/">Sign In</a></li>
   				<li class="search-toggle"><a href="#"><i class="fa fa-search"></i></a></li>
   				<li class="request-toggle"><a href="#" class="button button--red">Request a Demo</a></li>
   			</ul>

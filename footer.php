@@ -9,7 +9,7 @@
 
     <div class="mobile-footer container">
       <div class="panel-group" id="accordion">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
@@ -22,16 +22,17 @@
               <div class="panel-body">
                 <div class="container">
                   <ul>
-                    <li>Benefits</li>
-                    <li>Insights Platform</li>
-                    <li>Request Demo</li>
+                    <li><a href="/solutions/"><h4>Solutions</h4></a></li>
+                    <li><a href="/solutions/#content__marketing">For Marketers</a></li>
+                    <li><a href="/solutions/#content__product">For Product Managers</a></li>
+                    <li><a href="/solutions/#content__designers">For Experience Designers</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-        </a>
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        </div>
+        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
@@ -44,19 +45,18 @@
               <div class="panel-body">
                 <div class="container">
                   <ul>
-                    <li>Our Story</li>
-                    <li>Our Mission</li>
-                    <li>Careers</li>
-                    <li>Partners</li>
-                    <li>Customers</li>
-                    <li>Investors</li>
+                    <li><a href="/about/"><h4>About</h4></a></li>
+                    <li><a href="/about/#mission">Our Mission</a></li>
+                    <li><a href="/about/#leadership">Leadership</a></li>
+                    <li><a href="/about/#culture">Culture</a></li>
+                    <li><a href="/about/#careers">Careers</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-        </a>
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        </div>
+        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
@@ -69,64 +69,62 @@
               <div class="panel-body">
                 <div class="container">
                   <ul>
-                    <li>White Papers</li>
-                    <li>Guides</li>
-                    <li>System Styles</li>
-                    <li>Press</li>
-                    <li>Terms &amp; Privacy</li>
-                  </ul>
+                    <li><a href="/customer-experience-advantage">White Papers</a></li>
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
                 </div>
               </div>
             </div>
           </div>
-        </a>
-        <a class="accordion-toggle" data-toggle="collapse">
+        </div>
+        <div class="accordion-toggle">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
                 <div class="accordion-toggle">
-                  Solutions
+                  <a href="/blog/"><h4>Blog</h4></a>
                 </div>
               </h4>
             </div>
           </div>
-        </a>
+        </div>
 
       </div>
     </div>
 
     <div class="main-footer container">
       <div class="col-md-2">
-        <a href="#"><h4>Solutions</h4></a>
+        <a href="/solutions/"><h4>Solutions</h4></a>
         <ul>
-          <li><a href="#">Benfits</a></li>
-          <li><a href="#">Insights Platform</a></li>
-          <li><a href="#">Request Demo</a></li>
+          <li><a href="/solutions/#content__marketing">For Marketers</a></li>
+          <li><a href="/solutions/#content__product">For Product Managers</a></li>
+          <li><a href="/solutions/#content__designers">For Experience Designers</a></li>
         </ul>
       </div>
       <div class="col-md-2">
-        <a href="#"><h4>About</h4></a>
+        <a href="/about/"><h4>About</h4></a>
         <ul>
-          <li><a href="#">Our Story</a></li>
-          <li><a href="#">Our Mission</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Partners</a></li>
-          <li><a href="#">Customers</a></li>
-          <li><a href="#">Investors</a></li>
+          <li><a href="/about/#mission">Our Mission</a></li>
+          <li><a href="/about/#leadership">Leadership</a></li>
+          <li><a href="/about/#culture">Culture</a></li>
+          <li><a href="/about/#careers">Careers</a></li>
         </ul>
       </div>
       <div class="col-md-2">
         <a href="#"><h4>Resources</h4></a>
         <ul>
-          <li><a href="#">White Papers</a></li>
+          <li><a href="/customer-experience-advantage">White Papers</a></li>
+          <!--
           <li><a href="#">Guides</a></li>
           <li><a href="#">System Styles</a></li>
           <li><a href="#">Press</a></li>
-          <li><a href="#">Terms &amp; Privacy</a></li>
+          -->
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
         </ul>
       </div>
       <div class="col-md-2">
-        <a href="#"><h4>Blog</h4></a>
+        <a href="/blog/"><h4>Blog</h4></a>
       </div>
       <div class="col-md-4 text-right address">
         <img src="<?php echo get_template_directory_uri() ?>/assets/img/map-marker.png"/>
@@ -145,10 +143,10 @@
       <div class="col-md-8 text-right">
         <a href="#" class="contact">Contact Us</a>
         <ul>
-					<li><a href="https://www.linkedin.com/company-beta/10992459/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.facebook.com/truthlabtech/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="https://plus.google.com/109045923061674684524" target="_blank"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
 				</ul>
       </div>
     </div>
