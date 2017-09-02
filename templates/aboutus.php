@@ -1,5 +1,5 @@
 <?php
- 
+
 /**
  * Template Name: About Us
  *
@@ -28,10 +28,10 @@ customer journey.</p>
 
 <section id="cta">
   <div class="container">
-    <div class="row cta__blue">
+    <div class="row cta__blue" style="margin-bottom:0px;">
       <div class="col-xs-12 text-center">
         <h2>A Rising Tide...</h2>
-        <p>Your success is our success. Our team is dedicated to helping you 
+        <p>Your success is our success. Our team is dedicated to helping you
 					build and deliver extraordinary customer experiences that drive winning brands.</p>
       </div>
     </div>
