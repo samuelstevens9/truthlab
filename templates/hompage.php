@@ -94,14 +94,14 @@ get_header(); ?>
 
 	<div class="row bottom-row">
 		<div class="container">
-			
+
 			<div class="col-md-7 col-sm-7 col-md-push-5 col-sm-push-5 image">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png" />
 			</div>
 			<div class="col-md-5 col-sm-5 col-md-pull-7 col-sm-pull-7 text-left copy">
 				<h2>Watch Highlight Reels</h2>
 				<p>The Truthlab platform instantly generates highlight reels of your videos, whether they were created on the platform or elsewhere. No more expensive professional service costs to create actionable insights.</p>
-				<a href="#" class="button button--blue-outline">Watch Now</a>
+				<a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wpvideo-lightbox" class="button button--blue-outline">Watch Now</a>
 			</div>
 		</div>
 	</div>
@@ -125,7 +125,7 @@ get_header(); ?>
 			<div class="col-md-6 col-sm-6 text-left copy">
 				<h2>Analyze Full Length Video</h2>
 				<p>Full access and unlimited storage of your testers’ entire journey with transcription, event logging and complete search capabilities.  And, no more hidden costs.</p>
-				<a href="#" class="button button--blue-outline">See Video</a>
+				<a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wpvideo-lightbox" class="button button--blue-outline">See Video</a>
 			</div>
 			<div class="col-md-6 col-sm-6 pull-right image">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png" />
@@ -162,14 +162,14 @@ get_header(); ?>
 							<div class="item active">
                   <div class="row">
 										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											We are in the experience economy. Organizations must adopt a technology, process and a 
-											customer centric culture to avoid being left behind. In three short months, 
+											We are in the experience economy. Organizations must adopt a technology, process and a
+											customer centric culture to avoid being left behind. In three short months,
 											Truthlab has identified more actions to take than we had identified in the three prior years!
 										</div>
 										<div class="col-xs-12 col-md-4 testimonial__author">
 											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
 											<div>
-												Maryanne P.<br /> 
+												Maryanne P.<br />
 												Dir. Customer Experience<br />
 												Dell<br />
 											</div>
@@ -179,7 +179,7 @@ get_header(); ?>
 							<div class="item">
                   <div class="row">
 										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											Every part of our business influences our Customer Experience. 
+											Every part of our business influences our Customer Experience.
 											Truthlab gives us the insight to understand which experiences need to improve.
 										</div>
 										<div class="col-xs-12 col-md-4 testimonial__author">
@@ -195,7 +195,7 @@ get_header(); ?>
 							<div class="item">
                   <div class="row">
 										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											Here at Cisco, we have always put the customer first. 
+											Here at Cisco, we have always put the customer first.
 											Truthlab allows us to leverage our existing process and methodology within their platform to close the gaps that were previously identified.
 										</div>
 										<div class="col-xs-12 col-md-4 testimonial__author">
