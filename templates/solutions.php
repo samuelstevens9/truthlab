@@ -172,7 +172,6 @@ get_header(); ?>
 </section>
 
 
-
 <section id="cta">
   <div class="container">
     <div class="row cta__red">
