@@ -13,9 +13,9 @@ get_header(); ?>
 		<div class="container">
 			<div class="slider">
 			<div class="slide-header active">
-		   	<div class="panel" style="background-color:white;">
+		   	<div class="panel" style="">
 		      	<div class="top" data-back="SOLVED"></div>
-					<div class="bottom" data-back="SOLVED"></div>
+						<div class="bottom" data-back="SOLVED"></div>
 		   	</div>
 				<div class="center">
 		   		<h1>Problem Solved</h1>

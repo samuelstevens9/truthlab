@@ -2052,7 +2052,7 @@ footer .row{padding-bottom:0}
 .top-row .copy{margin-top:20%}
 .bottom-row .copy{margin-top:20%}
 .bottom-row .image{margin-top:10%}
-.blank{content:'';position:relative;left:0;top:-363px;width:110%;height:711px;background:white;-webkit-transform:skewY(19deg);-ms-transform:skewY(19deg);transform:skewY(19deg);-webkit-backface-visibility:hidden;background-image:url(assets/img/home/bluelines-top.svg),url(assets/img/home/redlines-bottom.svg);background-position:left 0 top 0,right 0 bottom 0;background-size:30%;margin-bottom:-666px;background-repeat:repeat-x}
+.blank{content:'';position:relative;width:60%;left:20%;top:-350px;height:500px;margin-bottom:-600px;background-image:url(assets/img/home/bottom-lines_rb.svg),url(assets/img/home/top-lines_rb.svg);background-position:left 0 bottom 0,right 0 top 0;background-repeat:no-repeat;background-size:300px 500px}
 .bottom-row{height:874px;padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%}
 .bottom-row .container{padding:7rem 0 0 0}
 #panel-management{padding:00px 0 600px 0}
@@ -2101,19 +2101,24 @@ button.slick-prev,button.slick-next{display:none !important}
 #cta .white{height:3px;background-color:white;width:100%;display:block;float:left;margin:-10px 0 10px 0}
 #cta .text-right{padding:140px 10px 0 0}
 #cta a{color:white !important}
-#cta a:hover{color:#910811}
+#cta .cta__red a:hover{color:#910811 !important}
+#cta .cta__blue a:hover{color:#07074e !important}
 .cta__red{background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);position:relative;padding:0 15px 1rem 15px;color:white}
 .cta__red:before{display:block;content:'';position:absolute;left:0;top:-45px;width:100%;height:105px;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:-1}
+.cta__red a:hover{color:#910811 !important}
 .cta__blue{position:relative;color:white}
 .cta__blue:before{display:block;content:'';position:absolute;left:0;top:-45px;width:100%;height:105px;background:-webkit-linear-gradient(left,#FFF 0,#FFF 100%);background:linear-gradient(to right,#FFF 0,#FFF 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:1}
+.cta__blue a:hover{color:#07074e !important}
 footer{margin-top:120px}
 footer .row{padding-top:0}
 #curtain-slider__solutions{height:700px}
 .slide-header{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.angle-shadow{height:200px;-webkit-transform:skewY(10deg);-ms-transform:skewY(10deg);transform:skewY(10deg);margin-top:-111px;box-shadow:0 -2px 1px rgba(145,8,17,0.25);background:#FFF;margin-bottom:-100px}
 #curtain-slider__solutions{width:100%}
 #curtain-slider__solutions .center h1{font-size:10vh;line-height:1;font-family:"PT Sans Narrow",sans-serif;color:#910811;margin-bottom:100px}
 #curtain-slider__solutions .slide-header:nth-child(1) .panel>*{background:white;background:white;background-size:400% 400%;-webkit-animation:Gradient 60s ease infinite;animation:Gradient 60s ease infinite;color:rgba(145,8,17,0.6)}
-#curtain-slider__solutions .slider{background-image:url("../truthlab/assets/img/solutions/hero-bottom.svg");background-position:bottom}
+#curtain-slider__solutions .slider{background:url("assets/img/solutions/hero-bottom.svg") no-repeat;background-position:bottom;background-size:100%}
+#curtain-slider__solutions .slide-header:nth-child(1) .panel>*{background:0}
 .page-template-solutions #cta{-webkit-transform:translateY(3500px);-ms-transform:translateY(3500px);transform:translateY(3500px)}
 .page-template-solutions footer{margin-top:25px;-webkit-transform:translateY(3500px);-ms-transform:translateY(3500px);transform:translateY(3500px)}
 .row__copy{padding:0;-webkit-transform:translateY(-150px);-ms-transform:translateY(-150px);transform:translateY(-150px)}
@@ -2208,8 +2213,8 @@ br{clear:both}
 .page-template-aboutus #team-right .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
 .page-template-aboutus #team-right .profile-image{width:175px;height:175px;top:250px;margin-left:28%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
 .page-template-aboutus #team-right .hexagon{width:300px;height:315px;top:425px;margin-left:30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-#culture{background:url("assets/img/about/culture-and-values.jpg") no-repeat;background-size:100%;position:relative}
-#culture .values{-webkit-transform:translateY(28%);-ms-transform:translateY(28%);transform:translateY(28%);margin-top:23%;background-color:white;padding:2%}
+#culture{margin-top:300px;background:url("assets/img/about/culture-and-values.jpg") no-repeat;background-size:100%;position:relative;padding-top:50%}
+#culture .values{background-color:white}
 #culture .values .heading{width:55%;margin:0 auto}
 #culture .values .sub-heading{width:50%;margin:auto}
 #culture .values .row{padding:3rem 0}
@@ -2220,10 +2225,10 @@ br{clear:both}
 #culture .values .large-market{background-image:url("assets/img/about/large-market.jpg");background-size:cover;height:288px}
 #culture .values .not-comfort{background-image:url("assets/img/about/not-comfort.jpg");background-size:cover;height:288px}
 #culture .values .believe{background-image:url("assets/img/about/believe.jpg");background-size:cover;height:288px}
-#careers{background:url("assets/img/about/careers.gif") no-repeat;background-size:100%;margin-top:20px;margin-bottom:450px;padding-top:600px;position:relative;background-position:0 600px}
-#careers .values{-webkit-transform:translateY(18%);-ms-transform:translateY(18%);transform:translateY(18%);margin-top:23%;background-color:white;padding:2%}
+#careers{background-repeat:no-repeat;background-size:100%;margin-top:20px;margin-bottom:-150px;padding-top:34%;position:relative}
+#careers .values{background-color:white}
 #careers .red-box{position:relative;float:right;border:5px solid #910811;border-radius:2px;width:90%}
-#careers .blue-box{position:relative;float:left;border:5px solid #07074e;border-radius:2px;width:100%;margin-left:-10%;top:100px;padding:5%}
+#careers .blue-box{position:relative;float:left;border:5px solid #07074e;border-radius:2px;width:100%;margin-left:-10%;top:100px;padding:5%;padding-bottom:200px}
 #careers .blue-box .panel-group{width:85%;float:right;text-align:left}
 #careers .blue-box .panel-default{border:0}
 #careers .blue-box .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white}
@@ -2288,7 +2293,7 @@ br{clear:both}
 .twitter-mobile{display:none}
 .twitter-card,blockquote{text-align:center;font-family:'PT Sans',sans-serif;font-style:italic;font-weight:400;font-size:1.5rem;color:#07074e;width:100%;padding:10px 20px;margin:0 auto;margin-bottom:20px;box-shadow:8px 8px 0 0 rgba(32,46,93,0.05);-webkit-transition:.2s ease;transition:.2s ease}
 .twitter-card i{color:#818486;margin-top:15px;display:block;-webkit-transition:.2s ease;transition:.2s ease}
-.share{background-image:url(http://client.blackbearnj.com/tl/wp-content/themes/truthlab/assets/img/social-share.svg);height:45px;width:45px;position:fixed;right:55px;top:15%}
+.share{background-image:url(assets/img/social-share.svg);height:45px;width:45px;position:fixed;right:55px;top:15%}
 .social-menu{display:none;float:right;margin-right:-38px}
 .blog-post{display:inline;width:70%;height:100%;float:left;text-align:left}
 .blog-post .rt-reading-time{display:none !important}
@@ -2571,12 +2576,13 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .hidden-lg{display:none !important}
 }@media only screen and (max-width:1360px){.bottom-row .copy{margin-top:10%}
 }@media only screen and (max-width:1220px){.top-row .copy{margin-top:5%}
-.blank{height:400px}
+.blank{height:400px;top:-400px;margin-bottom:-700px;width:70%}
 #panel-management{margin-top:28%}
 }@media only screen and (max-width:1200px){#panel-management{margin-top:20%}
 #panel-management .analyze{margin-top:27% !important}
 }@media only screen and (max-width:991px){.navbar-default .navbar-nav>li>a.button{padding:7px 6px !important}
 .bottom-row{background-size:130%}
+.blank{height:400px;top:-500px;margin-bottom:-800px;width:80%;left:10%}
 }@media(max-width:860px){#masthead .header-right .menu li.menu-search{display:inline-block}
 #masthead .header-right .menu li:nth-last-child(2),#masthead .header-right .menu li:nth-last-child(3){display:none}
 .search-form{padding:0}
@@ -2756,6 +2762,7 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 .cta__red{background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);position:relative;padding:0 15px 1rem 15px;color:white}
 .cta__red:before{display:none}
 #curtain-slider__solutions{height:500px}
+#curtain-slider__solutions .slide-header:nth-child(1) .panel>*{display:none}
 #heading__solutions h1{font-size:2rem !important}
 #heading__solutions .row{padding:0}
 #heading__solutions .heading{margin-top:0}
@@ -2822,10 +2829,6 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 .page-template-aboutus #team-right .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e;margin-right:50%}
 .page-template-aboutus #team-right .profile-image{width:175px;height:175px;top:250px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
 .page-template-aboutus #team-right .hexagon{width:300px;height:315px;top:425px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-#careers{background-image:url("assets/img/about/careers.gif");background-size:cover;height:600px;position:relative;-webkit-transform:translateY(350%);-ms-transform:translateY(350%);transform:translateY(350%);background-position:center center}
-#careers .values{-webkit-transform:translateY(18%);-ms-transform:translateY(18%);transform:translateY(18%);margin-top:23%;background-color:white;padding:2%}
-#careers .red-box{display:none}
-#careers .blue-box{position:relative;float:left;border:0;width:100%;margin-left:0;top:0;padding:5%}
 #terms-hero{margin-top:60px}
 #terms-hero h1{font-size:1.5rem}
 #accordions .panel-body>.container{width:100%;padding:0 1rem}

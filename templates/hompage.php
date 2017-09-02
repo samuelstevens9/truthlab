@@ -162,42 +162,49 @@ get_header(); ?>
 							<div class="item active">
                   <div class="row">
 										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
+											We are in the experience economy. Organizations must adopt a technology, process and a 
+											customer centric culture to avoid being left behind. In three short months, 
+											Truthlab has identified more actions to take than we had identified in the three prior years!
 										</div>
 										<div class="col-xs-12 col-md-4 testimonial__author">
-											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
 											<div>
-											Amanda Morgan</br>
-											UI Designer</br>
-											Truthlab Technologies</div>
+												Maryanne P.<br /> 
+												Dir. Customer Experience<br />
+												Dell<br />
+											</div>
 										</div>
                   </div>
               </div>
 							<div class="item">
                   <div class="row">
 										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
+											Every part of our business influences our Customer Experience. 
+											Truthlab gives us the insight to understand which experiences need to improve.
 										</div>
 										<div class="col-xs-12 col-md-4 testimonial__author">
-											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png"/>
 											<div>
-											Amanda Morgan</br>
-											UI Designer</br>
-											Truthlab Technologies</div>
+											Mark M. <br />
+											Customer Experience Researcher<br />
+											Microsoft<br />
+											</div>
 										</div>
                   </div>
               </div>
 							<div class="item">
                   <div class="row">
 										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											Truthlab is wonderful! There is enough room here to include about three to four sentences on how great it is to work with Truthlab. There should be all kinds of intelligent insights and kind words placed here.
+											Here at Cisco, we have always put the customer first. 
+											Truthlab allows us to leverage our existing process and methodology within their platform to close the gaps that were previously identified.
 										</div>
 										<div class="col-xs-12 col-md-4 testimonial__author">
-											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/amanda.jpg"/>
+											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png"/>
 											<div>
-											Amanda Morgan</br>
-											UI Designer</br>
-											Truthlab Technologies</div>
+											Bill T. <br />
+											Dir. Customer Marketing<br />
+											Cisco<br />
+											</div>
 										</div>
                   </div>
               </div>

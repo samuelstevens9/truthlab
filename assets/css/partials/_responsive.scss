@@ -22,6 +22,9 @@
   }
   .blank  {
     height: 400px;
+    top: -400px;
+    margin-bottom: -700px;
+    width: 70%;
   }
   #panel-management{
     margin-top: 28%;
@@ -78,6 +81,13 @@
   }
   .bottom-row {
     background-size: 130%;
+  }
+  .blank  {
+    height: 400px;
+    top: -500px;
+    margin-bottom: -800px;
+    width: 80%;
+    left: 10%;
   }
 }
 /***** BLOG 860px *****/
@@ -881,6 +891,9 @@
   /*************************/
   #curtain-slider__solutions {
     height:500px;
+    & .slide-header:nth-child(1) .panel>*{
+      display: none;
+    }
   }
   #heading__solutions {
     & h1 {
@@ -1380,29 +1393,30 @@
   }
 
   #careers {
-    background-image:url('assets/img/about/careers.gif');
+    /*background-image:url('assets/img/about/careers.gif');
     background-size:cover;
     height:600px;
     position:relative;
     transform:translateY(350%);
-    background-position:center center;
+    background-position:center center;*/
     & .values {
-      transform:translateY(18%);
+      /*transform:translateY(18%);
       margin-top:23%;
-      background-color:white;
       padding:2%;
+      background-color:white;
+      */
     }
     & .red-box {
-      display:none;
+      /*display:none;*/
     }
     & .blue-box {
-      position:relative;
+      /*position:relative;
       float:left;
       border:none;
       width:100%;
       margin-left:0%;
       top:0px;
-      padding:5%;
+      padding:5%;*/
     }
   }
 

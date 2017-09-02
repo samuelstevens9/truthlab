@@ -12,7 +12,7 @@ get_header(); ?>
 	<h1 class="front">JOURNEY</h1>
 	<h3 class="back">We're all about the journey</h3>
 </section>
-
+<div class="angle-shadow"></div>
 <section id="heading">
 	<div class="row">
 		<div class="container">
@@ -28,7 +28,7 @@ customer journey.</p>
 
 <section id="cta">
   <div class="container">
-    <div class="row cta__red cta__blue">
+    <div class="row cta__blue">
       <div class="col-xs-12 text-center">
         <h2>A Rising Tide...</h2>
         <p>Your success is our success. Our team is dedicated to helping you 
@@ -271,6 +271,16 @@ customer journey.</p>
 		</div>
 	</div>
 </section>
+<script>
+var didCareer = false;
+jQuery(window).scroll(function() {
+  if(didCareer){return;}
+  if(jQuery(this).scrollTop() + 500 >= jQuery('#careers').position().top){
+    didCareer = true;
+      jQuery('#careers').css('background-image',"url('<?php echo get_template_directory_uri() ?>/assets/img/about/careers.gif')");
+  }
+});
+</script>
 
 <section id="cta">
   <div class="container">

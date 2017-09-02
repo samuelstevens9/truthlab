@@ -247,16 +247,18 @@ br{clear: both;}
 }
 
 #culture {
+  margin-top: 300px;
   background:url('assets/img/about/culture-and-values.jpg') no-repeat;
   background-size:100%/*cover*/;
   /*height:800px;*/
   position:relative;
+  padding-top:50%;
   /*background-position:center center;*/
   & .values {
-    transform:translateY(28%);
+    /*transform:translateY(28%);
     margin-top:23%;
+    padding:2%;*/
     background-color:white;
-    padding:2%;
     & .heading {
       width:55%;
       margin:0 auto;
@@ -306,19 +308,18 @@ br{clear: both;}
 }
 
 #careers {
-  background:url('assets/img/about/careers.gif') no-repeat;
+  /*background-image:url('assets/img/about/careers.gif');*/
+  background-repeat: no-repeat;
   background-size:100%/*cover*/;
   margin-top: 20px;
-  margin-bottom: 450px;
-  padding-top:600px;
+  margin-bottom: -150px;
+  padding-top:34%;
   position:relative;
-  /*transform:translateY(350%);*/
-  background-position:0px 600px;
   & .values {
-    transform:translateY(18%);
+    /*transform:translateY(18%);
     margin-top:23%;
+    padding:2%;*/
     background-color:white;
-    padding:2%;
   }
   & .red-box {
     position:relative;
@@ -341,6 +342,7 @@ br{clear: both;}
     */
     top:100px;
     padding:5%;
+    padding-bottom: 200px;
     & .panel-group {
       width:85%;
       float:right;
