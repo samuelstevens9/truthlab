@@ -82,7 +82,7 @@ get_header(); ?>
 			<div class="col-md-5 col-sm-5 text-right copy">
 				<h2>Get Immediate Insights</h2>
 				<p>Instantly extract quantitative and qualitative insights that allow you to make educated customer experience decisions. No more watching hundreds of videos to get what you need.</p>
-				<a href="#" class="button button--blue-outline">Read More</a>
+				<a href="/solutions/" class="button button--blue-outline">Read More</a>
 			</div>
 		</div>
 	</div>
@@ -101,7 +101,7 @@ get_header(); ?>
 			<div class="col-md-5 col-sm-5 col-md-pull-7 col-sm-pull-7 text-left copy">
 				<h2>Watch Highlight Reels</h2>
 				<p>The Truthlab platform instantly generates highlight reels of your videos, whether they were created on the platform or elsewhere. No more expensive professional service costs to create actionable insights.</p>
-				<a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wpvideo-lightbox" class="button button--blue-outline">Watch Now</a>
+				<a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wp-video-lightbox" class="button button--blue-outline">Watch Now</a>
 			</div>
 		</div>
 	</div>
@@ -118,14 +118,14 @@ get_header(); ?>
 			<div class="col-md-6 col-sm-6 text-left copy">
 				<h2>Take Action with Panel Management</h2>
 				<p>Easily invite, register and onboard your testers via email, Slack, IM and message boards, without training or IT involvement. No more professional testers from panel companies.</p>
-				<a href="#" class="button button--blue-outline">Find Out How</a>
+				<a href="/solutions/" class="button button--blue-outline">Find Out How</a>
 			</div>
 		</div>
 		<div class="container analyze">
 			<div class="col-md-6 col-sm-6 text-left copy">
 				<h2>Analyze Full Length Video</h2>
 				<p>Full access and unlimited storage of your testers’ entire journey with transcription, event logging and complete search capabilities.  And, no more hidden costs.</p>
-				<a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wpvideo-lightbox" class="button button--blue-outline">See Video</a>
+				<a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wp-video-lightbox" class="button button--blue-outline">See Video</a>
 			</div>
 			<div class="col-md-6 col-sm-6 pull-right image">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png" />
