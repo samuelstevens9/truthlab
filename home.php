@@ -23,16 +23,18 @@ get_header(); ?>
 			<?php if($the_author): ?>
 				<div class="author-header-container">
 					<div class="section author-header row">
-						<div class="author-header-copy col-sm-6">
+						<div class="col-sm-6 col-sm-push-6 text-right">
+							<img class="blog-author-hero-avatar" src="<?php echo scrapeImage(get_wp_user_avatar($the_author->ID)); ?>" alt="<?php echo $the_author->display_name; ?>" />
+						</div>
+						
+						<div class="author-header-copy col-sm-6 col-sm-pull-6">
 							<p class="spotlight">Author Spotlight</p>
 							<h2><?php echo $the_author->display_name; ?></h2>
 							<p class="author-header-desc">
 								<?php echo get_the_author_meta('description',$the_author->ID); ?>
 							</p>
 						</div>
-						<div class="col-sm-6 text-right">
-							<img class="blog-author-hero-avatar" src="<?php echo scrapeImage(get_wp_user_avatar($the_author->ID)); ?>" alt="<?php echo $the_author->display_name; ?>" />
-						</div>
+						
 					</div>
 				</div>
 			<?php else: ?>

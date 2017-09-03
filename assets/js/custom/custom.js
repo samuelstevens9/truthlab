@@ -93,7 +93,7 @@ jQuery(document).ready(function() {
 
   /* Testimonial Slider */
   jQuery('.carousel').carousel({
-    interval: 6000
+    interval: false
   });
 
   // Select all links with hashes

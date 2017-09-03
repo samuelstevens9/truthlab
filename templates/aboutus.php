@@ -13,6 +13,8 @@ get_header(); ?>
 	<h3 class="back">We're all about the journey</h3>
 </section>
 <div class="angle-shadow"></div>
+
+<div id="mission">
 <section id="heading">
 	<div class="row">
 		<div class="container">
@@ -25,6 +27,7 @@ customer journey.</p>
 		</div>
 	</div>
 </section>
+</div>
 
 <section id="cta">
   <div class="container">
@@ -38,6 +41,7 @@ customer journey.</p>
   </div>
 </section>
 
+<div id="leadership">
 <section id="team-left">
 	<div class="row" style="padding:0px;">
 		<div class="hexagon" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png');"></div>
@@ -117,6 +121,7 @@ customer journey.</p>
 		</div>
 	</div>
 </section>
+</div>
 
 <section id="culture">
 	<div class="container text-center values">
