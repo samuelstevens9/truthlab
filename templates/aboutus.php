@@ -1,5 +1,5 @@
 <?php
- 
+
 /**
  * Template Name: About Us
  *
@@ -28,10 +28,10 @@ customer journey.</p>
 
 <section id="cta">
   <div class="container">
-    <div class="row cta__blue">
+    <div class="row cta__blue" style="margin-bottom:0px;">
       <div class="col-xs-12 text-center">
         <h2>A Rising Tide...</h2>
-        <p>Your success is our success. Our team is dedicated to helping you 
+        <p>Your success is our success. Our team is dedicated to helping you
 					build and deliver extraordinary customer experiences that drive winning brands.</p>
       </div>
     </div>
@@ -39,7 +39,7 @@ customer journey.</p>
 </section>
 
 <section id="team-left">
-	<div class="row">
+	<div class="row" style="padding:0px;">
 		<div class="hexagon" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png');"></div>
 		<div class="profile-image" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/patrick.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/patrick.png');"></div>
 		<div class="col-md-10 col-md-offset-2 profile">
@@ -79,7 +79,7 @@ customer journey.</p>
 </section>
 
 <section id="team-right">
-	<div class="row">
+	<div class="row" style="padding:0px;">
 		<div class="hexagon" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon-red.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon-red.png');"></div>
 		<div class="profile-image" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png');"></div>
 		<div class="col-md-10 profile">
@@ -97,9 +97,9 @@ customer journey.</p>
 		            <div id="collapseTwo" class="panel-collapse collapse">
 		              <div class="panel-body">
 		                <div class="container">
-											<p>A leader with a mean golf swing and a fresh perspective, Patrick is a proud dad with coaching skills on and off the field. Formerly VP of Sales at Marketo, he has more than 20 years of experience in software industry leadership. Patrick is dedicated to helping Truthlab’s customers create amazing customer experiences.</p>
-											<p>Patrick is obsessed with making it easier and faster for companies to create and actually use customer insights. The Truthlab Customer Experience Platform enables you to instantly capture and analyze customer experience data and integrate the insights into every interaction with your customers, employees and partners.</p>
-											<p>Truthlab is taking a fresh look at nearly every aspect of the digital customer experience. Currently, it’s too difficult and time consuming to transform massive volumes of customer data into truly actionable insights. The Truthlab CXM platform is fixing this problem.</p>
+											<p>A technical innovator who is normally in front of a computer terminal or out in the surf, Scott loves building new technologies and working with those excited to do the same. Formerly a naval officer, nuclear engineer, sales engineering leader for applied artificial intelligence, and chief technology officer of a baseball analytics company. He has a BSEE and MSEE in Electrical Engineering from the University of Southern California, graduate certificate in Nuclear Engineering from the Bettis Atomic Power Laboratory, and MS in Finance from George Washington University. Scott is passionate about helping Truthlab’s customers have the best tools create amazing customer experiences.</p>
+											<p>Scott is obsessed with solving cross functional problems. From working with the best engineers in the DoD and DoE to the best data scientists and machine learning engineers in Predictive Marketing, Scott realized the toughest challenges for business are those that span orgs, operational processes, and departmental goals. The Truthlab Customer Experience Platform enables you to analyze customer experience across marketing, sales, success, and renewals.</p>
+											<p>Truthlab is taking a fresh look at nearly every aspect of the digital customer experience. Currently, it’s too difficult and time consuming to transform massive volumes of customer data into truly actionable insights across multiple business units. The Truthlab CXM platform is fixing this problem.</p>
 		                </div>
 		              </div>
 		            </div>
