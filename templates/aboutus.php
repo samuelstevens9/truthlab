@@ -9,10 +9,10 @@
 get_header(); ?>
 
 <section id="hero">
-	<h1 class="front">JOURNEY</h1>
+	<h1 class="front hidden-xs">JOURNEY</h1>
 	<h3 class="back">We're all about the journey</h3>
 </section>
-<div class="angle-shadow"></div>
+<div class="angle-shadow hidden-xs"></div>
 
 <div id="mission">
 <section id="heading">
