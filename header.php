@@ -17,7 +17,7 @@
 	<?php wp_head(); ?>
 
 
-	<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=598dc016b25a6f00127f1e87&product=inline-share-buttons"></script>
+	<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=59a8de0ad2b9a20012505785&product=inline-share-buttons' async='async'></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/assets/js/imagesloaded.pkgd.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>

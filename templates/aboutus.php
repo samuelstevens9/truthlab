@@ -101,7 +101,7 @@ customer journey.</p>
 		            <div id="collapseTwo" class="panel-collapse collapse">
 		              <div class="panel-body">
 		                <div class="container">
-											<p>A technical innovator who is normally in front of a computer terminal or out in the surf, Scott loves building new technologies and working with those excited to do the same. Formerly a naval officer, nuclear engineer, sales engineering leader for applied artificial intelligence, and chief technology officer of a baseball analytics company. He has a BSEE and MSEE in Electrical Engineering from the University of Southern California, graduate certificate in Nuclear Engineering from the Bettis Atomic Power Laboratory, and MS in Finance from George Washington University. Scott is passionate about helping Truthlab’s customers have the best tools create amazing customer experiences.</p>
+											<p>A technical innovator who is normally in front of a computer terminal or out in the surf, Scott loves building new technologies and working with those excited to do the same. Formerly a naval officer, nuclear engineer, sales engineering leader for applied artificial intelligence, and chief technology officer of a baseball analytics company. He has a BSEE and MSEE in Electrical Engineering from the University of Southern California, graduate certificate in Nuclear Engineering from the Bettis Atomic Power Laboratory, and MS in Finance from George Washington University. Scott is passionate about helping Truthlab’s customers have the best tools to create amazing customer experiences.</p>
 											<p>Scott is obsessed with solving cross functional problems. From working with the best engineers in the DoD and DoE to the best data scientists and machine learning engineers in Predictive Marketing, Scott realized the toughest challenges for business are those that span orgs, operational processes, and departmental goals. The Truthlab Customer Experience Platform enables you to analyze customer experience across marketing, sales, success, and renewals.</p>
 											<p>Truthlab is taking a fresh look at nearly every aspect of the digital customer experience. Currently, it’s too difficult and time consuming to transform massive volumes of customer data into truly actionable insights across multiple business units. The Truthlab CXM platform is fixing this problem.</p>
 		                </div>
@@ -142,7 +142,7 @@ customer journey.</p>
 				<h3>We Provide Amazing Customer Experiences</h3>
 				<p>Out most important and guiding principal, providing amaszing customer experiences.</p>
 			</div>
-			
+
 		</div>
 		<div class="row" style="padding:0px;">
 			<div class="col-md-6 great-product"></div>
@@ -157,7 +157,7 @@ customer journey.</p>
 				<h3>We Solve a Real Need for a Large Market</h3>
 				<p>We listen to customers and understand what they truly want and need.</p>
 			</div>
-			
+
 		</div>
 		<div class="row" style="padding:0px;">
 			<div class="col-md-6 not-comfort"></div>
