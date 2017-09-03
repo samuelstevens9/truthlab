@@ -94,10 +94,10 @@ get_header('single'); ?>
 				*/ ?>
 				
 				
-				<div class="share">
+				<div class="share" style="display:none;" >
 					<div class="social-menu">
 				    <ul>
-				        <li><div data-network="twitter" class="st-custom-button"><i class="hi-icon fa fa-twitter fa-2x" aria-hidden="true"></i></div></li>
+				    <li><div data-network="twitter" class="st-custom-button"><i class="hi-icon fa fa-twitter fa-2x" aria-hidden="true"></i></div></li>
 						<li><div data-network="facebook" class="st-custom-button"><i class="hi-icon fa fa-facebook-official fa-2x" aria-hidden="true"></i></div></li>
 						<li><div data-network="googleplug" class="st-custom-button"><i class="hi-icon fa fa-google-plus-square fa-2x" aria-hidden="true"></i></div></li>
 						<li><div data-network="linkedin" class="st-custom-button"><i class="hi-icon fa fa-linkedin-square fa-2x" aria-hidden="true"></i></div></li>

@@ -800,6 +800,9 @@
 
   #clients {
     margin-top:10px;
+    & .quotes {
+      background-position: left 0 top 100px,right 0 bottom 100px;
+    }
   }
 
   .carousel-inner {

@@ -137,85 +137,87 @@ get_header(); ?>
 <section id="clients">
 	<div class="row">
 		<div class="container text-center">
-			<h2>We work with great people</h2>
-			<?php /*
-			   <section class="customer-logos">
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
-			      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
-			   </section> */ ?>
-			<h5>Hear what some have to say</h5>
-      <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-              <li data-target="#tcb-testimonial-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#tcb-testimonial-carousel" data-slide-to="1"></li>
-              <li data-target="#tcb-testimonial-carousel" data-slide-to="2"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-							<div class="item active">
-                  <div class="row">
-										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											We are in the experience economy. Organizations must adopt a technology, process and a 
-											customer centric culture to avoid being left behind. In three short months, 
-											Truthlab has identified more actions to take than we had identified in the three prior years!
-										</div>
-										<div class="col-xs-12 col-md-4 testimonial__author">
-											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
-											<div>
-												Maryanne P.<br /> 
-												Dir. Customer Experience<br />
-												Dell<br />
+			<div class="quotes">
+				<h2>We work with great people</h2>
+				<?php /*
+				   <section class="customer-logos">
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
+				      <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
+				   </section> */ ?>
+				<h5>Hear what some have to say</h5>
+	      <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
+	          <!-- Indicators -->
+	          <ol class="carousel-indicators">
+	              <li data-target="#tcb-testimonial-carousel" data-slide-to="0" class="active"></li>
+	              <li data-target="#tcb-testimonial-carousel" data-slide-to="1"></li>
+	              <li data-target="#tcb-testimonial-carousel" data-slide-to="2"></li>
+	          </ol>
+	          <!-- Wrapper for slides -->
+	          <div class="carousel-inner">
+								<div class="item active">
+	                  <div class="row">
+											<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+												We are in the experience economy. Organizations must adopt a technology, process and a 
+												customer centric culture to avoid being left behind. In three short months, 
+												Truthlab has identified more actions to take than we had identified in the three prior years!
 											</div>
-										</div>
-                  </div>
-              </div>
-							<div class="item">
-                  <div class="row">
-										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											Every part of our business influences our Customer Experience. 
-											Truthlab gives us the insight to understand which experiences need to improve.
-										</div>
-										<div class="col-xs-12 col-md-4 testimonial__author">
-											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png"/>
-											<div>
-											Mark M. <br />
-											Customer Experience Researcher<br />
-											Microsoft<br />
+											<div class="col-xs-12 col-md-4 testimonial__author">
+												<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
+												<div>
+													Maryanne P.<br /> 
+													Dir. Customer Experience<br />
+													Dell<br />
+												</div>
 											</div>
-										</div>
-                  </div>
-              </div>
-							<div class="item">
-                  <div class="row">
-										<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-											Here at Cisco, we have always put the customer first. 
-											Truthlab allows us to leverage our existing process and methodology within their platform to close the gaps that were previously identified.
-										</div>
-										<div class="col-xs-12 col-md-4 testimonial__author">
-											<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png"/>
-											<div>
-											Bill T. <br />
-											Dir. Customer Marketing<br />
-											Cisco<br />
+	                  </div>
+	              </div>
+								<div class="item">
+	                  <div class="row">
+											<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+												Every part of our business influences our Customer Experience. 
+												Truthlab gives us the insight to understand which experiences need to improve.
 											</div>
-										</div>
-                  </div>
-              </div>
-          </div>
-          <!-- Controls --
-          <a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-					-->
-					<a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-left.svg"/></a>
-          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-right.svg"/></a>
-    	</div>
+											<div class="col-xs-12 col-md-4 testimonial__author">
+												<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png"/>
+												<div>
+												Mark M. <br />
+												Customer Experience Researcher<br />
+												Microsoft<br />
+												</div>
+											</div>
+	                  </div>
+	              </div>
+								<div class="item">
+	                  <div class="row">
+											<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+												Here at Cisco, we have always put the customer first. 
+												Truthlab allows us to leverage our existing process and methodology within their platform to close the gaps that were previously identified.
+											</div>
+											<div class="col-xs-12 col-md-4 testimonial__author">
+												<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png"/>
+												<div>
+												Bill T. <br />
+												Dir. Customer Marketing<br />
+												Cisco<br />
+												</div>
+											</div>
+	                  </div>
+	              </div>
+	          </div>
+	          <!-- Controls --
+	          <a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+	          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+						-->
+						<a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-left.svg"/></a>
+	          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-right.svg"/></a>
+    		</div>
+			</div>
     </div>
 	</div>
 </section>
