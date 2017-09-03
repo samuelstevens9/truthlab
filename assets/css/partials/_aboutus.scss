@@ -23,10 +23,15 @@
 */
 br{clear: both;}
 #hero {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 74%);
-  height:800px;
-  box-shadow: 0px 5px 10px rgba(145,8,17, .6);
-  background-image:url('assets/img/home/bluelines-top.svg'),url('assets/img/home/redlines-bottom.svg');background-repeat:no-repeat,no-repeat;background-position:left 0px top 0px,right 0px bottom 0px;background-size:30%;
+  /* -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 74%); */
+  /* clip-path: polygon(0 0,100% 0,100% 100%,0 74%); */
+  height: 700px;
+  /* box-shadow: 0 5px 10px rgba(145,8,17,0.6); */
+  background-image: url(assets/img/about/top-lines-rb.svg),url(assets/img/about/bottom-lines.svg);
+  background-repeat: no-repeat,no-repeat;
+  background-position: left 76px top 0,right 70px bottom 0;
+  background-size: 271px;
+  margin-top: -80px;
   /*
   &:after {
     content: '';
@@ -43,24 +48,28 @@ br{clear: both;}
 
 #hero {
   & .front {
-     position:absolute;
-     top:50%;
-     transform:translateY(-50%);
-     left:0;
-     width:100%;
-     text-align:center;
-     color:#dedee3;
-     font-size:22rem;
+    position: absolute;
+   top: 30%;
+   /* -webkit-transform: translateY(-50%); */
+   /*-ms-transform: translateY(-50%);*/
+   /* transform: translateY(-50%); */
+   left: 0;
+   width: 100%;
+   text-align: center;
+   color: #dedee3;
+   font-size: 22rem;
   }
   & .back {
-     position:absolute;
-     top:50%;
-     transform:translateY(-50%);
-     left:0;
-     width:100%;
-     text-align:center;
-     color:$blue;
-     font-size:6rem;
+    position: absolute;
+   top: 50%;
+   /* -webkit-transform: translateY(-50%); */
+   /*-ms-transform: translateY(-50%);*/
+   /* transform: translateY(-50%); */
+   left: 0;
+   width: 100%;
+   text-align: center;
+   color: #07074e;
+   font-size: 6rem;
   }
 }
 
@@ -358,7 +367,7 @@ br{clear: both;}
     & .panel-default>.panel-heading {
       background-color: white;
       border-color:white;
-      height:50px;
+      /*height:50px;*/
     }
     & .panel-heading, & .panel-body {
       padding:0px;
@@ -368,7 +377,7 @@ br{clear: both;}
       width:auto;
     }
     & .accordion-toggle {
-      padding-bottom:20px;
+      padding-bottom:8px;
     }
     & .panel-title {
       color:$blue;

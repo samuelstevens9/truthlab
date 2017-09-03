@@ -17,7 +17,7 @@ get_header(); ?>
 	<div class="row">
 		<div class="container">
 			<div class="col-md-8 col-md-offset-2 text-center heading">
-				<h1>We help B2B companies become Customer Championst</h1>
+				<h1>We help B2B companies become Customer Champions</h1>
 				<p>Truthlab’s CXM platform orchestrates the collection and analysis of disparate customer data and instantly transforms it into actionable insights.</p>
 				<p>Our aim is to help companies win in the new Experience Economy by helping them to create better, more profitable customer relationships. Truthlab’s CXM platform enables companies to orchestrate the collection, analysis and storage of structured and unstructured data that is essential to delivering amazing experiences across the entire
 customer journey.</p>
@@ -67,7 +67,7 @@ customer journey.</p>
 		        </div>
 		      </div>
 			</div>
-			<div class="col-md-4 social">
+			<div class="col-md-4 col-xs-12 social">
 				<ul>
 					<li><a href="https://www.linkedin.com/company-beta/10992459/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
@@ -107,7 +107,7 @@ customer journey.</p>
 		        </div>
 		      </div>
 			</div>
-			<div class="col-md-4 social">
+			<div class="col-md-4 col-xs-12 social">
 				<ul>
 					<li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/sahutchi" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
@@ -130,13 +130,14 @@ customer journey.</p>
 			</div>
 		</div>
 		<div class="row" style="padding:0px;">
-			<div class="col-md-6 copy">
+      <div class="col-md-6 col-md-push-6 customer-experiences">
+
+			</div>
+      <div class="col-md-6 col-md-pull-6 copy">
 				<h3>We Provide Amazing Customer Experiences</h3>
 				<p>Out most important and guiding principal, providing amaszing customer experiences.</p>
 			</div>
-			<div class="col-md-6 customer-experiences">
-
-			</div>
+			
 		</div>
 		<div class="row" style="padding:0px;">
 			<div class="col-md-6 great-product"></div>
@@ -146,11 +147,12 @@ customer journey.</p>
 			</div>
 		</div>
 		<div class="row" style="padding:0px;">
-			<div class="col-md-6 copy">
+			<div class="col-md-6 col-md-push-6 large-market"></div>
+      <div class="col-md-6 col-md-pull-6 copy">
 				<h3>We Solve a Real Need for a Large Market</h3>
 				<p>We listen to customers and understand what they truly want and need.</p>
 			</div>
-			<div class="col-md-6 large-market"></div>
+			
 		</div>
 		<div class="row" style="padding:0px;">
 			<div class="col-md-6 not-comfort"></div>
@@ -160,11 +162,11 @@ customer journey.</p>
 			</div>
 		</div>
 		<div class="row" style="padding:0px;">
-			<div class="col-md-6 copy">
+			<div class="col-md-6 col-md-push-6 believe"></div>
+      <div class="col-md-6 col-md-pull-6 copy">
 				<h3>We Believe in Better</h3>
 				<p>We know that there is always another level of greatness that we can achieve together.</p>
 			</div>
-			<div class="col-md-6 believe"></div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">

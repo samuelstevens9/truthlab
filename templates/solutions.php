@@ -8,6 +8,11 @@
 
 get_header(); ?>
 
+<section id="hero_solutions" class="">
+	<h1 class="front">SOLVED</h1>
+	<h3 class="back">Problem Solved</h3>
+</section>
+<?php /*
 <section id="curtain-slider__solutions">
 	<div class="container">
 		<div class="container">
@@ -25,7 +30,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
-
+*/ ?>
 <section id="heading__solutions">
 	<div class="row">
 		<div class="container">
@@ -49,7 +54,7 @@ get_header(); ?>
 				<div class="content" id="content__solution">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
 					<h3>Our CXM Solution</h3>
-					<p>The current customer feedback loop takes weeks and doesn't fit into anyone's release cycles. With Truthlab, you gt instant insights to make critical changes.</p>
+					<p>The current customer feedback loop takes weeks and doesn't fit into anyone's release cycles. With Truthlab, you get instant insights to make critical changes.</p>
 					<p>What you once paid agencies or tester recruiting applications to do is now on demand.</p>
 					<p>Truthlab allows you to get the insights that are buried within thousands of hours of user research videos without requiring you or your team watching a single frame.</p>
 					<a href="#" class="button button--blue-outline request-toggle">Request a Demo</a>
@@ -105,7 +110,7 @@ get_header(); ?>
 		<div class="row marketing">
 			<div class="container">
 				<div class="col-md-2">
-					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png');"></div>
+					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png');"></div>
 					<!--
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
 				-->
@@ -114,8 +119,8 @@ get_header(); ?>
 					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
 				</div>
 				<div class="col-md-2">
-					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg');"></div>
-					<div class="float-image-right-top" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg');"></div>
+					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.svg');"></div>
+					<!-- <div class="float-image-right-top" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg');"></div> -->
 					<!--
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
 				-->

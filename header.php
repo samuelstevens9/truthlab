@@ -43,9 +43,9 @@
   		</div>
   		<div id="navbar" class="navbar-collapse collapse">
   			<ul class="nav navbar-nav">
-  				<li><a href="/solutions/">Solutions</a></li>
-  				<li><a href="/about/">About</a></li>
-  				<li><a href="/blog/">Blog</a></li>
+  				<li class="<?php if(strpos($_SERVER['REQUEST_URI'],'solutions') !== false){echo ' active ';} ?>"><a href="/solutions/" >Solutions</a></li>
+  				<li class="<?php if(strpos($_SERVER['REQUEST_URI'],'about') !== false){echo ' active ';} ?>"><a href="/about/" >About</a></li>
+  				<li class="<?php if(strpos($_SERVER['REQUEST_URI'],'blog') !== false){echo ' active ';} ?>"><a href="/blog/" >Blog</a></li>
   			</ul>
   			<ul class="nav navbar-nav navbar-right">
   				<li><a href="https://app.truthlab.com/c/login/">Sign In</a></li>

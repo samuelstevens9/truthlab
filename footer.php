@@ -80,11 +80,7 @@
         <div class="accordion-toggle">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4 class="panel-title">
-                <div class="accordion-toggle">
-                  <a href="/blog/"><h4>Blog</h4></a>
-                </div>
-              </h4>
+              <a href="/blog/"><h4 class="panel-title">Blog</h4></a>
             </div>
           </div>
         </div>
@@ -132,7 +128,7 @@
         N Ellsworth &amp; 1st Street<br/>
         San Mateo, California 94401
         </address>
-        <p>650.123.4567</p>
+        <p>(650) 931-4423</p>
       </div>
     </div>
 
