@@ -9,7 +9,7 @@
 get_header(); ?>
 
 <section id="hero_solutions" class="">
-	<h1 class="front">SOLVED</h1>
+	<h1 class="front hidden-xs">SOLVED</h1>
 	<h3 class="back">Problem Solved</h3>
 </section>
 <?php /*
