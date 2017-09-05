@@ -2634,7 +2634,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .footer-bottom .copyright{display:block;text-align:center;padding-top:10px}
 #primary{padding:0}
 .blog-post{padding:0 32px}
-#main article blockquote{background-color:#07074e;box-shadow:none;margin:10px 30px 10px 0;margin-bottom:10px !important;width:100%;padding:10%;margin-left:50%;float:left;border-radius:0 50% 50% 0}
+#main article blockquote{background-color:#07074e;box-shadow:none;margin:10px 30px 10px 0;margin-bottom:10px !important;width:100%;padding:10%;margin-left:-50%;float:left;border-radius:0 50% 50% 0}
 blockquote:hover{box-shadow:none}
 #main article blockquote p{font-size:1.3rem;line-height:2rem;text-align:left;color:white;margin-bottom:5px;float:right;padding-left:50%}
 #main article blockquote p.author{display:none}
@@ -2793,9 +2793,9 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #tabs .content{text-align:center;padding:25px 0 00px 0}
 #tabs img{margin-bottom:50px}
 #tabs .content h3{margin:75px 0 25 0}
-#content__marketing{margin-bottom:200px}
+#content__marketing{margin-bottom:200px;overflow:hidden}
 #content__marketing .row__copy{margin-top:15px}
-#content__marketing .bg-image-red{width:1000px;height:1000px;top:2300px;margin-left:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
+#content__marketing .bg-image-red{display:none;width:1000px;height:1000px;top:2300px;margin-left:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
 #content__marketing .float-image-left{width:100%;margin-top:-50px;margin-left:0}
 #content__marketing .float-image-right{width:100%;z-index:1;position:relative}
 #content__marketing .float-image-right-top{width:100%;z-index:1;position:relative;margin-top:0}
@@ -2803,8 +2803,8 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #content__marketing .marketing:before{content:'';position:relative;left:0;top:-55px;width:100%;height:110px;background:transparent;-webkit-transform:skewY(-3deg);-ms-transform:skewY(-3deg);transform:skewY(-3deg);-webkit-backface-visibility:hidden;z-index:-2}
 #content__marketing .marketing:after{-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 23%);clip-path:polygon(0 0,100% 0,100% 100%,0 23%);background-color:transparent;position:absolute;padding:300px 0;left:0;top:100px;width:100%;height:135px;z-index:-2}
 #content__marketing .marketing .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);margin-top:-123px;margin-right:-200px}
-#content__product{margin-bottom:200px}
-#content__product .bg-image-blue{width:1000px;height:1000px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-right:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:50%}
+#content__product{margin-bottom:200px;overflow:hidden}
+#content__product .bg-image-blue{display:none;width:1000px;height:1000px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-right:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:50%}
 #content__product .float-image-left{width:100%;margin-top:-50px;margin-left:0}
 #content__product .float-image-right{width:100%;z-index:1;position:relative}
 #content__product .float-image-right-top{width:100%;z-index:1;position:relative;margin-top:0}
@@ -2813,10 +2813,10 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #content__product .marketing:before{-webkit-clip-path:polygon(0 0,100% 40%,100% 77%,0 100%);clip-path:polygon(0 0,100% 40%,100% 77%,0 100%);background-color:white;position:absolute;padding:300px 0;left:0;top:-250px;width:100%;height:135px;z-index:-2}
 #content__product .marketing:after{content:none;background-color:none}
 #content__product .marketing .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);margin-top:-123px;margin-right:-200px}
-#content__designers{margin-bottom:200px}
+#content__designers{margin-bottom:200px;overflow:hidden}
 #content__designers .row__copy{margin-top:15px}
 #content__designers .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);margin-top:-123px;margin-right:-200px}
-#content__designers .bg-image-red{width:1000px;height:1000px;top:5500px;margin-left:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
+#content__designers .bg-image-red{display:none;width:1000px;height:1000px;top:5500px;margin-left:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
 #content__designers .float-image-left{width:100%;margin-top:-50px;margin-left:0}
 #content__designers .float-image-right{width:100%;z-index:1;position:relative}
 #content__designers .float-image-right-top{width:100%;z-index:1;position:relative;margin-top:0}
@@ -2878,6 +2878,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .visible-xs-inline{display:inline !important}
 .visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}
+}@media only screen and (max-width:660px){#hero .front{display:none}
 }@media print{*,*:before,*:after{color:#000 !important;text-shadow:none !important;background:transparent !important;box-shadow:none !important}
 a,a:visited{text-decoration:underline}
 a[href]:after{content:" (" attr(href) ")"}
