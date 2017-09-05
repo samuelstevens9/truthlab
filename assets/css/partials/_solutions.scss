@@ -75,12 +75,12 @@
 }
 
 .page-template-solutions #cta {
-  transform:translateY(3500px);
+  /*transform:translateY(3500px);*/
 }
 
 .page-template-solutions footer {
   margin-top:25px;
-  transform:translateY(3500px);
+  /*transform:translateY(3500px);*/
 }
 
 .row__copy {
@@ -88,7 +88,7 @@
     color:$blue;
   }
   padding:0px;
-  transform:translateY(-150px);
+  /*transform:translateY(-150px);*/
 }
 
 
@@ -178,6 +178,7 @@
 }
 
 #content__marketing {
+    margin-bottom: 1500px;
     & .bg-image-red {
       width: 2750px;
       height: 2750px;
@@ -203,50 +204,36 @@
       left: 50%;
     }
     & .float-image-left {
-      width: 550px;
-      height: 311px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 225px;
-      margin-left: -250px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
       position: relative;
       z-index: 2;
-      left: 50%;
+      margin-left: -100px;
+      margin-top: 453px;
     }
     & .float-image-right {
-      width: 550px;
-      height: 187px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -50px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
+      /* margin-left: -150px; */
+      margin-top: -36px;
       position: relative;
-      z-index: 3;
-      right: 75%;
+      z-index: 1;
     }
     & .float-image-right-top {
-      width: 550px;
-      height: 187px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -390px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
+      margin-top: -100px;
+      z-index: 0;
       position: relative;
-      z-index: -1;
-      right: 85%;
     }
     & .marketing {
       padding:0px;
-      transform:translateY(50%);
-      margin-bottom:1000px;
-      background-color:#f5f3f3;
-      height:75px;
-      padding:100px 0px;
+      /*transform:translateY(50%);
+      margin-bottom:1000px;height:75px;
+      padding:100px 0px;*/
+      background-color: #f5f3f3;
+      background: url(assets/img/home/home-bg-triangle-01.svg) no-repeat;
+      background-size: 100%;
+      
       &:before {
-        content: '';
+        /*content: '';
         position: relative;
         left: 0;
         top: -55px;
@@ -255,10 +242,10 @@
         background: #f5f3f3;
         transform: skewY(-3deg);
         -webkit-backface-visibility: hidden;
-        z-index:-2;
+        z-index:-2;*/
       }
       &:after {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
+        /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
         background-color:#f5f3f3;
         position: absolute;
         padding:300px 0px;
@@ -266,16 +253,17 @@
         top: 100px;
         width: 100%;
         height: 135px;
-        z-index:-2;
+        z-index:-2;*/
       }
       & .round {
-        transform:translateY(-35%);
+        /*transform:translateY(-35%);*/
         box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
       }
     }
 }
 
 #content__product {
+  margin-bottom: 1500px;
     & .bg-image-red {
       width: 2750px;
       height: 2750px;
@@ -301,54 +289,40 @@
       right: 50%;
     }
     & .float-image-left {
-      width: 550px;
-      height: 311px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 100px;
-      margin-left: -250px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
       position: relative;
       z-index: 2;
-      left: 50%;
+      margin-left: -100px;
+      margin-top: 453px;
     }
     & .float-image-right {
-      width: 550px;
-      height: 277px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -335px;
-      margin-right: 50px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
+      /* margin-left: -150px; */
+      margin-top: -36px;
       position: relative;
-      z-index: 3;
-      right: 75%;
+      z-index: 1;
     }
     & .float-image-right-top {
-      width: 550px;
-      height: 187px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -200px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
+      margin-top: -100px;
+      z-index: 0;
       position: relative;
-      z-index: -1;
-      right: 85%;
     }
     & .round {
-      transform:translateY(-55%);
+      /*transform:translateY(-55%);*/
       box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
     }
     & .marketing {
       padding:0px;
-      transform:translateY(1900px);
-      margin-bottom:1000px;
-      background-color:#f5f3f3;
-      height:275px;
-      padding:100px 0px;
+      /*transform:translateY(50%);
+      margin-bottom:1000px;height:75px;
+      padding:100px 0px;*/
+      background-color: #f5f3f3;
+      background: url(assets/img/home/home-bg-triangle-02.svg) no-repeat;
+      background-size: 100%;
+      
       &:before {
-        clip-path: polygon(0 0, 100% 40%, 100% 77%, 0% 100%);
+        /*clip-path: polygon(0 0, 100% 40%, 100% 77%, 0% 100%);
         background-color:#f5f3f3;
         position: absolute;
         padding:300px 0px;
@@ -356,10 +330,10 @@
         top: -250px;
         width: 100%;
         height: 135px;
-        z-index:-2;
+        z-index:-2;*/
       }
       &:after {
-        content: '';
+        /*content: '';
         position: relative;
         left: 0;
         top: -900px;
@@ -368,14 +342,15 @@
         background: #f5f3f3;
         transform: skewY(-3deg);
         -webkit-backface-visibility: hidden;
-        z-index:-2;
+        z-index:-2;*/
       }
     }
 }
 
 #content__designers {
+  margin-bottom: 800px;
     & .round {
-      transform:translateY(-45%);
+      /*transform:translateY(-45%);*/
       box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
     }
     & .bg-image-red {
@@ -391,38 +366,35 @@
       z-index:-2;
     }
     & .float-image-left {
-      width: 550px;
-      height: 311px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 100px;
-      margin-left: -100px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
       position: relative;
       z-index: 2;
-      left: 50%;
+      margin-left: -100px;
+      margin-top: 453px;
     }
     & .float-image-right {
-      width: 500px;
-      height: 266px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -350px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      width: 400%;
+      /* margin-left: -150px; */
+      margin-top: -36px;
       position: relative;
-      z-index: 3;
-      right: 75%;
+      z-index: 1;
+    }
+    & .float-image-right-top {
+      width: 400%;
+      margin-top: -100px;
+      z-index: 0;
+      position: relative;
     }
     & .marketing {
       padding:0px;
-      transform:translateY(2800px);
-      margin-bottom:1000px;
-      background-color:#f5f3f3;
-      height:75px;
-      padding:100px 0px;
+      /*transform:translateY(50%);
+      margin-bottom:1000px;height:75px;
+      padding:100px 0px;*/
+      background-color: #f5f3f3;
+      background: url(assets/img/home/home-bg-triangle-01.svg) no-repeat;
+      background-size: 100%;
       &:before {
-        content: '';
+        /*content: '';
         position: relative;
         left: 0;
         top: -155px;
@@ -431,10 +403,10 @@
         background: #f5f3f3;
         transform: skewY(-3deg);
         -webkit-backface-visibility: hidden;
-        z-index:-2;
+        z-index:-2;*/
       }
       &:after {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
+        /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
         background-color:#f5f3f3;
         position: absolute;
         padding:300px 0px;
@@ -442,7 +414,7 @@
         top: 100px;
         width: 100%;
         height: 135px;
-        z-index:-2;
+        z-index:-2;*/
       }
     }
 }

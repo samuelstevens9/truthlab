@@ -341,7 +341,7 @@
 }
 
 #clients {
-  
+  margin-bottom: -250px;
   & .row {
     padding-top:0px;
   }
@@ -510,7 +510,9 @@ button.slick-prev, button.slick-next {display:none!important;}
 }
 
 #cta {
-  transform:translateY(-280px);
+  /*transform:translateY(-280px);*/
+  z-index: 1;
+  position: relative;
   & .row {
      padding-bottom:0px;
   }
@@ -565,7 +567,7 @@ button.slick-prev, button.slick-next {display:none!important;}
 .cta__blue {
   position:relative;
   color:white;
-  /*padding: 0 15px 1rem 15px;*/
+    @include blueGradient;
   &:before {
     display:block;
     content: '';
@@ -584,7 +586,7 @@ button.slick-prev, button.slick-next {display:none!important;}
   }
 }
 footer {
-  margin-top:120px;
+  margin-top:25px;
   & .row {
     padding-top:0px;
   }

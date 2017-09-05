@@ -224,6 +224,7 @@
 }
 .more-author-mobile {
     display: none;
+    clear: both;
 }
 .post img {
     border: 1px solid #07074e;
@@ -242,6 +243,7 @@
     text-align: right;
 }
 .more-author {
+  clear: both;
     height: auto;
     position: relative;
     background: #75000e;

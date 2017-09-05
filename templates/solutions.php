@@ -12,25 +12,7 @@ get_header(); ?>
 	<h1 class="front hidden-xs">SOLVED</h1>
 	<h3 class="back">Problem Solved</h3>
 </section>
-<?php /*
-<section id="curtain-slider__solutions">
-	<div class="container">
-		<div class="container">
-			<div class="slider">
-			<div class="slide-header active">
-		   	<div class="panel" style="">
-		      	<div class="top" data-back="SOLVED"></div>
-						<div class="bottom" data-back="SOLVED"></div>
-		   	</div>
-				<div class="center">
-		   		<h1>Problem Solved</h1>
-		   	</div>
-			</div>
-		</div>
-		</div>
-	</div>
-</section>
-*/ ?>
+
 <section id="heading__solutions">
 	<div class="row">
 		<div class="container">
@@ -73,27 +55,27 @@ get_header(); ?>
 	<div class="bg-image-red" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
 		<div class="row marketing">
 			<div class="container">
-				<div class="col-md-2">
-					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png');"></div>
-					<!--
-					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
-				-->
-				</div>
-				<div class="col-md-8 image">
-					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/marketer.jpg"/>
-				</div>
-				<div class="col-md-2">
-					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg');"></div>
-					<div class="float-image-right-top" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg');"></div>
+				<div class="col-sm-2 col-sm-push-8">
+					<div class="float-image-right-top"><img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg" alt="success bar graph" /></div>
+					<div class="float-image-right" ><img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg" alt="success circle graph" /></div>
 					<!--
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+				-->
+				</div>
+				<div class="col-sm-8 image">
+					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/marketer.jpg"/>
+				</div>
+				
+				<div class="col-sm-2 col-sm-pull-10">
+					<div class="float-image-left"><img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" alt="success bar graph" /></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
 				-->
 				</div>
 			</div>
 			<div class="row row__copy">
 				<div class="container">
-					<div class="col-md-6"></div>
-					<div class="col-md-6">
+					<div class="col-sm-6 col-sm-offset-6">
 						<div class="solutions__copy">
 							<h2>Marketing</h2>
 							<p>Driven by the speed of insights, the Truthlab CXM platform meets the daily demands faced by Marketing teams.</p>
@@ -109,33 +91,34 @@ get_header(); ?>
 	<div class="bg-image-blue" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
 		<div class="row marketing">
 			<div class="container">
-				<div class="col-md-2">
-					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png');"></div>
-					<!--
-					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
-				-->
-				</div>
-				<div class="col-md-8 image">
-					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
-				</div>
-				<div class="col-md-2">
-					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.svg');"></div>
+				<div class="col-sm-2 col-sm-push-8">
+					<div class="float-image-right" ><img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.svg" alt="project management " /></div>
 					<!-- <div class="float-image-right-top" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg');"></div> -->
 					<!--
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
 				-->
 				</div>
+				<div class="col-sm-8 image">
+					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
+				</div>
+				
+				<div class="col-sm-2 col-sm-pull-10">
+					<div class="float-image-left"><img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png" alt="panel management screenshot" /></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
+				-->
+				</div>
 			</div>
 			<div class="row row__copy">
 				<div class="container">
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="solutions__copy">
 							<h2>Product Managers</h2>
 							<p>Understand and map the customer journey with custom interactive data visualizations that identify key product opportunities.</p>
 							<a href="#">Talk to a Specialist Today >></a>
 						</div>
 					</div>
-					<div class="col-md-6"></div>
+					<div class="col-sm-6"></div>
 				</div>
 			</div>
 		</div>
@@ -145,26 +128,26 @@ get_header(); ?>
 	<div class="bg-image-red" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
 		<div class="row marketing">
 			<div class="container">
-				<div class="col-md-2">
-					<div class="float-image-left" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png');"></div>
-					<!--
-					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
-				-->
-				</div>
-				<div class="col-md-8 image">
-					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/designers.png"/>
-				</div>
-				<div class="col-md-2">
-					<div class="float-image-right" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png');"></div>
+				<div class="col-sm-2 col-sm-push-8">
+					<div class="float-image-right" ><img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png" alt="business development" /></div>
 					<!--
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" />
+				-->
+				</div>
+				<div class="col-sm-8 image">
+					<img class="round" src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/designers.png"/>
+				</div>
+				<div class="col-sm-2 col-sm-pull-8">
+					<div class="float-image-left" ><img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png" alt="sales persona" /></div>
+					<!--
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png" style="width:500px;height:500px;"/>
 				-->
 				</div>
 			</div>
 			<div class="row row__copy">
 				<div class="container">
-					<div class="col-md-6"></div>
-					<div class="col-md-6">
+					<div class="col-sm-6"></div>
+					<div class="col-sm-6">
 						<div class="solutions__copy">
 							<h2>Experience Designers</h2>
 							<p>Identify and analyze audience segments by connecting your user research panel to customizable personas.</p>

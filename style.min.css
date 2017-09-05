@@ -1997,7 +1997,7 @@ nav.navbar.shrink{padding:10px 15px;box-shadow:0 2px 3px rgba(7,7,78,0.6)}
 .request-dropdown input[type="text"]{width:100%;padding:10px;font-size:28px;background-color:#f3f3f3;border:1px solid #333;border-radius:2px}
 .request-dropdown input[type="email"]{width:100%;padding:10px;font-size:28px;background-color:#f3f3f3;border:1px solid #333;border-radius:2px}
 .request-dropdown [class*="col-"]{padding-left:0}
-footer{-webkit-transform:translateY(-380px);-ms-transform:translateY(-380px);transform:translateY(-380px);font-size:1.5rem}
+footer{font-size:1.5rem}
 footer .row{padding-bottom:0}
 .mobile-footer{display:none}
 .main-footer{display:block;padding:0 0 25px 0}
@@ -2061,6 +2061,7 @@ footer .row{padding-bottom:0}
 #panel-management .bg-image-blue{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-left:-1500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
 #panel-management .bg-image-red{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:2950px;margin-right:-1470px;background-repeat:no-repeat;background-size:contain;position:absolute;right:50%;z-index:-2}
 #panel-management .container{margin-top:15%}
+#clients{margin-bottom:-250px}
 #clients .row{padding-top:0}
 #clients .container{background:#fff;background:-webkit-linear-gradient(top,#fff 0,#eff1fa 100%);background:linear-gradient(to bottom,#fff 0,#eff1fa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#eff1fa',GradientType=0);padding-bottom:5rem}
 #clients .quotes{background-image:url(assets/img/home/quotation_start.svg),url(assets/img/home/quotation_end.svg);background-position:left top,right center;background-repeat:no-repeat;background-size:200px}
@@ -2096,7 +2097,7 @@ button.slick-prev,button.slick-next{display:none !important}
 #tcb-testimonial-carousel .carousel-indicators .active{background-color:#07074e}
 .testimonial__author{padding:0;display:table;font-style:italic}
 .testimonial__author div{float:none;display:table-cell;vertical-align:middle}
-#cta{-webkit-transform:translateY(-280px);-ms-transform:translateY(-280px);transform:translateY(-280px)}
+#cta{z-index:1;position:relative}
 #cta .row{padding-bottom:0}
 #cta h2{color:white}
 #cta .white{height:3px;background-color:white;width:100%;display:block;float:left;margin:-10px 0 10px 0}
@@ -2107,10 +2108,10 @@ button.slick-prev,button.slick-next{display:none !important}
 .cta__red{background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);position:relative;padding:0 15px 1rem 15px;color:white}
 .cta__red:before{display:block;content:'';position:absolute;left:0;top:-45px;width:100%;height:105px;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:-1}
 .cta__red a:hover{color:#910811 !important}
-.cta__blue{position:relative;color:white}
+.cta__blue{position:relative;color:white;background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
 .cta__blue:before{display:block;content:'';position:absolute;left:0;top:-45px;width:100%;height:105px;background:-webkit-linear-gradient(left,#FFF 0,#FFF 100%);background:linear-gradient(to right,#FFF 0,#FFF 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:1}
 .cta__blue a:hover{color:#07074e !important}
-footer{margin-top:120px}
+footer{margin-top:25px}
 footer .row{padding-top:0}
 #curtain-slider__solutions{height:700px}
 .slide-header{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
@@ -2123,9 +2124,8 @@ footer .row{padding-top:0}
 #curtain-slider__solutions .slide-header:nth-child(1) .panel>*{background:white;background:white;background-size:400% 400%;-webkit-animation:Gradient 60s ease infinite;animation:Gradient 60s ease infinite;color:rgba(145,8,17,0.6)}
 #curtain-slider__solutions .slider{background:url("assets/img/solutions/hero-bottom.svg") no-repeat;background-position:bottom;background-size:100%}
 #curtain-slider__solutions .slide-header:nth-child(1) .panel>*{background:0}
-.page-template-solutions #cta{-webkit-transform:translateY(3500px);-ms-transform:translateY(3500px);transform:translateY(3500px)}
-.page-template-solutions footer{margin-top:25px;-webkit-transform:translateY(3500px);-ms-transform:translateY(3500px);transform:translateY(3500px)}
-.row__copy{padding:0;-webkit-transform:translateY(-150px);-ms-transform:translateY(-150px);transform:translateY(-150px)}
+.page-template-solutions footer{margin-top:25px}
+.row__copy{padding:0}
 .row__copy a{color:#07074e}
 #solutions .row{padding-bottom:0}
 #solutions .panel-heading{color:#910811;background-color:white;border:0;padding:none;border-bottom:0;border-radius:none}
@@ -2144,31 +2144,29 @@ footer .row{padding-top:0}
 #tabs .content{text-align:center;padding:100px 0 200px 0}
 #tabs img{margin-bottom:50px}
 #tabs .content h3{margin:75px 0 25 0}
+#content__marketing{margin-bottom:1500px}
 #content__marketing .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:2600px;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
 #content__marketing .bg-image-blue{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-left:-1500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
-#content__marketing .float-image-left{width:550px;height:311px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:225px;margin-left:-250px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-#content__marketing .float-image-right{width:550px;height:187px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-50px;margin-right:-50px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:3;right:75%}
-#content__marketing .float-image-right-top{width:550px;height:187px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-390px;margin-right:-50px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:-1;right:85%}
-#content__marketing .marketing{padding:0;-webkit-transform:translateY(50%);-ms-transform:translateY(50%);transform:translateY(50%);margin-bottom:1000px;background-color:#f5f3f3;height:75px;padding:100px 0}
-#content__marketing .marketing:before{content:'';position:relative;left:0;top:-55px;width:100%;height:110px;background:#f5f3f3;-webkit-transform:skewY(-3deg);-ms-transform:skewY(-3deg);transform:skewY(-3deg);-webkit-backface-visibility:hidden;z-index:-2}
-#content__marketing .marketing:after{-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 23%);clip-path:polygon(0 0,100% 0,100% 100%,0 23%);background-color:#f5f3f3;position:absolute;padding:300px 0;left:0;top:100px;width:100%;height:135px;z-index:-2}
-#content__marketing .marketing .round{-webkit-transform:translateY(-35%);-ms-transform:translateY(-35%);transform:translateY(-35%);box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
+#content__marketing .float-image-left{width:400%;position:relative;z-index:2;margin-left:-100px;margin-top:453px}
+#content__marketing .float-image-right{width:400%;margin-top:-36px;position:relative;z-index:1}
+#content__marketing .float-image-right-top{width:400%;margin-top:-100px;z-index:0;position:relative}
+#content__marketing .marketing{padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-01.svg) no-repeat;background-size:100%}
+#content__marketing .marketing .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
+#content__product{margin-bottom:1500px}
 #content__product .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:2600px;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
 #content__product .bg-image-blue{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:5200px;margin-right:-2500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:50%}
-#content__product .float-image-left{width:550px;height:311px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:100px;margin-left:-250px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-#content__product .float-image-right{width:550px;height:277px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-335px;margin-right:50px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:3;right:75%}
-#content__product .float-image-right-top{width:550px;height:187px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-200px;margin-right:-50px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:-1;right:85%}
-#content__product .round{-webkit-transform:translateY(-55%);-ms-transform:translateY(-55%);transform:translateY(-55%);box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
-#content__product .marketing{padding:0;-webkit-transform:translateY(1900px);-ms-transform:translateY(1900px);transform:translateY(1900px);margin-bottom:1000px;background-color:#f5f3f3;height:275px;padding:100px 0}
-#content__product .marketing:before{-webkit-clip-path:polygon(0 0,100% 40%,100% 77%,0 100%);clip-path:polygon(0 0,100% 40%,100% 77%,0 100%);background-color:#f5f3f3;position:absolute;padding:300px 0;left:0;top:-250px;width:100%;height:135px;z-index:-2}
-#content__product .marketing:after{content:'';position:relative;left:0;top:-900px;width:100%;height:110px;background:#f5f3f3;-webkit-transform:skewY(-3deg);-ms-transform:skewY(-3deg);transform:skewY(-3deg);-webkit-backface-visibility:hidden;z-index:-2}
-#content__designers .round{-webkit-transform:translateY(-45%);-ms-transform:translateY(-45%);transform:translateY(-45%);box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
+#content__product .float-image-left{width:400%;position:relative;z-index:2;margin-left:-100px;margin-top:453px}
+#content__product .float-image-right{width:400%;margin-top:-36px;position:relative;z-index:1}
+#content__product .float-image-right-top{width:400%;margin-top:-100px;z-index:0;position:relative}
+#content__product .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
+#content__product .marketing{padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%}
+#content__designers{margin-bottom:800px}
+#content__designers .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
 #content__designers .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:7800px;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
-#content__designers .float-image-left{width:550px;height:311px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:100px;margin-left:-100px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-#content__designers .float-image-right{width:500px;height:266px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-350px;margin-right:-50px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:3;right:75%}
-#content__designers .marketing{padding:0;-webkit-transform:translateY(2800px);-ms-transform:translateY(2800px);transform:translateY(2800px);margin-bottom:1000px;background-color:#f5f3f3;height:75px;padding:100px 0}
-#content__designers .marketing:before{content:'';position:relative;left:0;top:-155px;width:100%;height:110px;background:#f5f3f3;-webkit-transform:skewY(-3deg);-ms-transform:skewY(-3deg);transform:skewY(-3deg);-webkit-backface-visibility:hidden;z-index:-2}
-#content__designers .marketing:after{-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 23%);clip-path:polygon(0 0,100% 0,100% 100%,0 23%);background-color:#f5f3f3;position:absolute;padding:300px 0;left:0;top:100px;width:100%;height:135px;z-index:-2}
+#content__designers .float-image-left{width:400%;position:relative;z-index:2;margin-left:-100px;margin-top:453px}
+#content__designers .float-image-right{width:400%;margin-top:-36px;position:relative;z-index:1}
+#content__designers .float-image-right-top{width:400%;margin-top:-100px;z-index:0;position:relative}
+#content__designers .marketing{padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-01.svg) no-repeat;background-size:100%}
 hr.blue-bar{border-top:15px solid #07074e}
 .tl-red{color:#910811}
 #primary.container{margin-bottom:380px}
@@ -2242,7 +2240,7 @@ br{clear:both}
 #careers .blue-box .panel-title{color:#07074e;font-size:2rem}
 #careers .blue-box .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
 .page-template-aboutus #cta{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
-.cta__blue{margin-bottom:200px;background:-webkit-linear-gradient(left,#005 0,#0016a3 100%);background:linear-gradient(to right,#005 0,#0016a3 100%)}
+.page-template-aboutus .cta__blue{margin-bottom:200px}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(2000px);-ms-transform:translateY(2000px);transform:translateY(2000px);position:relative}
 .page-template-terms .row{padding:1.5rem 0}
 .page-template-privacy .row{padding:1.5rem 0}
@@ -2302,11 +2300,11 @@ br{clear:both}
 .blog-post .rt-reading-time{display:none !important}
 .blog-post img.alignright{margin:20px -115px 20px 20px}
 .blog-post img.alignleft{margin:20px 20px 20px -255px}
-.more-author-mobile{display:none}
+.more-author-mobile{display:none;clear:both}
 .post img{border:1px solid #07074e}
 #main article blockquote{width:70%;padding:10% 10% 10% 0;border-left:0;margin:40px 40px 40px -325px;margin-bottom:40px !important;float:left}
 #main article blockquote p{font-size:2.5rem;line-height:3rem;text-align:right}
-.more-author{height:auto;position:relative;background:#75000e;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#75000e',endColorstr='#dd0035',GradientType=1);-ms-box-orient:horizontal;color:white;width:90%;padding:25px}
+.more-author{clear:both;height:auto;position:relative;background:#75000e;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#75000e',endColorstr='#dd0035',GradientType=1);-ms-box-orient:horizontal;color:white;width:90%;padding:25px}
 .more-author p.more{font-style:italic;display:inline;width:30%;float:left;padding-right:0;color:white}
 .more-author .name{display:inline;width:50%;float:left;-webkit-transform:translateX(25%);-ms-transform:translateX(25%);transform:translateX(25%);margin-top:20px}
 .more-author img{display:inline;width:100px;height:100px;border:5px solid white;border-radius:50%;-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);background:#FFF}
@@ -2708,7 +2706,7 @@ blockquote:hover{box-shadow:none}
 .panel-default{border-color:#07074e}
 .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f067";float:right;color:grey}
 .panel-heading .accordion-toggle.collapsed:after{content:"\f068"}
-footer{margin-top:100px;padding-bottom:50px}
+footer{margin-top:10px;padding-bottom:50px}
 footer .main-footer{display:none;padding:0 0 25px 0}
 footer .main-footer [class*="col-"]{padding:0}
 footer .main-footer h4:hover{color:#910811}
@@ -2766,7 +2764,7 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 .testimonial__author{padding:0;display:table;font-style:italic}
 .testimonial__author img{display:block;margin:35px 0 35px 33%}
 .testimonial__author div{width:100%;float:left;display:block;vertical-align:none}
-#cta{-webkit-transform:translateY(-280px);-ms-transform:translateY(-280px);transform:translateY(-280px);text-align:center;font-size:1.5rem}
+#cta{text-align:center;font-size:1.5rem}
 #cta .container{padding:0}
 #cta .row{padding:20px 20px 30px 20px}
 #cta h2{color:white;margin-top:0;font-size:2.5rem;padding-top:0}
@@ -2795,34 +2793,37 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #tabs .content{text-align:center;padding:25px 0 00px 0}
 #tabs img{margin-bottom:50px}
 #tabs .content h3{margin:75px 0 25 0}
-#content__marketing .row__copy{margin-top:150px}
+#content__marketing{margin-bottom:200px}
+#content__marketing .row__copy{margin-top:15px}
 #content__marketing .bg-image-red{width:1000px;height:1000px;top:2300px;margin-left:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
-#content__marketing .float-image-left{width:350px;height:250px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:300px;margin-left:-175px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-#content__marketing .float-image-right{width:300px;height:150px;top:-400px;margin-right:140px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:3;right:-20%}
-#content__marketing .float-image-right-top{width:550px;height:187px;top:-700px;margin-right:-0;background-repeat:no-repeat;background-size:contain;position:relative;z-index:-1;right:15%}
-#content__marketing .marketing{padding:0;-webkit-transform:translateY(50%);-ms-transform:translateY(50%);transform:translateY(50%);margin-bottom:1000px;background-color:transparent;height:75px;padding:100px 0;text-align:center}
+#content__marketing .float-image-left{width:100%;margin-top:-50px;margin-left:0}
+#content__marketing .float-image-right{width:100%;z-index:1;position:relative}
+#content__marketing .float-image-right-top{width:100%;z-index:1;position:relative;margin-top:0}
+#content__marketing .marketing{padding:0;background-position-y:center;text-align:center}
 #content__marketing .marketing:before{content:'';position:relative;left:0;top:-55px;width:100%;height:110px;background:transparent;-webkit-transform:skewY(-3deg);-ms-transform:skewY(-3deg);transform:skewY(-3deg);-webkit-backface-visibility:hidden;z-index:-2}
 #content__marketing .marketing:after{-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 23%);clip-path:polygon(0 0,100% 0,100% 100%,0 23%);background-color:transparent;position:absolute;padding:300px 0;left:0;top:100px;width:100%;height:135px;z-index:-2}
-#content__marketing .marketing .round{-webkit-transform:translateY(-92%);-ms-transform:translateY(-92%);transform:translateY(-92%);width:200% !important;right:-25%;box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);position:fixed}
+#content__marketing .marketing .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);margin-top:-123px;margin-right:-200px}
+#content__product{margin-bottom:200px}
 #content__product .bg-image-blue{width:1000px;height:1000px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-right:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:50%}
-#content__product .float-image-left{width:350px;height:250px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:20px;margin-left:-175px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-#content__product .float-image-right{width:300px;height:150px;top:-700px;margin-right:140px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:3;right:-20%}
-#content__product .float-image-right-top{width:550px;height:187px;top:-1000px;margin-right:-0;background-repeat:no-repeat;background-size:contain;position:relative;z-index:-1;right:15%}
-#content__product .round{-webkit-transform:translateY(-55%);-ms-transform:translateY(-55%);transform:translateY(-55%);box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
-#content__product .marketing{padding:0;-webkit-transform:translateY(800px);-ms-transform:translateY(800px);transform:translateY(800px);margin-bottom:1000px;background-color:white;height:275px;padding:100px 0;text-align:center}
+#content__product .float-image-left{width:100%;margin-top:-50px;margin-left:0}
+#content__product .float-image-right{width:100%;z-index:1;position:relative}
+#content__product .float-image-right-top{width:100%;z-index:1;position:relative;margin-top:0}
+#content__product .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);margin-top:-123px;margin-right:-200px}
+#content__product .marketing{padding:0;background-position-y:center;text-align:center}
 #content__product .marketing:before{-webkit-clip-path:polygon(0 0,100% 40%,100% 77%,0 100%);clip-path:polygon(0 0,100% 40%,100% 77%,0 100%);background-color:white;position:absolute;padding:300px 0;left:0;top:-250px;width:100%;height:135px;z-index:-2}
 #content__product .marketing:after{content:none;background-color:none}
-#content__product .marketing .round{-webkit-transform:translateY(-150%);-ms-transform:translateY(-150%);transform:translateY(-150%);left:-25%;box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);position:fixed}
-#content__designers .row__copy{margin-top:225px}
-#content__designers .round{-webkit-transform:translateY(-115%);-ms-transform:translateY(-115%);transform:translateY(-115%);width:200% !important;right:-25%;box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);position:fixed}
+#content__product .marketing .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);margin-top:-123px;margin-right:-200px}
+#content__designers{margin-bottom:200px}
+#content__designers .row__copy{margin-top:15px}
+#content__designers .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55);margin-top:-123px;margin-right:-200px}
 #content__designers .bg-image-red{width:1000px;height:1000px;top:5500px;margin-left:-850px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
-#content__designers .float-image-left{width:400px;height:250px;top:100px;margin-left:-100px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:25%}
-#content__designers .float-image-right{width:300px;height:150px;top:-600px;margin-right:-50px;background-repeat:no-repeat;background-size:contain;position:relative;z-index:3;right:-10%}
-#content__designers .marketing{padding:0;-webkit-transform:translateY(1000px);-ms-transform:translateY(1000px);transform:translateY(1000px);margin-bottom:1000px;background-color:transparent;height:75px;padding:100px 0;text-align:center}
+#content__designers .float-image-left{width:100%;margin-top:-50px;margin-left:0}
+#content__designers .float-image-right{width:100%;z-index:1;position:relative}
+#content__designers .float-image-right-top{width:100%;z-index:1;position:relative;margin-top:0}
+#content__designers .marketing{padding:0;background-position-y:center;text-align:center}
 #content__designers .marketing:before{content:none;position:relative;left:0;top:-155px;width:100%;height:110px;background:0;-webkit-transform:skewY(-3deg);-ms-transform:skewY(-3deg);transform:skewY(-3deg);-webkit-backface-visibility:hidden;z-index:-2}
 #content__designers .marketing:after{-webkit-clip-path:hidden;clip-path:hidden;background-color:transparent;position:absolute;padding:300px 0;left:0;top:100px;width:100%;height:135px;z-index:-2}
-.page-template-solutions #cta{-webkit-transform:translateY(800px);-ms-transform:translateY(800px);transform:translateY(800px)}
-.page-template-solutions footer{margin-top:0;-webkit-transform:translateY(800px);-ms-transform:translateY(800px);transform:translateY(800px)}
+.page-template-solutions footer{margin-top:0}
 #hero{background:0;margin-top:60px;height:400px}
 #hero .front{top:18%;font-size:12rem}
 #hero .back{top:23%;font-size:3rem}

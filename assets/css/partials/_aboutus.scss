@@ -386,9 +386,9 @@ br{clear: both;}
   position:relative;
 }
 
-.cta__blue {
+.page-template-aboutus .cta__blue {
   margin-bottom:200px;
-  @include blueGradient;
+
   &:before {
     /*@include blueGradient;*/
   }

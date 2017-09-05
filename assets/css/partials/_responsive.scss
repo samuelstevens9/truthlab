@@ -617,7 +617,7 @@
 
 
   footer {
-    margin-top:100px;
+    margin-top:10px;
     padding-bottom:50px;
       & .main-footer {
       display:none;
@@ -896,7 +896,7 @@
   }
 
   #cta {
-    transform:translateY(-280px);
+    /*transform:translateY(-280px);*/
     text-align:center;
     font-size:1.5rem;
       & .container {padding:0px;}
@@ -1023,8 +1023,9 @@
   }
 
   #content__marketing {
+    margin-bottom: 200px;
     & .row__copy {
-      margin-top:150px;
+      margin-top:15px;
     }
       & .bg-image-red {
         width: 1000px;
@@ -1038,46 +1039,27 @@
         z-index:-2;
       }
       & .float-image-left {
-        width: 350px;
-        height: 250px;
-        background-image: url(//static.mailchimp.com/web/root/blank.gif);
-        top: 300px;
-        margin-left: -175px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: relative;
-        z-index: 2;
-        left: 50%;
+        width: 100%;
+        margin-top: -50px;
+        margin-left: 0;
       }
       & .float-image-right {
-        width: 300px;
-        height: 150px;
-        top: -400px;
-        margin-right: 140px;
-        background-repeat: no-repeat;
-        background-size: contain;
+        width: 100%;
+        z-index: 1;
         position: relative;
-        z-index: 3;
-        right: -20%;
       }
       & .float-image-right-top {
-        width: 550px;
-        height: 187px;
-        top: -700px;
-        margin-right: -0px;
-        background-repeat: no-repeat;
-        background-size: contain;
+        width: 100%;
+        z-index: 1;
         position: relative;
-        z-index: -1;
-        right: 15%;
+        margin-top: 0;
       }
       & .marketing {
         padding:0px;
-        transform:translateY(50%);
-        margin-bottom:1000px;
-        background-color:transparent;
-        height:75px;
-        padding:100px 0px;
+        /*transform:translateY(50%);
+        margin-bottom:1000px;height:75px;
+        padding:100px 0px;*/
+        background-position-y: center;
         text-align:center;
         &:before {
           content: '';
@@ -1103,16 +1085,15 @@
           z-index:-2;
         }
         & .round {
-          transform:translateY(-92%);
-          width:200%!important;
-          /*height:200%!important;*/
-          right:-25%;
-          box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
-          position:fixed;
+          box-shadow: 5px 30px 5px 0 rgba(145,8,17,0.55);
+          margin-top: -123px;
+          margin-right: -200px;
+          
         }
       }
   }
   #content__product {
+    margin-bottom: 200px;
       & .bg-image-blue {
         width: 1000px;
         height: 1000px;
@@ -1126,50 +1107,32 @@
         right: 50%;
       }
       & .float-image-left {
-        width: 350px;
-        height: 250px;
-        background-image: url(//static.mailchimp.com/web/root/blank.gif);
-        top: 20px;
-        margin-left: -175px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: relative;
-        z-index: 2;
-        left: 50%;
+        width: 100%;
+        margin-top: -50px;
+        margin-left: 0;
       }
       & .float-image-right {
-        width: 300px;
-        height: 150px;
-        top: -700px;
-        margin-right: 140px;
-        background-repeat: no-repeat;
-        background-size: contain;
+        width: 100%;
+        z-index: 1;
         position: relative;
-        z-index: 3;
-        right: -20%;
       }
       & .float-image-right-top {
-        width: 550px;
-        height: 187px;
-        top: -1000px;
-        margin-right: -0px;
-        background-repeat: no-repeat;
-        background-size: contain;
+        width: 100%;
+        z-index: 1;
         position: relative;
-        z-index: -1;
-        right: 15%;
+        margin-top: 0;
       }
       & .round {
-        transform:translateY(-55%);
-        box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+        box-shadow: 5px 30px 5px 0 rgba(145,8,17,0.55);
+        margin-top: -123px;
+        margin-right: -200px;
       }
       & .marketing {
         padding:0px;
-        transform:translateY(800px);
-        margin-bottom:1000px;
-        background-color:white;
-        height:275px;
-        padding:100px 0px;
+        /*transform:translateY(50%);
+        margin-bottom:1000px;height:75px;
+        padding:100px 0px;*/
+        background-position-y: center;
         text-align:center;
         &:before {
           clip-path: polygon(0 0, 100% 40%, 100% 77%, 0% 100%);
@@ -1187,25 +1150,24 @@
           background-color:none;
         }
         & .round {
-          transform:translateY(-150%);
-          left:-25%;
-          box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
-          position:fixed;
+          box-shadow: 5px 30px 5px 0 rgba(145,8,17,0.55);
+          margin-top: -123px;
+          margin-right: -200px;
+          
         }
       }
   }
 
   #content__designers {
+    margin-bottom: 200px;
     & .row__copy {
-      margin-top:225px;
+      margin-top:15px;
     }
       & .round {
-        transform:translateY(-115%);
-        width:200%!important;
-        /*height:200%!important;*/
-        right:-25%;
-        box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
-        position:fixed;
+        box-shadow: 5px 30px 5px 0 rgba(145,8,17,0.55);
+        margin-top: -123px;
+        margin-right: -200px;
+        
       }
       & .bg-image-red {
         width: 1000px;
@@ -1219,34 +1181,27 @@
         z-index:-2;
       }
       & .float-image-left {
-        width: 400px;
-        height: 250px;
-        top: 100px;
-        margin-left: -100px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: relative;
-        z-index: 2;
-        left: 25%;
+        width: 100%;
+        margin-top: -50px;
+        margin-left: 0;
       }
       & .float-image-right {
-        width: 300px;
-        height: 150px;
-        top: -600px;
-        margin-right: -50px;
-        background-repeat: no-repeat;
-        background-size: contain;
+        width: 100%;
+        z-index: 1;
         position: relative;
-        z-index: 3;
-        right: -10%;
+      }
+      & .float-image-right-top {
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        margin-top: 0;
       }
       & .marketing {
         padding:0px;
-        transform:translateY(1000px);
-        margin-bottom:1000px;
-        background-color:transparent;
-        height:75px;
-        padding:100px 0px;
+        /*transform:translateY(50%);
+        margin-bottom:1000px;height:75px;
+        padding:100px 0px;*/
+        background-position-y: center;
         text-align:center;
         &:before {
           content:none;
@@ -1275,12 +1230,12 @@
   }
 
   .page-template-solutions #cta {
-    transform:translateY(800px);
+    /*transform:translateY(800px);*/
   }
 
   .page-template-solutions footer {
     margin-top:0px;
-    transform:translateY(800px);
+    /*transform:translateY(800px);*/
   }
 
 
