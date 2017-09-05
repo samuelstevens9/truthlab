@@ -2636,7 +2636,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .footer-bottom .copyright{display:block;text-align:center;padding-top:10px}
 #primary{padding:0}
 .blog-post{padding:0 32px}
-#main article blockquote{background-color:#07074e;box-shadow:none;margin:10px 30px 10px 0;margin-bottom:10px !important;width:100%;padding:10%;margin-left:-170px;float:left;border-radius:0 50% 50% 0}
+#main article blockquote{background-color:#07074e;box-shadow:none;margin:10px 30px 10px 0;margin-bottom:10px !important;width:100%;padding:10%;margin-left:50%;float:left;border-radius:0 50% 50% 0}
 blockquote:hover{box-shadow:none}
 #main article blockquote p{font-size:1.3rem;line-height:2rem;text-align:left;color:white;margin-bottom:5px;float:right;padding-left:50%}
 #main article blockquote p.author{display:none}
