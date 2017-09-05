@@ -8,15 +8,11 @@
 
 get_header(); ?>
 
-<section id="hero" class="hidden-xs">
+<section id="hero" class="">
 	<h1 class="front">JOURNEY</h1>
 	<h3 class="back">We're all about the journey</h3>
 </section>
-<section class="visible-xs" >
-	<div class="row">
-		<h3 class="col-xs-10 col-xs-offset-2">We're all about the journey</h3>
-	</div>
-</section>
+
 <div class="angle-shadow"></div>
 
 <div id="mission">

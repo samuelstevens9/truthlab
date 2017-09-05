@@ -29,6 +29,15 @@
   #panel-management{
     margin-top: 28%;
   }
+  #hero {
+    
+    & .front {
+       font-size: 19rem;
+    }
+    & .back {
+       font-size: 5rem;
+    }
+  }
 }
 @media only screen and (max-width: 1200px) {
   .top-row .copy {
@@ -75,6 +84,18 @@
     /*height: 400px;*/
   }
 }
+@media only screen and (max-width: 1024px) {
+  #hero {
+    & .front {
+      top: 18%;
+       font-size: 17rem;
+    }
+    & .back {
+      top: 26%;
+       font-size: 5rem;
+    }
+  }
+}
 @media only screen and (max-width: 991px) {
   .navbar-default .navbar-nav>li>a.button {
     padding: 7px 6px !important;
@@ -89,9 +110,32 @@
     width: 80%;
     left: 10%;
   }
+  #panel-management{
+    margin-top: 28%;
+  }
+      
+  #hero {
+    & .front {
+
+       font-size: 16rem;
+    }
+    & .back {
+      
+    }
+  }
 }
 /***** BLOG 860px *****/
 @media (max-width:860px) {
+  #hero {
+    height: 600px;
+    & .front {
+       font-size: 14rem;
+    }
+    & .back {
+      top: 24%;
+    }
+  }
+  
 	#masthead .header-right .menu li.menu-search {display:inline-block;}
 	#masthead .header-right .menu li:nth-last-child(2), #masthead .header-right .menu li:nth-last-child(3) {
 		display:none;
@@ -598,7 +642,7 @@
         color:$blue;
         & img {
           margin:20px 0px;
-          height:15%;
+          /*height:15%;*/
           width:15%;
         }
       }
@@ -686,7 +730,7 @@
     & img {
       border-radius:50%;
       width:100%;
-      height:100%;
+      /*height:100%;*/
     }
   }
 
@@ -775,7 +819,7 @@
     }
     & .image {
         width:100%;
-        height:100%;
+        /*height:100%;*/
         overflow: hidden;
         & img{
           margin-left: 30%; 
@@ -783,7 +827,7 @@
     }
     & .image:last-child {
         width:100%;
-        height:100%;
+        /*height:100%;*/
         right:0;
         /*transform:translateY(-115%);*/
         & img{
@@ -1061,7 +1105,7 @@
         & .round {
           transform:translateY(-92%);
           width:200%!important;
-          height:200%!important;
+          /*height:200%!important;*/
           right:-25%;
           box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
           position:fixed;
@@ -1158,7 +1202,7 @@
       & .round {
         transform:translateY(-115%);
         width:200%!important;
-        height:200%!important;
+        /*height:200%!important;*/
         right:-25%;
         box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
         position:fixed;
@@ -1244,26 +1288,16 @@
   /** About               **/
   /*************************/
   #hero {
+    background: none;
+    margin-top: 60px;
     height:400px;
-    & .front {
-       position:absolute;
-       top:50%;
-       transform:translateY(-200%);
-       left:0;
-       width:100%;
-       text-align:center;
-       color:#dedee3;
-       font-size:6rem;
+    & .front {       
+       top:18%;
+       font-size:12rem;
     }
     & .back {
-       position:absolute;
-       top:50%;
-       transform:translateY(-360%);
-       left:0;
-       width:100%;
-       text-align:center;
-       color:$blue;
-       font-size:2rem;
+       top:23%;
+       font-size:3rem;
     }
   }
 
