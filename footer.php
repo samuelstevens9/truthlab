@@ -8,21 +8,21 @@
   <div class="row">
 
     <div class="mobile-footer container">
-      <div class="panel-group" id="accordion">
-        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+      <div class="panel-group" id="footer-accordion">
+        <div class="accordion-toggle" >
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <div class="accordion-toggle">
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#footer-accordion" href="#footerSolutions">
                   Solutions
                 </div>
               </h4>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse">
+            <div id="footerSolutions" class="panel-collapse collapse">
               <div class="panel-body">
                 <div class="container">
                   <ul>
-                    <li><a href="/solutions/"><h4>Solutions</h4></a></li>
+                    <li><a href="/solutions/">Solutions</a></li>
                     <li><a href="/solutions/#content__marketing">For Marketers</a></li>
                     <li><a href="/solutions/#content__product">For Product Managers</a></li>
                     <li><a href="/solutions/#content__designers">For Experience Designers</a></li>
@@ -32,20 +32,20 @@
             </div>
           </div>
         </div>
-        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        <div class="accordion-toggle" >
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <div class="accordion-toggle">
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#footer-accordion" href="#footerAbout">
                   About
                 </div>
               </h4>
             </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
+            <div id="footerAbout" class="panel-collapse collapse">
               <div class="panel-body">
                 <div class="container">
                   <ul>
-                    <li><a href="/about/"><h4>About</h4></a></li>
+                    <li><a href="/about/">About</a></li>
                     <li><a href="/about/#mission">Our Mission</a></li>
                     <li><a href="/about/#leadership">Leadership</a></li>
                     <li><a href="/about/#culture">Culture</a></li>
@@ -56,16 +56,16 @@
             </div>
           </div>
         </div>
-        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <div class="accordion-toggle" >
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <div class="accordion-toggle">
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#footer-accordion" href="#footerResources">
                   Resources
                 </div>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse">
+            <div id="footerResources" class="panel-collapse collapse">
               <div class="panel-body">
                 <div class="container">
                   <ul>
