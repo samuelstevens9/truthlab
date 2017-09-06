@@ -37,7 +37,7 @@
   <!-- Fixed navbar -->
 	<a class="request-dropdown-mobile request-toggle" style="z-index:5555;">Request a Demo <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 
-	
+
   <nav class="navbar navbar-default navbar-fixed-top">
   	<div class="container">
   		<div class="navbar-header">
@@ -80,7 +80,7 @@
 
 	<div class="request-dropdown">
 
-			<form action="https://dev.truthlab.com/p/api/v2/demo/handler/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form action="https://app.truthlab.com/p/api/v2/demo/handler/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<h2>Request a Demo</h2>
 				<div class="col-md-5">
 					<input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
