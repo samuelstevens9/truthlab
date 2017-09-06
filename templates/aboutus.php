@@ -60,10 +60,10 @@ customer journey.</p>
 		          <div class="panel panel-default">
 		            <div class="panel-heading">
 		              <h4 class="panel-title">
-		                <div class="accordion-toggle"><?php if($is_ie): ?><div class="text-right"><img src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png" height="35" style="height:35px !important;" /></div><?php endif; ?></div>
+		                <div class="accordion-toggle"><?php if(false): ?><div class="text-right"><img src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png" height="35" style="height:35px !important;" /></div><?php endif; ?></div>
 		              </h4>
 		            </div>
-		            <div id="collapseOne" class="panel-collapse collapse">
+		            <div id="collapseOne" class="<?php if(!$is_ie): ?>panel-collapse collapse<?php endif; ?>">
 		              <div class="panel-body">
 		                <div class="container">
 											<p>A leader with a mean golf swing and a fresh perspective, Patrick is a proud dad with coaching skills on and off the field. Formerly VP of Sales at Marketo, he has more than 20 years of experience in software industry leadership. Patrick is dedicated to helping Truthlab’s customers create amazing customer experiences.</p>
@@ -109,10 +109,10 @@ customer journey.</p>
 		          <div class="panel panel-default">
 		            <div class="panel-heading">
 		              <h4 class="panel-title">
-		                <div class="accordion-toggle"><?php if($is_ie): ?><div class="text-right"><img src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png" height="35" style="height:35px !important;" /></div><?php endif; ?></div>
+		                <div class="accordion-toggle"><?php if(false): ?><div class="text-right"><img src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png" height="35" style="height:35px !important;" /></div><?php endif; ?></div>
 		              </h4>
 		            </div>
-		            <div id="collapseTwo" class="panel-collapse collapse">
+		            <div id="collapseTwo" class="<?php if(!$is_ie): ?>panel-collapse collapse<?php endif; ?>">
 		              <div class="panel-body">
 		                <div class="container">
 											<p>A technical innovator who is normally in front of a computer terminal or out in the surf, Scott loves building new technologies and working with those excited to do the same. Formerly a naval officer, nuclear engineer, sales engineering leader for applied artificial intelligence, and chief technology officer of a baseball analytics company. He has a BSEE and MSEE in Electrical Engineering from the University of Southern California, graduate certificate in Nuclear Engineering from the Bettis Atomic Power Laboratory, and MS in Finance from George Washington University. Scott is passionate about helping Truthlab’s customers have the best tools to create amazing customer experiences.</p>
