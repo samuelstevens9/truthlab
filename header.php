@@ -44,7 +44,7 @@ $is_ie = preg_match('/Edge/i', $user_agent) || preg_match('/Trident/i', $user_ag
   <!-- Fixed navbar -->
 	<a class="request-dropdown-mobile request-toggle" style="z-index:5555;">Request a Demo <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 
-	
+
   <nav class="navbar navbar-default navbar-fixed-top">
   	<div class="container">
   		<div class="navbar-header">
