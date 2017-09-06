@@ -8,6 +8,16 @@
        /*margin-top: 10%;*/
     }
   }
+  .page-template-aboutus {
+    & #team-left {
+      & .profile-image {
+        margin-left: -44%;
+      }
+      & .hexagon{
+        margin-left: -55%;
+      }
+    }
+  }
 }
 @media only screen and (max-width: 1220px) {
   
@@ -121,6 +131,16 @@
     }
     & .back {
       
+    }
+  }
+  .page-template-aboutus {
+    & #team-left {
+      & .profile-image {
+        margin-left: -47%;
+      }
+      & .hexagon{
+        margin-left: -62%;
+      }
     }
   }
 }

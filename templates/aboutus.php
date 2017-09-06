@@ -6,7 +6,11 @@
  * @package Truthlab
  */
 
-get_header(); ?>
+get_header(); 
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+$is_ie = preg_match('/Edge/i', $user_agent) || preg_match('/Trident/i', $user_agent);
+
+?>
 
 <section id="hero" class="">
 	<h1 class="front">JOURNEY</h1>
@@ -56,7 +60,7 @@ customer journey.</p>
 		          <div class="panel panel-default">
 		            <div class="panel-heading">
 		              <h4 class="panel-title">
-		                <div class="accordion-toggle"></div>
+		                <div class="accordion-toggle"><?php if($is_ie): ?><div class="text-right"><img src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png" height="35" style="height:35px !important;" /></div><?php endif; ?></div>
 		              </h4>
 		            </div>
 		            <div id="collapseOne" class="panel-collapse collapse">
@@ -73,11 +77,20 @@ customer journey.</p>
 		      </div>
 			</div>
 			<div class="col-md-4 col-xs-12 social">
+				<?php if($is_ie): ?>
+          <ul>
+  					<li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png" height="40" style="height:40px !important;" /></a></li>
+  					<li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/facebook.png" height="40" style="height:40px !important;"  /></a></li>
+  					<li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png" height="40" style="height:40px !important;"  /></a></li>
+  					<li><a href="https://plus.google.com/109045923061674684524" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png" height="40" style="height:40px !important;"  /></i></a></li>
+  				</ul>  
+        <?php else: ?>
 				<ul>
 					<li><a href="https://www.linkedin.com/company-beta/10992459/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
 				</ul>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
@@ -96,7 +109,7 @@ customer journey.</p>
 		          <div class="panel panel-default">
 		            <div class="panel-heading">
 		              <h4 class="panel-title">
-		                <div class="accordion-toggle"></div>
+		                <div class="accordion-toggle"><?php if($is_ie): ?><div class="text-right"><img src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png" height="35" style="height:35px !important;" /></div><?php endif; ?></div>
 		              </h4>
 		            </div>
 		            <div id="collapseTwo" class="panel-collapse collapse">
@@ -113,11 +126,19 @@ customer journey.</p>
 		      </div>
 			</div>
 			<div class="col-md-4 col-xs-12 social">
+				<?php if($is_ie): ?>
+          <ul>
+  					<li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png" height="40" style="height:40px !important;" /></a></li>
+  					<li><a href="https://twitter.com/sahutchi" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png" height="40" style="height:40px !important;"  /></a></li>
+  					<li><a href="https://plus.google.com/u/0/103787897438509801954" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png" height="40" style="height:40px !important;"  /></i></a></li>
+  				</ul>  
+        <?php else: ?>
 				<ul>
 					<li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://twitter.com/sahutchi" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
 					<li><a href="https://plus.google.com/u/0/103787897438509801954" target="_blank"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
 				</ul>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>

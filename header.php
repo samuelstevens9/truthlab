@@ -3,6 +3,12 @@
  * The header for our theme.
  *
  */
+//$browser = get_browser(null, true);//get_browser(): browscap ini directive not set
+//print_r($browser);
+//echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+$is_ie = preg_match('/Edge/i', $user_agent) || preg_match('/Trident/i', $user_agent);
+//var_dump($is_ie);
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -13,6 +19,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|PT+Sans+Narrow:400,700|PT+Sans:400,400i,700,700i|PT+Sans+Caption:400,700|Open+Sans:300,400,400i,600,700|Roboto+Mono:400,700" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<?php wp_head(); ?>
 
@@ -80,7 +87,7 @@
 
 	<div class="request-dropdown">
 
-			<form action="https://dev.truthlab.com/p/api/v2/demo/handler/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form action="https://app.truthlab.com/p/api/v2/demo/handler/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<h2>Request a Demo</h2>
 				<div class="col-md-5">
 					<input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
@@ -100,7 +107,7 @@
 <script>
 (function( $ ) {
 	$('#mc-embedded-subscribe-form').submit(function(event){event.preventDefault();
-		$.post('https://dev.truthlab.com/p/api/v2/demo/handler/', $("#mc-embedded-subscribe-form").serialize());
+		$.post('https://app.truthlab.com/p/api/v2/demo/handler/', $("#mc-embedded-subscribe-form").serialize());
 		$('#mce-success-response').text("Thanks for requesting a demo.  We will reach out soon.");
 		$('#mce-success-response').show();
 	})
