@@ -72,6 +72,7 @@
                     <li><a href="/customer-experience-advantage">White Papers</a></li>
                     <li><a href="/privacy-policy">Privacy Policy</a></li>
                     <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+                  </ul>
                 </div>
               </div>
             </div>

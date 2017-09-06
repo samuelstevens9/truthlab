@@ -37,7 +37,7 @@
   <!-- Fixed navbar -->
 	<a class="request-dropdown-mobile request-toggle" style="z-index:5555;">Request a Demo <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 
-	</div>
+	
   <nav class="navbar navbar-default navbar-fixed-top">
   	<div class="container">
   		<div class="navbar-header">
@@ -71,7 +71,7 @@
 					<input type="text" placeholder="Type to Search Blog Articles..." name="s" />
 				</div>
 				<div class="col-md-2">
-					<button type="submit" class="button button--red-outline no-background" value="Search"/>Search</button>
+					<button type="submit" class="button button--red-outline no-background" value="Search">Search</button>
 				</div>
 			</div>
 		</form>

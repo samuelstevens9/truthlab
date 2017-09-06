@@ -6,8 +6,27 @@
  * @package Truthlab
  */
 
-get_header(); ?>
-
+get_header(); 
+//$browser = get_browser(null, true);//get_browser(): browscap ini directive not set
+//print_r($browser);
+//echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+$is_ie = preg_match('/Edge/i', $user_agent) || preg_match('/Trident/i', $user_agent);
+//var_dump($is_ie);
+?>
+<style>
+  #curtain-slider {
+    /*background:#ab1e17;*/
+  }
+</style>
+<?php if($is_ie): ?>
+  <section id="simple-home-hero">
+    <!--<div><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/home_bkg_frntText.svg" /></div>-->
+    <div class="">
+      <?php echo do_shortcode( '[rev_slider alias="home_page"]' ); ?>
+    </div>
+  </section>
+<?php else: ?>
 <section id="curtain-slider">
 	<div class="container">
 		<div class="container">
@@ -15,7 +34,7 @@ get_header(); ?>
 			<div class="slide-header active">
 		   	<div class="panel">
 		      	<div class="top" data-back="BETTER"></div>
-					<div class="bottom" data-back="BETTER"></div>
+			<div class="bottom" data-back="BETTER"></div>
 		   	</div>
 				<div class="center">
 		   		<h1>Create Better</h1>
@@ -60,6 +79,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section><script>setInterval(nextSlide, 4*1000);</script>
+<?php endif; ?>
 
 <section id="about">
 	<div class="row">
@@ -210,10 +230,6 @@ get_header(); ?>
 	                  </div>
 	              </div>
 	          </div>
-	          <!-- Controls --
-	          <a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-	          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-						-->
 						<a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-left.svg"/></a>
 	          <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><img src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-right.svg"/></a>
     		</div>
