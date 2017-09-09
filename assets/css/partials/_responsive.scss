@@ -37,7 +37,7 @@
     width: 70%;
   }
   #panel-management{
-    margin-top: 28%;
+    /*margin-top: 28%;*/
   }
   #hero {
     
@@ -63,9 +63,9 @@
     /*height: 400px;*/
   }
   #panel-management{
-    margin-top: 20%;
+    padding-top: 20px;
     & .analyze{
-      margin-top: 27% !important;
+      margin-top: 10% !important;
     }
   }
 }
@@ -92,6 +92,17 @@
   }
   .blank  {
     /*height: 400px;*/
+  }
+}
+@media only screen and (max-width: 1095px) {
+  #panel-management{
+    /*padding-top: 20px;*/
+    & .text-left.copy{
+      margin-top: 0px;
+    }
+    & .analyze{
+      margin-top: 20% !important;
+    }
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -121,7 +132,17 @@
     left: 10%;
   }
   #panel-management{
-    margin-top: 28%;
+    padding-top: 80px;
+    padding-bottom: 300px;
+    margin-top: -232px;
+    background-size: 114%;
+    background-position-x: -76px;
+    & .text-left.copy{
+      /*margin-top: 0px;*/
+    }
+    & .analyze{
+      margin-top: 17% !important;
+    }
   }
       
   #hero {
@@ -146,6 +167,12 @@
 }
 /***** BLOG 860px *****/
 @media (max-width:860px) {
+  #panel-management{
+    padding-top: 20px;
+    margin-top: -301px;
+    background-size: 125%;
+    background-position-x: -110px;
+  }
   #hero {
     height: 600px;
     & .front {
@@ -787,6 +814,7 @@
   }
 
   #panel-management {
+    background: none;
     padding-bottom:0px;
     & .row {
       margin-top:0px;
@@ -1283,7 +1311,7 @@
 
   #cta {
     & .cta__red {
-      @include blueGradient;
+      @include redGradient;
     }
   }
 

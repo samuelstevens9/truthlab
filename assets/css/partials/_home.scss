@@ -310,7 +310,14 @@
 }
 
 #panel-management {
-    padding:00px 0 600px 0;
+    padding: 60px 0 600px 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: -152px;
+    background: url(http://truthlab.com/wp-content/themes/truthlab-theme/assets/img/home/red-blue-line.svg) no-repeat;
+    background-size: 100%;
+    z-index: -1;
     & .analyze {
        /*padding-top:450px;*/
        margin-top: 20% !important;
@@ -320,28 +327,28 @@
       padding-top:0px;
     }
     & .bg-image-blue {
-        width: 1750px;
-        height: 1750px;
-        background-image: url(//static.mailchimp.com/web/root/blank.gif);
-        top: 3800px;
-        margin-left: -1500px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: absolute;
-        z-index: -1;
-        left: 50%;
+      display: none;
+      width: 1750px;
+      height: 1750px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: 517px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      z-index: -1;
+      right: 29%;
     }
     & .bg-image-red {
-        width: 1750px;
-        height: 1750px;
-        background-image: url(//static.mailchimp.com/web/root/blank.gif);
-        top: 2950px;
-        margin-right: -1470px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: absolute;
-        right: 50%;
-        z-index:-2;
+      display: none;
+      width: 1750px;
+      height: 1750px;
+      background-image: url(//static.mailchimp.com/web/root/blank.gif);
+      top: -285px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: 29%;
+      z-index: -2;
     }
     & .container {
       margin-top: 15%;
@@ -365,7 +372,7 @@
     background-image: url(assets/img/home/quotation_start.svg),url(assets/img/home/quotation_end.svg);
     background-position: left top,right center;
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 100px;
   }
   & h5 {
     text-align:center;

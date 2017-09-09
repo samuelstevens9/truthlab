@@ -211,7 +211,7 @@ function tl_free_whitepaper_form_func($atts){
   ob_start();
   ?>
 <form class="whitepaper_form" action="<?php echo $a['target']; ?>" id="gated_content" method="POST">
-  <small><div id="form-notes" style="color:red;"></div><small>
+  <small><div id="form-notes" style="color:red;"></div></small>
   <input style="" id="fname" type="text" class="not-blank-value" name="fname" placeholder="First Name"><br>
   <input style="" id="lname" type="text" class="not-blank-value" name="lname" placeholder="Last Name"><br>
   <input style="" id="contact_email" type="email" name="email" placeholder="Company Email Address"><br>
