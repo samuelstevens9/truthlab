@@ -210,7 +210,7 @@ function tl_free_whitepaper_form_func($atts){
     ), $atts );
   ob_start();
   ?>
-<form class="whitepaper_form" action="<?php echo $a['target']; ?>" id="gated_content" method="POST">
+<form class="whitepaper_form" target="_blank" action="<?php echo $a['target']; ?>" id="gated_content" method="POST">
   <small><div id="form-notes" style="color:red;"></div></small>
   <input style="" id="fname" type="text" class="not-blank-value" name="fname" placeholder="First Name"><br>
   <input style="" id="lname" type="text" class="not-blank-value" name="lname" placeholder="Last Name"><br>
@@ -288,8 +288,10 @@ $(document).ready(function() {
        custom_event.initEvent('click', true, true);
        custom_a.dispatchEvent(event);
        */
-       var win = window.open('<?php echo $a['download']; ?>', '_blank');
-      $("#gated_content").submit()
+       //var win = window.open('<?php echo $a['download']; ?>', '_blank');
+      //$("#gated_content").submit()
+      console.log('window.location = "<?php echo $a['redirect']; ?>";');
+      setTimeout(function(){window.location = "<?php echo $a['redirect']; ?>";},1000);
     }
   });
 });
