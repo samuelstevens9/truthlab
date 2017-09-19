@@ -30,7 +30,7 @@ get_header('single'); ?>
 					    		<?php
 									$tweet = get_sub_field('tweet');
 									$tweet = str_replace('\'', '', $tweet);
-									$finalTweet = 'https://twitter.com/home?status='.$tweet;
+									$finalTweet = 'https://twitter.com/home?status='.urlencode($tweet);
 							    ?>
 								<a href="<?php echo $finalTweet ?>" target="popup" onclick="window.open('<?php echo $finalTweet ?>','popup','width=600,height=600');">
 								<div class="twitter-card">

@@ -130,7 +130,39 @@ get_header(); ?>
 	                        <figcaption class="info">
 	                        	<p class="cat"><?php echo $category[0]->cat_name; ?></p>
 	                        	<div class="title">
-		                            <h2><?php the_title(); ?></h2>
+		                            <h2 id="post_title_<?php echo $post->ID; ?>" class="checkOverflow"><?php the_title(); ?></h2>
+<?php /*
+Add <h2 id="post_$post->ID"> so we can select it in JS
+JS function to check if content is overflowing. 
+Codepen for css class to add an ellipse https://codepen.io/natonischuk/pen/KpNKQZ
+Need to set .course h2 { overflow: hidden; position: relative; text-align: justify; margin-right: -1em;padding-right: 1em;}
+.course h2.overflow:before{content: '...';position: absolute;right: 0;bottom: 0;}
+																function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}*/
+?><script>
+var pt<?php echo $post->ID; ?> = document.getElementById("post_title_<?php echo $post->ID; ?>");
+if(isOverflown(pt<?php echo $post->ID; ?>)){
+	pt<?php echo $post->ID; ?>.className += " isOverflown";
+	var text<?php echo $post->ID; ?> = pt<?php echo $post->ID; ?>.innerText.split(" ");
+	for(var w=0;w<text<?php echo $post->ID; ?>.length;w++){ 
+		if(w==0){
+			pt<?php echo $post->ID; ?>.innerText = text<?php echo $post->ID; ?>[w]
+		}else{
+			if(isOverflown(pt<?php echo $post->ID; ?>)){
+				//need to remove this one
+				var ln<?php echo $post->ID; ?> = pt<?php echo $post->ID; ?>.innerText.split(" ");
+				ln<?php echo $post->ID; ?>.pop();
+				console.log("ln<?php echo $post->ID; ?>",ln<?php echo $post->ID; ?>);
+				pt<?php echo $post->ID; ?>.innerText = ln<?php echo $post->ID; ?>.join(" ")+"..."; 
+				break;
+			}else{
+				pt<?php echo $post->ID; ?>.innerText += " "+text<?php echo $post->ID; ?>[w]; 
+			}
+		} 
+	}
+}
+</script>
 		                            <div class="line"></div>
 	                        	</div>
 	                            <p class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo do_shortcode( '[rt_reading_time]' ); ?> minute read | By: <?php echo get_the_author_meta('display_name'); ?></p>

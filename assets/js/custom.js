@@ -17,7 +17,9 @@ jQuery(window).scroll(function() {
 
   }
 });
-
+function isOverflown(element) {
+return element.scrollHeight-6 > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
 /* Hero Slider */
 //jQuery(document).hover(nextSlide);
 //jQuery(document).on('click',nextSlide);

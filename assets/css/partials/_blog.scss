@@ -107,7 +107,11 @@
     font-size: 1.6rem;
     height: 70px;
     margin-bottom: 0px;
+    overflow: hidden;
+    position: relative; /*text-align: justify;*/ margin-right: -1em;padding-right: 1em;
 }
+.course h2.isOverflown:before{content: '';position: absolute;right: 0;bottom: 0;}
+
 .course .line {
     height: 3px;
     width: 30%;
