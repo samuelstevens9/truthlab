@@ -3,143 +3,136 @@
   font-family: "PT Sans Narrow",sans-serif;
 }
 #simple-home-hero img{width: 100%;}
-
-.slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  height: 100vh;
-  overflow: hidden;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+/***** v SLIDER *******/
+.slider{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    height:100vh;
+    overflow:hidden;
+    -webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 90%);
+    clip-path:polygon(0 0,100% 0,100% 100%,0 90%);
+    background: -webkit-linear-gradient(135deg, #910811, #c20308, #bc0409, #910811);
+    background: linear-gradient(-45deg, #910811, #c20308, #bc0409, #910811);
+    background-size: 400% 400%;
+    color: rgba(0, 0, 0, 0.19);
 }
-
 .slide-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
-.slide-header:nth-child(1) .panel > * {
-  background: linear-gradient(-45deg, #910811, #c20308, #bc0409, #910811);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
-  color: rgba(0, 0, 0, .19);
+.slide-header:nth-child(1) .panel>* {
+    background: -webkit-linear-gradient(135deg, #910811, #c20308, #bc0409, #910811);
+    background: linear-gradient(-45deg, #910811, #c20308, #bc0409, #910811);
+    background-size: 400% 400%;
+    color: rgba(0, 0, 0, 0.19)
 }
-.slide-header:nth-child(2) .panel > * {
- background: linear-gradient(-45deg, #910811, #c20308, #fd080f, #910811);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
-  color: rgba(0, 0, 0, .19);
+.slide-header:nth-child(2) .panel>* {
+    background: -webkit-linear-gradient(135deg, #910811, #c20308, #fd080f, #910811);
+    background: linear-gradient(-45deg, #910811, #c20308, #fd080f, #910811);
+    background-size: 400% 400%;
+    color: rgba(0, 0, 0, 0.19)
 }
-.slide-header:nth-child(3) .panel > * {
-  background: linear-gradient(-45deg, #910811, #c20308, #fd080f, #910811);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
-  color: rgba(0, 0, 0, .19);
+.slide-header:nth-child(3) .panel>* {
+    background: -webkit-linear-gradient(135deg, #910811, #c20308, #fd080f, #910811);
+    background: linear-gradient(-45deg, #910811, #c20308, #fd080f, #910811);
+    background-size: 400% 400%;
+    color: rgba(0, 0, 0, 0.19)
 }
-.slide-header:nth-child(4) .panel > * {
-  background: linear-gradient(-45deg, #910811, #c20308, #fd080f, #910811);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
-  color: rgba(0, 0, 0, .19);
+.slide-header:nth-child(4) .panel>* {
+    background: -webkit-linear-gradient(135deg, #910811, #c20308, #fd080f, #910811);
+    background: linear-gradient(-45deg, #910811, #c20308, #fd080f, #910811);
+    background-size: 400% 400%;
+    color: rgba(0, 0, 0, 0.19)
 }
 .slide-header .center {
-  opacity: 0;
-  -webkit-transition: opacity linear 300ms;
-  transition: opacity linear 300ms;
+    opacity: 0;
+    -webkit-transition: opacity linear 300ms;
+    transition: opacity linear 300ms
 }
 .slide-header .panel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
 }
-.slide-header .top, .slide-header .bottom {
-  content: attr(data-back);
-  position: absolute;
-  font-size: 50vh;
-  font-weight: 800;
-  height: 50vh;
-  width: 100vw;
-  text-align: center;
-  z-index: 1;
-  overflow: hidden;
-  box-sizing: border-box;
-  -webkit-transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865), -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
+.slide-header .top,
+.slide-header .bottom {
+    content: attr(data-back);
+    position: absolute;
+    font-size: 50vh;
+    font-weight: 800;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
+    transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
 }
-.slide-header .top:after, .slide-header .bottom:after {
-  position: relative;
-  display: inline-block;
-  -webkit-transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865), -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  content: attr(data-back);
-  font-family: "PT Sans Narrow", sans-serif;
+.slide-header .top:after,
+.slide-header .bottom:after {
+    position: relative;
+    display: inline-block;
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
+    transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
+    content: attr(data-back);
+    font-family: "PT Sans Narrow", sans-serif
 }
 .slide-header .top {
-  line-height: 100vh;
-  -webkit-transform: translatey(-50vh);
-          transform: translatey(-50vh);
+    line-height: 100vh;
+    -webkit-transform: translateY(-50vh);
+    transform: translateY(-50vh)
 }
 .slide-header .top:after {
-  -webkit-transform: translatey(50vh);
-          transform: translatey(50vh);
+    -webkit-transform: translateY(50vh);
+    transform: translateY(50vh)
 }
 .slide-header .bottom {
-  bottom: 0;
-  line-height: 0vh;
-  -webkit-transform: translatey(50vh);
-          transform: translatey(50vh);
+    bottom: 0;
+    line-height: 0;
+    -webkit-transform: translateY(50vh);
+    transform: translateY(50vh)
 }
 .slide-header .bottom:after {
-  -webkit-transform: translatey(-50vh);
-          transform: translatey(-50vh);
+    -webkit-transform: translateY(-50vh);
+    transform: translateY(-50vh)
 }
 .slide-header.active .center {
-  opacity: 1;
-  -webkit-transition: opacity linear 300ms;
-  transition: opacity linear 300ms;
-  -webkit-transition-delay: 600ms;
-          transition-delay: 600ms;
+    opacity: 1;
+    -webkit-transition: opacity linear 300ms;
+    transition: opacity linear 300ms;
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms
 }
-.slide-header.active .top, .slide-header.active .bottom {
-  -webkit-transition: none;
-  transition: none;
-  -webkit-transform: translatey(0);
-          transform: translatey(0);
-  z-index: -1;
+.slide-header.active .top,
+.slide-header.active .bottom {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    z-index: 1
 }
-.slide-header.active .top:after, .slide-header.active .bottom:after {
-  -webkit-transition: -webkit-transform cubic-bezier(0.23, 1, 0.32, 1) 1200ms;
-  transition: -webkit-transform cubic-bezier(0.23, 1, 0.32, 1) 1200ms;
-  transition: transform cubic-bezier(0.23, 1, 0.32, 1) 1200ms;
-  transition: transform cubic-bezier(0.23, 1, 0.32, 1) 1200ms, -webkit-transform cubic-bezier(0.23, 1, 0.32, 1) 1200ms;
-  -webkit-transform: translatey(0);
-          transform: translatey(0);
+.slide-header.active .top:after,
+.slide-header.active .bottom:after {
+    -webkit-transition: -webkit-transform cubic-bezier(0.23, 1, 0.32, 1) 1200ms;
+    transition: transform cubic-bezier(0.23, 1, 0.32, 1) 1200ms;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
 }
-
-.slide-header .top, .slide-header .bottom {
-    font-size: 30vh;
+.slide-header .top,
+.slide-header .bottom {
+    font-size: 30vh
 }
-
 .center {
   position: absolute;
   top: 56%;
@@ -149,6 +142,8 @@
   z-index: 2;
   text-align: center;
 }
+/**** ^ SLIDER ****/
+
 .center h1 {
   font-size: 10vh;
   line-height: 1;

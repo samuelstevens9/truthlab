@@ -153,7 +153,7 @@ if(isOverflown(pt<?php echo $post->ID; ?>)){
 				//need to remove this one
 				var ln<?php echo $post->ID; ?> = pt<?php echo $post->ID; ?>.innerText.split(" ");
 				ln<?php echo $post->ID; ?>.pop();
-				console.log("ln<?php echo $post->ID; ?>",ln<?php echo $post->ID; ?>);
+				//console.log("ln<?php echo $post->ID; ?>",ln<?php echo $post->ID; ?>);
 				pt<?php echo $post->ID; ?>.innerText = ln<?php echo $post->ID; ?>.join(" ")+"..."; 
 				break;
 			}else{
