@@ -226,15 +226,18 @@ customer journey.</p>
 								<div id="jobOne" class="panel-collapse collapse">
 									<div class="panel-body">
 										<div class="container">
-											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
-											<p>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</p>
-											<p>Bachelor’s Degree in Computer Science, Engineering, or equivalent</p>
-											<p>Experience with designing/developing in Django, Flask, React, or Angular</p>
-											<p>Working knowledge in modern languages Python, Node</p>
-											<p>Strong understanding of distributed software design</p>
-											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
-											<p>Familiarity with machine learning modeling frameworks</p>
-											<p>SQL/No-SQL query and implementation strategies</p>
+											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
+											<ul type="disc">
+												<li>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</li>
+												<li>Bachelor’s Degree in Computer Science, Engineering, or equivalent</li>
+												<li>A passion for creating powerful customer experiences</li>
+												<li>Experience with designing/developing in Django, Flask, React, or Angular</li>
+												<li>Working knowledge in modern languages Python, Node, ES6</li>
+												<li>Strong understanding of distributed software design</li>
+												<li>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</li>
+												<li>Familiarity with machine learning modeling frameworks</li>
+												<li>SQL/No-SQL query and implementation strategies</li>
+											</ul>
 											<a href="mailto:careers@truthlab.com?subject=Back End/Full Stack Engineer" class="button button--blue-outline">Apply Now</a>
 										</div>
 									</div>
@@ -251,15 +254,17 @@ customer journey.</p>
 								<div id="jobTwo" class="panel-collapse collapse">
 									<div class="panel-body">
 										<div class="container">
-											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
-											<p>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</p>
-											<p>Bachelor’s Degree in Computer Science, Engineering, or equivalent</p>
-											<p>Experience with designing/developing in Django, Flask, React, or Angular</p>
-											<p>Working knowledge in modern languages Python, Node</p>
-											<p>Strong understanding of distributed software design</p>
-											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
-											<p>Familiarity with machine learning modeling frameworks</p>
-											<p>SQL/No-SQL query and implementation strategies</p>
+											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
+											<ul type="disc">
+												<li>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</li>
+												<li>Bachelor’s Degree in Computer Science, Engineering, or equivalent</li>
+												<li>A passion for creating powerful customer experiences</li>
+												<li>Strong experience with Front-end tech such as Angular / React</li>
+												<li>Experience implementing and using restful micro-services services</li>
+												<li>An eye for design and delightful customer experience</li>
+												<li>Experience with test driven development and advanced API implementation (i.e. swagger)</li>
+											</ul>
+											
 											<a href="mailto:careers@truthlab.com?subject=Front End/Full Stack Engineer" class="button button--blue-outline">Apply Now</a>
 										</div>
 									</div>
@@ -276,15 +281,29 @@ customer journey.</p>
 								<div id="jobThree" class="panel-collapse collapse">
 									<div class="panel-body">
 										<div class="container">
-											<p>Looking to build an awesome platform with the founding team at one of the fastest growing startups in the Bay Area? We’re looking for talented engineers with great execution capabilities and passion for technology.</p>
-											<p>Hands on experience developing and implementing scalable software development processes through agile scrum methodologies</p>
-											<p>Bachelor’s Degree in Computer Science, Engineering, or equivalent</p>
-											<p>Experience with designing/developing in Django, Flask, React, or Angular</p>
-											<p>Working knowledge in modern languages Python, Node</p>
-											<p>Strong understanding of distributed software design</p>
-											<p>Strong experience preferred with: Linux, AWS, Micro-Services, RDS</p>
-											<p>Familiarity with machine learning modeling frameworks</p>
-											<p>SQL/No-SQL query and implementation strategies</p>
+											<p><span style="color: #000000;">Sales Development Representatives (SDRs) are responsible for identifying and creating new qualified sales opportunities in Target Accounts. The SDR manages the inbound lead activity in their territory, qualifying active buying interest and developing opportunity in prospect accounts.</span></p>
+											<p><strong>Responsibilities:<br /> </strong><br /> Prospect, educate, qualify, and develop Target Accounts and inbound leads to create sales-ready leads and opportunities</p>
+											<ul>
+												<li>Interact with prospects via telephone and email</li>
+												<li>Research accounts, identify key players, generate interest and develop accounts to stimulate opportunity</li>
+												<li>Disseminate opportunities to appropriate AE, educating rep as necessary about the opportunity</li>
+												<li>Successfully manage and overcome prospect objections</li>
+												<li>Become a trusted resource and develop superior relationships with prospects</li>
+												<li>Update lead scoring and prospect interaction in salesforce.com to ensure efficient lead management</li>
+												<li>Consistently achieve qualified opportunity quotas to ensure territory revenue objectives.</li>
+												<li>Provide closed-loop feedback to ensure continuous process optimization</li>
+											</ul>
+											<p><strong><b>The successful candidate must have</b>:</strong></p>
+											<ul>
+												<li>A self-starter with a track record of successful, credible lead follow-up and sales development at multiple executive levels within an organization</li>
+												<li>Opportunity qualification and objection handling</li>
+												<li>Call structure and control</li>
+												<li>Time and territory management</li>
+												<li>Ability to work in a high-energy team environment; team player</li>
+												<li>Positive and energetic phone skills, excellent listening skills, strong writing skills</li>
+												<li>Sales training and salesforce.com experience a plus</li>
+												<li>4-year College degree required</li>
+											</ul>
 											<a href="mailto:careers@truthlab.com?subject=Sales Development Representative" class="button button--blue-outline">Apply Now</a>
 										</div>
 									</div>
