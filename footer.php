@@ -2,8 +2,6 @@
 /**
  * The template for displaying the footer.
  */
-$user_agent = $_SERVER[ 'HTTP_USER_AGENT' ];
-$is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', $user_agent );
 ?>
 
 <footer>
@@ -139,33 +137,16 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
             </div>
             <div class="col-md-8 text-right">
                 <a href="#" class="contact">Contact Us</a>
-				<?php if ( $is_ie ): ?>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><img
-                                        src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png"
-                                        height="40" style="height:40px !important;"/></a></li>
-                        <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><img
-                                        src="<?php echo get_template_directory_uri() ?>/assets/img/facebook.png"
-                                        height="40" style="height:40px !important;"/></a></li>
-                        <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><img
-                                        src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png"
-                                        height="40" style="height:40px !important;"/></a></li>
-                        <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><img
-                                        src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png"
-                                        height="40" style="height:40px !important;"/></i></a></li>
-                    </ul>
-				<?php else: ?>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><i
-                                        class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><i
-                                        class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><i
-                                        class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><i
-                                        class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
-                    </ul>
-				<?php endif; ?>
+                <ul>
+                    <li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><i
+                                    class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><i
+                                    class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><i
+                                    class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><i
+                                    class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
             </div>
         </div>
     </div>

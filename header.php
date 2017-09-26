@@ -1,7 +1,3 @@
-<?php
-$user_agent = $_SERVER[ 'HTTP_USER_AGENT' ];
-$is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', $user_agent );
-?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -15,7 +11,6 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<?php wp_head(); ?>
-
 
     <script type='text/javascript'
             src='//platform-api.sharethis.com/js/sharethis.js#property=59a8de0ad2b9a20012505785&product=inline-share-buttons'
