@@ -201,6 +201,6 @@ get_header( 'single' ); ?>
     </section>
 
     <div style="clear:both;">
-<?php
 
+<?php
 get_footer();
