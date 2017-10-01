@@ -21,17 +21,20 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
 
     <div id="mission">
         <section id="heading">
-            <div class="row">
+            <div class="row--padded">
                 <div class="container">
-                    <div class="col-md-8 col-md-offset-2 text-center heading">
-                        <h1>We help B2B companies become Customer Champions</h1>
-                        <p>Truthlab’s CXM platform orchestrates the collection and analysis of disparate customer data
-                            and instantly transforms it into actionable insights.</p>
-                        <p>Our aim is to help companies win in the new Experience Economy by helping them to create
-                            better, more profitable customer relationships. Truthlab’s CXM platform enables companies to
-                            orchestrate the collection, analysis and storage of structured and unstructured data that is
-                            essential to delivering amazing experiences across the entire
-                            customer journey.</p>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center heading">
+                            <h1>We help B2B companies become Customer Champions</h1>
+                            <p>Truthlab’s CXM platform orchestrates the collection and analysis of disparate customer
+                                data
+                                and instantly transforms it into actionable insights.</p>
+                            <p>Our aim is to help companies win in the new Experience Economy by helping them to create
+                                better, more profitable customer relationships. Truthlab’s CXM platform enables
+                                companies to orchestrate the collection, analysis and storage of structured and
+                                unstructured data that is essential to delivering amazing experiences across the entire
+                                customer journey.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -40,7 +43,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
 
     <section id="cta">
         <div class="container">
-            <div class="row cta__blue" style="margin-bottom:0px;">
+            <div class="row row--padded cta__blue" style="margin-bottom:0px;">
                 <div class="col-xs-12 text-center">
                     <h2>A Rising Tide...</h2>
                     <p>Your success is our success. Our team is dedicated to helping you
@@ -52,170 +55,252 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
 
     <div id="leadership">
         <section id="team-left">
-            <div class="row" style="padding:0px;">
+            <div class="row--padded" style="padding:0px;">
                 <div class="hexagon"
                      data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png"
                      style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon.png');"></div>
                 <div class="profile-image"
                      data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/patrick.png"
                      style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/patrick.png');"></div>
-                <div class="col-md-10 col-md-offset-2 profile">
-                    <div class="col-md-8">
-                        <h1>Patrick Donnelly</h1>
-                        <h2>CEO &amp; Co-Founder</h2>
-                        <div class="panel-group" id="accordion">
-                            <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                 href="#collapseOne">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <div class="accordion-toggle"><?php if ( FALSE ): ?>
-                                                    <div class="text-right"><img
-                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png"
-                                                            height="35" style="height:35px !important;"/>
-                                                    </div><?php endif; ?></div>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne"
-                                         class="<?php if ( ! $is_ie ): ?>panel-collapse collapse<?php endif; ?>">
-                                        <div class="panel-body">
-                                            <div class="container">
-                                                <p>A leader with a mean golf swing and a fresh perspective, Patrick is a
-                                                    proud dad with coaching skills on and off the field. Formerly VP of
-                                                    Sales at Marketo, he has more than 20 years of experience in
-                                                    software industry leadership. Patrick is dedicated to helping
-                                                    Truthlab’s customers create amazing customer experiences.</p>
-                                                <p>Patrick is obsessed with making it easier and faster for companies to
-                                                    create and actually use customer insights. The Truthlab Customer
-                                                    Experience Platform enables you to instantly capture and analyze
-                                                    customer experience data and integrate the insights into every
-                                                    interaction with your customers, employees and partners.</p>
-                                                <p>Truthlab is taking a fresh look at nearly every aspect of the digital
-                                                    customer experience. Currently, it’s too difficult and time
-                                                    consuming to transform massive volumes of customer data into truly
-                                                    actionable insights. The Truthlab CXM platform is fixing this
-                                                    problem.</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-2 profile">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h1>Patrick Donnelly</h1>
+                                    <h2>CEO &amp; Co-Founder</h2>
+                                    <div class="panel-group" id="accordion">
+                                        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                             href="#collapseOne">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                        <div class="accordion-toggle"><?php if ( FALSE ): ?>
+                                                                <div class="text-right"><img
+                                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png"
+                                                                        height="35" style="height:35px !important;"/>
+                                                                </div><?php endif; ?></div>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseOne"
+                                                     class="<?php if ( ! $is_ie ): ?>panel-collapse collapse<?php endif; ?>">
+                                                    <div class="panel-body">
+                                                        <div class="container">
+                                                            <p>A leader with a mean golf swing and a fresh perspective,
+                                                                Patrick
+                                                                is a
+                                                                proud dad with coaching skills on and off the field.
+                                                                Formerly VP
+                                                                of
+                                                                Sales at Marketo, he has more than 20 years of
+                                                                experience in
+                                                                software industry leadership. Patrick is dedicated to
+                                                                helping
+                                                                Truthlab’s customers create amazing customer
+                                                                experiences.</p>
+                                                            <p>Patrick is obsessed with making it easier and faster for
+                                                                companies to
+                                                                create and actually use customer insights. The Truthlab
+                                                                Customer
+                                                                Experience Platform enables you to instantly capture and
+                                                                analyze
+                                                                customer experience data and integrate the insights into
+                                                                every
+                                                                interaction with your customers, employees and
+                                                                partners.</p>
+                                                            <p>Truthlab is taking a fresh look at nearly every aspect of
+                                                                the
+                                                                digital
+                                                                customer experience. Currently, it’s too difficult and
+                                                                time
+                                                                consuming to transform massive volumes of customer data
+                                                                into
+                                                                truly
+                                                                actionable insights. The Truthlab CXM platform is fixing
+                                                                this
+                                                                problem.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-4 col-xs-12 social">
+									<?php if ( $is_ie ): ?>
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/company/10992459/"
+                                                   target="_blank"><img
+                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png"
+                                                            height="40" style="height:40px !important;"/></a></li>
+                                            <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><img
+                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/facebook.png"
+                                                            height="40" style="height:40px !important;"/></a></li>
+                                            <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><img
+                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png"
+                                                            height="40" style="height:40px !important;"/></a></li>
+                                            <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><img
+                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png"
+                                                            height="40" style="height:40px !important;"/></i></a></li>
+                                        </ul>
+									<?php else: ?>
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/company-beta/10992459/"><i
+                                                            class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li><a href="https://twitter.com/truthlabtech?lang=en"><i
+                                                            class="fa fa-twitter-square fa-2x"
+                                                            aria-hidden="true"></i></a>
+                                            </li>
+                                            <li><a href="https://twitter.com/truthlabtech?lang=en"><i
+                                                            class="fa fa-google-plus-square fa-2x"
+                                                            aria-hidden="true"></i></a>
+                                            </li>
+                                        </ul>
+									<?php endif; ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12 social">
-						<?php if ( $is_ie ): ?>
-                            <ul>
-                                <li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><img
-                                                src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png"
-                                                height="40" style="height:40px !important;"/></a></li>
-                                <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><img
-                                                src="<?php echo get_template_directory_uri() ?>/assets/img/facebook.png"
-                                                height="40" style="height:40px !important;"/></a></li>
-                                <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><img
-                                                src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png"
-                                                height="40" style="height:40px !important;"/></a></li>
-                                <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><img
-                                                src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png"
-                                                height="40" style="height:40px !important;"/></i></a></li>
-                            </ul>
-						<?php else: ?>
-                            <ul>
-                                <li><a href="https://www.linkedin.com/company-beta/10992459/"><i
-                                                class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                                <li><a href="https://twitter.com/truthlabtech?lang=en"><i
-                                                class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-                                <li><a href="https://twitter.com/truthlabtech?lang=en"><i
-                                                class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
-                            </ul>
-						<?php endif; ?>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="team-right">
-            <div class="row" style="padding:0px;">
+            <div class="row--padded" style="padding:0px;">
                 <div class="hexagon"
                      data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon-red.png"
                      style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/hexagon-red.png');"></div>
                 <div class="profile-image"
                      data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png"
                      style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/about/scott.png');"></div>
-                <div class="col-md-10 profile">
-                    <div class="col-md-8">
-                        <h1>Scott Hutchins</h1>
-                        <h2>Co-Founder</h2>
-                        <div class="panel-group" id="accordion">
-                            <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                 href="#collapseTwo">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <div class="accordion-toggle"><?php if ( FALSE ): ?>
-                                                    <div class="text-right"><img
-                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png"
-                                                            height="35" style="height:35px !important;"/>
-                                                    </div><?php endif; ?></div>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwo"
-                                         class="<?php if ( ! $is_ie ): ?>panel-collapse collapse<?php endif; ?>">
-                                        <div class="panel-body">
-                                            <div class="container">
-                                                <p>A technical innovator who is normally in front of a computer terminal
-                                                    or out in the surf, Scott loves building new technologies and
-                                                    working with those excited to do the same. Formerly a naval officer,
-                                                    nuclear engineer, sales engineering leader for applied artificial
-                                                    intelligence, and chief technology officer of a baseball analytics
-                                                    company. He has a BSEE and MSEE in Electrical Engineering from the
-                                                    University of Southern California, graduate certificate in Nuclear
-                                                    Engineering from the Bettis Atomic Power Laboratory, and MS in
-                                                    Finance from George Washington University. Scott is passionate about
-                                                    helping Truthlab’s customers have the best tools to create amazing
-                                                    customer experiences.</p>
-                                                <p>Scott is obsessed with solving cross functional problems. From
-                                                    working with the best engineers in the DoD and DoE to the best data
-                                                    scientists and machine learning engineers in Predictive Marketing,
-                                                    Scott realized the toughest challenges for business are those that
-                                                    span orgs, operational processes, and departmental goals. The
-                                                    Truthlab Customer Experience Platform enables you to analyze
-                                                    customer experience across marketing, sales, success, and
-                                                    renewals.</p>
-                                                <p>Truthlab is taking a fresh look at nearly every aspect of the digital
-                                                    customer experience. Currently, it’s too difficult and time
-                                                    consuming to transform massive volumes of customer data into truly
-                                                    actionable insights across multiple business units. The Truthlab CXM
-                                                    platform is fixing this problem.</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-10 profile">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h1>Scott Hutchins</h1>
+                                    <h2>Co-Founder</h2>
+                                    <div class="panel-group" id="accordion">
+                                        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                             href="#collapseTwo">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h4 class="panel-title">
+                                                        <div class="accordion-toggle"><?php if ( FALSE ): ?>
+                                                                <div class="text-right"><img
+                                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png"
+                                                                        height="35" style="height:35px !important;"/>
+                                                                </div><?php endif; ?></div>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseTwo"
+                                                     class="<?php if ( ! $is_ie ): ?>panel-collapse collapse<?php endif; ?>">
+                                                    <div class="panel-body">
+                                                        <div class="container">
+                                                            <p>A technical innovator who is normally in front of a
+                                                                computer
+                                                                terminal
+                                                                or out in the surf, Scott loves building new
+                                                                technologies
+                                                                and
+                                                                working with those excited to do the same. Formerly a
+                                                                naval
+                                                                officer,
+                                                                nuclear engineer, sales engineering leader for applied
+                                                                artificial
+                                                                intelligence, and chief technology officer of a baseball
+                                                                analytics
+                                                                company. He has a BSEE and MSEE in Electrical
+                                                                Engineering
+                                                                from
+                                                                the
+                                                                University of Southern California, graduate certificate
+                                                                in
+                                                                Nuclear
+                                                                Engineering from the Bettis Atomic Power Laboratory, and
+                                                                MS
+                                                                in
+                                                                Finance from George Washington University. Scott is
+                                                                passionate
+                                                                about
+                                                                helping Truthlab’s customers have the best tools to
+                                                                create
+                                                                amazing
+                                                                customer experiences.</p>
+                                                            <p>Scott is obsessed with solving cross functional problems.
+                                                                From
+                                                                working with the best engineers in the DoD and DoE to
+                                                                the
+                                                                best
+                                                                data
+                                                                scientists and machine learning engineers in Predictive
+                                                                Marketing,
+                                                                Scott realized the toughest challenges for business are
+                                                                those
+                                                                that
+                                                                span orgs, operational processes, and departmental
+                                                                goals.
+                                                                The
+                                                                Truthlab Customer Experience Platform enables you to
+                                                                analyze
+                                                                customer experience across marketing, sales, success,
+                                                                and
+                                                                renewals.</p>
+                                                            <p>Truthlab is taking a fresh look at nearly every aspect of
+                                                                the
+                                                                digital
+                                                                customer experience. Currently, it’s too difficult and
+                                                                time
+                                                                consuming to transform massive volumes of customer data
+                                                                into
+                                                                truly
+                                                                actionable insights across multiple business units. The
+                                                                Truthlab
+                                                                CXM
+                                                                platform is fixing this problem.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-4 col-xs-12 social">
+									<?php if ( $is_ie ): ?>
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/"
+                                                   target="_blank"><img
+                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png"
+                                                            height="40" style="height:40px !important;"/></a></li>
+                                            <li><a href="https://twitter.com/sahutchi" target="_blank"><img
+                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png"
+                                                            height="40" style="height:40px !important;"/></a></li>
+                                            <li><a href="https://plus.google.com/u/0/103787897438509801954"
+                                                   target="_blank"><img
+                                                            src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png"
+                                                            height="40" style="height:40px !important;"/></i></a></li>
+                                        </ul>
+									<?php else: ?>
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/"
+                                                   target="_blank"><i
+                                                            class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li><a href="https://twitter.com/sahutchi" target="_blank"><i
+                                                            class="fa fa-twitter-square fa-2x"
+                                                            aria-hidden="true"></i></a>
+                                            </li>
+                                            <li><a href="https://plus.google.com/u/0/103787897438509801954"
+                                                   target="_blank"><i
+                                                            class="fa fa-google-plus-square fa-2x"
+                                                            aria-hidden="true"></i></a>
+                                            </li>
+                                        </ul>
+									<?php endif; ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-xs-12 social">
-						<?php if ( $is_ie ): ?>
-                            <ul>
-                                <li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/" target="_blank"><img
-                                                src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png"
-                                                height="40" style="height:40px !important;"/></a></li>
-                                <li><a href="https://twitter.com/sahutchi" target="_blank"><img
-                                                src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png"
-                                                height="40" style="height:40px !important;"/></a></li>
-                                <li><a href="https://plus.google.com/u/0/103787897438509801954" target="_blank"><img
-                                                src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png"
-                                                height="40" style="height:40px !important;"/></i></a></li>
-                            </ul>
-						<?php else: ?>
-                            <ul>
-                                <li><a href="https://www.linkedin.com/in/scott-hutchins-03687739/" target="_blank"><i
-                                                class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                                <li><a href="https://twitter.com/sahutchi" target="_blank"><i
-                                                class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-                                <li><a href="https://plus.google.com/u/0/103787897438509801954" target="_blank"><i
-                                                class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
-                            </ul>
-						<?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -289,11 +374,10 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
 
     <section id="careers">
         <div class="container text-center values">
-            <div class="row" style="padding-top:3rem;">
+            <div class="row--padded" style="padding-top:3rem;">
                 <h2>Careers</h2>
                 <div class="red-box">
                     <div class="blue-box">
-
                         <div class="panel-group" id="accordion">
                             <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
                                  href="#jobOne">
@@ -444,7 +528,9 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                         <br/>
 
                     </div>
+                    <div class="clear--both"></div>
                 </div>
+                <div class="clear--both"></div>
             </div>
         </div>
     </section>
@@ -478,5 +564,5 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         </div>
     </section>
 
-<?
+<?php
 get_footer();

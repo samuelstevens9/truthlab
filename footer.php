@@ -5,8 +5,7 @@
 ?>
 
 <footer>
-    <div class="row">
-
+    <div class="">
         <div class="mobile-footer container">
             <div class="panel-group" id="footer-accordion">
                 <div class="accordion-toggle">
@@ -93,60 +92,64 @@
         </div>
 
         <div class="main-footer container">
-            <div class="col-md-2">
-                <a href="/solutions/"><h4>Solutions</h4></a>
-                <ul>
-                    <li><a href="/solutions/#content__marketing">For Marketers</a></li>
-                    <li><a href="/solutions/#content__product">For Product Managers</a></li>
-                    <li><a href="/solutions/#content__designers">For Experience Designers</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <a href="/about/"><h4>About</h4></a>
-                <ul>
-                    <li><a href="/about/#mission">Our Mission</a></li>
-                    <li><a href="/about/#leadership">Leadership</a></li>
-                    <li><a href="/about/#culture">Culture</a></li>
-                    <li><a href="/about/#careers">Careers</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <a href="#"><h4>Resources</h4></a>
-                <ul>
-                    <li><a href="/customer-experience-advantage">White Papers</a></li>
-                    <li><a href="/privacy-policy">Privacy Policy</a></li>
-                    <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-                <a href="/blog/"><h4>Blog</h4></a>
-            </div>
-            <div class="col-md-4 text-right address">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/map-marker.png"/>
-                <address>
-                    N Ellsworth &amp; 1st Street<br/>
-                    San Mateo, California 94401
-                </address>
-                <p>(650) 931-4423</p>
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="/solutions/"><h4>Solutions</h4></a>
+                    <ul>
+                        <li><a href="/solutions/#content__marketing">For Marketers</a></li>
+                        <li><a href="/solutions/#content__product">For Product Managers</a></li>
+                        <li><a href="/solutions/#content__designers">For Experience Designers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <a href="/about/"><h4>About</h4></a>
+                    <ul>
+                        <li><a href="/about/#mission">Our Mission</a></li>
+                        <li><a href="/about/#leadership">Leadership</a></li>
+                        <li><a href="/about/#culture">Culture</a></li>
+                        <li><a href="/about/#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <a href="#"><h4>Resources</h4></a>
+                    <ul>
+                        <li><a href="/customer-experience-advantage">White Papers</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <a href="/blog/"><h4>Blog</h4></a>
+                </div>
+                <div class="col-md-4 text-right address">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/map-marker.png"/>
+                    <address>
+                        N Ellsworth &amp; 1st Street<br/>
+                        San Mateo, California 94401
+                    </address>
+                    <p>(650) 931-4423</p>
+                </div>
             </div>
         </div>
 
         <div class="container sub-footer">
-            <div class="col-md-4 copyright">
-                &copy; Truthlab <?php echo date( "Y" ); ?>
-            </div>
-            <div class="col-md-8 text-right">
-                <a href="#" class="contact">Contact Us</a>
-                <ul>
-                    <li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><i
-                                    class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><i
-                                    class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><i
-                                    class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><i
-                                    class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
-                </ul>
+            <div class="row">
+                <div class="col-md-4 copyright">
+                    &copy; Truthlab <?php echo date( "Y" ); ?>
+                </div>
+                <div class="col-md-8 text-right">
+                    <a href="#" class="contact">Contact Us</a>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><i
+                                        class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><i
+                                        class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><i
+                                        class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><i
+                                        class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

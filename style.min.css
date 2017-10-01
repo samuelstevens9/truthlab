@@ -1937,6 +1937,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .textwidget img{margin:1rem 0}
 .bypostauthor{background:inherit}
 .size-auto,.size-full,.size-large,.size-medium,.size-thumbnail{max-width:100%;height:auto}
+.clear--both{clear:both}
 html{font-size:16px}
 h1,h2,h3,h4,h5,h6{color:#07074e;font-weight:600;padding:10px 0}
 h1{color:#910811;font-size:4rem}
@@ -1948,7 +1949,7 @@ h6{font-size:1rem;font-weight:600}
 p{margin-bottom:25px}
 a:hover{color:#910811}
 body{min-height:1000px;padding-top:70px;font-family:'PT Sans Narrow',sans-serif;font-size:2rem;color:#666}
-.row{padding:7rem 0}
+.row--padded{padding:7rem 0}
 .vertical-align{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}
 #curtain-slider{height:800px}
 .round{border-radius:50%;border:1px solid #07074e}
@@ -2001,7 +2002,6 @@ footer{font-size:1.5rem}
 footer .row{padding-bottom:0}
 .mobile-footer{display:none}
 .main-footer{display:block;padding:0 0 25px 0}
-.main-footer [class*="col-"]{padding:0}
 .main-footer h4:hover{color:#910811}
 .main-footer ul li{list-style:none;padding:.5rem 0}
 .main-footer ul li a{color:#666}
@@ -2009,7 +2009,6 @@ footer .row{padding-bottom:0}
 .main-footer .address{color:#07074e}
 .main-footer .address img{margin:20px 0;width:15%}
 .sub-footer{padding:25px 0;border-top:15px solid #07074e;font-size:1.25rem}
-.sub-footer [class*="col-"]{padding:0}
 .sub-footer ul{display:inline;margin-left:15px}
 .sub-footer a{display:inline;color:#666}
 .sub-footer a:hover{color:#910811}
@@ -2196,7 +2195,7 @@ br{clear:both}
 .page-template-aboutus .fa-linkedin-square,.page-template-aboutus .fa-facebook-square,.page-template-aboutus .fa-twitter-square,.page-template-aboutus .fa-google-plus-square{-webkit-transition:color .6s ease-out;transition:color .6s ease-out}
 .page-template-aboutus .fa-linkedin-square:hover,.page-template-aboutus .fa-facebook-square:hover,.page-template-aboutus .fa-twitter-square:hover,.page-template-aboutus .fa-google-plus-square:hover{-webkit-transform:translateY(-5px);-ms-transform:translateY(-5px);transform:translateY(-5px);text-shadow:1px 1px rgba(7,7,78,0.5)}
 .page-template-aboutus #team-left ul li{display:inline;margin-right:1rem}
-.page-template-aboutus #team-left .profile{border:5px solid #910811;border-radius:2px;margin-left:17%;padding:5% 6%}
+.page-template-aboutus #team-left .profile{border:5px solid #910811;border-radius:2px;padding:5% 6%}
 .page-template-aboutus #team-left .panel-default{border:0}
 .page-template-aboutus #team-left .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white}
 .page-template-aboutus #team-left .panel-default>.panel-heading{background-color:white;border-color:white;height:50px}
@@ -2243,14 +2242,14 @@ br{clear:both}
 .page-template-aboutus #cta{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
 .page-template-aboutus .cta__blue{margin-bottom:200px}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(2000px);-ms-transform:translateY(2000px);transform:translateY(2000px);position:relative}
-.page-template-terms .row{padding:1.5rem 0}
-.page-template-privacy .row{padding:1.5rem 0}
+.page-template-terms .row--padded{padding:1.5rem 0}
+.page-template-privacy .row--padded{padding:1.5rem 0}
 #terms-hero{border-bottom:10px solid #666}
 #terms-hero .container-fluid{color:white;padding:1.2rem 0}
-#terms-hero .row:first-child{padding:0;background-color:#139fac}
+#terms-hero .row--padded:first-child{padding:0;background-color:#139fac}
 #terms-hero h1{color:white}
 #user-type{border-bottom:1px solid #666}
-#user-type .row{padding:.5rem 0}
+#user-type .row--padded{padding:.5rem 0}
 #user-type a:hover{color:#910811}
 #user-type a:focus{color:#910811}
 #accordions{margin-bottom:400px;font-size:1.5rem}

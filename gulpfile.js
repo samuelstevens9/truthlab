@@ -198,7 +198,6 @@ gulp.task('styles', function () {
         .pipe(notify({message: 'TASK: "styles" Completed! 💯', onLast: true}))
 });
 
-
 /**
  * Task: `vendorJS`.
  *
