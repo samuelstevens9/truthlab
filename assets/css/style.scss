@@ -8,15 +8,11 @@ Author URI: http://www.blackbearnj.com
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-
-
-
 /* ----------------------------------------------------------------------------
  * Mixins & Variables
  * ------------------------------------------------------------------------- */
 @import "partials/variables";
 @import "partials/mixins";
-
 /* ----------------------------------------------------------------------------
  * Normalize & Santize
  * ------------------------------------------------------------------------- */
@@ -24,33 +20,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import "vendors/sanitize";
 @import "vendors/bootstrap";
 @import "vendors/fontawesome";
-
 /* ----------------------------------------------------------------------------
  * Structure
  * ------------------------------------------------------------------------- */
-
+@import "general";
 @import "partials/structure";
-
 /* WPCore */
 @import "partials/wpcore";
-
 /* Base */
 @import "partials/base";
-
 /* Buttons */
 @import "partials/buttons";
-
 /* Header and Footer */
 @import "partials/header";
 @import "partials/footer";
-
 /* Page Templates */
 @import "partials/home";
 @import "partials/solutions";
 @import "partials/gated";
 @import "partials/aboutus";
 @import "partials/terms";
-
 @import "partials/blog";
 /* Responsive */
 @import "partials/responsive";
