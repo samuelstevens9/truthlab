@@ -244,13 +244,12 @@ br {
 }
 
 #culture {
-    margin-top: 300px;
+    margin-top: 200px;
     background: url('assets/img/about/culture-and-values.jpg') no-repeat;
-    background-size: 100% /*cover*/
-;
+    background-size: 100%;
     /*height:800px;*/
     position: relative;
-    padding-top: 50%;
+    padding-top: 62%;
     /*background-position:center center;*/
     & .values {
         /*transform:translateY(28%);
@@ -258,8 +257,18 @@ br {
         padding:2%;*/
         background-color: white;
         & .heading {
-            width: 55%;
+            width: 90%;
+            max-width: 960px;
             margin: 0 auto;
+
+            h2 {
+                font-size: 5rem;
+                padding-bottom: 0;
+            }
+
+            p {
+                color: #777;
+            }
         }
         & .sub-heading {
             width: 50%;
