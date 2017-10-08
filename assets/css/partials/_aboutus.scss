@@ -399,6 +399,24 @@ br {
 .page-template-aboutus #cta {
     transform: translateY(0px);
     position: relative;
+
+    .cta__blue {
+        padding-top: 120px;
+        text-align: center;
+
+        .text-center {
+            max-width: 900px;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 3.6rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
 }
 
 .page-template-aboutus .cta__blue {

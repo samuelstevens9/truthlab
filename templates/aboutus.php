@@ -42,9 +42,9 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     </div>
 
     <section id="cta">
-        <div class="container">
-            <div class="row row--padded cta__blue" style="margin-bottom:0px;">
-                <div class="col-xs-12 text-center">
+        <div class="">
+            <div class="row--padded cta__blue" style="margin-bottom:0px;">
+                <div class="text-center">
                     <h2>A Rising Tide...</h2>
                     <p>Your success is our success. Our team is dedicated to helping you
                         build and deliver extraordinary customer experiences that drive winning brands.</p>
