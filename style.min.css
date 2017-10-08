@@ -2227,7 +2227,7 @@ br{clear:both}
 #culture .values .large-market{background-image:url("assets/img/about/large-market.jpg");background-size:cover;height:288px}
 #culture .values .not-comfort{background-image:url("assets/img/about/not-comfort.jpg");background-size:cover;height:288px}
 #culture .values .believe{background-image:url("assets/img/about/believe.jpg");background-size:cover;height:288px}
-#careers{background-repeat:no-repeat;background-size:100%;margin-top:20px;margin-bottom:-150px;padding-top:34%;position:relative}
+#careers{background-repeat:no-repeat;background-size:100%;margin-top:-60px;margin-bottom:-150px;padding-top:34%;position:relative}
 #careers .values{background-color:white}
 #careers .red-box{position:relative;float:right;border:5px solid #910811;border-radius:2px;width:90%}
 #careers .blue-box{position:relative;float:left;border:5px solid #07074e;border-radius:2px;width:100%;margin-left:-10%;top:100px;padding:5%;padding-bottom:200px}

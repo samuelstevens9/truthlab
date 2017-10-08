@@ -140,8 +140,11 @@ function aa_styles() {
 	 * Minified and Concatenated styles
 	 *
 	 */
-	// wp_register_style('aa_style', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
-	wp_register_style( 'aa_style', get_template_directory_uri() . '/style.min.css', array(), '1.0', 'all' );
+	if ( defined( 'IS_WP_DEV' ) && TRUE === IS_WP_DEV ) {
+		wp_register_style( 'aa_style', get_template_directory_uri() . '/style.css', array(), '1.0', 'all' );
+	} else {
+		wp_register_style( 'aa_style', get_template_directory_uri() . '/style.min.css', array(), '1.0', 'all' );
+	}
 	wp_enqueue_style( 'aa_style' ); // Enqueue it!
 
 }
