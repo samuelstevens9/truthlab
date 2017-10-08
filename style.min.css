@@ -2317,7 +2317,7 @@ br{clear:both}
 .more-author .name p{text-align:right;padding-right:0}
 .more-author:after{content:'';width:100%;height:100%;position:absolute;background:inherit;float:left;left:0;z-index:-1;bottom:0;-webkit-transform-origin:left bottom;-ms-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:skewY(3deg);-ms-transform:skewY(3deg);transform:skewY(3deg)}
 .load-more__wrapper{text-align:center}
-.load-more__wrapper>a{font-size:1.2rem;text-transform:uppercase}
+.load-more__wrapper>a{font-size:1.2rem;text-transform:uppercase;border:3px solid #00004f;padding:10px 20px;display:inline-block;color:#00004f;font-weight:700;text-decoration:none}
 @media screen{[hidden~="screen"]{display:inherit}
 [hidden~="screen"]:not(:active):not(:focus):not(:target){clip:rect(0 0 0 0) !important;position:absolute !important}
 }@media screen and (-webkit-min-device-pixel-ratio:0){input[type="date"].form-control,input[type="time"].form-control,input[type="datetime-local"].form-control,input[type="month"].form-control{line-height:34px}
