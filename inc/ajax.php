@@ -11,7 +11,7 @@ class TruthlabAjax {
 		$paged = ! empty( $_POST[ 'paged' ] ) ? $_POST[ 'paged' ] : 1;
 
 		$args = array(
-			'posts_per_page' => 3,
+			'posts_per_page' => 12,
 			'paged'          => $paged,
 			'post_status'    => 'publish'
 		);

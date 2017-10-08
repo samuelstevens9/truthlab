@@ -145,7 +145,7 @@ jQuery(document).ready(function ($) {
         var author_id = $('#blog-posts').data('author');
 
         $.blockUI({
-            message: '<div class="css-spinner"></div>',
+            message: '<i class="fa fa-spin fa-spinner" aria-hidden="true"></i>',
             css: {
                 padding: 0,
                 margin: 0,
@@ -153,9 +153,14 @@ jQuery(document).ready(function ($) {
                 top: '40%',
                 left: '35%',
                 textAlign: 'center',
-                color: '#000',
+                color: '#07074e',
                 border: 'none',
                 backgroundColor: 'transparent',
+                cursor: 'wait'
+            },
+            overlayCSS: {
+                backgroundColor: '#FFF',
+                opacity: 0.9,
                 cursor: 'wait'
             }
         });
