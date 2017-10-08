@@ -2238,7 +2238,8 @@ br{clear:both}
 #careers .blue-box .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white}
 #careers .blue-box .panel-default>.panel-heading{background-color:white;border-color:white}
 #careers .blue-box .panel-heading,#careers .blue-box .panel-body{padding:0}
-#careers .blue-box .panel-body>.container{padding:0;width:auto}
+#careers .blue-box .panel-body>.container{padding:0;width:auto;margin-bottom:25px}
+#careers .blue-box .panel-body>.container>p,#careers .blue-box .panel-body>.container ul,#careers .blue-box .panel-body>.container ol{font-size:1.6rem}
 #careers .blue-box .accordion-toggle{padding-bottom:8px}
 #careers .blue-box .panel-title{color:#07074e;font-size:2rem}
 #careers .blue-box .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
