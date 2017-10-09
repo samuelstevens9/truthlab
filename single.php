@@ -73,30 +73,6 @@ get_header( 'single' ); ?>
                             </div>
                         </div>
                     </div>
-					<?php /*
-					<img class="twitter-dropdown" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/dropdown.svg"/>
-					<div class="takeaways">
-						<?php if( have_rows('takeaway') ): ?>
-						    <?php while( have_rows('takeaway') ): the_row(); ?>
-						    
-					    		<?php
-									$tweet = get_sub_field('tweet');
-									$tweet = str_replace('\'', '', $tweet);
-									$finalTweet = 'https://twitter.com/home?status='.$tweet;
-							    ?>
-								<a href="<?php echo $finalTweet ?>" target="popup" onclick="window.open('<?php echo $finalTweet ?>','popup','width=600,height=600');">
-								<div class="twitter-card">
-									<?php the_sub_field('tweet'); ?>
-									<i class="fa fa-twitter" aria-hidden="true"></i>
-								</div>
-								</a>
-			
-						    <?php endwhile; ?>
-						<?php endif; ?>
-					</div>
-				</div>
-				*/ ?>
-
 
                     <div class="share" style="display:none;">
                         <div class="social-menu">
@@ -156,7 +132,10 @@ get_header( 'single' ); ?>
                                         <p class="more">More from this author</p>
                                         <div class="name">
                                             <h3><?php echo get_the_author_meta( 'display_name' ); ?></h3>
-                                            <p><?php echo the_author_meta( 'position' ); ?></p>
+                                            <p class="author__position-title">
+												<?php the_field( 'professional_title',
+													'user_' . get_the_author_meta( 'id' ) ); ?>
+                                            </p>
                                         </div>
 										<?php echo do_shortcode( '[avatar]' ); ?>
                                     </div>
@@ -165,7 +144,10 @@ get_header( 'single' ); ?>
                                 <div class="more-author-mobile">
 									<?php echo do_shortcode( '[avatar]' ); ?>
                                     <h3><?php echo get_the_author_meta( 'display_name' ); ?></h3>
-                                    <p><?php echo the_author_meta( 'position' ); ?></p>
+                                    <p class="author__position-title">
+										<?php the_field( 'professional_title',
+											'user_' . get_the_author_meta( 'id' ) ); ?>
+                                    </p>
                                     <a href="<?php echo $currentauthorurl; ?>" class="more">More from this author</a>
                                 </div>
 
