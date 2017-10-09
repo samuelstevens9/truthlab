@@ -291,6 +291,9 @@ br {
         & .row {
             padding: 3rem 0px;
         }
+        > .row:first-of-type {
+            padding-bottom: 5rem;
+        }
         & .copy {
             text-align: left;
             padding: 3%;

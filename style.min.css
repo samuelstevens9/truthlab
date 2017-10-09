@@ -2224,6 +2224,7 @@ br{clear:both}
 #culture .values .heading p{color:#777}
 #culture .values .sub-heading{width:50%;margin:auto}
 #culture .values .row{padding:3rem 0}
+#culture .values>.row:first-of-type{padding-bottom:5rem}
 #culture .values .copy{text-align:left;padding:3%}
 #culture .values .copy h3{padding-top:0;margin-top:0;font-weight:400}
 #culture .values .customer-experiences{background-image:url("assets/img/about/customer-experiences.jpg");background-size:cover;height:288px}
