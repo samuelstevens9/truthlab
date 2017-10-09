@@ -2854,8 +2854,8 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #content__designers .marketing:after{-webkit-clip-path:hidden;clip-path:hidden;background-color:transparent;position:absolute;padding:300px 0;left:0;top:100px;width:100%;height:135px;z-index:-2}
 .page-template-solutions footer{margin-top:0}
 #hero{background:0;margin-top:60px;height:400px}
-#hero .front{top:18%;font-size:12rem}
-#hero .back{top:23%;font-size:3rem}
+#hero .front{top:2%;font-size:10rem}
+#hero .back{top:11%;font-size:2.4rem}
 .page-template-aboutus .heading{margin-top:0 !important}
 #cta .cta__red{background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%)}
 .page-template-aboutus #team-left .profile{border:0;border-radius:none;margin-left:5%;padding:5% 6%;margin-top:250px;text-align:center}
@@ -2913,6 +2913,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}
 .table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}
 }@media only screen and (max-width:660px){#hero .front{display:none}
+#hero .back{top:16%}
 }@media(max-width:600px){.author-header .author-header-copy{background-position-x:40vw}
 }@media(max-width:440px){.author-header .author-header-copy{background-size:cover;background-position-x:20vw}
 }@media print{*,*:before,*:after{color:#000 !important;text-shadow:none !important;background:transparent !important;box-shadow:none !important}

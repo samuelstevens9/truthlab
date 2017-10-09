@@ -1376,17 +1376,17 @@
         margin-top: 60px;
         height: 400px;
         & .front {
-            top: 18%;
-            font-size: 12rem;
+            top: 2%;
+            font-size: 10rem;
         }
         & .back {
-            top: 23%;
-            font-size: 3rem;
+            top: 11%;
+            font-size: 2.4rem;
         }
     }
 
     .page-template-aboutus .heading {
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
 
     #cta {
@@ -1571,6 +1571,7 @@
             display: none;
         }
         & .back {
+            top: 16%;
             /*font-size: 5rem;*/
         }
     }
