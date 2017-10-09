@@ -38,24 +38,22 @@ br {
 
     & .front {
         position: absolute;
-        top: 15%;
-        /* -webkit-transform: translateY(-50%); */
-        /*-ms-transform: translateY(-50%);*/
-        /* transform: translateY(-50%); */
-        left: 0;
-        width: 100%;
-        text-align: center;
-        color: #dedee3;
-        font-size: 22rem;
-    }
-    & .back {
-        position: absolute;
         top: 25%;
         left: 0;
         width: 100%;
         text-align: center;
+        color: #dedee3;
+        font-size: 18rem;
+    }
+    & .back {
+        position: absolute;
+        top: 38%;
+        left: 0;
+        width: 100%;
+        text-align: center;
         color: #07074e;
-        font-size: 6rem;
+        font-size: 4.5rem;
+        font-weight: 500;
     }
 }
 

@@ -2184,8 +2184,8 @@ hr.blue-bar{border-top:15px solid #07074e}
 .request-dropdown-mobile.request-toggle{display:none}
 br{clear:both}
 #hero{height:700px;background-image:url(assets/img/about/top-lines-rb.svg),url(assets/img/about/bottom-lines.svg);background-repeat:no-repeat,no-repeat;background-position:left 76px top 0,right 70px bottom 0;background-size:271px;margin-top:-80px}
-#hero .front{position:absolute;top:15%;left:0;width:100%;text-align:center;color:#dedee3;font-size:22rem}
-#hero .back{position:absolute;top:25%;left:0;width:100%;text-align:center;color:#07074e;font-size:6rem}
+#hero .front{position:absolute;top:25%;left:0;width:100%;text-align:center;color:#dedee3;font-size:18rem}
+#hero .back{position:absolute;top:38%;left:0;width:100%;text-align:center;color:#07074e;font-size:4.5rem;font-weight:500}
 .page-template-aboutus h1{margin:0;padding:0;color:#07074e;font-size:3.5rem}
 .page-template-aboutus h2{margin:0;padding-bottom:50px}
 .page-template-aboutus [class*="fa-"]{color:#666}
