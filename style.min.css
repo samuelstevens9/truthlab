@@ -2221,7 +2221,7 @@ br{clear:both}
 #culture .values{background-color:white}
 #culture .values .heading{width:90%;max-width:960px;margin:0 auto}
 #culture .values .heading h2{font-size:5rem;padding-bottom:0}
-#culture .values .heading p{color:#777}
+#culture .values .heading p{color:#777;font-size:1.8rem}
 #culture .values .sub-heading{width:50%;margin:auto}
 #culture .values .row{padding:3rem 0}
 #culture .values>.row:first-of-type{padding-bottom:5rem}
