@@ -2218,7 +2218,7 @@ br{clear:both}
 .page-template-aboutus #team-right .profile-image{margin-left:28%}
 .page-template-aboutus #team-right .hexagon{margin-left:30%}
 #culture{background:url("assets/img/about/culture-and-values.jpg") no-repeat;background-size:100%;position:relative;padding-top:62%}
-#culture .values{background-color:white;max-width:90%}
+#culture .values{background-color:white}
 #culture .values .heading{width:90%;max-width:960px;margin:0 auto}
 #culture .values .heading h2{font-size:5rem;padding-bottom:0}
 #culture .values .heading p{color:#777;font-size:1.8rem}
@@ -2472,6 +2472,7 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .copy h2{font-size:2.5rem}
 }@media(min-width:769px) and (max-width:991px){.page-template-aboutus #team-left .profile{padding-left:220px !important}
 .page-template-aboutus #team-right .profile{padding-right:220px !important}
+}@media(min-width:769px){#culture .values{max-width:90%}
 }@media(min-width:992px){.container{width:970px}
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
 .col-md-12{width:100%}

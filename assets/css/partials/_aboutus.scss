@@ -242,7 +242,10 @@ br {
     /*background-position:center center;*/
     & .values {
         background-color: white;
-        max-width: 90%;
+
+        @media (min-width: 769px) {
+            max-width: 90%;
+        }
 
         & .heading {
             width: 90%;
