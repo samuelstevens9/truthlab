@@ -2217,7 +2217,7 @@ br{clear:both}
 .page-template-aboutus #team-right .profile{border:5px solid #07074e;margin-left:0}
 .page-template-aboutus #team-right .profile-image{margin-left:28%}
 .page-template-aboutus #team-right .hexagon{margin-left:30%}
-#culture{margin-top:200px;background:url("assets/img/about/culture-and-values.jpg") no-repeat;background-size:100%;position:relative;padding-top:62%}
+#culture{background:url("assets/img/about/culture-and-values.jpg") no-repeat;background-size:100%;position:relative;padding-top:62%}
 #culture .values{background-color:white}
 #culture .values .heading{width:90%;max-width:960px;margin:0 auto}
 #culture .values .heading h2{font-size:5rem;padding-bottom:0}
