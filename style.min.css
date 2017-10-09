@@ -2274,6 +2274,7 @@ br{clear:both}
 #accordions h4{color:#666}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
 #blog-filters{text-align:center}
+#blog-filters>h4{margin-top:20px;font-style:italic;font-size:1.25rem;font-weight:400;padding-bottom:0;margin-bottom:0}
 #blog-filters .nav{float:none}
 #blog-filters .nav li{float:none;display:inline-block}
 #blog-filters .navbar{border:0;box-shadow:none}
@@ -2879,6 +2880,8 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #terms-hero h1{font-size:1.5rem}
 #accordions .panel-body>.container{width:100%;padding:0 1rem}
 #user-type{text-align:center}
+}@media(max-width:768px){#blog-filters{margin-bottom:0}
+#blog-filters .navbar{top:0}
 }@media(max-width:767px){.navbar-nav .open .dropdown-menu{position:static;float:none;width:auto;margin-top:0;background-color:transparent;border:0;box-shadow:none}
 .navbar-nav .open .dropdown-menu>li>a,.navbar-nav .open .dropdown-menu .dropdown-header{padding:5px 15px 5px 25px}
 .navbar-nav .open .dropdown-menu>li>a{line-height:20px}

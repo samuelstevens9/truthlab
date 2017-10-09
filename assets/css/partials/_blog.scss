@@ -1,6 +1,19 @@
 #blog-filters {
     text-align: center;
 
+    @media (max-width: 768px) {
+        margin-bottom: 0;
+    }
+
+    > h4 {
+        margin-top: 20px;
+        font-style: italic;
+        font-size: 1.25rem;
+        font-weight: 400;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
     .nav {
         float: none;
 
@@ -13,6 +26,10 @@
     .navbar {
         border: none;
         box-shadow: none;
+
+        @media (max-width: 768px) {
+            top: 0;
+        }
     }
 }
 
