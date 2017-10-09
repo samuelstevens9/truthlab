@@ -197,7 +197,8 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                                                             <div class="text-right"><img
                                                                     src="<?php echo get_template_directory_uri() ?>/assets/img/down-triangle.png"
                                                                     height="35" style="height:35px !important;"/>
-                                                            </div><?php endif; ?></div>
+                                                            </div><?php endif; ?>
+                                                    </div>
                                                 </h4>
                                             </div>
                                             <div id="collapseTwo"
@@ -205,66 +206,36 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                                                 <div class="panel-body">
                                                     <div class="container">
                                                         <p>A technical innovator who is normally in front of a
-                                                            computer
-                                                            terminal
-                                                            or out in the surf, Scott loves building new
-                                                            technologies
-                                                            and
-                                                            working with those excited to do the same. Formerly a
-                                                            naval
-                                                            officer,
-                                                            nuclear engineer, sales engineering leader for applied
-                                                            artificial
-                                                            intelligence, and chief technology officer of a baseball
-                                                            analytics
-                                                            company. He has a BSEE and MSEE in Electrical
-                                                            Engineering
-                                                            from
-                                                            the
-                                                            University of Southern California, graduate certificate
-                                                            in
-                                                            Nuclear
-                                                            Engineering from the Bettis Atomic Power Laboratory, and
-                                                            MS
-                                                            in
-                                                            Finance from George Washington University. Scott is
-                                                            passionate
-                                                            about
-                                                            helping Truthlab’s customers have the best tools to
-                                                            create
-                                                            amazing
-                                                            customer experiences.</p>
+                                                            computer terminal or out in the surf, Scott loves building
+                                                            new technologies and working with those excited to do the
+                                                            same. Formerly a naval officer, nuclear engineer, sales
+                                                            engineering leader for applied artificial intelligence, and
+                                                            chief technology officer of a baseball analytics
+                                                            company. He has a BSEE and MSEE in Electrical Engineering
+                                                            from the University of Southern California, graduate
+                                                            certificate in Nuclear Engineering from the Bettis Atomic
+                                                            Power Laboratory, and MS in Finance from George Washington
+                                                            University. Scott is passionate about helping Truthlab’s
+                                                            customers have the best tools to create amazing
+                                                            customer experiences.
+                                                        </p>
                                                         <p>Scott is obsessed with solving cross functional problems.
-                                                            From
-                                                            working with the best engineers in the DoD and DoE to
-                                                            the
-                                                            best
-                                                            data
-                                                            scientists and machine learning engineers in Predictive
-                                                            Marketing,
-                                                            Scott realized the toughest challenges for business are
-                                                            those
-                                                            that
-                                                            span orgs, operational processes, and departmental
-                                                            goals.
-                                                            The
-                                                            Truthlab Customer Experience Platform enables you to
-                                                            analyze
-                                                            customer experience across marketing, sales, success,
-                                                            and
-                                                            renewals.</p>
+                                                            From working with the best engineers in the DoD and DoE to
+                                                            the best data scientists and machine learning engineers in
+                                                            Predictive Marketing, Scott realized the toughest challenges
+                                                            for business are those that span orgs, operational
+                                                            processes, and departmental goals. The Truthlab Customer
+                                                            Experience Platform enables you to analyze customer
+                                                            experience across marketing, sales, success, and
+                                                            renewals.
+                                                        </p>
                                                         <p>Truthlab is taking a fresh look at nearly every aspect of
-                                                            the
-                                                            digital
-                                                            customer experience. Currently, it’s too difficult and
-                                                            time
-                                                            consuming to transform massive volumes of customer data
-                                                            into
-                                                            truly
-                                                            actionable insights across multiple business units. The
-                                                            Truthlab
-                                                            CXM
-                                                            platform is fixing this problem.</p>
+                                                            the digital customer experience. Currently, it’s too
+                                                            difficult and time consuming to transform massive volumes of
+                                                            customer data into truly actionable insights across multiple
+                                                            business units. The Truthlab CXM platform is fixing this
+                                                            problem.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -313,19 +284,25 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     </div>
 
     <section id="culture">
-        <div class="container text-center values">
+        <div class="container-fluid text-center values">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-10 col-md-offset-1">
                     <div class="heading">
                         <h2>Culture &amp; Values</h2>
-                        <p>Just one block from the downtown San Mateo CalTrain station, our team helps companies
+                        <p>
+                            Just one block from the downtown San Mateo CalTrain station, our team helps companies
                             orchestrate amazing customer experiences. We start each day with the goal of providing real
-                            value for our customers and each other.</p>
-                        <p>Read on to find out what is important to our team.</p>
+                            value for our customers and each other.
+                        </p>
+                        <p>
+                            Read on to find out what is important to our team.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row" style="padding:0px;">
+        </div>
+        <div class="container text-center values">
+            <div class="row" style="padding:0">
                 <div class="col-md-6 col-md-push-6 customer-experiences">
 
                 </div>

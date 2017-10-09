@@ -241,10 +241,9 @@ br {
     padding-top: 62%;
     /*background-position:center center;*/
     & .values {
-        /*transform:translateY(28%);
-        margin-top:23%;
-        padding:2%;*/
         background-color: white;
+        max-width: 90%;
+
         & .heading {
             width: 90%;
             max-width: 960px;
