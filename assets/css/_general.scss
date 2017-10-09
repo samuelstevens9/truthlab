@@ -18,3 +18,14 @@
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }
+
+#back-to-top {
+    position: fixed;
+    background-image: url('./assets/img/totop.svg'), none;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
