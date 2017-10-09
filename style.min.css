@@ -2318,8 +2318,9 @@ br{clear:both}
 .blog-post img.alignleft{margin:20px 20px 20px -255px}
 .more-author-mobile{display:none;clear:both}
 .post img{border:1px solid #07074e}
-#main article blockquote{width:70%;padding:10% 10% 10% 0;border-left:0;margin:40px 40px 40px -325px;margin-bottom:40px !important;float:left}
-#main article blockquote p{font-size:2.5rem;line-height:3rem;text-align:right}
+#main article blockquote{width:55%;padding:5% 5% 5% 0;border-left:0;margin:40px 40px 40px -325px;margin-bottom:40px !important;float:left}
+#main article blockquote p{font-size:1.8rem;line-height:3rem;text-align:right;padding:0}
+#main article blockquote .fa.fa-twitter{font-size:1.2rem}
 .more-author{clear:both;height:auto;position:relative;background:#75000e;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#75000e',endColorstr='#dd0035',GradientType=1);-ms-box-orient:horizontal;color:white;width:90%;padding:25px}
 .more-author p.more{font-style:italic;display:inline;width:30%;float:left;padding-right:0;color:white}
 .more-author .name{display:inline;width:50%;float:left;-webkit-transform:translateX(25%);-ms-transform:translateX(25%);transform:translateX(25%);margin-top:20px}

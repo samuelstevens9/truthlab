@@ -342,18 +342,23 @@
 }
 
 #main article blockquote {
-    width: 70%;
-    padding: 10% 10% 10% 0;
+    width: 55%;
+    padding: 5% 5% 5% 0;
     border-left: none;
     margin: 40px 40px 40px -325px;
     margin-bottom: 40px !important;
     float: left;
-}
 
-#main article blockquote p {
-    font-size: 2.5rem;
-    line-height: 3rem;
-    text-align: right;
+    p {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        text-align: right;
+        padding: 0;
+    }
+
+    .fa.fa-twitter {
+        font-size: 1.2rem;
+    }
 }
 
 .more-author {
