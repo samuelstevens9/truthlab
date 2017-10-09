@@ -51,9 +51,6 @@ br {
     & .back {
         position: absolute;
         top: 25%;
-        /* -webkit-transform: translateY(-50%); */
-        /*-ms-transform: translateY(-50%);*/
-        /* transform: translateY(-50%); */
         left: 0;
         width: 100%;
         text-align: center;
@@ -74,10 +71,7 @@ br {
     }
     h2 {
         margin: 0;
-        padding-bottom: 10px;
-        font-weight: 500;
-        color: #999;
-        font-size: 2rem;
+        padding-bottom: 50px;
     }
     & [class*="fa-"] {
         color: $grey-medium;
@@ -101,6 +95,22 @@ br {
         transform: translateY(-5px);
         text-shadow: 1px 1px rgba(7, 7, 78, .5);
     }
+
+    #team-left, #team-right {
+        .profile {
+            h1 {
+                color: #07074e;
+                font-size: 3.5rem;
+            }
+
+            h2 {
+                padding-bottom: 10px;
+                font-weight: 500;
+                color: #999;
+                font-size: 2rem;
+            }
+        }
+    }
 }
 
 .page-template-aboutus {
@@ -113,7 +123,6 @@ br {
         & .profile {
             border: 5px solid $red;
             border-radius: 2px;
-            //margin-left: 17%;
             padding: 5% 6%;
         }
         & .panel-default {
