@@ -75,6 +75,9 @@
                 <li class="<?php if ( is_page( 'about' ) ) {
 					echo ' active ';
 				} ?>"><a href="/about/">About</a></li>
+                <li class="<?php if ( is_page( 'customer-experience-advantage' ) ) {
+					echo ' active ';
+				} ?>"><a href="/customer-experience-advantage/">Resources</a></li>
                 <li class="<?php if ( strpos( $_SERVER[ 'REQUEST_URI' ], 'blog' ) !== FALSE ) {
 					echo ' active ';
 				} ?>"><a href="/blog/">Blog</a></li>
