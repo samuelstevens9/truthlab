@@ -7,7 +7,7 @@ hr.blue-bar {
 }
 
 #primary.container {
-    margin-bottom: 380px; /*to push footer down*/
+    margin-bottom: 250px; /*to push footer down*/
 }
 
 #primary .row {
@@ -96,5 +96,13 @@ hr.blue-bar {
 .page-template-landing {
     .tl-red {
         margin-top: 10px;
+    }
+    .about-white-paper {
+        p, ul, ol {
+            font-size: 1.8rem;
+        }
+    }
+    .sub-footer {
+        border-top-width: 1px;
     }
 }

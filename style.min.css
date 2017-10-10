@@ -2171,7 +2171,7 @@ footer .row{padding-top:0}
 #content__designers .marketing{padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-01.svg) no-repeat;background-size:100%}
 hr.blue-bar{border-top:15px solid #07074e}
 .tl-red{color:#910811}
-#primary.container{margin-bottom:380px}
+#primary.container{margin-bottom:250px}
 #primary .row{padding:0}
 #primary ul{padding-left:20px}
 #primary li{padding-left:0}
@@ -2185,6 +2185,8 @@ hr.blue-bar{border-top:15px solid #07074e}
 .navbar.landing{top:0 !important}
 .request-dropdown-mobile.request-toggle{display:none}
 .page-template-landing .tl-red{margin-top:10px}
+.page-template-landing .about-white-paper p,.page-template-landing .about-white-paper ul,.page-template-landing .about-white-paper ol{font-size:1.8rem}
+.page-template-landing .sub-footer{border-top-width:1px}
 br{clear:both}
 #hero{height:700px;background-image:url(assets/img/about/top-lines-rb.svg),url(assets/img/about/bottom-lines.svg);background-repeat:no-repeat,no-repeat;background-position:left 76px top 0,right 70px bottom 0;background-size:200px;margin-top:0;position:relative}
 #hero .front{position:absolute;top:10%;left:0;width:100%;text-align:center;color:#dedee3;font-size:18rem}

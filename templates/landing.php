@@ -63,30 +63,28 @@
 
 
 <footer>
-    <div class="row--padded">
-        <div class="mobile-footer container"></div>
+    <div class="mobile-footer container"></div>
 
-        <div class="main-footer container"></div>
+    <div class="main-footer container"></div>
 
-        <div class="container sub-footer">
-            <div class="row">
-                <div class="col-md-4 copyright">
-                    &copy; Truthlab <?php echo date( "Y" ); ?>
-                </div>
-                <div class="col-md-8 text-right">
-                    <a href="#" class="contact">Contact Us</a>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/company-beta/10992459/"><i
-                                        class="fa fa-linkedin-square fa-2x"
-                                        aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.facebook.com/truthlabtech/"><i class="fa fa-facebook-square fa-2x"
-                                                                                aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x"
-                                                                                  aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-google-plus-square fa-2x"
-                                                                                  aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
+    <div class="container sub-footer">
+        <div class="row">
+            <div class="col-md-4 copyright">
+                &copy; Truthlab <?php echo date( "Y" ); ?>
+            </div>
+            <div class="col-md-8 text-right">
+                <a href="#" class="contact">Contact Us</a>
+                <ul>
+                    <li><a href="https://www.linkedin.com/company-beta/10992459/"><i
+                                    class="fa fa-linkedin-square fa-2x"
+                                    aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/truthlabtech/"><i class="fa fa-facebook-square fa-2x"
+                                                                            aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-twitter-square fa-2x"
+                                                                              aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/truthlabtech?lang=en"><i class="fa fa-google-plus-square fa-2x"
+                                                                              aria-hidden="true"></i></a></li>
+                </ul>
             </div>
         </div>
     </div>
