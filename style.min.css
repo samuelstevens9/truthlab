@@ -2056,7 +2056,7 @@ footer .row{padding-bottom:0}
 .top-row{height:860px;padding:0;background-color:#f5f3f3;background:url("assets/img/home/home-bg-triangle-01.svg") no-repeat;background-size:100%}
 .top-row .copy{margin-top:20%}
 .bottom-row .copy{margin-top:20%}
-.bottom-row .image{margin-top:10%}
+.bottom-row .image{margin-top:5%}
 .blank{content:'';position:relative;width:60%;left:20%;top:-350px;height:500px;margin-bottom:-600px;background-image:url(assets/img/home/bottom-lines_rb.svg),url(assets/img/home/top-lines_rb.svg);background-position:left 0 bottom 0,right 0 top 0;background-repeat:no-repeat;background-size:300px 500px}
 .bottom-row{height:874px;padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%}
 .bottom-row .container{padding:7rem 0 0 0}
