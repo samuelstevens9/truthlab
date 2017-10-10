@@ -381,9 +381,9 @@
 #clients {
     margin-bottom: -250px;
     & .row {
-        padding-top: 0px;
+        padding-top: 0;
     }
-    & .container {
+    .container-fluid {
         background: #ffffff; /* Old browsers */
         background: -moz-linear-gradient(top, #ffffff 0%, #eff1fa 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(top, #ffffff 0%, #eff1fa 100%); /* Chrome10-25,Safari5.1-6 */
@@ -555,7 +555,7 @@ button.slick-prev, button.slick-next {
     & .row {
         padding-bottom: 20px;
     }
-    & h2 {
+    h2 {
         color: white;
     }
     & .white {
@@ -593,9 +593,9 @@ button.slick-prev, button.slick-next {
         content: '';
         position: absolute;
         left: 0;
-        top: -45px;
+        top: -4vw;
         width: 100%;
-        height: 105px;
+        height: 8vw;
         @include redGradient;
         transform: skewY(4deg);
         -webkit-backface-visibility: hidden;
@@ -633,6 +633,18 @@ footer {
     margin-top: 25px;
     & .row {
         padding-top: 0px;
+    }
+}
+
+.page-template-hompage {
+    #cta {
+        .cta__red {
+            h2 {
+                @media (min-width: 861px) {
+                    margin-top: -10px;
+                }
+            }
+        }
     }
 }
 

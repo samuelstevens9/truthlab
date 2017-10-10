@@ -2066,7 +2066,7 @@ footer .row{padding-bottom:0}
 #panel-management .container{margin-top:15%}
 #clients{margin-bottom:-250px}
 #clients .row{padding-top:0}
-#clients .container{background:#fff;background:-webkit-linear-gradient(top,#fff 0,#eff1fa 100%);background:linear-gradient(to bottom,#fff 0,#eff1fa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#eff1fa',GradientType=0);padding-bottom:5rem}
+#clients .container-fluid{background:#fff;background:-webkit-linear-gradient(top,#fff 0,#eff1fa 100%);background:linear-gradient(to bottom,#fff 0,#eff1fa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#eff1fa',GradientType=0);padding-bottom:5rem}
 #clients .quotes{background-image:url(assets/img/home/quotation_start.svg),url(assets/img/home/quotation_end.svg);background-position:left top,right center;background-repeat:no-repeat;background-size:100px}
 #clients h5{text-align:center}
 .slick-slide{margin:0 20px;display:none;float:left;height:100%;min-height:1px}
@@ -2109,7 +2109,7 @@ button.slick-prev,button.slick-next{display:none !important}
 #cta .cta__red a:hover{color:#910811 !important}
 #cta .cta__blue a:hover{color:#07074e !important}
 .cta__red{background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);position:relative;padding:0 15px 1rem 15px;color:white}
-.cta__red:before{display:block;content:'';position:absolute;left:0;top:-45px;width:100%;height:105px;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:-1}
+.cta__red:before{display:block;content:'';position:absolute;left:0;top:-4vw;width:100%;height:8vw;background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:-1}
 .cta__red a:hover{color:#910811 !important}
 .cta__blue{position:relative;color:white;padding-top:50px;background:-webkit-linear-gradient(bottom,#005 0,#0016a3 100%);background:linear-gradient(to top,#005 0,#0016a3 100%)}
 .cta__blue:before{display:block;content:'';position:absolute;left:0;top:-4vw;width:100%;height:8vw;background:-webkit-linear-gradient(bottom,#FFF 0,#FFF 100%);background:linear-gradient(to top,#FFF 0,#FFF 100%);-webkit-transform:skewY(4deg);-ms-transform:skewY(4deg);transform:skewY(4deg);-webkit-backface-visibility:hidden;z-index:1}
@@ -2462,14 +2462,8 @@ input[type="date"].input-lg,input[type="time"].input-lg,input[type="datetime-loc
 .modal-sm{width:300px}
 .author-header .author-header-copy{background-image:none !important}
 .course:hover .img-container{background-size:auto 110%;background-position:5% center}
-}@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}
-.container .jumbotron,.container-fluid .jumbotron{padding-right:60px;padding-left:60px}
-.jumbotron h1,.jumbotron .h1{font-size:63px}
-.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{width:30px;height:30px;margin-top:-10px;font-size:30px}
-.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-10px}
-.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-10px}
-.carousel-caption{right:20%;left:20%;padding-bottom:30px}
-.carousel-indicators{bottom:20px}
+}@media only screen and (min-width:768px) and (max-width:1200px){.copy{margin-top:10%;font-size:70%}
+.copy h2{font-size:2.5rem}
 }@media(min-width:768px) and (max-width:991px){.visible-sm{display:block !important}
 table.visible-sm{display:table !important}
 tr.visible-sm{display:table-row !important}
@@ -2478,11 +2472,18 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .visible-sm-inline{display:inline !important}
 .visible-sm-inline-block{display:inline-block !important}
 .hidden-sm{display:none !important}
-}@media only screen and (min-width:768px) and (max-width:1200px){.copy{margin-top:10%;font-size:70%}
-.copy h2{font-size:2.5rem}
+}@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}
+.container .jumbotron,.container-fluid .jumbotron{padding-right:60px;padding-left:60px}
+.jumbotron h1,.jumbotron .h1{font-size:63px}
+.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{width:30px;height:30px;margin-top:-10px;font-size:30px}
+.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-10px}
+.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-10px}
+.carousel-caption{right:20%;left:20%;padding-bottom:30px}
+.carousel-indicators{bottom:20px}
 }@media(min-width:769px) and (max-width:991px){.page-template-aboutus #team-left .profile{padding-left:220px !important}
 .page-template-aboutus #team-right .profile{padding-right:220px !important}
 }@media(min-width:769px){#culture .values{max-width:90%}
+}@media(min-width:861px){.page-template-hompage #cta .cta__red h2{margin-top:-10px}
 }@media(min-width:992px){.container{width:970px}
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
 .col-md-12{width:100%}
@@ -2537,6 +2538,7 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .col-md-offset-1{margin-left:8.33333333%}
 .col-md-offset-0{margin-left:0}
 .modal-lg{width:900px}
+}@media(min-width:992px) and (max-width:1110px){.page-template-aboutus #team-left .profile{padding-left:100px !important}
 }@media(min-width:992px) and (max-width:1199px){.visible-md{display:block !important}
 table.visible-md{display:table !important}
 tr.visible-md{display:table-row !important}
@@ -2545,7 +2547,6 @@ th.visible-md,td.visible-md{display:table-cell !important}
 .visible-md-inline{display:inline !important}
 .visible-md-inline-block{display:inline-block !important}
 .hidden-md{display:none !important}
-}@media(min-width:992px) and (max-width:1110px){.page-template-aboutus #team-left .profile{padding-left:100px !important}
 }@media(min-width:1200px){.container{width:1170px}
 .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}
 .col-lg-12{width:100%}

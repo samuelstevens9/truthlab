@@ -126,6 +126,7 @@ jQuery(document).ready(function ($) {
     // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
+        .not('.carousel-control')
         .click(function (event) {
             // On-page links
             if (

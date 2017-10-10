@@ -178,76 +178,93 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
 
     <section id="clients">
         <div class="row--padded">
-            <div class="container text-center">
-                <div class="quotes">
-                    <h2>We work with great people</h2>
-                    <h5>Hear what some have to say</h5>
-                    <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#tcb-testimonial-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#tcb-testimonial-carousel" data-slide-to="1"></li>
-                            <li data-target="#tcb-testimonial-carousel" data-slide-to="2"></li>
-                        </ol>
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="row row--padded">
-                                    <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-                                        We are in the experience economy. Organizations must adopt a technology, process
-                                        and a
-                                        customer centric culture to avoid being left behind. In three short months,
-                                        Truthlab has identified more actions to take than we had identified in the three
-                                        prior years!
-                                    </div>
-                                    <div class="col-xs-12 col-md-4 testimonial__author">
-                                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
-                                        <div>
-                                            Maryanne P.<br/>
-                                            Dir. Customer Experience<br/>
-                                            Dell<br/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="row row--padded">
-                                    <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-                                        Every part of our business influences our Customer Experience.
-                                        Truthlab gives us the insight to understand which experiences need to improve.
-                                    </div>
-                                    <div class="col-xs-12 col-md-4 testimonial__author">
-                                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png"/>
-                                        <div>
-                                            Mark M. <br/>
-                                            Customer Experience Researcher<br/>
-                                            Microsoft<br/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="row row--padded">
-                                    <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
-                                        Here at Cisco, we have always put the customer first.
-                                        Truthlab allows us to leverage our existing process and methodology within their
-                                        platform to close the gaps that were previously identified.
-                                    </div>
-                                    <div class="col-xs-12 col-md-4 testimonial__author">
-                                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png"/>
-                                        <div>
-                                            Bill T. <br/>
-                                            Dir. Customer Marketing<br/>
-                                            Cisco<br/>
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="quotes">
+                                        <h2>We work with great people</h2>
+                                        <h5>Hear what some have to say</h5>
+                                        <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#tcb-testimonial-carousel" data-slide-to="0"
+                                                    class="active"></li>
+                                                <li data-target="#tcb-testimonial-carousel" data-slide-to="1"></li>
+                                                <li data-target="#tcb-testimonial-carousel" data-slide-to="2"></li>
+                                            </ol>
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <div class="row row--padded">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+                                                            We are in the experience economy. Organizations must adopt a
+                                                            technology, process and a customer centric culture to avoid
+                                                            being left behind. In three short months, Truthlab has
+                                                            identified more actions to take than we had identified
+                                                            in the three prior years!
+                                                        </div>
+                                                        <div class="col-xs-12 col-md-4 testimonial__author">
+                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
+                                                            <div>
+                                                                Maryanne P.<br/>
+                                                                Dir. Customer Experience<br/>
+                                                                Dell<br/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="row row--padded">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+                                                            Every part of our business influences our Customer
+                                                            Experience. Truthlab gives us the insight to understand
+                                                            which experiences need to improve.
+                                                        </div>
+                                                        <div class="col-xs-12 col-md-4 testimonial__author">
+                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png"/>
+                                                            <div>
+                                                                Mark M. <br/>
+                                                                Customer Experience Researcher<br/>
+                                                                Microsoft<br/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="row row--padded">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+                                                            Here at Cisco, we have always put the customer first.
+                                                            Truthlab allows us to leverage our existing process and
+                                                            methodology
+                                                            within
+                                                            their
+                                                            platform to close the gaps that were previously identified.
+                                                        </div>
+                                                        <div class="col-xs-12 col-md-4 testimonial__author">
+                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png"/>
+                                                            <div>
+                                                                Bill T. <br/>
+                                                                Dir. Customer Marketing<br/>
+                                                                Cisco<br/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="left carousel-control" href="#tcb-testimonial-carousel"
+                                               data-slide="prev"><img
+                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-left.svg"/></a>
+                                            <a class="right carousel-control" href="#tcb-testimonial-carousel"
+                                               data-slide="next"><img
+                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-right.svg"/></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"><img
-                                    src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-left.svg"/></a>
-                        <a class="right carousel-control" href="#tcb-testimonial-carousel" data-slide="next"><img
-                                    src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-chevron-right.svg"/></a>
                     </div>
                 </div>
             </div>
@@ -255,17 +272,22 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     </section>
 
     <section id="cta">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row row--padded cta__red">
-                <div class="col-md-7">
-                    <h2>Create Better Customer Experiences</h2>
-                    <div class="white"></div>
-                    <p>Learn how Truthlab can help you track, measure and improve every aspect of your customers’
-                        journey.</p>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-4 text-right">
-                    <a href="#" class="button button--white request-toggle">Request a Demo</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h2>Create Better Customer Experiences</h2>
+                            <div class="white"></div>
+                            <p>Learn how Truthlab can help you track, measure and improve every aspect of your
+                                customers’
+                                journey.</p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-4 text-right">
+                            <a href="#" class="button button--white request-toggle">Request a Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
