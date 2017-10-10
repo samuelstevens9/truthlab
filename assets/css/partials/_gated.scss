@@ -6,7 +6,6 @@ hr.blue-bar {
     color: $red;
 }
 
-/*#910811*/
 #primary.container {
     margin-bottom: 380px; /*to push footer down*/
 }
@@ -21,6 +20,12 @@ hr.blue-bar {
 
 #primary li {
     padding-left: 0px;
+}
+
+.whitepaper_form {
+    .blog-subscribe-checkbox {
+        font-size: 1.3rem;
+    }
 }
 
 .whitepaper_form input {

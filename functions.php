@@ -232,7 +232,7 @@ function tl_free_whitepaper_form_func( $atts ) {
         <input style="" id="company" type="text" class="not-blank-value" name="company" placeholder="Company Name"><br>
         <input type="hidden" name="tl_free_whitepaper_form" value="<?php echo $a[ 'redirect' ]; ?>"
                id="tl_free_whitepaper_form">
-        <div style=""><input name="blog" type="checkbox" checked><span style="margin-left:5px">Sign me up for the Truthlab Blog Subscription</span>
+        <div class="blog-subscribe-checkbox"><input name="blog" type="checkbox" checked><span style="margin-left:5px">Sign me up for the Truthlab Blog Subscription</span>
         </div>
         <button type="submit" value="Download Now">Download Now <i class="fa fa-lg fa-angle-right"></i></button>
     </form>
