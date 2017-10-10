@@ -303,7 +303,6 @@
     margin-bottom: 800px;
     overflow: hidden;
     & .round {
-        /*transform:translateY(-45%);*/
         box-shadow: 5px 30px 5px 0px rgba(145, 8, 17, 0.55);
     }
     & .bg-image-red {
@@ -328,7 +327,7 @@
     & .float-image-right {
         width: 400%;
         /* margin-left: -150px; */
-        margin-top: -36px;
+        //margin-top: -36px;
         position: relative;
         z-index: 1;
     }
