@@ -247,11 +247,17 @@
 }
 
 #middle {
-    /*margin-top:200px;*/
-    & img {
+    img {
         border-radius: 50%;
         width: 100%;
-        /*height:100%;*/
+    }
+
+    .top-row {
+        .copy {
+            @media (min-width: 1200px) {
+                margin-top: 10%;
+            }
+        }
     }
 }
 
