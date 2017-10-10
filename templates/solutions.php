@@ -190,17 +190,24 @@ get_header(); ?>
 
 
     <section id="cta">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row row--padded cta__red">
-                <div class="col-md-7">
-                    <h2>Create Better Customer Experiences</h2>
-                    <div class="white"></div>
-                    <p>Learn how Truthlab can help you track, measure and improve every aspect of your customers’
-                        journey.</p>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-4 text-right">
-                    <a href="#" class="button button--white request-toggle">Request a Demo</a>
+                <div class="col-xs-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h2>Create Better Customer Experiences</h2>
+                                <div class="white"></div>
+                                <p>Learn how Truthlab can help you track, measure and improve every aspect of your
+                                    customers’
+                                    journey.</p>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-4 text-right">
+                                <a href="#" class="button button--white request-toggle">Request a Demo</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
