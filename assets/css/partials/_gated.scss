@@ -26,6 +26,14 @@ hr.blue-bar {
     .blog-subscribe-checkbox {
         font-size: 1.3rem;
     }
+
+    button[type=submit] {
+        i.fa {
+            vertical-align: baseline;
+            font-size: inherit;
+            line-height: inherit;
+        }
+    }
 }
 
 .whitepaper_form input {

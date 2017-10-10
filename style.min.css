@@ -2176,6 +2176,7 @@ hr.blue-bar{border-top:15px solid #07074e}
 #primary ul{padding-left:20px}
 #primary li{padding-left:0}
 .whitepaper_form .blog-subscribe-checkbox{font-size:1.3rem}
+.whitepaper_form button[type=submit] i.fa{vertical-align:baseline;font-size:inherit;line-height:inherit}
 .whitepaper_form input{width:100%;border:1px solid #07074e;border-radius:2px;padding:2px 6px;box-shadow:2px 2px 0 #bb969a;margin-bottom:20px;background:#fff;background:-webkit-linear-gradient(top,#edf0f9 0,#fff 40%,#fff 100%);background:linear-gradient(to bottom,#edf0f9 0,#fff 40%,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf0f9',endColorstr='#ffffff',GradientType=0)}
 .whitepaper_form input[type="checkbox"],.whitepaper_form input[type="radio"]{width:auto}
 .whitepaper_form input[type="submit"],.whitepaper_form button,.whitepaper_form input[type="button"]{width:100%;border:0;padding:9px;background-color:#910811;box-shadow:1px 2px 3px rgba(7,7,78,0.2);border-radius:2px;color:#FFF}
