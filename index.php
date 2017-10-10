@@ -52,7 +52,9 @@ get_header(); ?>
                             <li class="<?php if ( ! $the_author && ! isset( $_GET[ 'category' ] ) ) {
 								echo ' active ';
 							} ?>">
-                                <a href="<?php echo $current_url; ?>" class="blog-filter--category" data-filter="">
+                                <a href="<?= is_author() ? '/blog/' : $current_url; ?>"
+                                   class="<?= ! is_author() ? 'blog-filter--category' : '' ?>"
+                                   data-filter="">
                                     All <span class="sr-only">(current)</span>
                                 </a>
                             </li>
