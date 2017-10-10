@@ -200,14 +200,14 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                                             <div class="carousel-inner">
                                                 <div class="item active">
                                                     <div class="row row--padded">
-                                                        <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-5 col-md-offset-1 text-left">
                                                             We are in the experience economy. Organizations must adopt a
                                                             technology, process and a customer centric culture to avoid
                                                             being left behind. In three short months, Truthlab has
                                                             identified more actions to take than we had identified
                                                             in the three prior years!
                                                         </div>
-                                                        <div class="col-xs-12 col-md-4 testimonial__author">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 testimonial__author">
                                                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
                                                             <div>
                                                                 Maryanne P.<br/>
@@ -219,12 +219,12 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                                                 </div>
                                                 <div class="item">
                                                     <div class="row row--padded">
-                                                        <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-5 col-md-offset-1 text-left">
                                                             Every part of our business influences our Customer
                                                             Experience. Truthlab gives us the insight to understand
                                                             which experiences need to improve.
                                                         </div>
-                                                        <div class="col-xs-12 col-md-4 testimonial__author">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 testimonial__author">
                                                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png"/>
                                                             <div>
                                                                 Mark M. <br/>
@@ -236,7 +236,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                                                 </div>
                                                 <div class="item">
                                                     <div class="row row--padded">
-                                                        <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-1 text-left">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-5 col-md-offset-1 text-left">
                                                             Here at Cisco, we have always put the customer first.
                                                             Truthlab allows us to leverage our existing process and
                                                             methodology
@@ -244,7 +244,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                                                             their
                                                             platform to close the gaps that were previously identified.
                                                         </div>
-                                                        <div class="col-xs-12 col-md-4 testimonial__author">
+                                                        <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 testimonial__author">
                                                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png"/>
                                                             <div>
                                                                 Bill T. <br/>

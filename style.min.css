@@ -2473,6 +2473,7 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .visible-sm-inline{display:inline !important}
 .visible-sm-inline-block{display:inline-block !important}
 .hidden-sm{display:none !important}
+.testimonial__author{margin-top:25px}
 }@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}
 .container .jumbotron,.container-fluid .jumbotron{padding-right:60px;padding-left:60px}
 .jumbotron h1,.jumbotron .h1{font-size:63px}
