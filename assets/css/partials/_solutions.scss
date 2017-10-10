@@ -38,31 +38,45 @@
     height: 60vw;
     max-height: 700px;
     min-height: 360px;
-    position: relative;
 
     @media (max-width: 767px) {
         background-size: cover;
     }
 
+    @media (max-width: 860px) {
+        margin-top: 40px;
+    }
+
+    .hero__wrapper {
+        padding-bottom: 21%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
     & .front {
         position: absolute;
-        top: 6%;
-        transform: translateY(0);
+        top: 50%;
+        transform: translateY(-50%);
         left: 0;
         width: 100%;
         text-align: center;
         color: #e4b7b2;
         font-size: 20rem;
         opacity: 0.5;
+        padding: 0;
+        margin: 0;
+        margin-top: -10%;
 
         @media (max-width: 860px) {
-            font-size: 16rem;
+            font-size: 33vw;
         }
     }
     & .back {
         position: absolute;
-        top: 30%;
-        transform: translateY(0);
+        top: 50%;
+        transform: translateY(-50%);
         left: 0;
         width: 100%;
         text-align: center;
@@ -70,6 +84,12 @@
         font-size: 5rem;
         font-weight: 500;
         margin: 0;
+        padding: 0;
+        margin-top: -10%;
+
+        @media (max-width: 860px) {
+            font-size: 13vw;
+        }
     }
 
 }

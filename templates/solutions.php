@@ -8,9 +8,11 @@
 
 get_header(); ?>
 
-    <section id="hero_solutions" class="">
-        <h1 class="front hidden-xs">SOLVED</h1>
-        <h3 class="back">Problem Solved</h3>
+    <section id="hero_solutions">
+        <div class="hero__wrapper">
+            <h1 class="front">SOLVED</h1>
+            <h3 class="back">Problem Solved</h3>
+        </div>
     </section>
 
     <section id="heading__solutions">
