@@ -29,3 +29,10 @@
     right: 10px;
     z-index: 9999;
 }
+
+.page-overview {
+    .page-overview__wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}

@@ -35,8 +35,8 @@ get_header(); ?>
                     <li><a data-toggle="tab" href="#content__designers">For Experience Designers</a></li>
                 </ul>
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 content">
-                        <div class="content" id="content__solution">
+                    <div class="col-md-8 col-md-offset-2 content page-overview">
+                        <div class="content page-overview__wrapper" id="content__solution">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
                             <h3>Our CXM Solution</h3>
                             <p>The current customer feedback loop takes weeks and doesn't fit into anyone's release

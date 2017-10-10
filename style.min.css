@@ -1909,6 +1909,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
 .css-spinner{width:40px;height:40px;background-color:#f00036;margin:100px auto;-webkit-animation:sk-rotateplane 1.2s infinite ease-in-out;animation:sk-rotateplane 1.2s infinite ease-in-out}
 #back-to-top{position:fixed;background-image:url("./assets/img/totop.svg"),none;width:70px;height:70px;display:inline-block;bottom:10px;right:10px;z-index:9999}
+.page-overview .page-overview__wrapper{max-width:600px;margin:0 auto}
 *,*:after,*:before{box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
 html{font-size:62.5%;height:100%;min-height:100%}
 body{font-family:'PT Sans Narrow',sans-serif;font:400 11px/1.4 sans-serif;margin:0;height:100%;min-height:100%}

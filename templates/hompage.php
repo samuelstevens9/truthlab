@@ -82,16 +82,20 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         <div class="row--padded">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center heading">
-                        <h1>Truthlab is a<br/>Customer Experience Management (CXM) company</h1>
-                        <p>
-                            Our proven solutions help B2B companies to deliver consistently amazing customer experiences
-                            that drive satisfaction, retention and advocacy.
-                        </p>
-                        <p>
-                            We enable companies to orchestrate and analyze customer data, insights and interactions –
-                            all on one powerful CXM platform.
-                        </p>
+                    <div class="col-md-8 col-md-offset-2 text-center heading page-overview">
+                        <div class="page-overview__wrapper">
+                            <h1>Truthlab is a<br/>Customer Experience Management (CXM) company</h1>
+                            <p>
+                                Our proven solutions help B2B companies to deliver consistently amazing customer
+                                experiences
+                                that drive satisfaction, retention and advocacy.
+                            </p>
+                            <p>
+                                We enable companies to orchestrate and analyze customer data, insights and interactions
+                                –
+                                all on one powerful CXM platform.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
