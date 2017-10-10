@@ -14,7 +14,7 @@ get_header(); ?>
     </section>
 
     <section id="heading__solutions">
-        <div class="row--padded">
+        <div class="row--padded-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center heading">
@@ -26,7 +26,7 @@ get_header(); ?>
     </section>
 
     <section id="tabs">
-        <div class="row--padded">
+        <div class="row--padded-bottom">
             <div class="container">
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#content__solution">Overview</a></li>
