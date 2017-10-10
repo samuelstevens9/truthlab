@@ -71,6 +71,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                         </div>
                     </div>
                 </div>
+                <div class="slider-drop-shadow"></div>
             </div>
         </div>
     </section>
