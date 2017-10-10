@@ -2050,7 +2050,7 @@ footer .row{padding-bottom:0}
 .center .down-chevron{display:none}
 .sig{position:fixed;bottom:8px;right:8px;text-decoration:none;font-size:12px;font-weight:100;font-family:sans-serif;color:rgba(255,255,255,0.4);letter-spacing:2px}
 .heading p{margin:2rem 0}
-#middle img{border-radius:50%;width:100%}
+#middle img{border-radius:50%;width:90%}
 #middle h2{font-size:2.5rem}
 #middle p{font-size:1.8rem}
 .top-row{height:860px;padding:0;background-color:#f5f3f3;background:url("assets/img/home/home-bg-triangle-01.svg") no-repeat;background-size:100%}

@@ -123,7 +123,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         <div class="row--padded bottom-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 col-sm-7 col-md-push-5 col-sm-push-5 image">
+                    <div class="col-md-7 col-sm-7 col-md-push-5 col-sm-push-5 text-right image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png"/>
                     </div>
                     <div class="col-md-5 col-sm-5 col-md-pull-7 col-sm-pull-7 text-left copy">
