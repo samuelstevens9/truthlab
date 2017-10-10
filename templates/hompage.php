@@ -166,6 +166,9 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
             </div>
             <div class="container analyze">
                 <div class="row">
+                    <div class="col-md-8 col-sm-6 visible-xs image">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png"/>
+                    </div>
                     <div class="col-md-4 col-sm-6 text-left copy">
                         <h2>Analyze Full Length Video</h2>
                         <p>Full access and unlimited storage of your testers’ entire journey with transcription, event
@@ -173,7 +176,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                         <a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wp-video-lightbox"
                            class="button button--blue-outline">See Video</a>
                     </div>
-                    <div class="col-md-8 col-sm-6 pull-right image">
+                    <div class="col-md-8 col-sm-6 hidden-xs pull-right image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png"/>
                     </div>
                 </div>

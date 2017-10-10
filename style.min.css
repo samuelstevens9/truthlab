@@ -2063,6 +2063,7 @@ footer .row{padding-bottom:0}
 .bottom-row .container{padding:7rem 0 0 0}
 #panel-management{padding:60px 0 772px 0;overflow:hidden;width:100%;position:relative;margin-top:-152px;background:url(http://truthlab.com/wp-content/themes/truthlab-theme/assets/img/home/red-blue-line.svg) no-repeat;background-size:100%;z-index:-1}
 #panel-management .analyze{margin-top:20% !important}
+#panel-management .analyze>.row{margin-top:0}
 #panel-management h2{margin-top:0;padding-top:0;font-size:2.5rem}
 #panel-management p{font-size:1.8rem}
 #panel-management .bg-image-blue{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:517px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:29%}

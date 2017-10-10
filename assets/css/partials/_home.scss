@@ -356,9 +356,12 @@
     background: url(http://truthlab.com/wp-content/themes/truthlab-theme/assets/img/home/red-blue-line.svg) no-repeat;
     background-size: 100%;
     z-index: -1;
-    & .analyze {
-        /*padding-top:450px;*/
+    .analyze {
         margin-top: 20% !important;
+
+        > .row {
+            margin-top: 0;
+        }
     }
     h2 {
         margin-top: 0;
