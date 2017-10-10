@@ -69,6 +69,10 @@ br {
         padding: 0;
         color: #07074e;
         font-size: 3.5rem;
+
+        @media (max-width: 767px) {
+            font-size: 3rem;
+        }
     }
     h2 {
         margin: 0;

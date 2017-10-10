@@ -2923,6 +2923,8 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .visible-xs-inline{display:inline !important}
 .visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}
+h1{font-size:3rem}
+.page-template-aboutus h1{font-size:3rem}
 .author-header-container .section.author-header{position:relative;border-bottom:10px solid #283055}
 .author-header .author-image-wrapper{display:none}
 .author-header .author-header-copy{display:block;padding:30px;background-repeat:no-repeat;background-size:contain;background-position:110% center}
