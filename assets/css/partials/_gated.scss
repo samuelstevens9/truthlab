@@ -23,12 +23,6 @@ hr.blue-bar {
     padding-left: 0px;
 }
 
-.padded- {
-}
-
-.whitepaper_form {
-}
-
 .whitepaper_form input {
     width: 100%;
     border: 1px solid $blue; /* #07074e*/
@@ -91,5 +85,11 @@ hr.blue-bar {
     }
     .request-dropdown-mobile.request-toggle {
         display: block;
+    }
+}
+
+.page-template-landing {
+    .tl-red {
+        margin-top: 10px;
     }
 }

@@ -2183,6 +2183,7 @@ hr.blue-bar{border-top:15px solid #07074e}
 .socialShare:hover,.socialShare:active,.socialShare:visited,.socialShare:focus{color:transparent}
 .navbar.landing{top:0 !important}
 .request-dropdown-mobile.request-toggle{display:none}
+.page-template-landing .tl-red{margin-top:10px}
 br{clear:both}
 #hero{height:700px;background-image:url(assets/img/about/top-lines-rb.svg),url(assets/img/about/bottom-lines.svg);background-repeat:no-repeat,no-repeat;background-position:left 76px top 0,right 70px bottom 0;background-size:200px;margin-top:0;position:relative}
 #hero .front{position:absolute;top:10%;left:0;width:100%;text-align:center;color:#dedee3;font-size:18rem}
