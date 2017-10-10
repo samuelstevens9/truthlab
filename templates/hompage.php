@@ -109,7 +109,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                         <h2>Get Immediate Insights</h2>
                         <p>Instantly extract quantitative and qualitative insights that allow you to make educated
                             customer experience decisions. No more watching hundreds of videos to get what you need.</p>
-                        <a href="/solutions/" class="button button--blue-outline">Read More</a>
+                        <a href="/solutions/" class="button button--blue-outline">Learn More</a>
                     </div>
                 </div>
             </div>
