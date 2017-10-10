@@ -95,7 +95,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
 
         <div class="main-footer container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <a href="/solutions/"><h4>Solutions</h4></a>
                     <ul>
                         <li><a href="/solutions/#content__marketing">For Marketers</a></li>
@@ -123,7 +123,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 <div class="col-md-2">
                     <a href="/blog/"><h4>Blog</h4></a>
                 </div>
-                <div class="col-md-4 text-right address">
+                <div class="col-md-3 text-right address">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/img/map-marker.png"/>
                     <address>
                         N Ellsworth &amp; 1st Street<br/>
