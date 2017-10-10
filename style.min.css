@@ -2051,6 +2051,8 @@ footer .row{padding-bottom:0}
 .sig{position:fixed;bottom:8px;right:8px;text-decoration:none;font-size:12px;font-weight:100;font-family:sans-serif;color:rgba(255,255,255,0.4);letter-spacing:2px}
 .heading p{margin:2rem 0}
 #middle img{border-radius:50%;width:100%}
+#middle h2{font-size:2.5rem}
+#middle p{font-size:1.8rem}
 .top-row{height:860px;padding:0;background-color:#f5f3f3;background:url("assets/img/home/home-bg-triangle-01.svg") no-repeat;background-size:100%}
 .top-row .copy{margin-top:20%}
 .bottom-row .copy{margin-top:20%}
@@ -2060,7 +2062,8 @@ footer .row{padding-bottom:0}
 .bottom-row .container{padding:7rem 0 0 0}
 #panel-management{padding:60px 0 772px 0;overflow:hidden;width:100%;position:relative;margin-top:-152px;background:url(http://truthlab.com/wp-content/themes/truthlab-theme/assets/img/home/red-blue-line.svg) no-repeat;background-size:100%;z-index:-1}
 #panel-management .analyze{margin-top:20% !important}
-#panel-management h2{margin-top:0;padding-top:0}
+#panel-management h2{margin-top:0;padding-top:0;font-size:2.5rem}
+#panel-management p{font-size:1.8rem}
 #panel-management .bg-image-blue{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:517px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:29%}
 #panel-management .bg-image-red{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-285px;background-repeat:no-repeat;background-size:contain;position:absolute;left:29%;z-index:-2}
 #panel-management .container{margin-top:15%}

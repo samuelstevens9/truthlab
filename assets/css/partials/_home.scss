@@ -259,6 +259,14 @@
             }
         }
     }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
 }
 
 .top-row {
@@ -352,9 +360,13 @@
         /*padding-top:450px;*/
         margin-top: 20% !important;
     }
-    & h2 {
-        margin-top: 0px;
-        padding-top: 0px;
+    h2 {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.8rem;
     }
     & .bg-image-blue {
         display: none;
