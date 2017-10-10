@@ -4,23 +4,20 @@ $termsString = ""; //initialize the string that will contain the terms
 foreach ( $termsArray as $term ) { // for each term
 	$termsString .= $term->slug . ' '; //create a string that has all the slugs
 }
-$authid           = 'auth' . get_the_author_meta( 'ID' );
-$category         = get_the_category();
-$featured_img_url = get_the_post_thumbnail_url( $post->ID, 'blog-small' );
+$authid              = 'auth' . get_the_author_meta( 'ID' );
+$category            = get_the_category();
+$featured_img_url    = get_the_post_thumbnail_url( $post->ID, 'blog-small' );
+$custom_featured_img = get_field( 'custom_blog_listing_image' );
+if ( $custom_featured_img ) {
+	$featured_img_url = $custom_featured_img;
+}
 ?>
 <article
         class="<?php echo $termsString; ?><?php echo $authid; ?> course col-md-4 col-sm-6 col-xs-12">
     <div class="thumbnail">
         <a href="<?php echo get_permalink(); ?>">
             <figure>
-                <div class="img-container">
-					<?php
-					if ( @get_field( 'custom_blog_listing_image' ) ) { ?>
-                        <img src="<?php the_field( 'custom_blog_listing_image' ); ?>">
-					<?php } else { ?>
-                        <img src="<?php echo $featured_img_url; ?>">
-					<?php } ?>
-                </div>
+                <div class="img-container" style="background-image: url(<?= $featured_img_url ?>)"></div>
                 <div class="caption">
                     <figcaption class="info">
                         <p class="cat"><?php echo $category[ 0 ]->cat_name; ?></p>

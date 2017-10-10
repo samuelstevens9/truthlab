@@ -2286,7 +2286,7 @@ br{clear:both}
 .author-header h2{font-family:'PT Sans',sans-serif;color:#910811;font-size:2rem;width:auto}
 .author-header .author-header-copy{display:table-cell;vertical-align:top}
 #blog-posts .thumbnail{border:0}
-.course .img-container{position:relative;overflow:hidden;width:100%;height:314px;border:1px solid #2c3a66}
+.course .img-container{position:relative;overflow:hidden;width:100%;height:314px;border:1px solid #2c3a66;background-size:auto 100%;background-repeat:no-repeat;background-position:left center;-webkit-transition:all .2s ease;transition:all .2s ease}
 .course img{display:block;min-width:100%;-webkit-transition:all .2s ease;transition:all .2s ease;max-width:-webkit-max-content;max-width:-moz-max-content;max-width:max-content}
 #blog-posts .cat{margin:.6rem 0 1rem 0;font-weight:400;font-size:1.1rem;color:#58595b}
 .course .title{position:relative;margin-bottom:10px}
@@ -2456,6 +2456,7 @@ input[type="date"].input-lg,input[type="time"].input-lg,input[type="datetime-loc
 .modal-content{box-shadow:0 5px 15px rgba(0,0,0,0.5)}
 .modal-sm{width:300px}
 .author-header .author-header-copy{background-image:none !important}
+.course:hover .img-container{background-size:auto 110%;background-position:5% center}
 }@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}
 .container .jumbotron,.container-fluid .jumbotron{padding-right:60px;padding-left:60px}
 .jumbotron h1,.jumbotron .h1{font-size:63px}
