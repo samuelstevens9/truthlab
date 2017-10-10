@@ -2064,6 +2064,7 @@ footer .row{padding-bottom:0}
 #panel-management .bg-image-blue{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:517px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:29%}
 #panel-management .bg-image-red{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-285px;background-repeat:no-repeat;background-size:contain;position:absolute;left:29%;z-index:-2}
 #panel-management .container{margin-top:15%}
+#panel-management .copy{margin-top:0}
 #clients{margin-bottom:-250px}
 #clients .row{padding-top:0}
 #clients .container-fluid{background:#fff;background:-webkit-linear-gradient(top,#fff 0,#eff1fa 100%);background:linear-gradient(to bottom,#fff 0,#eff1fa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#eff1fa',GradientType=0);padding-bottom:5rem}
