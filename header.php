@@ -48,8 +48,7 @@
 <!-- Fixed navbar -->
 <a class="request-dropdown-mobile request-toggle" style="z-index:5555;">
 	<?php
-	$is_blog = is_home() || is_archive() || is_single();
-	echo $is_blog ? 'Subscribe' : 'Request a Demo';
+	echo is_the_blog() ? 'Subscribe' : 'Request a Demo';
 	?>
     <i class="fa fa-angle-right" aria-hidden="true"></i>
 </a>

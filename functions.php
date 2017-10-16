@@ -77,6 +77,7 @@ endif; // neat_setup
 add_action( 'after_setup_theme', 'neat_setup' );
 
 include_once( __DIR__ . '/inc/ajax.php' );
+include_once( __DIR__ . '/inc/extras.php' );
 
 /**
  * Styles and scripts
