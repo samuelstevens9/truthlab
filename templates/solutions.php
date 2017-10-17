@@ -55,50 +55,33 @@ get_header(); ?>
         </div>
     </section>
 
-
-    <!--
-<div class="bg-image-blue" data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
--->
-
     <section id="content__marketing">
-        <div class="bg-image-red"
-             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
-             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
         <div class="row--padded marketing">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-2 col-sm-push-8">
-                        <div class="float-image-right-top">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.svg"
-                                 alt="success bar graph"/>
-                        </div>
-                        <div class="float-image-right">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.svg"
-                                 alt="success circle graph"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 image">
-                        <img class="round"
-                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/marketer.jpg"/>
+                    <div class="col-sm-6 col-sm-offset-2 image">
+                        <img class="bars-graph"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.png"
+                             alt="success bar graph"/>
+                        <img class="circle-graph"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.png"
+                             alt="success circle graph"/>
+                        <img class="marketer-image"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/marketer.png"/>
+                        <img class="success-bars"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png"
+                             alt="success bar graph"/>
+                        <div class="bg-image-red"
+                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
+                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
                     </div>
 
-                    <div class="col-sm-2 col-sm-pull-10">
-                        <div class="float-image-left"><img
-                                    src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png"
-                                    alt="success bar graph"/></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row--padded row__copy">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-6">
-                            <div class="solutions__copy">
-                                <h2>Marketing</h2>
-                                <p>Driven by the speed of insights, the Truthlab CXM platform meets the daily demands
-                                    faced by Marketing teams.</p>
-                                <a href="#">Read our White Paper &gt;&gt;</a>
-                            </div>
+                    <div class="col-sm-4">
+                        <div class="solutions__copy">
+                            <h2>Marketing</h2>
+                            <p>Driven by the speed of insights, the Truthlab CXM platform meets the daily demands
+                                faced by Marketing teams.</p>
+                            <a href="#">Read our White Paper &gt;&gt;</a>
                         </div>
                     </div>
                 </div>
@@ -107,42 +90,41 @@ get_header(); ?>
     </section>
 
     <section id="content__product">
-        <div class="bg-image-blue"
-             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
-             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
         <div class="row--padded marketing">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-2 col-sm-push-8">
-                        <div class="float-image-right"><img
-                                    src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.svg"
-                                    alt="project management "/></div>
-                    </div>
-                    <div class="col-sm-8 image">
-                        <img class="round"
-                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
+                    <div class="col-sm-4 hidden-xs">
+                        <div class="solutions__copy">
+                            <h2>Product Managers</h2>
+                            <p>Understand and map the customer journey with custom interactive data visualizations
+                                that
+                                identify key product opportunities.</p>
+                            <a href="#">Talk to a Specialist Today >></a>
+                        </div>
                     </div>
 
-                    <div class="col-sm-2 col-sm-pull-10">
-                        <div class="float-image-left"><img
-                                    src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png"
-                                    alt="panel management screenshot"/></div>
+                    <div class="col-sm-6 image">
+                        <img class="arrow-graph"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.png"
+                             alt="project management "/>
+                        <img class="prod-managers"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
+                        <img class="diagrams"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png"
+                             alt="panel management screenshot"/>
+                        <div class="bg-image-blue"
+                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
+                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
                     </div>
-                </div>
-            </div>
-            <div class="row--padded row__copy">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="solutions__copy">
-                                <h2>Product Managers</h2>
-                                <p>Understand and map the customer journey with custom interactive data visualizations
-                                    that
-                                    identify key product opportunities.</p>
-                                <a href="#">Talk to a Specialist Today >></a>
-                            </div>
+
+                    <div class="col-xs-12 visible-xs">
+                        <div class="solutions__copy">
+                            <h2>Product Managers</h2>
+                            <p>Understand and map the customer journey with custom interactive data visualizations
+                                that
+                                identify key product opportunities.</p>
+                            <a href="#">Talk to a Specialist Today >></a>
                         </div>
-                        <div class="col-sm-6"></div>
                     </div>
                 </div>
             </div>
@@ -150,46 +132,34 @@ get_header(); ?>
     </section>
 
     <section id="content__designers">
-        <div class="bg-image-red"
-             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
-             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
         <div class="row--padded marketing">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-2 col-sm-push-8">
-                        <div class="float-image-right"><img
-                                    src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png"
-                                    alt="business development"/></div>
-                    </div>
-                    <div class="col-sm-8 image">
-                        <img class="round"
+                    <div class="col-sm-6 col-sm-offset-2 image">
+                        <img class="business-card"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png"
+                             alt="business development"/>
+                        <img class="designers-img"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/designers.png"/>
+                        <img class="salesman"
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png"
+                             alt="sales persona"/>
+                        <div class="bg-image-red"
+                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
+                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
                     </div>
-                    <div class="col-sm-2 col-sm-pull-8">
-                        <div class="float-image-left"><img
-                                    src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png"
-                                    alt="sales persona"/></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row--padded row__copy">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6"></div>
-                        <div class="col-sm-6">
-                            <div class="solutions__copy">
-                                <h2>Experience Designers</h2>
-                                <p>Identify and analyze audience segments by connecting your user research panel to
-                                    customizable personas.</p>
-                                <a href="#">Take a Product Tour Now >></a>
-                            </div>
+                    <div class="col-sm-4">
+                        <div class="solutions__copy">
+                            <h2>Experience Designers</h2>
+                            <p>Identify and analyze audience segments by connecting your user research panel to
+                                customizable personas.</p>
+                            <a href="#">Take a Product Tour Now >></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <section id="cta">
         <div class="container-fluid">

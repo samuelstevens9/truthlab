@@ -2148,38 +2148,40 @@ footer .row{padding-top:0}
 #tabs ul li:first-child a{padding-left:0}
 #tabs ul li:last-child a{padding-right:0}
 #tabs .nav{border-bottom:0}
-#tabs .nav>li>a:hover{text-decoration:none;background-color:white;color:#910811;text-decoration:underline}
-#tabs .nav>li>a:focus{text-decoration:none;background-color:white;color:#910811;text-decoration:underline}
-#tabs .nav-tabs>li>a:hover{border-color:white;background-color:none}
+#tabs .nav>li>a:hover{background-color:white;color:#910811;text-decoration:underline}
+#tabs .nav>li>a:focus{background-color:white;color:#910811;text-decoration:underline}
+#tabs .nav-tabs>li>a:hover{border-color:white;background-color:transparent}
 #tabs .nav-tabs>li.active>a{border:0}
 #tabs .tab-pane img{padding:100px 0 50px 0}
 #tabs .button{display:inline-block;margin-top:50px}
 #tabs .content{text-align:center;padding:100px 0 200px 0}
 #tabs img{margin-bottom:50px}
-#tabs .content h3{margin:75px 0 25 0}
-#content__marketing{margin-bottom:450px;overflow:hidden}
-#content__marketing .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:2600px;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
+#tabs .content h3{margin:75px 0 25px 0}
+#content__marketing .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
 #content__marketing .bg-image-blue{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-left:-1500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
-#content__marketing .float-image-left{width:400%;position:relative;z-index:2;margin-left:-100px;margin-top:453px}
-#content__marketing .float-image-right{width:400%;margin-top:-36px;position:relative;z-index:1}
-#content__marketing .float-image-right-top{width:400%;margin-top:-100px;z-index:0;position:relative}
-#content__marketing .marketing{padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-01.svg) no-repeat;background-size:100%}
-#content__marketing .marketing .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
-#content__product{padding-bottom:1500px;overflow:hidden;position:relative;padding-top:1000px}
-#content__product .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:100px;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
-#content__product .bg-image-blue{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:100px;margin-right:-2500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:50%}
-#content__product .float-image-left{width:400%;position:relative;z-index:2;margin-left:-100px;margin-top:453px}
-#content__product .float-image-right{width:400%;margin-top:-36px;position:relative;z-index:1}
-#content__product .float-image-right-top{width:400%;margin-top:-100px;z-index:0;position:relative}
-#content__product .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
-#content__product .marketing{padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%}
-#content__designers{margin-bottom:800px;overflow:hidden}
-#content__designers .round{box-shadow:5px 30px 5px 0 rgba(145,8,17,0.55)}
-#content__designers .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:7800px;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-2}
-#content__designers .float-image-left{width:400%;position:relative;z-index:2;margin-left:-100px;margin-top:453px}
-#content__designers .float-image-right{width:400%;position:relative;z-index:1}
-#content__designers .float-image-right-top{width:400%;margin-top:-100px;z-index:0;position:relative}
-#content__designers .marketing{padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-01.svg) no-repeat;background-size:100%}
+#content__marketing .marketing{padding:30px 0 28% 0;background-color:#f5f3f3;background:url("assets/img/home/home-bg-triangle-01.svg") no-repeat;background-size:100%}
+#content__marketing .image{position:relative}
+#content__marketing .image .marketer-image{position:relative;z-index:99}
+#content__marketing .image .bars-graph{position:absolute;top:-20%;left:78%;z-index:90}
+#content__marketing .image .circle-graph{position:absolute;left:87%;-webkit-transform:translateY(70%);-ms-transform:translateY(70%);transform:translateY(70%);z-index:100}
+#content__marketing .image .success-bars{position:absolute;bottom:-40px;left:-160px;width:360px;z-index:100}
+#content__marketing .solutions__copy{margin-top:92%}
+#content__product{padding-bottom:1000px;overflow:hidden;position:relative;padding-top:1000px}
+#content__product .bg-image-blue{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-right:-2500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:0;right:50%}
+#content__product .image{position:relative}
+#content__product .image .arrow-graph{position:absolute;max-width:380px;bottom:0;left:88%;z-index:100}
+#content__product .image .diagrams{position:absolute;top:-29%;right:48%;max-width:460px;z-index:100}
+#content__product .image .prod-managers{position:relative;z-index:99}
+#content__product .solutions__copy{margin-top:200px}
+#content__product .marketing{padding:16% 0 28% 0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%}
+#content__designers{margin-bottom:800px;overflow:visible !important}
+#content__designers .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:0}
+#content__designers .image{position:relative}
+#content__designers .image .designers-img{position:relative;z-index:99}
+#content__designers .image .salesman{position:absolute;left:-33%;bottom:-16%;z-index:100;max-width:410px}
+#content__designers .image .business-card{position:absolute;top:-10%;right:-50%;z-index:100;max-width:410px}
+#content__designers .solutions__copy{margin-top:200px}
+#content__designers .marketing{padding:30px 0 28% 0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-01.svg) no-repeat;background-size:100%}
 hr.blue-bar{border-top:15px solid #07074e}
 .tl-red{color:#910811}
 #primary.container{margin-bottom:250px}
@@ -2471,10 +2473,22 @@ input[type="date"].input-lg,input[type="time"].input-lg,input[type="datetime-loc
 .modal-dialog{width:600px;margin:30px auto}
 .modal-content{box-shadow:0 5px 15px rgba(0,0,0,0.5)}
 .modal-sm{width:300px}
+.page-template-solutions .solutions__copy{background:#f4f3f3;padding:0 20px 20px 20px;margin-left:20px;border-radius:10px}
 .author-header .author-header-copy{background-image:none !important}
 .course:hover .img-container{background-size:auto 110%;background-position:5% center}
 }@media only screen and (min-width:768px) and (max-width:1200px){.copy{margin-top:10%;font-size:70%}
 .copy h2{font-size:2.5rem}
+}@media(min-width:768px) and (max-width:1380px){#content__marketing .image .bars-graph{max-width:80%}
+#content__marketing .image .circle-graph{max-width:80%}
+#content__product .image .arrow-graph{max-width:80%}
+}@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}
+.container .jumbotron,.container-fluid .jumbotron{padding-right:60px;padding-left:60px}
+.jumbotron h1,.jumbotron .h1{font-size:63px}
+.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{width:30px;height:30px;margin-top:-10px;font-size:30px}
+.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-10px}
+.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-10px}
+.carousel-caption{right:20%;left:20%;padding-bottom:30px}
+.carousel-indicators{bottom:20px}
 }@media(min-width:768px) and (max-width:991px){.visible-sm{display:block !important}
 table.visible-sm{display:table !important}
 tr.visible-sm{display:table-row !important}
@@ -2484,18 +2498,18 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .visible-sm-inline-block{display:inline-block !important}
 .hidden-sm{display:none !important}
 .testimonial__author{margin-top:25px}
-}@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}
-.container .jumbotron,.container-fluid .jumbotron{padding-right:60px;padding-left:60px}
-.jumbotron h1,.jumbotron .h1{font-size:63px}
-.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{width:30px;height:30px;margin-top:-10px;font-size:30px}
-.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-10px}
-.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-10px}
-.carousel-caption{right:20%;left:20%;padding-bottom:30px}
-.carousel-indicators{bottom:20px}
 }@media(min-width:769px) and (max-width:991px){.page-template-aboutus #team-left .profile{padding-left:220px !important}
 .page-template-aboutus #team-right .profile{padding-right:220px !important}
 }@media(min-width:769px){#culture .values{max-width:90%}
 }@media(min-width:861px){.page-template-hompage #cta .cta__red h2{margin-top:-10px}
+}@media(min-width:992px) and (max-width:1199px){.visible-md{display:block !important}
+table.visible-md{display:table !important}
+tr.visible-md{display:table-row !important}
+th.visible-md,td.visible-md{display:table-cell !important}
+.visible-md-block{display:block !important}
+.visible-md-inline{display:inline !important}
+.visible-md-inline-block{display:inline-block !important}
+.hidden-md{display:none !important}
 }@media(min-width:992px){.container{width:970px}
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
 .col-md-12{width:100%}
@@ -2551,14 +2565,6 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .col-md-offset-0{margin-left:0}
 .modal-lg{width:900px}
 }@media(min-width:992px) and (max-width:1110px){.page-template-aboutus #team-left .profile{padding-left:100px !important}
-}@media(min-width:992px) and (max-width:1199px){.visible-md{display:block !important}
-table.visible-md{display:table !important}
-tr.visible-md{display:table-row !important}
-th.visible-md,td.visible-md{display:table-cell !important}
-.visible-md-block{display:block !important}
-.visible-md-inline{display:inline !important}
-.visible-md-inline-block{display:inline-block !important}
-.hidden-md{display:none !important}
 }@media(min-width:1200px){.container{width:1170px}
 .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}
 .col-lg-12{width:100%}
@@ -2932,6 +2938,18 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .hidden-xs{display:none !important}
 h1{font-size:3rem}
 #hero_solutions{background-size:cover}
+#content__marketing .image{margin-top:150px}
+#content__marketing .image .bars-graph{left:30%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);top:-46%}
+#content__marketing .image .circle-graph{left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);top:-16%}
+#content__marketing .image .success-bars{left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+#content__marketing .solutions__copy{margin-top:12%}
+#content__product{padding-top:160px;padding-bottom:100px}
+#content__product .image .arrow-graph{bottom:auto;top:0;right:-10%;left:auto;max-width:60%}
+#content__product .image .diagrams{top:auto;bottom:-10%;right:auto;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);max-width:60%}
+#content__product .solutions__copy{margin-top:12%}
+#content__designers .image .salesman{left:10%;max-width:60%}
+#content__designers .image .business-card{top:-10%;right:auto;left:10%;max-width:60%}
+#content__designers .solutions__copy{margin-top:18%}
 .page-template-aboutus h1{font-size:3rem}
 .author-header-container .section.author-header{position:relative;border-bottom:10px solid #283055}
 .author-header .author-image-wrapper{display:none}
