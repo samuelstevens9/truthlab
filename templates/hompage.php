@@ -18,61 +18,60 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     </section>
 <?php else: ?>
     <section id="curtain-slider">
-        <div class="container">
-            <div class="container">
-                <div class="slider">
-                    <div class="slide-header active">
-                        <div class="panel">
-                            <div class="top" data-back="BETTER"></div>
-                            <div class="bottom" data-back="BETTER"></div>
-                        </div>
-                        <div class="center">
-                            <h1>Create Better</h1>
-                            <a href="#" class="button button--white request-toggle" style="padding-top:100px">Request
-                                Demo</a>
-                            <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
-                        </div>
+        <div id="slider-wrapper">
+            <div id="btn-wrapper"></div>
+            <div class="slider">
+                <div class="slide-header active">
+                    <div class="panel">
+                        <div class="top" data-back="BETTER"></div>
+                        <div class="bottom" data-back="BETTER"></div>
                     </div>
-                    <div class="slide-header">
-                        <div class="panel">
-                            <div class="top" data-back="PROFITABLE"></div>
-                            <div class="bottom" data-back="PROFITABLE"></div>
-                        </div>
-                        <div class="center">
-                            <h1>More Profitable</h1>
-                            <a href="#" class="button button--white request-toggle">Request Demo</a>
-                            <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
-                        </div>
-                    </div>
-                    <div class="slide-header">
-                        <div class="panel">
-                            <div class="top" data-back="EXPERIENCES"></div>
-                            <div class="bottom" data-back="EXPERIENCES"></div>
-                        </div>
-                        <div class="center">
-                            <h1>Customer Experiences</h1>
-                            <a href="#" class="button button--white request-toggle">Request Demo</a>
-                            <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
-                        </div>
-                    </div>
-                    <div class="slide-header">
-                        <div class="panel">
-                            <div class="top" data-back="TRUTHLAB"></div>
-                            <div class="bottom" data-back="TRUTHLAB"></div>
-                        </div>
-                        <div class="center">
-                            <h1>with Truthlab</h1>
-                            <a href="#" class="button button--white request-toggle">Request Demo</a>
-                            <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
-                        </div>
+                    <div class="center">
+                        <h1>Create Better</h1>
+                        <a href="#" class="button button--white request-toggle" style="padding-top:100px">Request
+                            Demo</a>
+                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
+                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
                     </div>
                 </div>
-                <div class="slider-drop-shadow"></div>
+                <div class="slide-header">
+                    <div class="panel">
+                        <div class="top" data-back="PROFITABLE"></div>
+                        <div class="bottom" data-back="PROFITABLE"></div>
+                    </div>
+                    <div class="center">
+                        <h1>More Profitable</h1>
+                        <a href="#" class="button button--white request-toggle">Request Demo</a>
+                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
+                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
+                    </div>
+                </div>
+                <div class="slide-header">
+                    <div class="panel">
+                        <div class="top" data-back="EXPERIENCES"></div>
+                        <div class="bottom" data-back="EXPERIENCES"></div>
+                    </div>
+                    <div class="center">
+                        <h1>Customer Experiences</h1>
+                        <a href="#" class="button button--white request-toggle">Request Demo</a>
+                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
+                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
+                    </div>
+                </div>
+                <div class="slide-header">
+                    <div class="panel">
+                        <div class="top" data-back="TRUTHLAB"></div>
+                        <div class="bottom" data-back="TRUTHLAB"></div>
+                    </div>
+                    <div class="center">
+                        <h1>with Truthlab</h1>
+                        <a href="#" class="button button--white request-toggle">Request Demo</a>
+                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
+                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
+                    </div>
+                </div>
             </div>
+            <div class="slider-drop-shadow"></div>
         </div>
     </section>
     <script>setInterval(nextSlide, 4 * 1000);</script>

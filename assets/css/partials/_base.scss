@@ -83,6 +83,12 @@ body {
 #curtain-slider {
     height: 800px;
     height: 91vh;
+
+    #btn-wrapper {
+        .request-toggle {
+            visibility: visible !important;
+        }
+    }
 }
 
 .round {

@@ -45,11 +45,7 @@ function isOverflown(element) {
 }
 
 /* Hero Slider */
-//jQuery(document).hover(nextSlide);
-//jQuery(document).on('click',nextSlide);
-//setInterval(nextSlide, 1000);
 function nextSlide() {
-    //console.log(jQuery('.active + .slide-header').length);
     if (jQuery('.active + .slide-header').length > 0) {
         jQuery('.active + .slide-header').addClass('active');
         jQuery(jQuery('.slider .active')[0]).removeClass('active');
@@ -57,6 +53,15 @@ function nextSlide() {
         jQuery('.slider .active').removeClass('active');
         jQuery('.slide-header:nth-child(1)').addClass('active');
     }
+    var $visible = jQuery('#curtain-slider .slider .active .request-toggle').css('visibility', 'hidden');
+    jQuery('#btn-wrapper').html($visible.clone());
+    var $static = jQuery('#btn-wrapper').find('.request-toggle');
+    $static.css({
+        'position': 'absolute',
+        'z-index': '999',
+        'left': $visible.offset().left,
+        'top': $visible.offset().top
+    });
 }
 
 jQuery(function () {
