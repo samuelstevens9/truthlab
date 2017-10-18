@@ -121,6 +121,7 @@ if ( is_the_blog() ) {
         <form action="https://app.truthlab.com/p/api/v2/blog/handler/" method="post"
               id="mc-embedded-subscribe-blog-form" name="mc-embedded-subscribe-blog-form" class="validate"
               target="_blank" novalidate>
+              <input type="hidden" name="csrf" value="ijr8823t4nn7342" />
             <h2>Subscribe to Blog</h2>
             <div class="col-md-5">
                 <input type="email" value="" name="EMAIL" class="required email" placeholder="Email"
@@ -146,6 +147,7 @@ if ( is_the_blog() ) {
 	<?php else: ?>
         <form action="https://app.truthlab.com/p/api/v2/demo/handler/" method="post" id="mc-embedded-subscribe-form"
               name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <input type="hidden" name="csrf" value="ijr8823t4nn7342" />
             <h2>Request a Demo</h2>
             <div class="col-md-5">
                 <input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
