@@ -43,7 +43,14 @@
 
 </head>
 
-<body <?php body_class(); ?>>
+<?php
+$body_classes = array();
+if ( is_the_blog() ) {
+	$body_classes[] = 'is-blog';
+}
+?>
+
+<body <?php body_class( $body_classes ); ?>>
 
 <!-- Fixed navbar -->
 <a class="request-dropdown-mobile request-toggle" style="z-index:5555;">
@@ -122,9 +129,11 @@
             <div class="col-md-5">
                 <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-blog-FULLNAME">
             </div>
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                      name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
-                                                                                      tabindex="-1" value=""></div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text"
+                       name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
+                       tabindex="-1" value="">
+            </div>
             <div class="col-md-2">
                 <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe-blog"
                        class="button button--red-outline" style="margin:0px;"/>

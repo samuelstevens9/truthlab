@@ -7,9 +7,9 @@ foreach ( $termsArray as $term ) { // for each term
 $authid              = 'auth' . get_the_author_meta( 'ID' );
 $category            = get_the_category();
 $featured_img_url    = get_the_post_thumbnail_url( $post->ID, 'blog-small' );
-$custom_featured_img = get_field( 'custom_blog_listing_image' );
+$custom_featured_img = get_field( 'listing_image' );
 if ( $custom_featured_img ) {
-	$featured_img_url = $custom_featured_img;
+	$featured_img_url = $custom_featured_img[ 'url' ];
 }
 ?>
 <article

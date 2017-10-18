@@ -270,9 +270,6 @@
         text-align: left;
     }
 
-    .blog-post img {
-        border-radius: 50%;
-    }
     #content .blog-post img.alignleft {
         margin-left: -50%;
     }
@@ -380,7 +377,6 @@
         padding: 10%;
         margin-left: -50%;
         float: left;
-        border-radius: 0 50% 50% 0;
     }
     blockquote:hover {
         box-shadow: none;

@@ -76,6 +76,7 @@ if ( ! function_exists( 'neat_setup' ) ) :
 endif; // neat_setup
 add_action( 'after_setup_theme', 'neat_setup' );
 
+include_once( __DIR__ . '/inc/acf-conf.php' );
 include_once( __DIR__ . '/inc/ajax.php' );
 include_once( __DIR__ . '/inc/extras.php' );
 

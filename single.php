@@ -17,7 +17,7 @@ get_header( 'single' ); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
                     <div class="section slider-header">
-						<?php echo do_shortcode( '[rev_slider alias="single-blog-post"]' ); ?>
+	                    <?= do_shortcode( '[rev_slider alias="single-blog-post"]' ); ?>
                     </div>
 
                     <div class="twitter twitter-desktop">
@@ -74,34 +74,6 @@ get_header( 'single' ); ?>
                         </div>
                     </div>
 
-                    <div class="share" style="display:none;">
-                        <div class="social-menu">
-                            <ul>
-                                <li>
-                                    <div data-network="twitter" class="st-custom-button"><i
-                                                class="hi-icon fa fa-twitter fa-2x" aria-hidden="true"></i></div>
-                                </li>
-                                <li>
-                                    <div data-network="facebook" class="st-custom-button"><i
-                                                class="hi-icon fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div data-network="googleplug" class="st-custom-button"><i
-                                                class="hi-icon fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div data-network="linkedin" class="st-custom-button"><i
-                                                class="hi-icon fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-
                     <div class="blog-post">
 						<?php if ( is_single() ) { ?>
 
@@ -120,14 +92,10 @@ get_header( 'single' ); ?>
 									'after'  => '</div>',
 								) );
 
-								$authorid         = get_the_author_meta( 'ID' );
-								$url              = get_site_url();
-								$siteurl          = $url . '/blog/?author=' . $authorid;
-								$currentauthorurl = $siteurl . $authorid;
-
+								$authorid = get_the_author_meta( 'ID' );
 								?>
 
-                                <a href="<?php echo $currentauthorurl; ?>">
+                                <a href="<?= get_author_posts_url( $authorid ); ?>">
                                     <div class="more-author">
                                         <p class="more">More from this author</p>
                                         <div class="name">
@@ -148,7 +116,9 @@ get_header( 'single' ); ?>
 										<?php the_field( 'professional_title',
 											'user_' . get_the_author_meta( 'id' ) ); ?>
                                     </p>
-                                    <a href="<?php echo $currentauthorurl; ?>" class="more">More from this author</a>
+                                    <a href="<?= get_author_posts_url( $authorid ); ?>" class="more">
+                                        More from this author
+                                    </a>
                                 </div>
 
                             </div>

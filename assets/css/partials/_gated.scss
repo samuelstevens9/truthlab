@@ -6,10 +6,6 @@ hr.blue-bar {
     color: $red;
 }
 
-#primary.container {
-    margin-bottom: 250px; /*to push footer down*/
-}
-
 #primary .row {
     padding: 0;
 }
@@ -104,6 +100,9 @@ hr.blue-bar {
 }
 
 .page-template-landing {
+    #primary.container {
+        margin-bottom: 250px; /*to push footer down*/
+    }
     .tl-red {
         margin-top: 10px;
         margin-bottom: 20px;
