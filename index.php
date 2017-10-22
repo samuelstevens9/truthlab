@@ -107,10 +107,11 @@ get_header(); ?>
                 <section class="courses row">
 					<?php if ( $the_query->have_posts() ) : ?>
 						<?php
+						$listing_id = 0;
 						while ( $the_query->have_posts() ) {
 							$the_query->the_post();
-
-							get_template_part( 'partials/blog-post-listing' );
+							$listing_id ++;
+							include( __DIR__ . '/partials/blog-post-listing.php' );
 						} ?>
 					<?php else : ?>
 

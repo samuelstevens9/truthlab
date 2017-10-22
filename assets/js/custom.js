@@ -36,7 +36,42 @@ jQuery(document).ready(function ($) {
     $('#back-to-top').click(function (event) {
         event.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
-    })
+    });
+
+
+    function getViewportWidth() {
+        return Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    }
+
+    if (getViewportWidth() < 768) {
+        $('#blog-filters').find('ul.nav.navbar-nav').slick({
+            adaptiveHeight: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            variableWidth: true,
+            infinite: false,
+            responsive: [{
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 3
+                }
+            }, {
+                breakpoint: 570,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    variableWidth: false
+                }
+            }, {
+                breakpoint: 420,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: false
+                }
+            }]
+        });
+    }
 
 });
 

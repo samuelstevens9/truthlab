@@ -13,7 +13,7 @@ if ( $custom_featured_img ) {
 }
 ?>
 <article
-        class="<?php echo $termsString; ?><?php echo $authid; ?> course col-md-4 col-sm-6 col-xs-12">
+        class="<?php echo $termsString; ?><?php echo $authid; ?> course <?= ( $listing_id % 7 == 0 ) ? 'col--seventh' : 'col-md-4 col-sm-6'; ?> col-xs-12">
     <div class="thumbnail">
         <a href="<?php echo get_permalink(); ?>">
             <figure>

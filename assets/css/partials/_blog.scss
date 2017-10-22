@@ -31,6 +31,60 @@
             top: 0;
         }
     }
+
+    .slick-slider {
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+
+        .slick-slide {
+            margin-right: 15px;
+
+            > a {
+                @media(max-width: 569px) {
+                    font-size: 21px;
+                }
+            }
+        }
+
+        .slick-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0;
+            z-index: 9999;
+
+            &:before {
+                content: '';
+                display: block;
+                border: 4px solid #202C5D;
+                border-left: none;
+                border-bottom: none;
+                width: 25px;
+                height: 25px;
+            }
+
+            &.slick-prev {
+                left: 0;
+
+                &:before {
+                    transform: rotate(-135deg);
+                }
+            }
+
+            &.slick-next {
+                right: 0;
+
+                &:before {
+                    transform: rotate(45deg);
+                }
+            }
+
+            &.slick-disabled {
+                display: none !important;
+            }
+        }
+    }
 }
 
 .author-header-container {
@@ -542,6 +596,75 @@ body.single-post {
                 &:hover {
                     color: #910811;
                     text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+#blog-posts {
+    .courses {
+        .course {
+            @media(min-width: 768px) {
+                &.col--seventh {
+                    .thumbnail {
+                        position: relative;
+
+                        .img-container {
+                            padding-bottom: 31%;
+                            background-position: center center;
+                            background-size: 100% auto;
+                        }
+
+                        .caption {
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            width: 100%;
+
+                            p.cat, p.time, p.description {
+                                display: none;
+                            }
+
+                            .title {
+                                h2 {
+                                    margin: 0;
+                                    line-height: 1.4;
+                                    height: auto;
+                                    text-align: center;
+                                    font-size: 50px;
+                                    color: #fff;
+                                    text-shadow: 1px 1px 1px #333;
+                                    width: 100%;
+                                    max-width: none;
+                                    padding: 0 25px;
+
+                                    @media(min-width: 768px) and(max-width: 991px) {
+                                        font-size: 32px;
+                                    }
+
+                                    &:after {
+                                        display: block;
+                                        border: 3px solid #fff;
+                                        content: "Read Now >";
+                                        max-width: 230px;
+                                        font-size: 35px;
+                                        padding: 5px 10px;
+                                        margin: 0 auto;
+                                        margin-top: 25px;
+                                        font-family: 'Open Sans Condensed', sans-serif;
+
+                                        @media(min-width: 768px) and(max-width: 991px) {
+                                            font-size: 28px;
+                                        }
+                                    }
+                                }
+                                .line {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
