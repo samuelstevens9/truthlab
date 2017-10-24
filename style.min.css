@@ -2679,6 +2679,8 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .visible-lg-inline-block{display:inline-block !important}
 .hidden-lg{display:none !important}
 #middle .top-row .copy{margin-top:10%}
+}@media only screen and (max-width:1585px){.page-template-aboutus #team-left .hexagon{margin-left:-48%}
+.page-template-aboutus #team-left .profile-image{margin-left:-40%}
 }@media only screen and (max-width:1360px){.bottom-row .copy{margin-top:10%}
 .page-template-aboutus #team-left .profile-image{margin-left:-44%}
 .page-template-aboutus #team-left .hexagon{margin-left:-55%}
