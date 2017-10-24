@@ -2287,23 +2287,26 @@ br{clear:both}
 .page-template-aboutus #cta .cta__blue .text-center p{font-size:2rem}
 .page-template-aboutus .cta__blue{margin-bottom:200px}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(2000px);-ms-transform:translateY(2000px);transform:translateY(2000px);position:relative}
-.page-template-terms .row--padded{padding:1.5rem 0}
-.page-template-privacy .row--padded{padding:1.5rem 0}
+.page-template-tos-privacy .row--padded{padding:1.5rem 0}
 #terms-hero{border-bottom:10px solid #666}
 #terms-hero .container-fluid{color:white;padding:1.2rem 0}
 #terms-hero .row--padded:first-child{padding:0;background-color:#139fac}
 #terms-hero h1{color:white}
 #user-type{border-bottom:1px solid #666}
 #user-type .row--padded{padding:.5rem 0}
+#user-type a{text-decoration:none}
+#user-type a:not(:last-of-type):after{display:inline-block;content:'|';color:#666;margin-left:10px;margin-right:10px}
+#user-type a.active{color:#910811}
 #user-type a:hover{color:#910811}
 #user-type a:focus{color:#910811}
-#accordions{margin-bottom:400px;font-size:1.5rem}
+#accordions{min-height:60vh;font-size:1.5rem}
 #accordions .panel-default{border:0}
 #accordions .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:white !important;border-bottom-color:white}
 #accordions .panel-default>.panel-heading{background-color:white;border-color:white}
 #accordions .panel-heading,#accordions .panel-body{padding:0}
 #accordions .panel-body>.container{padding:0;width:75%;float:left;padding-left:2%}
-#accordions .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#666;margin-top:-50px}
+#accordions .panel-heading .panel-title{font-size:32px}
+#accordions .panel-heading .panel-title:before{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#666}
 #accordions h4{color:#666}
 .page-template-aboutus footer{margin-top:25px;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
 #blog-filters{text-align:center}

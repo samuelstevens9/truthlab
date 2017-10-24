@@ -2,13 +2,7 @@
 /* TERMS & CONDITIONS                              */
 /***************************************************/
 
-.page-template-terms {
-    & .row--padded {
-        padding: 1.5rem 0px;
-    }
-}
-
-.page-template-privacy {
+.page-template-tos-privacy {
     & .row--padded {
         padding: 1.5rem 0px;
     }
@@ -30,50 +24,73 @@
 }
 
 #user-type {
+    border-bottom: 1px solid $grey-medium;
+
     .row--padded {
         padding: .5rem 0;
     }
-    & a:hover {
-        color: $red;
+    a {
+        text-decoration: none;
+
+        &:not(:last-of-type) {
+            &:after {
+                display: inline-block;
+                content: '|';
+                color: #666;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+
+        &.active {
+            color: $red;
+        }
+
+        &:hover {
+            color: $red;
+        }
+        &:focus {
+            color: $red;
+        }
     }
-    & a:focus {
-        color: $red;
-    }
-    border-bottom: 1px solid $grey-medium;
 }
 
 #accordions {
-    margin-bottom: 400px;
+    min-height: 60vh;
     font-size: 1.5rem;
-    & .panel-default {
+
+    .panel-default {
         border: none;
     }
-    & .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
         border-top-color: white !important;
         border-bottom-color: white;
     }
-    & .panel-default > .panel-heading {
+    .panel-default > .panel-heading {
         background-color: white;
         border-color: white;
     }
-    & .panel-heading, & .panel-body {
-        padding: 0px;
+    .panel-heading, .panel-body {
+        padding: 0;
     }
-    & .panel-body > .container {
-        padding: 0px;
+    .panel-body > .container {
+        padding: 0;
         width: 75%;
         float: left;
         padding-left: 2%;
     }
-    & .panel-heading .accordion-toggle:after {
-        font-family: 'FontAwesome';
-        content: "\f0d7";
-        float: right;
-        font-size: 2rem;
-        color: $grey-medium;
-        margin-top: -50px;
+    .panel-heading .panel-title {
+        font-size: 32px;
+
+        &:before {
+            font-family: 'FontAwesome';
+            content: "\f0d7";
+            float: right;
+            font-size: 2rem;
+            color: $grey-medium;
+        }
     }
-    & h4 {
+    h4 {
         color: $grey-medium;
     }
 }

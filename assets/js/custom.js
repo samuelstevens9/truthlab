@@ -99,21 +99,16 @@ function nextSlide() {
     });
 }
 
-jQuery(function () {
-    jQuery(".row-tester").hide();
-    jQuery(".user, .tester").bind("click", function () {
-        jQuery(".row-users, .row-tester").hide();
-        if (jQuery(this).attr("class") == "user") {
-            jQuery(".row-users").show();
-        }
-        else {
-            jQuery(".row-tester").show();
-        }
-    });
-});
-
-
 jQuery(document).ready(function ($) {
+
+    $('#user-type').find('.js--toggle-section-tos').click(function (event) {
+        event.preventDefault();
+        var section_filter = $(this).data('section-filter');
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+        $('#accordions').find('.section--filterable').hide().filter('.section--' + section_filter).show();
+    });
+
     jQuery('.accordion-toggle').on('click', '.button,a', function (e) {
         e.stopPropagation();
     });
