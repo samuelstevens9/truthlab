@@ -14,6 +14,10 @@
             border-radius: 10px;
         }
     }
+
+    .content.page-overview {
+        z-index: 9999;
+    }
 }
 
 #curtain-slider__solutions {

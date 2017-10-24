@@ -2135,6 +2135,7 @@ footer .row{padding-top:0}
 .page-template-hompage button.slick-prev,.page-template-hompage button.slick-next{display:none !important}
 .page-template-hompage .blank{content:'';position:relative;width:auto;left:auto;top:-520px;height:570px;margin-bottom:-600px;background-image:url(assets/img/home/bottom-lines_rb.svg),url(assets/img/home/top-lines_rb.svg);background-position:left 20% bottom 90%,right 20% top 0;background-repeat:no-repeat;background-size:320px 500px}
 .page-template-solutions #heading__solutions h1{font-weight:500;font-size:3.2rem}
+.page-template-solutions .content.page-overview{z-index:9999}
 #curtain-slider__solutions{height:700px}
 .slide-header{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
 .angle-shadow{height:200px;-webkit-transform:skewY(10deg);-ms-transform:skewY(10deg);transform:skewY(10deg);margin-top:-111px;box-shadow:0 -2px 1px rgba(145,8,17,0.25);background:#FFF;margin-bottom:-100px}
