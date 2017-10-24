@@ -2002,9 +2002,15 @@ nav.navbar.shrink{padding:10px 15px;box-shadow:0 2px 3px rgba(7,7,78,0.6)}
 .search-dropdown input[type="text"]{width:100%;padding:10px}
 .request-dropdown{display:none;width:100%;padding:0 100px;background:rgba(255,255,255,0.9);z-index:999999999999 !important;position:fixed;top:0 !important;border-top:2px solid #d1d1d1;border-bottom:2px solid #d1d1d1}
 .request-dropdown form{padding:0 0 2rem 0}
-.request-dropdown input[type="text"]{width:100%;padding:10px;font-size:28px;background-color:#f3f3f3;border:1px solid #333;border-radius:2px}
-.request-dropdown input[type="email"]{width:100%;padding:10px;font-size:28px;background-color:#f3f3f3;border:1px solid #333;border-radius:2px}
+.request-dropdown input[type="text"],.request-dropdown input[type="email"]{width:100%;padding:10px;font-size:28px;background-color:#fff;border:1px solid #333;border-radius:2px;box-shadow:1px 1px 2px rgba(7,7,78,0.2),inset 0 0 2px rgba(0,0,0,0.05)}
+.request-dropdown input[type="text"]::-webkit-input-placeholder,.request-dropdown input[type="email"]::-webkit-input-placeholder{color:#ccc}
+.request-dropdown input[type="text"]::-moz-placeholder,.request-dropdown input[type="email"]::-moz-placeholder{color:#ccc}
+.request-dropdown input[type="text"]:-ms-input-placeholder,.request-dropdown input[type="email"]:-ms-input-placeholder{color:#ccc}
+.request-dropdown input[type="text"]:-moz-placeholder,.request-dropdown input[type="email"]:-moz-placeholder{color:#ccc}
 .request-dropdown [class*="col-"]{padding-left:0}
+.request-dropdown form .response--success{text-align:center}
+.request-dropdown form .response--success h3{font-size:4.1rem}
+.request-dropdown form .response--success p:last-of-type{margin-bottom:0}
 footer{font-size:1.5rem}
 footer .row{padding-bottom:0}
 .mobile-footer{display:none}

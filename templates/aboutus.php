@@ -137,32 +137,47 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                             <div class="col-md-4 col-xs-12 social">
 								<?php if ( $is_ie ): ?>
                                     <ul>
-                                        <li><a href="https://www.linkedin.com/company/10992459/"
-                                               target="_blank"><img
-                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png"
-                                                        height="40" style="height:40px !important;"/></a></li>
-                                        <li><a href="https://www.facebook.com/truthlabtech/" target="_blank"><img
-                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/facebook.png"
-                                                        height="40" style="height:40px !important;"/></a></li>
-                                        <li><a href="https://twitter.com/truthlabtech?lang=en" target="_blank"><img
-                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png"
-                                                        height="40" style="height:40px !important;"/></a></li>
-                                        <li><a href="https://plus.google.com/109045923061674684524" target="_blank"><img
-                                                        src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png"
-                                                        height="40" style="height:40px !important;"/></i></a></li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/patrickdonnelly/" target="_blank">
+                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/linkedin.png"
+                                                     height="40" style="height:40px !important;"/>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/truthlabtech/" target="_blank">
+                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/facebook.png"
+                                                     height="40" style="height:40px !important;"/>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/DonnellyPatrick" target="_blank">
+                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/twitter.png"
+                                                     height="40" style="height:40px !important;"/>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://plus.google.com/109045923061674684524" target="_blank">
+                                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/google-plus.png"
+                                                     height="40" style="height:40px !important;"/>
+                                            </a>
+                                        </li>
                                     </ul>
 								<?php else: ?>
                                     <ul>
-                                        <li><a href="https://www.linkedin.com/company-beta/10992459/"><i
-                                                        class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/patrickdonnelly/" target="_blank">
+                                                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                                            </a>
                                         </li>
-                                        <li><a href="https://twitter.com/truthlabtech?lang=en"><i
-                                                        class="fa fa-twitter-square fa-2x"
-                                                        aria-hidden="true"></i></a>
+                                        <li>
+                                            <a href="https://twitter.com/DonnellyPatrick" target="_blank">
+                                                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                                            </a>
                                         </li>
-                                        <li><a href="https://twitter.com/truthlabtech?lang=en"><i
-                                                        class="fa fa-google-plus-square fa-2x"
-                                                        aria-hidden="true"></i></a>
+                                        <li>
+                                            <a href="https://plus.google.com/109045923061674684524" target="_blank">
+                                                <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+                                            </a>
                                         </li>
                                     </ul>
 								<?php endif; ?>

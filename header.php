@@ -121,70 +121,83 @@ if ( is_the_blog() ) {
         <form action="https://app.truthlab.com/p/api/v2/blog/handler/" method="post"
               id="mc-embedded-subscribe-blog-form" name="mc-embedded-subscribe-blog-form" class="validate"
               target="_blank" novalidate>
-              <input type="hidden" name="csrf" value="ijr8823t4nn7342" />
-            <h2>Subscribe to Blog</h2>
-            <div class="col-md-5">
-                <input type="email" value="" name="EMAIL" class="required email" placeholder="Email"
-                       id="mce-blog-EMAIL">
-            </div>
-            <div class="col-md-5">
-                <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-blog-FULLNAME">
-            </div>
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text"
-                       name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
-                       tabindex="-1" value="">
-            </div>
-            <div class="col-md-2">
-                <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe-blog"
-                       class="button button--red-outline" style="margin:0px;"/>
+            <div class="fields-wrapper">
+                <input type="hidden" name="csrf" value="ijr8823t4nn7342"/>
+                <h2>Subscribe to Blog</h2>
+                <div class="col-md-5">
+                    <input type="email" value="" name="EMAIL" class="required email" placeholder="Email"
+                           id="mce-blog-EMAIL">
+                </div>
+                <div class="col-md-5">
+                    <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-blog-FULLNAME">
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text"
+                           name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
+                           tabindex="-1" value="">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe-blog"
+                            class="button button--red-outline" style="margin:0px;">
+                        Join Now
+                    </button>
+                </div>
             </div>
             <div id="mce-blog-responses" class="clear">
                 <div class="response" id="mce-error-blog-response" style="display:none"></div>
-                <div class="response" id="mce-success-blog-response" style="display:none"></div>
+                <div class="response response--success" id="mce-success-blog-response" style="display:none">
+                    <h3>Thank You!</h3>
+                    <p class="message">
+                        You have successfully joined the Truthlab Blog.<br>
+                        If you do not receive a confirmation email, please contact us for assistance.
+                    </p>
+                </div>
             </div>
         </form>
 	<?php else: ?>
         <form action="https://app.truthlab.com/p/api/v2/demo/handler/" method="post" id="mc-embedded-subscribe-form"
               name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <input type="hidden" name="csrf" value="ijr8823t4nn7342" />
-            <h2>Request a Demo</h2>
-            <div class="col-md-5">
-                <input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
-            </div>
-            <div class="col-md-5">
-                <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-FULLNAME">
-            </div>
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                      name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
-                                                                                      tabindex="-1" value=""></div>
-            <div class="col-md-2">
-                <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
-                       class="button button--red-outline" style="margin:0px;"/>
+            <div class="fields-wrapper">
+                <input type="hidden" name="csrf" value="ijr8823t4nn7342"/>
+                <h2>Request a Demo</h2>
+                <div class="col-md-5">
+                    <input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
+                </div>
+                <div class="col-md-5">
+                    <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-FULLNAME">
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                                                          name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
+                                                                                          tabindex="-1" value=""></div>
+                <div class="col-md-2">
+                    <button type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
+                            class="button button--red-outline" style="margin:0px;">
+                        Join Now
+                    </button>
+                </div>
             </div>
             <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
+                <div class="response response--success" id="mce-success-response" style="display:none">
+                    <h3>Thank You!</h3>
+                    <p class="message">
+                        We received your request for a demo and will be in touch with you shortly.
+                    </p>
+                </div>
             </div>
         </form>
 	<?php endif; ?>
     <script>
         (function ($) {
-            $('#mc-embedded-subscribe-form').submit(function (event) {
+            $('#mc-embedded-subscribe-form, #mc-embedded-subscribe-blog-form').submit(function (event) {
                 event.preventDefault();
-                $.post('https://app.truthlab.com/p/api/v2/demo/handler/', $("#mc-embedded-subscribe-form").serialize());
-                $('#mce-success-response').text("Thanks for requesting a demo.  We will reach out soon.");
-                $('#mce-success-response').show();
-            });
-            $('#mc-embedded-subscribe-blog-form').submit(function (event) {
-                event.preventDefault();
-                $.post('https://app.truthlab.com/p/api/v2/blog/handler/', $("#mc-embedded-subscribe-blog-form").serialize());
-                $('#mce-success-blog-response').text("Thanks for subcribing to our blog.");
-                $('#mce-success-blog-response').show();
+                $.post('https://app.truthlab.com/p/api/v2/demo/handler/', $(this).serialize());
+                $(this).find('.response--success').show();
+                $(this).find('.fields-wrapper').hide();
             });
         })(jQuery.noConflict());
     </script>
-    <a href="#" class="request-toggle" style="position:absolute;top:2%;right:2%;font-size:40px;"><i
-                class="fa fa-times-circle" aria-hidden="true"></i></a>
-
+    <a href="#" class="request-toggle" style="position:absolute;top:2%;right:2%;font-size:40px;">
+        <i class="fa fa-times-circle" aria-hidden="true"></i>
+    </a>
 </div>

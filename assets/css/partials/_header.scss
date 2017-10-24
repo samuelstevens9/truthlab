@@ -108,26 +108,48 @@ nav.navbar.shrink {
     top: 0 !important;
     border-top: 2px solid #d1d1d1;
     border-bottom: 2px solid #d1d1d1;
-    & form {
+    form {
         padding: 0 0 2rem 0;
     }
-    & input[type="text"] {
+    input[type="text"], input[type="email"] {
         width: 100%;
         padding: 10px;
         font-size: 28px;
-        background-color: #f3f3f3;
+        background-color: #fff;
         border: 1px solid #333;
         border-radius: 2px;
+        box-shadow: 1px 1px 2px rgba(7, 7, 78, 0.2), inset 0px 0px 2px rgba(0, 0, 0, 0.05);
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: #ccc;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: #ccc;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+            color: #ccc;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: #ccc;
+        }
     }
-    & input[type="email"] {
-        width: 100%;
-        padding: 10px;
-        font-size: 28px;
-        background-color: #f3f3f3;
-        border: 1px solid #333;
-        border-radius: 2px;
-    }
-    & [class*="col-"] {
+    [class*="col-"] {
         padding-left: 0;
+    }
+
+    form {
+        .response--success {
+            text-align: center;
+
+            h3 {
+                font-size: 4.1rem;
+            }
+
+            p {
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 }
