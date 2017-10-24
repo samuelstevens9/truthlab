@@ -74,7 +74,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
             <div class="slider-drop-shadow"></div>
         </div>
     </section>
-    <script>setInterval(nextSlide, 4 * 1000);</script>
+    <script>setInterval(nextSlide, 3 * 1000);</script>
 <?php endif; ?>
 
     <section id="about">
@@ -105,10 +105,10 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         <div class="row--padded top-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 col-sm-7 image">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.jpg"/>
+                    <div class="col-md-8 col-sm-7 image">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.png"/>
                     </div>
-                    <div class="col-md-5 col-sm-5 text-right copy">
+                    <div class="col-md-4 col-sm-5 text-right copy">
                         <h2>Get Immediate Insights</h2>
                         <p>Instantly extract quantitative and qualitative insights that allow you to make educated
                             customer experience decisions. No more watching hundreds of videos to get what you need.</p>
@@ -126,10 +126,10 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         <div class="row--padded bottom-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 col-sm-7 col-md-push-5 col-sm-push-5 text-right image">
+                    <div class="col-md-8 col-sm-7 col-md-push-4 col-sm-push-5 text-right image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png"/>
                     </div>
-                    <div class="col-md-5 col-sm-5 col-md-pull-7 col-sm-pull-7 text-left copy">
+                    <div class="col-md-4 col-sm-5 col-md-pull-8 col-sm-pull-7 text-left copy">
                         <h2>Watch Highlight Reels</h2>
                         <p>The Truthlab platform instantly generates highlight reels of your videos, whether they were
                             created on the platform or elsewhere. No more expensive professional service costs to create
@@ -143,17 +143,14 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     </section>
 
     <section id="panel-management">
-        <div class="bg-image-red"
-             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
-             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
         <div class="row--padded">
-            <div class="bg-image-blue"
-                 data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
-                 style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
-            <div class="container">
+            <div class="container take-action">
                 <div class="row">
                     <div class="col-md-8 col-sm-6 image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
+                        <div class="bg-image-red"
+                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
+                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
                     </div>
                     <div class="col-md-4 col-sm-6 text-left copy">
                         <h2>Take Action with Panel Management</h2>
@@ -167,6 +164,9 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 <div class="row">
                     <div class="col-md-8 col-sm-6 visible-xs image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png"/>
+                        <div class="bg-image-blue"
+                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
+                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
                     </div>
                     <div class="col-md-4 col-sm-6 text-left copy">
                         <h2>Analyze Full Length Video</h2>
@@ -193,7 +193,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                                 <div class="col-xs-12">
                                     <div class="quotes">
                                         <h2>We work with great people</h2>
-                                        <h5>Hear what some have to say</h5>
+                                        <h5>Hear what some say about us</h5>
                                         <div id="tcb-testimonial-carousel" class="carousel slide" data-ride="carousel">
                                             <!-- Indicators -->
                                             <ol class="carousel-indicators">

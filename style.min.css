@@ -2061,30 +2061,30 @@ footer .row{padding-bottom:0}
 .center .down-chevron{display:none}
 .sig{position:fixed;bottom:8px;right:8px;text-decoration:none;font-size:12px;font-weight:100;font-family:sans-serif;color:rgba(255,255,255,0.4);letter-spacing:2px}
 .heading p{margin:2rem 0}
-#middle img{border-radius:50%;width:90%}
+#middle img{border-radius:50%;width:100%}
 #middle h2{font-size:2.5rem}
 #middle p{font-size:1.8rem}
-.top-row{height:860px;padding:0;background-color:#f5f3f3;background:url("assets/img/home/home-bg-triangle-01.svg") no-repeat;background-size:100%}
+.top-row{padding:0 0 27% 0;background-color:#f5f3f3;background:url("assets/img/home/home-bg-triangle-01.svg") no-repeat;background-size:100%}
 .top-row .copy{margin-top:20%}
+.bottom-row{padding:0 0 18% 0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%;margin-top:-19%}
 .bottom-row .copy{margin-top:20%}
-.bottom-row .image{margin-top:5%}
-.blank{content:'';position:relative;width:60%;left:20%;top:-350px;height:500px;margin-bottom:-600px;background-image:url(assets/img/home/bottom-lines_rb.svg),url(assets/img/home/top-lines_rb.svg);background-position:left 0 bottom 0,right 0 top 0;background-repeat:no-repeat;background-size:300px 500px}
-.bottom-row{height:874px;padding:0;background-color:#f5f3f3;background:url(assets/img/home/home-bg-triangle-02.svg) no-repeat;background-size:100%}
+.bottom-row .image{margin-top:15%}
 .bottom-row .container{padding:7rem 0 0 0}
-#panel-management{padding:60px 0 772px 0;overflow:hidden;width:100%;position:relative;margin-top:-152px;background:url(http://truthlab.com/wp-content/themes/truthlab-theme/assets/img/home/red-blue-line.svg) no-repeat;background-size:100%;z-index:-1}
-#panel-management .analyze{margin-top:20% !important}
+.blank{content:'';position:relative;width:60%;left:20%;top:-350px;height:500px;margin-bottom:-600px;background-image:url(assets/img/home/bottom-lines_rb.svg),url(assets/img/home/top-lines_rb.svg);background-position:left 0 bottom 0,right 0 top 0;background-repeat:no-repeat;background-size:300px 500px}
+#panel-management{padding:60px 0 20% 0;overflow:hidden;width:100%;position:relative;margin-top:-340px;background:url(http://truthlab.com/wp-content/themes/truthlab-theme/assets/img/home/red-blue-line.svg) no-repeat;background-size:100%;z-index:-1}
+#panel-management .analyze{margin-top:30% !important}
 #panel-management .analyze>.row{margin-top:0}
 #panel-management h2{margin-top:0;padding-top:0;font-size:2.5rem}
 #panel-management p{font-size:1.8rem}
 #panel-management .bg-image-blue{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:517px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;right:29%}
 #panel-management .bg-image-red{display:none;width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:-285px;background-repeat:no-repeat;background-size:contain;position:absolute;left:29%;z-index:-2}
-#panel-management .container{margin-top:15%}
+#panel-management .container{margin-top:20%}
 #panel-management .copy{margin-top:0}
 #clients{margin-bottom:-250px}
 #clients .row{padding-top:0}
 #clients .container-fluid{background:#fff;background:-webkit-linear-gradient(top,#fff 0,#eff1fa 100%);background:linear-gradient(to bottom,#fff 0,#eff1fa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#eff1fa',GradientType=0);padding-bottom:5rem}
-#clients .quotes{background-image:url(assets/img/home/quotation_start.svg),url(assets/img/home/quotation_end.svg);background-position:left top,right center;background-repeat:no-repeat;background-size:100px}
-#clients h5{text-align:center}
+#clients .quotes{background-image:url(assets/img/home/quotation_start.svg),url(assets/img/home/quotation_end.svg);background-position:left 100px,right center;background-repeat:no-repeat;background-size:200px}
+#clients h5{font-size:32px;text-align:center;font-weight:400;margin-bottom:80px}
 #tcb-testimonial-carousel{padding-bottom:10rem;font-size:1.5rem;text-align:left}
 #tcb-testimonial-carousel .carousel-indicators{-webkit-transform:translateY(-500%);-ms-transform:translateY(-500%);transform:translateY(-500%)}
 #tcb-testimonial-carousel img{float:left;margin-right:20px;border-radius:50%}
@@ -2133,6 +2133,7 @@ footer .row{padding-top:0}
 .page-template-hompage .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 .page-template-hompage .slick-arrow.slick-hidden{display:none}
 .page-template-hompage button.slick-prev,.page-template-hompage button.slick-next{display:none !important}
+.page-template-hompage .blank{content:'';position:relative;width:auto;left:auto;top:-520px;height:570px;margin-bottom:-600px;background-image:url(assets/img/home/bottom-lines_rb.svg),url(assets/img/home/top-lines_rb.svg);background-position:left 20% bottom 90%,right 20% top 0;background-repeat:no-repeat;background-size:320px 500px}
 .page-template-solutions #heading__solutions h1{font-weight:500;font-size:3.2rem}
 #curtain-slider__solutions{height:700px}
 .slide-header{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
@@ -2545,7 +2546,15 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 }@media(min-width:768px) and (max-width:1380px){#content__marketing .image .bars-graph{max-width:80%}
 #content__marketing .image .circle-graph{max-width:80%}
 #content__product .image .arrow-graph{max-width:80%}
-}@media(min-width:769px) and (max-width:991px){.page-template-aboutus #team-left .profile{padding-left:220px !important}
+}@media(min-width:768px) and (max-width:1200px){#middle h2{font-size:2rem !important}
+#middle p{font-size:1.4rem !important}
+#panel-management .copy h2{font-size:2rem}
+#panel-management .copy p{font-size:1.4rem}
+}@media(min-width:768px) and (max-width:768px){.top-row{background-size:200%;background-position-y:-60%}
+}@media(min-width:769px) and (max-width:1200px){.top-row{background-size:200%;background-position-y:5%;padding-top:10%}
+.bottom-row{margin-top:0}
+}@media(min-width:769px) and (max-width:991px){.page-template-hompage .blank{top:-28vw;background-position:left 10% bottom 90%,right 10% top 0}
+.page-template-aboutus #team-left .profile{padding-left:220px !important}
 .page-template-aboutus #team-right .profile{padding-right:220px !important}
 body.single-post #cta .cta__blue .text-right{padding-top:10px;text-align:center}
 }@media(min-width:769px){#culture .values{max-width:90%}
@@ -2679,6 +2688,8 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .visible-lg-inline-block{display:inline-block !important}
 .hidden-lg{display:none !important}
 #middle .top-row .copy{margin-top:10%}
+}@media(min-width:1200px) and (max-width:1500px){.bottom-row .image{margin-top:6%}
+}@media(min-width:1201px) and (max-width:1540px){#panel-management .analyze{margin-top:16% !important}
 }@media only screen and (max-width:1585px){.page-template-aboutus #team-left .hexagon{margin-left:-48%}
 .page-template-aboutus #team-left .profile-image{margin-left:-40%}
 }@media only screen and (max-width:1360px){.bottom-row .copy{margin-top:10%}
@@ -2848,12 +2859,10 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 .slide-header .bottom{font-size:9vh;height:35vh}
 #about h1{font-size:3rem}
 .heading{margin-top:0}
-#middle{margin-top:200px}
+#middle{margin-top:50px}
 #middle img{border-radius:50%;width:100%}
-.top-row{height:1000px}
 .top-row .copy{text-align:center;font-size:inherit}
 .blank{height:200px;background-image:none;margin-bottom:0}
-.bottom-row{height:1000px}
 .bottom-row .container{padding:0 35px}
 .bottom-row .copy{text-align:center;font-size:inherit}
 #panel-management{background:0;padding-bottom:0}
@@ -2989,6 +2998,15 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}
 h1{font-size:3rem}
+#middle h2{font-size:2rem !important}
+#middle p{font-size:1.4rem !important}
+.top-row{padding-bottom:85%;background-size:cover;background-position:70% 50%}
+.bottom-row{background-size:cover !important}
+.page-template-hompage .blank{background-image:url("assets/img/home/middle-bg-mobile-cropped.png");background-size:cover;margin-left:-5%;margin-right:-5%}
+.page-template-hompage #panel-management .take-action{position:relative;z-index:99}
+.page-template-hompage #panel-management .image{position:relative;overflow:visible;margin-bottom:70px}
+.page-template-hompage #panel-management .image .bg-image-red{display:block;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:40%}
+.page-template-hompage #panel-management .image .bg-image-blue{display:block;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:36%}
 #hero_solutions{background-size:cover}
 #content__marketing .image{margin-top:150px}
 #content__marketing .image .bars-graph{left:30%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);top:-46%}
