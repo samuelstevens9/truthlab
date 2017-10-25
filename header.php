@@ -126,10 +126,11 @@ if ( is_the_blog() ) {
                 <h2>Subscribe to Blog</h2>
                 <div class="col-md-5">
                     <input type="email" value="" name="EMAIL" class="required email" placeholder="Email"
-                           id="mce-blog-EMAIL">
+                           id="mce-blog-EMAIL" required>
                 </div>
                 <div class="col-md-5">
-                    <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-blog-FULLNAME">
+                    <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-blog-FULLNAME"
+                           required>
                 </div>
                 <div style="position: absolute; left: -5000px;" aria-hidden="true">
                     <input type="text"
@@ -149,7 +150,8 @@ if ( is_the_blog() ) {
                     <h3>Thank You!</h3>
                     <p class="message">
                         You have successfully joined the Truthlab Blog.<br>
-                        If you do not receive a confirmation email, please contact us for assistance.
+                        If you do not receive a confirmation email, please <a href="/contact/">contact us</a> for
+                        assistance.
                     </p>
                 </div>
             </div>
@@ -161,10 +163,12 @@ if ( is_the_blog() ) {
                 <input type="hidden" name="csrf" value="ijr8823t4nn7342"/>
                 <h2>Request a Demo</h2>
                 <div class="col-md-5">
-                    <input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL">
+                    <input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL"
+                           required>
                 </div>
                 <div class="col-md-5">
-                    <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-FULLNAME">
+                    <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-FULLNAME"
+                           required>
                 </div>
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                                                                                           name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
@@ -172,7 +176,7 @@ if ( is_the_blog() ) {
                 <div class="col-md-2">
                     <button type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
                             class="button button--red-outline" style="margin:0px;">
-                        Join Now
+                        Request Now
                     </button>
                 </div>
             </div>

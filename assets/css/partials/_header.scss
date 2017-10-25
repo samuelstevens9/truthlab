@@ -146,6 +146,11 @@ nav.navbar.shrink {
             }
 
             p {
+                a:not(:hover) {
+                    color: #0095A2;
+                    text-decoration: underline;
+                }
+
                 &:last-of-type {
                     margin-bottom: 0;
                 }

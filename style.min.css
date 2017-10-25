@@ -2010,6 +2010,7 @@ nav.navbar.shrink{padding:10px 15px;box-shadow:0 2px 3px rgba(7,7,78,0.6)}
 .request-dropdown [class*="col-"]{padding-left:0}
 .request-dropdown form .response--success{text-align:center}
 .request-dropdown form .response--success h3{font-size:4.1rem}
+.request-dropdown form .response--success p a:not(:hover){color:#0095a2;text-decoration:underline}
 .request-dropdown form .response--success p:last-of-type{margin-bottom:0}
 footer{font-size:1.5rem}
 footer .row{padding-bottom:0}
