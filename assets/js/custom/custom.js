@@ -129,7 +129,7 @@ jQuery(document).ready(function ($) {
     });
 
     /* Request Dropdown */
-    jQuery('.request-toggle').click(function () {
+    jQuery('body').on('click','.request-toggle',function () {
         jQuery('.request-dropdown').slideToggle();
     });
 

@@ -81,7 +81,7 @@ get_header(); ?>
                             <h2>Marketing</h2>
                             <p>Driven by the speed of insights, the Truthlab CXM platform meets the daily demands
                                 faced by Marketing teams.</p>
-                            <a href="#">Read our White Paper &gt;&gt;</a>
+                            <a href="/customer-experience-advantage/">Read our White Paper &gt;&gt;</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ get_header(); ?>
                             <p>Understand and map the customer journey with custom interactive data visualizations
                                 that
                                 identify key product opportunities.</p>
-                            <a href="#">Talk to a Specialist Today >></a>
+                            <a href="/contact/">Talk to a Specialist Today >></a>
                         </div>
                     </div>
 
