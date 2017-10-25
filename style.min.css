@@ -2314,7 +2314,9 @@ br{clear:both}
 #blog-filters{text-align:center}
 #blog-filters>h4{margin-top:20px;font-style:italic;font-size:1.25rem;font-weight:400;padding-bottom:0;margin-bottom:0}
 #blog-filters .nav{float:none}
-#blog-filters .nav li{float:none;display:inline-block}
+#blog-filters .nav li{float:none;display:inline-block;vertical-align:top;text-align:left}
+#blog-filters .nav li.open>a{background:transparent}
+#blog-filters .nav li .dropdown-menu{padding-left:0}
 #blog-filters .navbar{border:0;box-shadow:none}
 #blog-filters .slick-slider{padding-right:20px;padding-left:20px;position:relative}
 #blog-filters .slick-slider .slick-slide{margin-right:15px}
@@ -2514,13 +2516,18 @@ input[type="date"].input-lg,input[type="time"].input-lg,input[type="datetime-loc
 .modal-content{box-shadow:0 5px 15px rgba(0,0,0,0.5)}
 .modal-sm{width:300px}
 .page-template-solutions .solutions__copy{background:#f4f3f3;padding:0 20px 20px 20px;margin-left:20px;border-radius:10px}
+#blog-filters .nav li .dropdown-menu>li{width:100%}
 .author-header .author-header-copy{background-image:none !important}
 .course:hover .img-container{background-size:auto 110%;background-position:5% center}
+#blog-posts .courses .course.col--seventh:hover .thumbnail .img-container{background-size:110% auto}
+#blog-posts .courses .course.col--seventh:hover .thumbnail .caption .title h2:after{border-color:#910811;background:#fff;color:#910811;box-shadow:1px 2px 3px rgba(7,7,78,0.6)}
 #blog-posts .courses .course.col--seventh .thumbnail{position:relative}
 #blog-posts .courses .course.col--seventh .thumbnail .img-container{padding-bottom:31%;background-position:center center;background-size:100% auto}
-#blog-posts .courses .course.col--seventh .thumbnail .caption{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:100%}
+#blog-posts .courses .course.col--seventh .thumbnail figure{position:relative}
+#blog-posts .courses .course.col--seventh .thumbnail .caption{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:0}
 #blog-posts .courses .course.col--seventh .thumbnail .caption p.cat,#blog-posts .courses .course.col--seventh .thumbnail .caption p.time,#blog-posts .courses .course.col--seventh .thumbnail .caption p.description{display:none}
-#blog-posts .courses .course.col--seventh .thumbnail .caption .title h2{margin:0;line-height:1.4;height:auto;text-align:center;font-size:50px;color:#fff;text-shadow:1px 1px 1px #333;width:100%;max-width:none;padding:0 25px}
+#blog-posts .courses .course.col--seventh .thumbnail .caption .title{margin:0}
+#blog-posts .courses .course.col--seventh .thumbnail .caption .title h2{margin:0 auto;line-height:1.4;height:auto;text-align:center;font-size:50px;color:#fff;text-shadow:1px 1px 1px #333;width:100%;max-width:60%;padding:0 25px}
 #blog-posts .courses .course.col--seventh .thumbnail .caption .title h2:after{display:block;border:3px solid #fff;content:"Read Now >";max-width:230px;font-size:35px;padding:5px 10px;margin:0 auto;margin-top:25px;font-family:'Open Sans Condensed',sans-serif}
 #blog-posts .courses .course.col--seventh .thumbnail .caption .title .line{display:none}
 }@media only screen and (min-width:768px) and (max-width:1200px){.copy{margin-top:10%;font-size:70%}
@@ -2974,6 +2981,7 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #terms-hero h1{font-size:1.5rem}
 #accordions .panel-body>.container{width:100%;padding:0 1rem}
 #user-type{text-align:center}
+}@media(max-width:767px) and (max-width:569px){#blog-filters .nav li.open .dropdown-menu>li>a{font-size:21px}
 }@media(max-width:767px){.navbar-nav .open .dropdown-menu{position:static;float:none;width:auto;margin-top:0;background-color:transparent;border:0;box-shadow:none}
 .navbar-nav .open .dropdown-menu>li>a,.navbar-nav .open .dropdown-menu .dropdown-header{padding:5px 15px 5px 25px}
 .navbar-nav .open .dropdown-menu>li>a{line-height:20px}
@@ -3028,6 +3036,12 @@ h1{font-size:3rem}
 .page-template-landing .triangle-ramp h2{text-align:center}
 .page-template-landing .triangle-ramp .tl-red{text-align:center}
 .page-template-aboutus h1{font-size:3rem}
+#blog-filters .nav li.open{position:relative}
+#blog-filters .nav li.open .dropdown-menu{margin-top:10px;padding:0;font-size:inherit;line-height:inherit}
+#blog-filters .nav li.open .dropdown-menu>li{margin-bottom:15px;display:list-item}
+#blog-filters .nav li.open .dropdown-menu>li:last-of-type{margin-right:0}
+#blog-filters .nav li.open .dropdown-menu>li>a{padding:0;background:transparent !important}
+#blog-filters .nav li.open .dropdown-menu>li>a:hover{color:#910811}
 .author-header-container .section.author-header{position:relative;border-bottom:10px solid #283055}
 .author-header .author-image-wrapper{display:none}
 .author-header .author-header-copy{display:block;padding:30px;background-repeat:no-repeat;background-size:contain;background-position:110% center}
@@ -3045,6 +3059,7 @@ h1{font-size:3rem}
 }@media(max-width:600px){.author-header .author-header-copy{background-position-x:40vw}
 }@media(max-width:569px){#blog-filters .slick-slider .slick-slide>a{font-size:21px}
 }@media(max-width:440px){.author-header .author-header-copy{background-size:cover;background-position-x:20vw}
+}@media(max-width:419px){#blog-filters .nav li{text-align:center}
 }@media print{*,*:before,*:after{color:#000 !important;text-shadow:none !important;background:transparent !important;box-shadow:none !important}
 a,a:visited{text-decoration:underline}
 a[href]:after{content:" (" attr(href) ")"}

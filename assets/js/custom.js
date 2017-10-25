@@ -44,10 +44,11 @@ jQuery(document).ready(function ($) {
     }
 
     if (getViewportWidth() < 768) {
-        $('#blog-filters').find('ul.nav.navbar-nav').slick({
+        var $slick_slider = $('#blog-filters').find('ul.nav.navbar-nav');
+        $slick_slider.slick({
             adaptiveHeight: true,
             slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             variableWidth: true,
             infinite: false,
             responsive: [{
@@ -58,18 +59,22 @@ jQuery(document).ready(function ($) {
             }, {
                 breakpoint: 570,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    variableWidth: false
+                    slidesToShow: 2
                 }
             }, {
                 breakpoint: 420,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
                     variableWidth: false
                 }
             }]
+        });
+
+        $('#blog-filters').find('.slick-slide').click(function () {
+            var $this = $(this);
+            setTimeout(function () {
+                $slick_slider.slick('slickGoTo', $this.data('slick-index'));
+            }, 150);
         });
     }
 

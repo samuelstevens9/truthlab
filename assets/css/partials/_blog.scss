@@ -20,6 +20,63 @@
         li {
             float: none;
             display: inline-block;
+            vertical-align: top;
+            text-align: left;
+
+            &.open {
+                > a {
+                    background: transparent;
+                }
+            }
+
+            .dropdown-menu {
+                padding-left: 0;
+
+                > li {
+                    @media(min-width: 768px) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            @media(max-width: 419px) {
+                text-align: center;
+            }
+            @media(max-width: 767px) {
+                &.open {
+                    position: relative;
+
+                    .dropdown-menu {
+                        margin-top: 10px;
+                        padding: 0;
+                        font-size: inherit;
+                        line-height: inherit;
+
+                        > li {
+                            margin-bottom: 15px;
+                            display: list-item;
+
+                            &:last-of-type {
+                                margin-right: 0;
+                            }
+
+                            > a {
+                                padding: 0;
+                                background: transparent !important;
+
+                                @media(max-width: 569px) {
+                                    font-size: 21px;
+                                }
+
+                                &:hover {
+                                    color: $red;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
         }
     }
 
@@ -607,6 +664,27 @@ body.single-post {
         .course {
             @media(min-width: 768px) {
                 &.col--seventh {
+
+                    &:hover {
+                        .thumbnail {
+                            .img-container {
+                                background-size: 110% auto;
+                            }
+                            .caption {
+                                .title {
+                                    h2 {
+                                        &:after {
+                                            border-color: $red;
+                                            background: #fff;
+                                            color: $red;
+                                            box-shadow: 1px 2px 3px rgba(7, 7, 78, 0.6);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     .thumbnail {
                         position: relative;
 
@@ -616,19 +694,26 @@ body.single-post {
                             background-size: 100% auto;
                         }
 
+                        figure {
+                            position: relative;
+                        }
+
                         .caption {
                             position: absolute;
                             top: 50%;
                             transform: translateY(-50%);
                             width: 100%;
+                            padding: 0;
 
                             p.cat, p.time, p.description {
                                 display: none;
                             }
 
                             .title {
+                                margin: 0;
+
                                 h2 {
-                                    margin: 0;
+                                    margin: 0 auto;
                                     line-height: 1.4;
                                     height: auto;
                                     text-align: center;
@@ -636,7 +721,7 @@ body.single-post {
                                     color: #fff;
                                     text-shadow: 1px 1px 1px #333;
                                     width: 100%;
-                                    max-width: none;
+                                    max-width: 60%;
                                     padding: 0 25px;
 
                                     @media(min-width: 768px) and(max-width: 991px) {

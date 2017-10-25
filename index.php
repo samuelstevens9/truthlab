@@ -91,8 +91,9 @@ get_header(); ?>
 			<?php
 			$paged    = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 			$qry_args = array(
-				'posts_per_page' => 12,
-				'paged'          => $paged
+				'posts_per_page' => 13,
+				'paged'          => $paged,
+				'post_status'    => 'publish'
 			);
 			if ( isset( $_GET[ 'category' ] ) && $_GET[ 'category' ] ) {
 				$qry_args[ 'category_name' ] = $_GET[ 'category' ];

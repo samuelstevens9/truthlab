@@ -11,7 +11,7 @@ class TruthlabAjax {
 		$paged = ! empty( $_POST[ 'paged' ] ) ? $_POST[ 'paged' ] : 1;
 
 		$args = array(
-			'posts_per_page' => 12,
+			'posts_per_page' => 14,
 			'paged'          => $paged,
 			'post_status'    => 'publish'
 		);
@@ -28,10 +28,11 @@ class TruthlabAjax {
 
 		ob_start();
 		if ( $the_query->have_posts() ) {
+			$listing_id = 6;
 			while ( $the_query->have_posts() ) {
 				$the_query->the_post();
-
-				get_template_part( 'partials/blog-post-listing' );
+				$listing_id ++;
+				include( __DIR__ . '/../partials/blog-post-listing.php' );
 			}
 		}
 		$output = ob_get_clean();
