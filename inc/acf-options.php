@@ -314,6 +314,66 @@ if ( function_exists( 'acf_add_local_field_group' ) ):
 	) );
 
 	acf_add_local_field_group( array(
+		'key'                   => 'group_59f8fe9830287',
+		'title'                 => 'Truthlab Options',
+		'fields'                => array(
+			array(
+				'key'               => 'field_59f8fea66c1b5',
+				'label'             => 'Posts',
+				'name'              => '',
+				'type'              => 'tab',
+				'instructions'      => '',
+				'required'          => 0,
+				'conditional_logic' => 0,
+				'wrapper'           => array(
+					'width' => '',
+					'class' => '',
+					'id'    => '',
+				),
+				'placement'         => 'top',
+				'endpoint'          => 0,
+			),
+			array(
+				'key'               => 'field_59f8feb46c1b6',
+				'label'             => 'Takeaway Appended Text',
+				'name'              => 'takeaway_appended_text',
+				'type'              => 'text',
+				'value'             => NULL,
+				'instructions'      => 'This text will be appended to every twitter message you define in the \'Takeaway\' section on single posts.',
+				'required'          => 0,
+				'conditional_logic' => 0,
+				'wrapper'           => array(
+					'width' => '',
+					'class' => '',
+					'id'    => '',
+				),
+				'default_value'     => '',
+				'placeholder'       => '',
+				'prepend'           => '',
+				'append'            => '',
+				'maxlength'         => '',
+			),
+		),
+		'location'              => array(
+			array(
+				array(
+					'param'    => 'options_page',
+					'operator' => '==',
+					'value'    => 'truthlab-settings',
+				),
+			),
+		),
+		'menu_order'            => 0,
+		'position'              => 'normal',
+		'style'                 => 'default',
+		'label_placement'       => 'top',
+		'instruction_placement' => 'label',
+		'hide_on_screen'        => '',
+		'active'                => 1,
+		'description'           => '',
+	) );
+
+	acf_add_local_field_group( array(
 		'key'                   => 'group_59e6e722b9685',
 		'title'                 => 'User Fields',
 		'fields'                => array(

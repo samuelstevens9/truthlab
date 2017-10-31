@@ -17,7 +17,7 @@ get_header( 'single' ); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
                     <div class="section slider-header">
-	                    <?= do_shortcode( '[rev_slider alias="single-blog-post"]' ); ?>
+						<?= do_shortcode( '[rev_slider alias="single-blog-post"]' ); ?>
                     </div>
 
                     <div class="twitter twitter-desktop">
@@ -31,7 +31,8 @@ get_header( 'single' ); ?>
 									<?php
 									$tweet      = get_sub_field( 'tweet' );
 									$tweet      = str_replace( '\'', '', $tweet );
-									$finalTweet = 'https://twitter.com/home?status=' . urlencode( $tweet );
+									$append     = get_field( 'takeaway_appended_text', 'option' );
+									$finalTweet = 'https://twitter.com/home?status=' . urlencode( $tweet . ( $append ? ' ' . $append : '' ) );
 									?>
                                     <a href="<?php echo $finalTweet ?>" target="popup"
                                        onclick="window.open('<?php echo $finalTweet ?>','popup','width=600,height=600');">
@@ -58,7 +59,8 @@ get_header( 'single' ); ?>
 										<?php
 										$tweet      = get_sub_field( 'tweet' );
 										$tweet      = str_replace( '\'', '', $tweet );
-										$finalTweet = 'https://twitter.com/home?status=' . $tweet;
+										$append     = get_field( 'takeaway_appended_text', 'option' );
+										$finalTweet = 'https://twitter.com/home?status=' . urlencode( $tweet . ( $append ? ' ' . $append : '' ) );
 										?>
                                         <a href="<?php echo $finalTweet ?>" target="popup"
                                            onclick="window.open('<?php echo $finalTweet ?>','popup','width=600,height=600');">
