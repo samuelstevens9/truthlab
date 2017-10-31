@@ -5,14 +5,6 @@
  * @package Truthlab
  */
 
-global $wp;
-$current_url = home_url( add_query_arg( array(), $wp->request ) );
-
-$the_author = NULL;
-if ( is_author() ) {
-	$the_author = get_user_by( 'ID', get_queried_object_id() );
-}
-
 get_header(); ?>
 
     <div id="primary" class="container">
@@ -27,46 +19,46 @@ get_header(); ?>
 				<?php endif; ?>
             </header><!-- .page-header -->
 
-            <div id="blog-posts" data-filter="" data-paged="1"
-                 data-author="<?= ! empty( $the_author ) ? $the_author->ID : ''; ?>">
-                <section class="courses row">
-					<?php if ( have_posts() ) : ?>
+            <div id="blog-posts">
+                <section class="courses">
+                    <div class="row">
+						<?php if ( have_posts() ) : ?>
 						<?php
-						$listing_id = 0;
+						$listing_id  = 0;
+						$seventh_num = 0;
 						while ( have_posts() ) {
 							the_post();
 							$listing_id ++;
+
 							include( __DIR__ . '/partials/blog-post-listing.php' );
+
+							if ( ( $listing_id - $seventh_num ) % 3 == 0 ) {
+								echo '</div><div class="row">';
+							}
+							if ( $listing_id % 7 == 0 ) {
+								$seventh_num ++;
+							}
 						} ?>
+                    </div>
+                    <div class="row">
                         <div class="navigation col-xs-12 text-center" style="margin-top:25px;">
                             <div class="next-posts"><?php next_posts_link(); ?></div>
                             <div class="prev-posts"><?php previous_posts_link(); ?></div>
                         </div>
+                    </div>
 					<?php else : ?>
-
-                        <div class="col-xs-12" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-                            <p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.',
-									'twentyseventeen' ); ?>
-                            </p>
+                        <div class="row">
+                            <div class="col-xs-12" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+                                <p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.',
+										'twentyseventeen' ); ?>
+                                </p>
+                            </div>
                         </div>
-
 					<?php endif; ?>
                 </section>
             </div>
-
-			<?php
-			$has_more_posts = $the_query->max_num_pages > $paged;
-			?>
-            <div class="load-more__wrapper" style="<?= ! $has_more_posts ? 'display:none' : ''; ?>">
-                <a id="js--load-more-posts" href="#">Load More</a>
-            </div>
-			<?php
-			wp_reset_postdata();
-			?>
-
         </main><!-- #main -->
     </div><!-- #primary -->
-
 
     <section id="cta">
         <div class="container">

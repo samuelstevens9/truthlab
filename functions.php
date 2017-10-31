@@ -169,12 +169,12 @@ function aa_enqueue_comments_reply() {
 }
 
 function get_excerpt( $count ) {
+	global $post;
 	$permalink = get_permalink( $post->ID );
 	$excerpt   = get_the_content();
 	$excerpt   = strip_tags( $excerpt );
 	$excerpt   = substr( $excerpt, 0, $count );
 	$ewords    = explode( ' ', $excerpt );
-	$last_word = array_pop( $ewords );
 	$excerpt   = implode( $ewords, ' ' ) . '...';
 
 	return $excerpt;
@@ -187,7 +187,6 @@ function scrapeImage( $text ) {
 	$link = urldecode( $link );
 
 	return $link;
-
 }
 
 /**
