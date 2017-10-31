@@ -121,6 +121,7 @@ jQuery(document).ready(function ($) {
     /* Search Dropdown */
     jQuery('.search-toggle').click(function () {
         jQuery('.search-dropdown').slideToggle();
+        jQuery('#ajax_searchform :input[name="s"]').focus();
     });
 
     /* Subscribe Dropdown */
@@ -129,7 +130,7 @@ jQuery(document).ready(function ($) {
     });
 
     /* Request Dropdown */
-    jQuery('body').on('click','.request-toggle',function () {
+    jQuery('body').on('click', '.request-toggle', function () {
         jQuery('.request-dropdown').slideToggle();
     });
 

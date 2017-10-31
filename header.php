@@ -105,7 +105,7 @@ if ( is_the_blog() ) {
     <form role="search" method="get" id="ajax_searchform" action="<?php echo home_url( '/' ); ?>">
         <div class="container">
             <div class="col-md-10">
-                <input type="text" placeholder="Type to Search Blog Articles..." name="s"/>
+                <input type="text" placeholder="Type to Search&hellip;" name="s"/>
             </div>
             <div class="col-md-2">
                 <button type="submit" class="button button--red-outline no-background" value="Search">Search</button>

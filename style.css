@@ -4308,7 +4308,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 
 .page-overview .page-overview__wrapper { max-width: 600px; margin: 0 auto; }
 
-#primary { margin-bottom: 100px; }
+#primary { margin-bottom: 150px; }
 
 /* ---------------------------------------------------------------------------- Structure ------------------------------------------------------------------------- */
 /* global box-sizing */
