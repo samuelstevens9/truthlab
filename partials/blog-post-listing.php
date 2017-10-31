@@ -1,8 +1,10 @@
 <?php
 $termsArray  = get_the_terms( $post->ID, "category" );  //Get the terms for this particular item
 $termsString = ""; //initialize the string that will contain the terms
-foreach ( $termsArray as $term ) { // for each term
-	$termsString .= $term->slug . ' '; //create a string that has all the slugs
+if ( is_array( $termsArray ) ) {
+	foreach ( $termsArray as $term ) { // for each term
+		$termsString .= $term->slug . ' '; //create a string that has all the slugs
+	}
 }
 $authid              = 'auth' . get_the_author_meta( 'ID' );
 $category            = get_the_category();
