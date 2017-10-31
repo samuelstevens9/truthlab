@@ -1984,7 +1984,7 @@ body{min-height:1000px;padding-top:70px;font-family:'PT Sans Narrow',sans-serif;
 .navbar-header img{height:37px;width:144px}
 .navbar-brand{height:auto;padding:0 15px}
 .navbar{padding:1.2rem 15px}
-.navbar-right{margin-right:-15px}
+.navbar-right{margin-right:0}
 .navbar-default{background-color:white}
 .navbar-default .navbar-nav>li>a{color:#07074e;font-size:1.35rem;padding:0 15px}
 .navbar-default .navbar-nav>li>a>i{color:#07074e !important}
