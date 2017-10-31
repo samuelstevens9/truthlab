@@ -128,7 +128,7 @@ if ( is_the_blog() ) {
                     <input type="email" value="" name="EMAIL" class="required email" placeholder="Email"
                            id="mce-blog-EMAIL" required>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-blog-FULLNAME"
                            required>
                 </div>
@@ -137,7 +137,7 @@ if ( is_the_blog() ) {
                            name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
                            tabindex="-1" value="">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <button type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe-blog"
                             class="button button--red-outline" style="margin:0px;">
                         Join Now
@@ -166,14 +166,14 @@ if ( is_the_blog() ) {
                     <input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL"
                            required>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <input type="text" value="" name="FULLNAME" class="" placeholder="Full Name" id="mce-FULLNAME"
                            required>
                 </div>
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                                                                                           name="b_c2bfa3ee50aeeb2e544284a99_c1e42fec0f"
                                                                                           tabindex="-1" value=""></div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <button type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
                             class="button button--red-outline" style="margin:0px;">
                         Request Now

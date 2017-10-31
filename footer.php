@@ -140,7 +140,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                     &copy; Truthlab <?php echo date( "Y" ); ?>
                 </div>
                 <div class="col-md-8 text-right">
-                    <a href="#" class="contact">Contact Us</a>
+                    <a href="/contact/" class="contact">Contact Us</a>
 					<?php if ( $is_ie ): ?>
                         <ul>
                             <li><a href="https://www.linkedin.com/company/10992459/" target="_blank"><img

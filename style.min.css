@@ -2168,7 +2168,7 @@ footer .row{padding-top:0}
 #tabs .content{text-align:center;padding:100px 0 200px 0}
 #tabs img{margin-bottom:50px}
 #tabs .content h3{margin:75px 0 25px 0}
-#content__marketing .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+#content__marketing .bg-image-red{width:2750px;height:2750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;margin-left:-2550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:-1;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
 #content__marketing .bg-image-blue{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-left:-1500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
 #content__marketing .marketing{padding:30px 0 28% 0;background-color:#f5f3f3;background:url("assets/img/solutions/backgroundshape-right.svg") no-repeat;background-size:100%}
 #content__marketing .image{position:relative}
@@ -2220,6 +2220,8 @@ hr.blue-bar{border-top:15px solid #07074e}
 .page-template-landing .sharethis-inline-share-buttons>div[data-network="sharethis"]:hover svg{color:#07074b !important;fill:#07074b !important}
 .page-template-landing .sharethis-inline-share-buttons>div[data-network="sharethis"] .st-label{display:none !important}
 br{clear:both}
+.contact-us input[type="text"],.contact-us input[type="email"],.contact-us input[type="tel"]{width:100%;padding:10px;font-size:28px;background-color:#fff;border:1px solid #333;border-radius:2px;box-shadow:1px 1px 2px rgba(7,7,78,0.2),inset 0 0 2px rgba(0,0,0,0.05)}
+.contact-us textarea{width:100%;padding:10px;font-size:28px;background-color:#fff;border:1px solid #333;border-radius:2px;box-shadow:1px 1px 2px rgba(7,7,78,0.2),inset 0 0 2px rgba(0,0,0,0.05)}
 #hero{height:700px;background-image:url(assets/img/about/top-lines-rb.svg),url(assets/img/about/bottom-lines.svg);background-repeat:no-repeat,no-repeat;background-position:left 76px top 0,right 70px bottom 0;background-size:200px;margin-top:0;position:relative}
 #hero .front{position:absolute;top:10%;left:0;width:100%;text-align:center;color:#dedee3;font-size:18rem}
 #hero .back{position:absolute;top:22.5%;left:0;width:100%;text-align:center;color:#07074e;font-size:4.5rem;font-weight:500}
