@@ -2641,6 +2641,7 @@ th.visible-md,td.visible-md{display:table-cell !important}
 .visible-md-inline{display:inline !important}
 .visible-md-inline-block{display:inline-block !important}
 .hidden-md{display:none !important}
+.page-template-hompage .blank{top:-370px;background-position:left 10% bottom 10%,right 10% top 0}
 .page-template-landing .triangle-ramp h2{font-size:2.2rem}
 .page-template-landing .triangle-ramp .tl-red{font-size:1.8rem}
 }@media(min-width:992px) and (max-width:1110px){.page-template-aboutus #team-left .profile{padding-left:100px !important}

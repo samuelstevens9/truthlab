@@ -751,6 +751,11 @@ footer {
             background-position: left 10% bottom 90%, right 10% top 0;
         }
 
+        @media(min-width: 992px) and (max-width: 1199px) {
+            top: -370px;
+            background-position: left 10% bottom 10%, right 10% top 0%;
+        }
+
         @media(max-width: 767px) {
             background-image: url('assets/img/home/top-lines_rb.svg');
             background-size: contain;
