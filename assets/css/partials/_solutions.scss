@@ -165,7 +165,7 @@
 }
 
 #tabs {
-    padding-bottom: 370px;
+    padding-bottom: 150px;
     text-align: center;
     & ul {
         list-style: none;
@@ -220,16 +220,16 @@
 #content__marketing {
 
     .bg-image-red {
-        width: 2750px;
-        height: 2750px;
+        width: 1750px;
+        height: 1750px;
         background-image: url(//static.mailchimp.com/web/root/blank.gif);
         top: 50%;
-        margin-left: -2550px;
+        margin-left: -1550px;
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
         left: 50%;
-        z-index: -1;
+        z-index: 0;
         transform: translateY(-50%);
     }
     & .bg-image-blue {
@@ -316,10 +316,10 @@
 }
 
 #content__product {
-    padding-bottom: 1000px;
+    padding-bottom: 600px;
     overflow: hidden;
     position: relative;
-    padding-top: 1000px;
+    padding-top: 410px;
 
     @media(max-width: 767px) {
         padding-top: 160px;
@@ -327,12 +327,12 @@
     }
 
     & .bg-image-blue {
-        width: 2750px;
-        height: 2750px;
+        width: 1750px;
+        height: 1750px;
         background-image: url(//static.mailchimp.com/web/root/blank.gif);
         top: 50%;
         transform: translateY(-50%);
-        margin-right: -2500px;
+        margin-right: -1550px;
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
@@ -398,16 +398,16 @@
 }
 
 #content__designers {
-    margin-bottom: 800px;
+    margin-bottom: 350px;
     overflow: visible !important;
 
     & .bg-image-red {
-        width: 2750px;
-        height: 2750px;
+        width: 1750px;
+        height: 1750px;
         background-image: url(//static.mailchimp.com/web/root/blank.gif);
         top: 50%;
         transform: translateY(-50%);
-        margin-left: -2550px;
+        margin-left: -1550px;
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
