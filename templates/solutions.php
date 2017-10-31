@@ -33,7 +33,7 @@ get_header(); ?>
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#content__solution">Overview</a></li>
                     <li><a data-toggle="tab" href="#content__marketing">For Marketers</a></li>
-                    <li><a data-toggle="tab" href="#content__product">For Product Managers</a></li>
+                    <li><a data-toggle="tab" href="#content__product-managers">For Product Managers</a></li>
                     <li><a data-toggle="tab" href="#content__designers">For Experience Designers</a></li>
                 </ul>
                 <div class="row">
@@ -91,7 +91,7 @@ get_header(); ?>
 
     <section id="content__product">
         <div class="row--padded marketing">
-            <div class="container">
+            <div class="container" id="content__product-managers">
                 <div class="row">
                     <div class="col-sm-4 hidden-xs">
                         <div class="solutions__copy">
