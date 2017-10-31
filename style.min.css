@@ -2402,6 +2402,9 @@ body.single-post #primary{margin-bottom:40px}
 body.single-post .sharethis-inline-share-buttons>div:not(:hover){background:#818486 !important}
 body.single-post .blog-post .entry-content a{color:#139fac}
 body.single-post .blog-post .entry-content a:hover{color:#910811;text-decoration:underline}
+body.blog #main .section.slider-header a.button.button--red:before{content:'';position:absolute;width:100%;height:100%;top:0;left:0}
+body.blog #main .section.slider-header .active-revslide .tp-bgimg{background-size:100% 100% !important;-webkit-transition:background-size 200ms ease;transition:background-size 200ms ease}
+body.blog #main .section.slider-header .active-revslide:hover .tp-bgimg{background-size:110% 110% !important;background-position:center center !important}
 @media screen{[hidden~="screen"]{display:inherit}
 [hidden~="screen"]:not(:active):not(:focus):not(:target){clip:rect(0 0 0 0) !important;position:absolute !important}
 }@media screen and (-webkit-min-device-pixel-ratio:0){input[type="date"].form-control,input[type="time"].form-control,input[type="datetime-local"].form-control,input[type="month"].form-control{line-height:34px}
@@ -2535,11 +2538,11 @@ input[type="date"].input-lg,input[type="time"].input-lg,input[type="datetime-loc
 #blog-posts .courses .course.col--seventh .thumbnail{position:relative}
 #blog-posts .courses .course.col--seventh .thumbnail .img-container{padding-bottom:31%;background-position:center center;background-size:100% auto}
 #blog-posts .courses .course.col--seventh .thumbnail figure{position:relative}
-#blog-posts .courses .course.col--seventh .thumbnail .caption{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:0}
+#blog-posts .courses .course.col--seventh .thumbnail .caption{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:100%;padding:0;padding-bottom:10px}
 #blog-posts .courses .course.col--seventh .thumbnail .caption p.cat,#blog-posts .courses .course.col--seventh .thumbnail .caption p.time,#blog-posts .courses .course.col--seventh .thumbnail .caption p.description{display:none}
 #blog-posts .courses .course.col--seventh .thumbnail .caption .title{margin:0}
-#blog-posts .courses .course.col--seventh .thumbnail .caption .title h2{margin:0 auto;line-height:1.4;height:auto;text-align:center;font-size:50px;color:#fff;text-shadow:1px 1px 1px #333;width:100%;max-width:60%;padding:0 25px}
-#blog-posts .courses .course.col--seventh .thumbnail .caption .title h2:after{display:block;border:3px solid #fff;content:"Read Now >";max-width:230px;font-size:35px;padding:5px 10px;margin:0 auto;margin-top:25px;font-family:'Open Sans Condensed',sans-serif}
+#blog-posts .courses .course.col--seventh .thumbnail .caption .title h2{margin:0 auto;line-height:1.4;height:auto;text-align:center;font-size:36px;color:#fff;text-shadow:1px 1px 1px #333;width:100%;max-width:60%;padding:0 25px}
+#blog-posts .courses .course.col--seventh .thumbnail .caption .title h2:after{display:block;border:5px solid #fff;content:"Read Now >";max-width:230px;font-size:22px;padding:10px 40px;margin:0 auto;margin-top:25px;font-family:'PT Sans Narrow',sans-serif;font-weight:400;border-radius:2px}
 #blog-posts .courses .course.col--seventh .thumbnail .caption .title .line{display:none}
 }@media only screen and (min-width:768px) and (max-width:1200px){.copy{margin-top:10%;font-size:70%}
 .copy h2{font-size:2.5rem}
