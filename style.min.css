@@ -2056,8 +2056,8 @@ footer .row{padding-bottom:0}
 .slide-header.active .top,.slide-header.active .bottom{-webkit-transition:none;transition:none;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);z-index:1}
 .slide-header.active .top:after,.slide-header.active .bottom:after{-webkit-transition:-webkit-transform cubic-bezier(0.23,1,0.32,1) 1200ms;transition:-webkit-transform cubic-bezier(0.23,1,0.32,1) 1200ms;transition:transform cubic-bezier(0.23,1,0.32,1) 1200ms;transition:transform cubic-bezier(0.23,1,0.32,1) 1200ms,-webkit-transform cubic-bezier(0.23,1,0.32,1) 1200ms;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
 .slide-header .top,.slide-header .bottom{font-size:30vh}
-.center{position:absolute;top:56%;left:50%;-webkit-transform:translate3d(-50%,-50%,0);transform:translate3d(-50%,-50%,0);z-index:2;text-align:center}
-.center h1{font-size:10vh;line-height:1;font-family:"PT Sans Narrow",sans-serif;color:white;margin-bottom:100px}
+.center{position:absolute;top:50%;left:50%;-webkit-transform:translate3d(-50%,-17%,0);transform:translate3d(-50%,-17%,0);z-index:2;text-align:center}
+.center h1{font-size:10vh;line-height:1;font-family:"PT Sans Narrow",sans-serif;color:white;padding:0;margin:0;margin-bottom:100px}
 .center a.button{padding-top:100px}
 .center a.button:hover{background-color:white;color:red}
 .center .down-chevron{display:none}
@@ -2836,7 +2836,7 @@ blockquote:hover{box-shadow:none}
 .page-template-aboutus #leadership #team-right .profile__wrapper,.page-template-aboutus #leadership #team-left .profile__wrapper{margin-top:-100px}
 .page-template-aboutus #team-right .profile-image{left:50% !important;-webkit-transform:translateX(-90%);-ms-transform:translateX(-90%);transform:translateX(-90%)}
 }@media only screen and (max-width:768px){.request-dropdown-mobile.request-toggle{display:block}
-}@media(max-width:768px){.page-template-hompage .slider-drop-shadow{height:70%;height:70vh}
+}@media(max-width:768px){.page-template-hompage .slider-drop-shadow{height:70%;height:90vh;max-height:800px}
 #blog-filters{margin-bottom:0}
 #blog-filters .navbar{top:0}
 }@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
@@ -2964,14 +2964,16 @@ footer .sub-footer a.contact{display:block;color:#666;text-align:center;margin:1
 footer .sub-footer .text-right{text-align:center}
 footer .sub-footer .text-right ul{display:inline-block;margin:0;padding:0}
 footer .sub-footer .text-right li{float:left;padding:2px 5px}
-.slider{height:70vh}
-.center{top:61.5%;left:50%;width:90%}
-.center h1{font-size:5vh;margin-bottom:20px}
+.slider{height:90vh;max-height:800px}
+.center{top:50%;left:50%;width:90%;-webkit-transform:translate3d(-50%,-9%,0);transform:translate3d(-50%,-9%,0)}
+.center h1{font-size:5vh;margin:0;padding:0;margin-bottom:30px}
 .center .center a.button{display:block;width:60%;margin:0 auto}
 .center .center a.button:after{display:none !important}
 .center .down-chevron{display:block;margin-top:30px}
-.slide-header .top{font-size:9vh;line-height:70vh;height:35vh}
-.slide-header .bottom{font-size:9vh;height:35vh}
+.slide-header .top{font-size:9vh;line-height:90vh;height:45vh;max-height:400px}
+.slide-header .top:after{margin-left:-15px}
+.slide-header .bottom{font-size:9vh;height:45vh;max-height:400px}
+.slide-header .bottom:after{margin-left:-15px}
 #about h1{font-size:3rem}
 .heading{margin-top:0}
 #middle{margin-top:50px}

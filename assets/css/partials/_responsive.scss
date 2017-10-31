@@ -775,16 +775,21 @@
     /** Homepage            **/
     /*************************/
     .slider {
-        height: 70vh;
+        height: 90vh;
+        max-height: 800px;
 
     }
     .center {
-        top: 61.5%;
+        top: 50%;
         left: 50%;
         width: 90%;
-        & h1 {
+        transform: translate3d(-50%, -9%, 0);
+
+        h1 {
             font-size: 5vh;
-            margin-bottom: 20px;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 30px;
         }
         .center a.button {
             display: block;
@@ -803,13 +808,22 @@
     .slide-header {
         & .top {
             font-size: 9vh;
-            line-height: 70vh;
-            height: 35vh;
+            line-height: 90vh;
+            height: 45vh;
+            max-height: 400px;
+
+            &:after {
+                margin-left: -15px;
+            }
         }
         & .bottom {
             font-size: 9vh;
+            height: 45vh;
+            max-height: 400px;
 
-            height: 35vh;
+            &:after {
+                margin-left: -15px;
+            }
         }
     }
     #about {
