@@ -17,32 +17,6 @@ get_header(); ?>
 
     <div id="primary" class="container">
         <main id="main" class="site-main" role="main">
-			<?php if ( $the_author ): ?>
-                <div class="author-header-container">
-                    <div class="section author-header row">
-                        <div class="col-sm-6 col-sm-push-6 text-right author-image-wrapper">
-                            <img class="blog-author-hero-avatar"
-                                 src="<?= scrapeImage( get_wp_user_avatar( $the_author->ID ) ); ?>"
-                                 alt="<?= $the_author->display_name; ?>"/>
-                        </div>
-
-                        <div class="author-header-copy col-sm-6 col-sm-pull-6"
-                             style="background-image: url(<?= scrapeImage( get_wp_user_avatar( $the_author->ID ) ); ?>)">
-                            <p class="spotlight">Author Spotlight</p>
-                            <h2><?= $the_author->display_name; ?></h2>
-                            <p class="author-header-desc">
-								<?= get_the_author_meta( 'description', $the_author->ID ); ?>
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-			<?php else: ?>
-                <div class="section slider-header">
-					<?= do_shortcode( '[rev_slider alias="blog-landing"]' ); ?>
-                </div>
-			<?php endif; ?>
-
 
             <header class="page-header">
 				<?php if ( have_posts() ) : ?>
