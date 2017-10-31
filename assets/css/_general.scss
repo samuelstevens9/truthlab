@@ -22,12 +22,16 @@
 #back-to-top {
     position: fixed;
     background-image: url('./assets/img/totop.svg'), none;
-    width: 70px;
-    height: 70px;
+    width: 48px;
+    height: 48px;
     display: inline-block;
     bottom: 10px;
     right: 10px;
     z-index: 9999;
+
+    &:hover {
+        background-image: url('./assets/img/totop-white.svg'), none;
+    }
 }
 
 .page-overview {

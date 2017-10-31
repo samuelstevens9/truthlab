@@ -173,7 +173,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         </div>
 </footer>
 
-<a id="back-to-top" href="#"></a>
+<a id="back-to-top" href="#" style="display: none"></a>
 
 <?php wp_footer(); ?>
 

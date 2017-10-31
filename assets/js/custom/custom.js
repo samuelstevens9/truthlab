@@ -20,7 +20,7 @@ jQuery(window).scroll(function () {
 
 jQuery(document).ready(function ($) {
 
-    var offset = 250;
+    var offset = 200;
     var duration = 300;
 
     $(window).scroll(function () {
