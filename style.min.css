@@ -2222,7 +2222,7 @@ hr.blue-bar{border-top:15px solid #07074e}
 br{clear:both}
 .contact-us input[type="text"],.contact-us input[type="email"],.contact-us input[type="tel"]{width:100%;padding:10px;font-size:28px;background-color:#fff;border:1px solid #333;border-radius:2px;box-shadow:1px 1px 2px rgba(7,7,78,0.2),inset 0 0 2px rgba(0,0,0,0.05)}
 .contact-us textarea{width:100%;padding:10px;font-size:28px;background-color:#fff;border:1px solid #333;border-radius:2px;box-shadow:1px 1px 2px rgba(7,7,78,0.2),inset 0 0 2px rgba(0,0,0,0.05)}
-#hero{height:700px;background-image:url(assets/img/about/top-lines-rb.svg),url(assets/img/about/bottom-lines.svg);background-repeat:no-repeat,no-repeat;background-position:left 76px top 0,right 70px bottom 0;background-size:200px;margin-top:0;position:relative}
+#hero{height:700px;background-image:url("assets/img/about/top-lines-rb.svg"),url("assets/img/about/bottom-lines.svg");background-repeat:no-repeat,no-repeat;background-position:left 76px top 0,right 70px bottom 0;background-size:200px;margin-top:0;position:relative}
 #hero .front{position:absolute;top:10%;left:0;width:100%;text-align:center;color:#dedee3;font-size:18rem}
 #hero .back{position:absolute;top:22.5%;left:0;width:100%;text-align:center;color:#07074e;font-size:4.5rem;font-weight:500}
 .page-template-aboutus .angle-shadow{margin-top:-151px}
@@ -2236,10 +2236,14 @@ br{clear:both}
 .page-template-aboutus .fa-linkedin-square,.page-template-aboutus .fa-facebook-square,.page-template-aboutus .fa-twitter-square,.page-template-aboutus .fa-google-plus-square{-webkit-transition:color .6s ease-out;transition:color .6s ease-out}
 .page-template-aboutus .fa-linkedin-square:hover,.page-template-aboutus .fa-facebook-square:hover,.page-template-aboutus .fa-twitter-square:hover,.page-template-aboutus .fa-google-plus-square:hover{-webkit-transform:translateY(-5px);-ms-transform:translateY(-5px);transform:translateY(-5px);text-shadow:1px 1px rgba(7,7,78,0.5)}
 .page-template-aboutus #leadership{overflow-x:hidden}
-.page-template-aboutus #leadership h1.section__title{font-size:5rem;margin:170px 0 100px}
+.page-template-aboutus #leadership h1.section__title{font-size:3.6rem;margin:170px 0 115px}
 .page-template-aboutus #leadership #team-right,.page-template-aboutus #leadership #team-left{position:relative;margin-bottom:200px}
 .page-template-aboutus #leadership #team-right ul li,.page-template-aboutus #leadership #team-left ul li{display:inline;margin-right:1rem}
-.page-template-aboutus #leadership #team-right .profile,.page-template-aboutus #leadership #team-left .profile{border-radius:2px;padding:5% 6%}
+.page-template-aboutus #leadership #team-right ul li:last-of-type,.page-template-aboutus #leadership #team-left ul li:last-of-type{margin-right:0}
+.page-template-aboutus #leadership #team-right .social,.page-template-aboutus #leadership #team-left .social{text-align:right}
+.page-template-aboutus #leadership #team-right .rectangle--red,.page-template-aboutus #leadership #team-left .rectangle--red{position:absolute;z-index:-1;border-radius:2px;border:5px solid #910811;height:100%;width:9999%;top:0;left:0}
+.page-template-aboutus #leadership #team-right .rectangle--blue,.page-template-aboutus #leadership #team-left .rectangle--blue{position:absolute;z-index:-1;border-radius:2px;border:5px solid #07074e;height:100%;width:9999%;top:0;right:0}
+.page-template-aboutus #leadership #team-right .profile,.page-template-aboutus #leadership #team-left .profile{border-radius:2px}
 .page-template-aboutus #leadership #team-right .profile h1,.page-template-aboutus #leadership #team-left .profile h1{color:#07074e;font-size:3.5rem}
 .page-template-aboutus #leadership #team-right .profile h2,.page-template-aboutus #leadership #team-left .profile h2{padding-bottom:10px;font-weight:500;color:#999;font-size:2rem}
 .page-template-aboutus #leadership #team-right .panel-default,.page-template-aboutus #leadership #team-left .panel-default{border:0;box-shadow:none}
@@ -2248,18 +2252,18 @@ br{clear:both}
 .page-template-aboutus #leadership #team-right .panel-heading,.page-template-aboutus #leadership #team-right .panel-body,.page-template-aboutus #leadership #team-left .panel-heading,.page-template-aboutus #leadership #team-left .panel-body{padding:0}
 .page-template-aboutus #leadership #team-right .panel-body>.container,.page-template-aboutus #leadership #team-left .panel-body>.container{padding:0;width:auto}
 .page-template-aboutus #leadership #team-right .panel-heading .accordion-toggle:after,.page-template-aboutus #leadership #team-left .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
-.page-template-aboutus #leadership #team-right .hexagon,.page-template-aboutus #leadership #team-left .hexagon{position:absolute;width:300px;height:315px;top:-60px;background-repeat:no-repeat;background-size:contain;z-index:2;left:50%}
-.page-template-aboutus #leadership #team-right .profile-image,.page-template-aboutus #leadership #team-left .profile-image{position:absolute;width:175px;height:175px;top:80px;background-repeat:no-repeat;background-size:contain;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
-.page-template-aboutus #team-left .profile{border:5px solid #910811}
+.page-template-aboutus #leadership #team-right .hexagon,.page-template-aboutus #leadership #team-left .hexagon{position:absolute;width:300px;height:315px;top:-60px;background-repeat:no-repeat;background-size:contain;z-index:2;left:46%}
+.page-template-aboutus #leadership #team-right .profile-image,.page-template-aboutus #leadership #team-left .profile-image{position:absolute;width:175px;height:175px;top:80px;background-repeat:no-repeat;background-size:contain;z-index:2;left:47%;border:1px solid #07074e;border-radius:50%}
+.page-template-aboutus #team-left .profile{padding:50px 0 50px 130px}
 .page-template-aboutus #team-left .profile-image{margin-left:-38%}
 .page-template-aboutus #team-left .hexagon{margin-left:-46%}
-.page-template-aboutus #team-right .profile{border:5px solid #07074e;margin-left:0}
+.page-template-aboutus #team-right .profile{margin-left:0;padding:50px 130px 50px 0}
 .page-template-aboutus #team-right .profile-image{margin-left:28%}
 .page-template-aboutus #team-right .hexagon{margin-left:30%}
 #culture{background:url("assets/img/about/culture-and-values.jpg") no-repeat;background-size:100%;position:relative;padding-top:62%}
 #culture .values{background-color:white}
 #culture .values .heading{width:90%;max-width:960px;margin:0 auto}
-#culture .values .heading h2{font-size:5rem;padding-bottom:0}
+#culture .values .heading h2{font-size:3.6rem;padding-bottom:0}
 #culture .values .heading p{color:#777;font-size:1.8rem}
 #culture .values .sub-heading{width:50%;margin:auto}
 #culture .values .row{padding:3rem 0}
@@ -2282,12 +2286,14 @@ br{clear:both}
 #careers .blue-box .panel-heading,#careers .blue-box .panel-body{padding:0}
 #careers .blue-box .panel-body>.container{padding:0;width:auto;margin-bottom:25px}
 #careers .blue-box .panel-body>.container>p,#careers .blue-box .panel-body>.container ul,#careers .blue-box .panel-body>.container ol{font-size:1.6rem}
+#careers .blue-box .panel-body>.container ul,#careers .blue-box .panel-body>.container ol{list-style-position:inside}
+#careers .blue-box .panel-body>.container .button--blue-outline{display:inline-block;margin-top:20px;margin-bottom:20px}
 #careers .blue-box .accordion-toggle{padding-bottom:8px}
-#careers .blue-box .panel-title{color:#07074e;font-size:2rem}
+#careers .blue-box .panel-title{color:#07074e;font-size:2rem;cursor:pointer}
 #careers .blue-box .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e}
 .page-template-aboutus #cta{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);position:relative}
 .page-template-aboutus #cta .cta__blue{padding-top:120px;text-align:center}
-.page-template-aboutus #cta .cta__blue .text-center{max-width:900px;margin:0 auto}
+.page-template-aboutus #cta .cta__blue .text-center{max-width:900px;margin:0 auto;float:none}
 .page-template-aboutus #cta .cta__blue .text-center h2{font-size:3.6rem}
 .page-template-aboutus #cta .cta__blue .text-center p{font-size:2rem}
 .page-template-aboutus .cta__blue{margin-bottom:200px}
@@ -2569,6 +2575,7 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .page-template-aboutus #team-right .profile{padding-right:220px !important}
 body.single-post #cta .cta__blue .text-right{padding-top:10px;text-align:center}
 }@media(min-width:769px){#culture .values{max-width:90%}
+}@media(min-width:801px){.page-template-aboutus #leadership h1.section__title{padding-left:20%}
 }@media(min-width:861px){.page-template-hompage #cta .cta__red h2{margin-top:-10px}
 }@media(min-width:992px){.container{width:970px}
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
@@ -2810,10 +2817,30 @@ blockquote:hover{box-shadow:none}
 .mobile-social .fa-google-plus-square:active{-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px)}
 .share{display:none}
 .rev_slider{height:400px !important}
+}@media(max-width:800px){.page-template-aboutus #leadership h1.section__title{text-align:center}
+.page-template-aboutus #leadership #team-right,.page-template-aboutus #leadership #team-left{text-align:center}
+.page-template-aboutus #leadership #team-right ul li a,.page-template-aboutus #leadership #team-left ul li a{text-decoration:none}
+.page-template-aboutus #leadership #team-right ul li a .fa-2x,.page-template-aboutus #leadership #team-left ul li a .fa-2x{font-size:20px}
+.page-template-aboutus #leadership #team-right .social,.page-template-aboutus #leadership #team-left .social{text-align:center}
+.page-template-aboutus #leadership #team-right .rectangle--red,.page-template-aboutus #leadership #team-left .rectangle--red{left:-100%}
+.page-template-aboutus #leadership #team-right .rectangle--blue,.page-template-aboutus #leadership #team-left .rectangle--blue{right:-100%}
+.page-template-aboutus #leadership #team-right .profile,.page-template-aboutus #leadership #team-left .profile{padding:110px 25px 50px !important}
+.page-template-aboutus #leadership #team-right .panel-heading .accordion-toggle:after,.page-template-aboutus #leadership #team-left .panel-heading .accordion-toggle:after{float:none;display:block;margin:0 auto}
+.page-template-aboutus #leadership #team-right .hexagon,.page-template-aboutus #leadership #team-left .hexagon{position:static;display:inline-block;margin:0 !important}
+.page-template-aboutus #leadership #team-right .profile-image,.page-template-aboutus #leadership #team-left .profile-image{top:130px;margin:0 !important}
+.page-template-aboutus #leadership #team-right .profile__wrapper,.page-template-aboutus #leadership #team-left .profile__wrapper{margin-top:-100px}
+.page-template-aboutus #team-right .profile-image{left:50% !important;-webkit-transform:translateX(-90%);-ms-transform:translateX(-90%);transform:translateX(-90%)}
+}@media only screen and (max-width:768px){.request-dropdown-mobile.request-toggle{display:block}
 }@media(max-width:768px){.page-template-hompage .slider-drop-shadow{height:70%;height:70vh}
 #blog-filters{margin-bottom:0}
 #blog-filters .navbar{top:0}
-}@media only screen and (max-width:768px){.request-dropdown-mobile.request-toggle{display:block}
+}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
+.table-responsive>.table{margin-bottom:0}
+.table-responsive>.table>thead>tr>th,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}
+.table-responsive>.table-bordered{border:0}
+.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}
+.table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}
+.table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}
 }@media(max-width:767px){.navbar-nav .open .dropdown-menu{position:static;float:none;width:auto;margin-top:0;background-color:transparent;border:0;box-shadow:none}
 .navbar-nav .open .dropdown-menu>li>a,.navbar-nav .open .dropdown-menu .dropdown-header{padding:5px 15px 5px 25px}
 .navbar-nav .open .dropdown-menu>li>a{line-height:20px}
@@ -2886,7 +2913,6 @@ h1{font-size:3rem}
 .author-header .author-header-copy{display:block;padding:30px;background-repeat:no-repeat;background-size:contain;background-position:110% center}
 .author-header .author-header-copy .author-header-desc{text-shadow:0 2px 1px #FFF,2px 0 1px #fff,-2px 0 1px #fff,0 -2px 1px #fff;color:#414453 !important;width:80%}
 .author-header .author-header-copy h2{border-bottom:1px solid #910811;display:inline-block;margin-top:0;padding-top:0;font-size:1.8rem;text-shadow:0 2px 1px #FFF,2px 0 1px #fff,-2px 0 1px #fff,0 -2px 1px #fff}
-}@media(max-width:767px) and (max-width:569px){#blog-filters .nav li.open .dropdown-menu>li>a{font-size:21px}
 }@media only screen and (max-width:767px){.container{padding:0 35px}
 .rev_slider{height:400px !important}
 .rev_slider_wrapper{height:400px !important}
@@ -3039,14 +3065,14 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #hero .back{top:11%;font-size:2.4rem}
 .page-template-aboutus .heading{margin-top:0 !important}
 #cta .cta__red{background:-webkit-linear-gradient(left,#75000e 0,#dd0035 100%);background:linear-gradient(to right,#75000e 0,#dd0035 100%)}
-.page-template-aboutus #team-left .profile{border:0;border-radius:none;margin-left:5%;padding:5% 6%;margin-top:250px;text-align:center}
+.page-template-aboutus #team-left .profile{text-align:center}
 .page-template-aboutus #team-left h1{font-size:2.5rem;color:#07074e}
 .page-template-aboutus #team-left h2{font-size:1.75rem;font-weight:400}
 .page-template-aboutus #team-left .social ul li{font-size:1rem}
 .page-template-aboutus #team-left .panel-heading .accordion-toggle:after{font-family:'FontAwesome';content:"\f0d7";float:right;font-size:2rem;color:#07074e;margin-right:50%}
 .page-template-aboutus #team-left .profile-image{width:175px;height:175px;top:250px;margin-left:-0;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%;border:1px solid #07074e;border-radius:50%}
 .page-template-aboutus #team-left .hexagon{width:300px;height:315px;top:425px;margin-left:-30%;background-repeat:no-repeat;background-size:contain;position:relative;z-index:2;left:50%}
-.page-template-aboutus #team-right .profile{border:0;border-radius:none;margin-left:5%;padding:5% 6%;margin-top:250px;text-align:center}
+.page-template-aboutus #team-right .profile{text-align:center}
 .page-template-aboutus #team-right h1{font-size:2.5rem;color:#07074e}
 .page-template-aboutus #team-right h2{font-size:1.75rem;font-weight:400}
 .page-template-aboutus #team-right .social ul li{font-size:1rem}
@@ -3057,19 +3083,15 @@ footer .sub-footer .text-right li{float:left;padding:2px 5px}
 #terms-hero h1{font-size:1.5rem}
 #accordions .panel-body>.container{width:100%;padding:0 1rem}
 #user-type{text-align:center}
-}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
-.table-responsive>.table{margin-bottom:0}
-.table-responsive>.table>thead>tr>th,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}
-.table-responsive>.table-bordered{border:0}
-.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}
-.table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}
-.table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}
+}@media(max-width:767px) and (max-width:569px){#blog-filters .nav li.open .dropdown-menu>li>a{font-size:21px}
 }@media only screen and (max-width:660px){#hero .front{display:none}
 #hero .back{top:16%}
 }@media(max-width:600px){.author-header .author-header-copy{background-position-x:40vw}
 }@media(max-width:569px){#blog-filters .slick-slider .slick-slide>a{font-size:21px}
 }@media(max-width:440px){.author-header .author-header-copy{background-size:cover;background-position-x:20vw}
 }@media(max-width:419px){#blog-filters .nav li{text-align:center}
+}@media(max-width:380px){.page-template-aboutus #team-left .profile-image{left:50% !important;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+.page-template-aboutus #team-right .profile-image{-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
 }@media print{*,*:before,*:after{color:#000 !important;text-shadow:none !important;background:transparent !important;box-shadow:none !important}
 a,a:visited{text-decoration:underline}
 a[href]:after{content:" (" attr(href) ")"}

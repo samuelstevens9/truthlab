@@ -1355,27 +1355,22 @@
     }
 
     .page-template-aboutus {
-        & #team-left {
-            & .profile {
-                border: none;
-                border-radius: none;
-                margin-left: 5%;
-                padding: 5% 6%;
-                margin-top: 250px;
+        #team-left {
+            .profile {
                 text-align: center;
             }
-            & h1 {
+            h1 {
                 font-size: 2.5rem;
                 color: $blue;
             }
-            & h2 {
+            h2 {
                 font-size: 1.75rem;
                 font-weight: 400;
             }
-            & .social ul li {
+            .social ul li {
                 font-size: 1rem;
             }
-            & .panel-heading .accordion-toggle:after {
+            .panel-heading .accordion-toggle:after {
                 font-family: 'FontAwesome';
                 content: "\f0d7";
                 float: right;
@@ -1383,7 +1378,7 @@
                 color: $blue;
                 margin-right: 50%;
             }
-            & .profile-image {
+            .profile-image {
                 width: 175px;
                 height: 175px;
                 top: 250px;
@@ -1396,13 +1391,10 @@
                 border: 1px solid $blue;
                 border-radius: 50%;
             }
-            & .hexagon {
+            .hexagon {
                 width: 300px;
                 height: 315px;
                 top: 425px;
-                /*
-                margin-left: -780px;
-                */
                 margin-left: -30%;
                 background-repeat: no-repeat;
                 background-size: contain;
@@ -1414,16 +1406,11 @@
     }
 
     .page-template-aboutus {
-        & #team-right {
-            & .profile {
-                border: none;
-                border-radius: none;
-                margin-left: 5%;
-                padding: 5% 6%;
-                margin-top: 250px;
+        #team-right {
+            .profile {
                 text-align: center;
             }
-            & h1 {
+            h1 {
                 font-size: 2.5rem;
                 color: $blue;
             }

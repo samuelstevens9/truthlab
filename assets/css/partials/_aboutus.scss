@@ -2,63 +2,41 @@
 /* ABOUT US                                        */
 /***************************************************/
 
-/*
-#hero {
-  height:600px;
-  position:relative;
-  background-color:white;
-  background-image:url('assets/img/home/bluelines-top.svg'),url('assets/img/home/redlines-bottom.svg');background-repeat:no-repeat,no-repeat;background-position:left 0px top 0px,right 0px bottom 0px;background-size:30%;
-  &:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 650px;
-    width: 100%;
-    height: 10px;
-    transform: skewY(3deg);
-    box-shadow: 0px 5px 10px rgba(145,8,17, .6);
-    -webkit-backface-visibility: hidden;
-  }
-}
-*/
 br {
     clear: both;
 }
 
-.contact-us{
-  input[type="text"],input[type="email"],input[type="tel"]{
-    width: 100%;
-    padding: 10px;
-    font-size: 28px;
-    background-color: #fff;
-    border: 1px solid #333;
-    border-radius: 2px;
-    box-shadow: 1px 1px 2px rgba(7,7,78,0.2), inset 0 0 2px rgba(0,0,0,0.05);
-  }
-  textarea{
-    width: 100%;
-    padding: 10px;
-    font-size: 28px;
-    background-color: #fff;
-    border: 1px solid #333;
-    border-radius: 2px;
-    box-shadow: 1px 1px 2px rgba(7,7,78,0.2), inset 0 0 2px rgba(0,0,0,0.05);
-  }
+.contact-us {
+    input[type="text"], input[type="email"], input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 28px;
+        background-color: #fff;
+        border: 1px solid #333;
+        border-radius: 2px;
+        box-shadow: 1px 1px 2px rgba(7, 7, 78, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.05);
+    }
+    textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 28px;
+        background-color: #fff;
+        border: 1px solid #333;
+        border-radius: 2px;
+        box-shadow: 1px 1px 2px rgba(7, 7, 78, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.05);
+    }
 }
 
 #hero {
-    /* -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 74%); */
-    /* clip-path: polygon(0 0,100% 0,100% 100%,0 74%); */
     height: 700px;
-    /* box-shadow: 0 5px 10px rgba(145,8,17,0.6); */
-    background-image: url(assets/img/about/top-lines-rb.svg), url(assets/img/about/bottom-lines.svg);
+    background-image: url('assets/img/about/top-lines-rb.svg'), url('assets/img/about/bottom-lines.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: left 76px top 0, right 70px bottom 0;
     background-size: 200px;
     margin-top: 0;
     position: relative;
 
-    & .front {
+    .front {
         position: absolute;
         top: 10%;
         left: 0;
@@ -67,7 +45,7 @@ br {
         color: #dedee3;
         font-size: 18rem;
     }
-    & .back {
+    .back {
         position: absolute;
         top: 22.5%;
         left: 0;
@@ -99,25 +77,25 @@ br {
         margin: 0;
         padding-bottom: 50px;
     }
-    & [class*="fa-"] {
+    [class*="fa-"] {
         color: $grey-medium;
     }
-    & .fa-linkedin-square:hover {
+    .fa-linkedin-square:hover {
         color: #0077b5;
     }
-    & .fa-facebook-square:hover {
+    .fa-facebook-square:hover {
         color: #3c5a99;
     }
-    & .fa-twitter-square:hover {
+    .fa-twitter-square:hover {
         color: #1da1f2;
     }
-    & .fa-google-plus-square:hover {
+    .fa-google-plus-square:hover {
         color: #db3236;
     }
-    & .fa-linkedin-square, & .fa-facebook-square, & .fa-twitter-square, & .fa-google-plus-square {
+    .fa-linkedin-square, & .fa-facebook-square, & .fa-twitter-square, & .fa-google-plus-square {
         transition: color .6s ease-out;
     }
-    & .fa-linkedin-square:hover, & .fa-facebook-square:hover, & .fa-twitter-square:hover, & .fa-google-plus-square:hover {
+    .fa-linkedin-square:hover, & .fa-facebook-square:hover, & .fa-twitter-square:hover, & .fa-google-plus-square:hover {
         transform: translateY(-5px);
         text-shadow: 1px 1px rgba(7, 7, 78, .5);
     }
@@ -126,22 +104,87 @@ br {
         overflow-x: hidden;
 
         h1.section__title {
-            font-size: 5rem;
-            margin: 170px 0 100px;
+            font-size: 3.6rem;
+            margin: 170px 0 115px;
+            @media(min-width: 801px) {
+                padding-left: 20%;
+            }
+            @media(max-width: 800px) {
+                text-align: center;
+            }
         }
 
         #team-right, #team-left {
             position: relative;
             margin-bottom: 200px;
 
+            @media(max-width: 800px) {
+                text-align: center;
+            }
+
             ul li {
                 display: inline;
                 margin-right: 1rem;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+
+                @media(max-width: 800px) {
+                    a {
+                        text-decoration: none;
+
+                        .fa-2x {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+            .social {
+                text-align: right;
+
+                @media(max-width: 800px) {
+                    text-align: center;
+                }
+            }
+
+            .rectangle--red {
+                position: absolute;
+                z-index: -1;
+                border-radius: 2px;
+                border: 5px solid $red;
+                height: 100%;
+                width: 9999%;
+                top: 0;
+                left: 0;
+
+                @media(max-width: 800px) {
+                    left: -100%;
+                }
+            }
+
+            .rectangle--blue {
+                position: absolute;
+                z-index: -1;
+                border-radius: 2px;
+                border: 5px solid $blue;
+                height: 100%;
+                width: 9999%;
+                top: 0;
+                right: 0;
+
+                @media(max-width: 800px) {
+                    right: -100%;
+                }
             }
 
             .profile {
                 border-radius: 2px;
-                padding: 5% 6%;
+
+                @media(max-width: 800px) {
+                    padding: 110px 25px 50px !important;
+                }
 
                 h1 {
                     color: #07074e;
@@ -187,18 +230,29 @@ br {
                 float: right;
                 font-size: 2rem;
                 color: $blue;
+
+                @media(max-width: 800px) {
+                    float: none;
+                    display: block;
+                    margin: 0 auto;
+                }
             }
 
             .hexagon {
                 position: absolute;
-
                 width: 300px;
                 height: 315px;
                 top: -60px;
                 background-repeat: no-repeat;
                 background-size: contain;
                 z-index: 2;
-                left: 50%;
+                left: 46%;
+
+                @media(max-width: 800px) {
+                    position: static;
+                    display: inline-block;
+                    margin: 0 !important;
+                }
             }
 
             .profile-image {
@@ -209,9 +263,20 @@ br {
                 background-repeat: no-repeat;
                 background-size: contain;
                 z-index: 2;
-                left: 50%;
+                left: 47%;
                 border: 1px solid $blue;
                 border-radius: 50%;
+
+                @media(max-width: 800px) {
+                    top: 130px;
+                    margin: 0 !important;
+                }
+            }
+
+            .profile__wrapper {
+                @media(max-width: 800px) {
+                    margin-top: -100px;
+                }
             }
         }
     }
@@ -220,7 +285,7 @@ br {
 .page-template-aboutus {
     #team-left {
         .profile {
-            border: 5px solid $red;
+            padding: 50px 0 50px 130px;
 
             @media (min-width: 769px) and (max-width: 991px) {
                 padding-left: 220px !important;
@@ -230,29 +295,41 @@ br {
                 padding-left: 100px !important;
             }
         }
-        & .profile-image {
+        .profile-image {
             margin-left: -38%;
+
+            @media(max-width: 380px) {
+                left: 50% !important;
+                transform: translateX(-50%);
+            }
         }
-        & .hexagon {
+        .hexagon {
             margin-left: -46%;
         }
     }
-}
 
-.page-template-aboutus {
     #team-right {
         .profile {
-            border: 5px solid $blue;
             margin-left: 0;
+            padding: 50px 130px 50px 0;
 
             @media (min-width: 769px) and (max-width: 991px) {
                 padding-right: 220px !important;
             }
         }
-        & .profile-image {
+        .profile-image {
             margin-left: 28%;
+
+            @media(max-width: 800px) {
+                left: 50% !important;
+                transform: translateX(-90%);
+            }
+
+            @media(max-width: 380px) {
+                transform: translateX(-50%);
+            }
         }
-        & .hexagon {
+        .hexagon {
             margin-left: 30%;
         }
     }
@@ -261,10 +338,8 @@ br {
 #culture {
     background: url('assets/img/about/culture-and-values.jpg') no-repeat;
     background-size: 100%;
-    /*height:800px;*/
     position: relative;
     padding-top: 62%;
-    /*background-position:center center;*/
     & .values {
         background-color: white;
 
@@ -278,7 +353,7 @@ br {
             margin: 0 auto;
 
             h2 {
-                font-size: 5rem;
+                font-size: 3.6rem;
                 padding-bottom: 0;
             }
 
@@ -335,7 +410,6 @@ br {
 }
 
 #careers {
-    /*background-image:url('assets/img/about/careers.gif');*/
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: -60px;
@@ -343,9 +417,6 @@ br {
     padding-top: 34%;
     position: relative;
     & .values {
-        /*transform:translateY(18%);
-        margin-top:23%;
-        padding:2%;*/
         background-color: white;
     }
     & .red-box {
@@ -354,43 +425,37 @@ br {
         border: 5px solid $red;
         border-radius: 2px;
         width: 90%;
-        /*height:600px;*/
-        /*top:-1050px;*/
     }
-    & .blue-box {
+    .blue-box {
         position: relative;
         float: left;
         border: 5px solid $blue;
         border-radius: 2px;
         width: 100%;
         margin-left: -10%;
-        /*
-        height:600px;
-        */
         top: 100px;
         padding: 5%;
         padding-bottom: 200px;
-        & .panel-group {
+        .panel-group {
             width: 85%;
             float: right;
             text-align: left;
         }
-        & .panel-default {
+        .panel-default {
             border: none;
         }
-        & .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
             border-top-color: white !important;
             border-bottom-color: white;
         }
-        & .panel-default > .panel-heading {
+        .panel-default > .panel-heading {
             background-color: white;
             border-color: white;
-            /*height:50px;*/
         }
-        & .panel-heading, & .panel-body {
+        .panel-heading, & .panel-body {
             padding: 0;
         }
-        & .panel-body > .container {
+        .panel-body > .container {
             padding: 0;
             width: auto;
             margin-bottom: 25px;
@@ -398,15 +463,26 @@ br {
             > p, ul, ol {
                 font-size: 1.6rem;
             }
+
+            ul, ol {
+                list-style-position: inside;
+            }
+
+            .button--blue-outline {
+                display: inline-block;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
         }
-        & .accordion-toggle {
+        .accordion-toggle {
             padding-bottom: 8px;
         }
-        & .panel-title {
+        .panel-title {
             color: $blue;
             font-size: 2rem;
+            cursor: pointer;
         }
-        & .panel-heading .accordion-toggle:after {
+        .panel-heading .accordion-toggle:after {
             font-family: 'FontAwesome';
             content: "\f0d7";
             float: right;
@@ -427,6 +503,7 @@ br {
         .text-center {
             max-width: 900px;
             margin: 0 auto;
+            float: none;
 
             h2 {
                 font-size: 3.6rem;
