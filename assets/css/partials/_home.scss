@@ -9,6 +9,18 @@
 }
 
 /***** v SLIDER *******/
+#curtain-slider {
+    .slide-header {
+        a.request-toggle {
+            @media(max-width: 767px) {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
 .slider {
     position: absolute;
     top: 0;
@@ -67,7 +79,7 @@
 .slide-header .center {
     opacity: 0;
     -webkit-transition: opacity linear 300ms;
-    transition: opacity linear 300ms
+    transition: opacity linear 300ms;
 }
 
 .slide-header .panel {
@@ -291,12 +303,7 @@
     background: url("assets/img/home/home-bg-triangle-01.svg") no-repeat;
     background-size: 100%;
 
-    @media(min-width: 768px) and(max-width: 768px) {
-        background-size: 200%;
-        background-position-y: -60%;
-    }
-
-    @media(min-width: 769px) and(max-width: 1200px) {
+    @media(min-width: 768px) and(max-width: 1200px) {
         background-size: 200%;
         background-position-y: 5%;
         padding-top: 10%;
@@ -320,7 +327,7 @@
     background-size: 100%;
     margin-top: -19%;
 
-    @media(min-width: 769px) and(max-width: 1200px) {
+    @media(min-width: 768px) and(max-width: 1200px) {
         margin-top: 0;
     }
 
@@ -411,7 +418,7 @@
         z-index: -2;
     }
     .container {
-        margin-top: 20%;
+        margin-top: 18%;
     }
 
     .copy {
@@ -671,7 +678,6 @@ footer {
         }
         & .dragging {
             cursor: pointer;
-            cursor: hand;
         }
         position: relative;
         display: block;
@@ -740,16 +746,18 @@ footer {
         background-repeat: no-repeat;
         background-size: 320px 500px;
 
-        @media(min-width: 769px) and (max-width: 991px) {
+        @media(min-width: 768px) and (max-width: 991px) {
             top: -28vw;
             background-position: left 10% bottom 90%, right 10% top 0;
         }
 
         @media(max-width: 767px) {
-            background-image: url('assets/img/home/middle-bg-mobile-cropped.png');
-            background-size: cover;
+            background-image: url('assets/img/home/top-lines_rb.svg');
+            background-size: contain;
+            background-position: center center;
             margin-left: -5%;
             margin-right: -5%;
+            top: -480px;
         }
     }
 
@@ -759,6 +767,36 @@ footer {
             @media(max-width: 767px) {
                 position: relative;
                 z-index: 99;
+                margin-bottom: 0;
+                background: #fff;
+                overflow: hidden;
+
+                &:after {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    background: #fff;
+                    height: 10%;
+                    bottom: 0;
+                }
+            }
+
+            .copy {
+                @media(max-width: 767px) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .analyze {
+            @media(max-width: 767px) {
+                margin-top: 0 !important;
+                padding-top: 50%;
+                overflow: hidden;
+
+                .copy {
+                    margin-bottom: 0 !important;
+                }
             }
         }
 
@@ -766,7 +804,12 @@ footer {
             @media(max-width: 767px) {
                 position: relative;
                 overflow: visible;
-                margin-bottom: 70px;
+                margin-bottom: 110px;
+
+                img {
+                    position: relative;
+                    z-index: 3;
+                }
             }
 
             .bg-image-red {
@@ -774,7 +817,8 @@ footer {
                     display: block;
                     top: 50%;
                     transform: translateY(-50%);
-                    left: 40%;
+                    left: auto;
+                    right: 10%;
                 }
             }
 
@@ -783,7 +827,8 @@ footer {
                     display: block;
                     top: 50%;
                     transform: translateY(-50%);
-                    left: 36%;
+                    left: auto;
+                    right: 0;
                 }
             }
         }

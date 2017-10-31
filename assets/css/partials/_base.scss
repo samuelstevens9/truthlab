@@ -82,11 +82,21 @@ body {
 
 #curtain-slider {
     height: 800px;
-    height: 91vh;
+    height: 70vh;
+
+    @media(min-width: 768px) {
+        height: 90vh;
+    }
 
     #btn-wrapper {
         .request-toggle {
             visibility: visible !important;
+
+            @media(max-width: 767px) {
+                &:after {
+                    display: none;
+                }
+            }
         }
     }
 }
