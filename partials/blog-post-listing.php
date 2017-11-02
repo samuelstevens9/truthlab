@@ -11,7 +11,7 @@ $category            = get_the_category();
 $featured_img_url    = get_the_post_thumbnail_url( $post->ID, 'blog-small' );
 $custom_featured_img = get_field( 'listing_image' );
 if ( $custom_featured_img ) {
-	$featured_img_url = $custom_featured_img[ 'url' ];
+	$featured_img_url = @$custom_featured_img[ 'url' ];
 }
 ?>
 <article
