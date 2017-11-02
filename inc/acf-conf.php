@@ -24,6 +24,6 @@ if ( function_exists( 'acf_add_options_page' ) ) {
 
 }
 
-if ( ! defined( 'IS_WP_DEV' ) && FALSE == IS_WP_DEV ) {
+if ( ! defined( 'IS_WP_DEV' ) || FALSE == IS_WP_DEV ) {
 	require "acf-options.php";
 }
