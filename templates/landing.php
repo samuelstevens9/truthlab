@@ -73,7 +73,7 @@
                 &copy; Truthlab <?php echo date( "Y" ); ?>
             </div>
             <div class="col-md-8 text-right">
-                <a href="#" class="contact">Contact Us</a>
+                <a href="/contact/" class="contact">Contact Us</a>
                 <ul>
                     <li><a href="https://www.linkedin.com/company-beta/10992459/"><i
                                     class="fa fa-linkedin-square fa-2x"
@@ -89,6 +89,41 @@
         </div>
     </div>
 </footer>
+
+<!-- Google Code for whitepaper download Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 844391891;
+var google_conversion_label = "ZuIZCOzrm3gQ08vRkgM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/844391891/?label=ZuIZCOzrm3gQ08vRkgM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 844391891;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/844391891/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
 
 <?php
 wp_footer();
