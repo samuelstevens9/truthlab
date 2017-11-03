@@ -74,7 +74,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
             <div class="slider-drop-shadow"></div>
         </div>
     </section>
-    <script>//setInterval(nextSlide, 3 * 1000);</script>
+    <script>setInterval(nextSlide, 3 * 1000);</script>
 <?php endif; ?>
 
     <section id="about">
