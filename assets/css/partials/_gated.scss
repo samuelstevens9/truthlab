@@ -136,6 +136,37 @@ hr.blue-bar {
     h1, h2, h3, h4, h5, h6, .tl-red {
         font-family: 'PT Sans Caption', sans-serif;
     }
+    .triangle-ramp {
+        h2 {
+            @media (min-width: 992px) and (max-width: 1199px) {
+                font-size: 2.2rem;
+            }
+            @media(max-width: 767px) {
+                text-align: center;
+            }
+        }
+        .tl-red {
+            @media (min-width: 992px) and (max-width: 1199px) {
+                font-size: 1.8rem;
+            }
+            @media(max-width: 767px) {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.gated-confirmation-page {
+    .triangle-ramp {
+        background-size: cover;
+
+        @media(max-width: 991px) {
+            padding-top: 100px !important;
+        }
+    }
+}
+
+.page-template-landing, .gated-confirmation-page {
     .sharethis-inline-share-buttons {
 
         @media(max-width: 767px) {
@@ -152,6 +183,14 @@ hr.blue-bar {
                 min-width: 0 !important;
                 border: 3px solid #07074B !important;
                 box-sizing: content-box !important;
+                width: auto !important;
+                height: auto !important;
+                padding: 10px !important;
+                line-height: 1 !important;
+
+                svg {
+                    top: auto !important;
+                }
 
                 &:hover {
                     background: #fff !important;
@@ -167,24 +206,6 @@ hr.blue-bar {
                 .st-label {
                     display: none !important;
                 }
-            }
-        }
-    }
-    .triangle-ramp {
-        h2 {
-            @media (min-width: 992px) and (max-width: 1199px) {
-                font-size: 2.2rem;
-            }
-            @media(max-width: 767px) {
-                text-align: center;
-            }
-        }
-        .tl-red {
-            @media (min-width: 992px) and (max-width: 1199px) {
-                font-size: 1.8rem;
-            }
-            @media(max-width: 767px) {
-                text-align: center;
             }
         }
     }
