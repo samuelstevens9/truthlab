@@ -43,7 +43,6 @@ get_header(); ?>
                 </div>
 			<?php endif; ?>
 
-
             <div id="blog-filters">
                 <h4>Filter Articles</h4>
                 <nav class="navbar navbar-default">

@@ -26,29 +26,6 @@ if ( ! empty( $custom_featured_img[ 'url' ] ) ) {
                         <div class="title">
                             <h2 id="post_title_<?php echo $post->ID; ?>"
                                 class="checkOverflow"><?php the_title(); ?></h2>
-                            <script>
-                                var pt<?= $post->ID; ?> = document.getElementById("post_title_<?= $post->ID; ?>");
-                                if (isOverflown(pt<?= $post->ID; ?>)) {
-                                    pt<?= $post->ID; ?>.className += " isOverflown";
-                                    var text<?= $post->ID; ?> = pt<?= $post->ID; ?>.innerText.split(" ");
-                                    for (var w = 0; w < text<?= $post->ID; ?>.length; w++) {
-                                        if (w === 0) {
-                                            pt<?= $post->ID; ?>.innerText = text<?= $post->ID; ?>[w]
-                                        } else {
-                                            if (isOverflown(pt<?= $post->ID; ?>)) {
-                                                //need to remove this one
-                                                var ln<?= $post->ID; ?> = pt<?= $post->ID; ?>.innerText.split(" ");
-                                                ln<?= $post->ID; ?>.pop();
-                                                //console.log("ln<?= $post->ID; ?>",ln<?= $post->ID; ?>);
-                                                pt<?= $post->ID; ?>.innerText = ln<?= $post->ID; ?>.join(" ") + "...";
-                                                break;
-                                            } else {
-                                                pt<?= $post->ID; ?>.innerText += " " + text<?= $post->ID; ?>[w];
-                                            }
-                                        }
-                                    }
-                                }
-                            </script>
                             <div class="line"></div>
                         </div>
                         <p class="time">

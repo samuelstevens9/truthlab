@@ -281,4 +281,20 @@ jQuery(document).ready(function ($) {
         });
     }
 
+    setTimeout(function () {
+        $('.title h2.checkOverflow').each(function () {
+            if (isOverflown($(this)[0])) {
+                $(this).addClass('isOverflown');
+                var words = $(this)[0].innerText.split(" ");
+                for (var w = 0; w < words.length; w++) {
+                    $(this)[0].innerText = words.slice(0, w + 1).join(" ") + "...";
+                    if (isOverflown($(this)[0])) {
+                        $(this)[0].innerText = words.slice(0, w).join(" ") + "...";
+                        break;
+                    }
+                }
+            }
+        });
+    }, 50);
+
 });
