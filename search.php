@@ -21,31 +21,31 @@ get_header(); ?>
 
             <div id="blog-posts">
                 <section class="courses">
-                    <div class="row">
-						<?php if ( have_posts() ) : ?>
-						<?php
-						$listing_id  = 0;
-						$seventh_num = 0;
-						while ( have_posts() ) {
-							the_post();
-							$listing_id ++;
+					<?php if ( have_posts() ) : ?>
+                        <div class="row">
+							<?php
+							$listing_id  = 0;
+							$seventh_num = 0;
+							while ( have_posts() ) {
+								the_post();
+								$listing_id ++;
 
-							include( __DIR__ . '/partials/blog-post-listing.php' );
+								include( __DIR__ . '/partials/blog-post-listing.php' );
 
-							if ( ( $listing_id - $seventh_num ) % 3 == 0 ) {
-								echo '</div><div class="row">';
-							}
-							if ( $listing_id % 7 == 0 ) {
-								$seventh_num ++;
-							}
-						} ?>
-                    </div>
-                    <div class="row">
-                        <div class="navigation col-xs-12 text-center" style="margin-top:25px;">
-                            <div class="next-posts"><?php next_posts_link(); ?></div>
-                            <div class="prev-posts"><?php previous_posts_link(); ?></div>
+								if ( ( $listing_id - $seventh_num ) % 3 == 0 || $listing_id % 7 == 0 ) {
+									echo '</div><div class="row">';
+								}
+								if ( $listing_id % 7 == 0 ) {
+									$seventh_num ++;
+								}
+							} ?>
                         </div>
-                    </div>
+                        <div class="row">
+                            <div class="navigation col-xs-12 text-center" style="margin-top:25px;">
+                                <div class="next-posts"><?php next_posts_link(); ?></div>
+                                <div class="prev-posts"><?php previous_posts_link(); ?></div>
+                            </div>
+                        </div>
 					<?php else : ?>
                         <div class="row">
                             <div class="col-xs-12" <?php post_class(); ?> id="post-<?php the_ID(); ?>">

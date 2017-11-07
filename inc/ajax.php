@@ -28,12 +28,23 @@ class TruthlabAjax {
 
 		ob_start();
 		if ( $the_query->have_posts() ) {
-			$listing_id = 6;
+			echo '<!--Ajax Apended-->';
+			echo '<div class="row">';
+			$listing_id  = 13;
+			$seventh_num = 13;
 			while ( $the_query->have_posts() ) {
 				$the_query->the_post();
 				$listing_id ++;
 				include( __DIR__ . '/../partials/blog-post-listing.php' );
+
+				if ( ( $listing_id - $seventh_num ) % 3 == 0 || $listing_id % 7 == 0 ) {
+					echo '</div><div class="row">';
+				}
+				if ( $listing_id % 7 == 0 ) {
+					$seventh_num ++;
+				}
 			}
+			echo '</div>';
 		}
 		$output = ob_get_clean();
 
