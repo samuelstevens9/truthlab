@@ -297,4 +297,16 @@ jQuery(document).ready(function ($) {
         });
     }, 50);
 
+    var controller = new ScrollMagic.Controller();
+    var blockTween = new TweenMax.from('#vector-lines', 1, {
+        backgroundPositionY: '690%, -610%'
+    });
+    var containerScene = new ScrollMagic.Scene({
+        triggerElement: '#vector-lines',
+        duration: 500,
+        offset: -50
+    })
+        .setTween(blockTween)
+        .addTo(controller);
+
 });

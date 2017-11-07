@@ -80,7 +80,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     <section id="about">
         <div class="row--padded">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-up">
                     <div class="col-md-8 col-md-offset-2 text-center heading page-overview">
                         <div class="page-overview__wrapper">
                             <h1>Truthlab is a<br/>Customer Experience Management (CXM) company</h1>
@@ -104,7 +104,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     <section id="middle">
         <div class="row--padded top-row">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-left">
                     <div class="col-md-8 col-sm-7 image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.png"/>
                     </div>
@@ -119,12 +119,12 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         </div>
 
         <div class="container">
-            <div class="row--padded blank" style="z-index:-1;">
+            <div id="vector-lines" class="row--padded blank" style="z-index:-1;">
             </div>
         </div>
 
         <div class="row--padded bottom-row">
-            <div class="container">
+            <div class="container" data-aos="fade-right">
                 <div class="row">
                     <div class="col-md-8 col-sm-7 col-md-push-4 col-sm-push-5 text-right image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png"/>
@@ -145,12 +145,17 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     <section id="panel-management">
         <div class="row--padded">
             <div class="container take-action">
-                <div class="row">
+                <div class="row" data-aos="zoom-out">
                     <div class="col-md-8 col-sm-6 image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
-                        <div class="bg-image-red"
-                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
-                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');"></div>
+                        <div class="bg-image-red">
+                            <svg>
+                                <g>
+                                    <path class="st0"
+                                          d="M3785.4,487.5l1198.4,2075.7L3785.4,4639H1388.6L190.1,2563.2L1388.6,487.5H3785.4 M3802.8,457.5H1371.2 L155.5,2563.2L1371.2,4669h2431.5l1215.8-2105.7L3802.8,457.5L3802.8,457.5z"></path>
+                                </g>
+                            </svg>
+                        </div>
                     </div>
                     <div class="col-md-4 col-sm-6 text-left copy">
                         <h2>Take Action with Panel Management</h2>
@@ -161,7 +166,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 </div>
             </div>
             <div class="container analyze">
-                <div class="row">
+                <div class="row" data-aos="zoom-out">
                     <div class="col-md-8 col-sm-6 visible-xs image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png"/>
                         <div class="bg-image-blue"
