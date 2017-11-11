@@ -13,7 +13,7 @@
 }
 
 .navbar-right {
-    margin-right: 0;
+    margin-right: 0 !important;
 }
 
 .navbar-default {
@@ -24,6 +24,12 @@
     color: $blue;
     font-size: 1.35rem;
     padding: 0 15px;
+
+    @media(min-width: 768px) and (max-width: 991px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.3rem;
+    }
 }
 
 .navbar-default .navbar-nav > li > a > i {

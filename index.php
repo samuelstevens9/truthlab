@@ -104,21 +104,31 @@ get_header(); ?>
 			?>
             <div id="blog-posts" data-filter="" data-paged="1"
                  data-author="<?= ! empty( $the_author ) ? $the_author->ID : ''; ?>">
-                <section class="courses row">
+                <section class="courses">
 					<?php if ( $the_query->have_posts() ) : ?>
-						<?php
-						$listing_id = 0;
-						while ( $the_query->have_posts() ) {
-							$the_query->the_post();
-							$listing_id ++;
-							include( __DIR__ . '/partials/blog-post-listing.php' );
-						} ?>
-					<?php else : ?>
+                        <div class="row">
+							<?php
+							$listing_id  = 0;
+							$seventh_num = 0;
+							while ( $the_query->have_posts() ) {
+								$the_query->the_post();
+								$listing_id ++;
+								include( __DIR__ . '/partials/blog-post-listing.php' );
 
-                        <div class="col-xs-12" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-                            <h1>Not Found</h1>
+								if ( ( $listing_id - $seventh_num ) % 3 == 0 || $listing_id % 7 == 0 ) {
+									echo '</div><div class="row">';
+								}
+								if ( $listing_id % 7 == 0 ) {
+									$seventh_num ++;
+								}
+							} ?>
                         </div>
-
+					<?php else : ?>
+                        <div class="row">
+                            <div class="col-xs-12" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+                                <h1>Not Found</h1>
+                            </div>
+                        </div>
 					<?php endif; ?>
                 </section>
             </div>

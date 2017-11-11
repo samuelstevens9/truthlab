@@ -777,12 +777,20 @@ body.blog {
                 .tp-bgimg {
                     background-size: 100% 100% !important;
                     transition: background-size 200ms ease;
+
+                    @media(max-width: 859px) {
+                        background-size: auto 100% !important;
+                    }
                 }
 
                 &:hover {
                     .tp-bgimg {
                         background-size: 110% 110% !important;
                         background-position: center center !important;
+
+                        @media(max-width: 859px) {
+                            background-size: auto 110% !important;
+                        }
                     }
                 }
             }
