@@ -2215,6 +2215,7 @@ hr.blue-bar{border-top:15px solid #07074e}
 .page-template-landing .sub-footer{border-top-width:1px}
 .page-template-landing h1,.page-template-landing h2,.page-template-landing h3,.page-template-landing h4,.page-template-landing h5,.page-template-landing h6,.page-template-landing .tl-red{font-family:'PT Sans Caption',sans-serif}
 .gated-confirmation-page .triangle-ramp{background-size:cover}
+.page-template-landing .sharethis-inline-share-buttons,.gated-confirmation-page .sharethis-inline-share-buttons{text-align:center !important}
 .page-template-landing .sharethis-inline-share-buttons>div,.gated-confirmation-page .sharethis-inline-share-buttons>div{display:none !important}
 .page-template-landing .sharethis-inline-share-buttons>div[data-network="sharethis"],.gated-confirmation-page .sharethis-inline-share-buttons>div[data-network="sharethis"]{display:inline-block !important;background-color:#07074b !important;border-radius:50% !important;min-width:0 !important;border:3px solid #07074b !important;box-sizing:content-box !important;width:auto !important;height:auto !important;padding:10px !important;line-height:1 !important}
 .page-template-landing .sharethis-inline-share-buttons>div[data-network="sharethis"] svg,.gated-confirmation-page .sharethis-inline-share-buttons>div[data-network="sharethis"] svg{top:auto !important}
