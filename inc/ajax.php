@@ -8,10 +8,11 @@ class TruthlabAjax {
 
 	public function get_blog_filtered_posts() {
 
-		$paged = ! empty( $_POST[ 'paged' ] ) ? $_POST[ 'paged' ] : 1;
+		$paged         = ! empty( $_POST[ 'paged' ] ) ? $_POST[ 'paged' ] : 1;
+		$post_per_page = ( $paged == 1 ) ? 13 : 14;
 
 		$args = array(
-			'posts_per_page' => 14,
+			'posts_per_page' => $post_per_page,
 			'paged'          => $paged,
 			'post_status'    => 'publish'
 		);
@@ -30,8 +31,8 @@ class TruthlabAjax {
 		if ( $the_query->have_posts() ) {
 			echo '<!--Ajax Apended-->';
 			echo '<div class="row">';
-			$listing_id  = 13;
-			$seventh_num = 13;
+			$listing_id  = ( $paged == 1 ) ? 0 : ( ( $paged - 1 ) * $post_per_page - 1 );
+			$seventh_num = $listing_id;
 			while ( $the_query->have_posts() ) {
 				$the_query->the_post();
 				$listing_id ++;
