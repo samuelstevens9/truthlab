@@ -104,7 +104,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     <section id="middle">
         <div class="row--padded top-row">
             <div class="container">
-                <div class="row" data-aos="fade-left">
+                <div class="row" data-aos="fade-left" data-aos-offset="300">
                     <div class="col-md-8 col-sm-7 image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.png"/>
                     </div>
@@ -124,7 +124,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         </div>
 
         <div class="row--padded bottom-row">
-            <div class="container" data-aos="fade-right">
+            <div class="container" data-aos="fade-right" data-aos-offset="300">
                 <div class="row">
                     <div class="col-md-8 col-sm-7 col-md-push-4 col-sm-push-5 text-right image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png"/>
@@ -145,7 +145,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
     <section id="panel-management">
         <div class="row--padded">
             <div class="container take-action">
-                <div class="row" data-aos="zoom-out">
+                <div class="row" data-aos="fade-left" data-aos-offset="300">
                     <div class="col-md-8 col-sm-6 image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
                         <div class="bg-image-red">
@@ -166,7 +166,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 </div>
             </div>
             <div class="container analyze">
-                <div class="row" data-aos="zoom-out">
+                <div class="row" data-aos="fade-right" data-aos-offset="300">
                     <div class="col-md-8 col-sm-6 visible-xs image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png"/>
                         <div class="bg-image-blue"
@@ -188,7 +188,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         </div>
     </section>
 
-    <section id="clients">
+    <section id="clients" data-aos="fade-up">
         <div class="row--padded">
             <div class="container-fluid text-center">
                 <div class="row">
@@ -283,7 +283,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         </div>
     </section>
 
-    <section id="cta">
+    <section id="cta" data-aos="fade-up">
         <div class="container-fluid">
             <div class="row row--padded cta__red">
                 <div class="container">
