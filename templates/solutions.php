@@ -90,8 +90,8 @@ get_header(); ?>
     </section>
 
     <section id="content__product">
-        <div class="row--padded marketing">
-            <div class="container" id="content__product-managers">
+        <div class="row--padded marketing" id="content__product-managers">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-4 hidden-xs">
                         <div class="solutions__copy">
