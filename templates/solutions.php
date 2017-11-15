@@ -15,7 +15,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="heading__solutions" data-aos="fade-up">
+    <section id="heading__solutions" data-aos="slide-up">
         <div class="row--padded-bottom">
             <div class="container">
                 <div class="row">
@@ -30,7 +30,7 @@ get_header(); ?>
     <section id="tabs">
         <div class="row--padded-bottom">
             <div class="container">
-                <ul class="nav nav-tabs" data-aos="fade-up">
+                <ul class="nav nav-tabs" data-aos="slide-up">
                     <li class="active"><a data-toggle="tab" href="#content__solution">Overview</a></li>
                     <li><a data-toggle="tab" href="#content__marketing">For Marketers</a></li>
                     <li><a data-toggle="tab" href="#content__product-managers">For Product Managers</a></li>
@@ -38,7 +38,7 @@ get_header(); ?>
                 </ul>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 content page-overview">
-                        <div class="content page-overview__wrapper" id="content__solution" data-aos="fade-up">
+                        <div class="content page-overview__wrapper" id="content__solution" data-aos="slide-up">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
                             <h3>Our CXM Solution</h3>
                             <p>The current customer feedback loop takes weeks and doesn't fit into anyone's release
@@ -58,7 +58,7 @@ get_header(); ?>
     <section id="content__marketing">
         <div class="row--padded marketing">
             <div class="container">
-                <div class="row" data-aos="fade-left" data-aos-offset="150" data-aos-delay="300">
+                <div class="row" data-aos="slide-left" data-aos-offset="150" data-aos-delay="300">
                     <div class="col-sm-6 col-sm-offset-2 image">
                         <img class="bars-graph"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.png"
@@ -90,9 +90,9 @@ get_header(); ?>
     </section>
 
     <section id="content__product">
-        <div class="row--padded marketing">
-            <div class="container" id="content__product-managers">
-                <div class="row" data-aos="fade-right" data-aos-offset="150" data-aos-delay="300">
+        <div class="row--padded marketing" id="content__product-managers">
+            <div class="container">
+                <div class="row" data-aos="slide-right" data-aos-offset="150" data-aos-delay="300">
                     <div class="col-sm-4 hidden-xs">
                         <div class="solutions__copy">
                             <h2>Product Managers</h2>
@@ -134,7 +134,7 @@ get_header(); ?>
     <section id="content__designers">
         <div class="row--padded marketing">
             <div class="container">
-                <div class="row" data-aos="fade-left" data-aos-offset="150" data-aos-delay="300">
+                <div class="row" data-aos="slide-left" data-aos-offset="150" data-aos-delay="300">
                     <div class="col-sm-6 col-sm-offset-2 image">
                         <img class="business-card"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png"
@@ -162,7 +162,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="cta" data-aos="fade-up" data-aos-offset="0">
+    <section id="cta" data-aos="slide-up" data-aos-offset="0">
         <div class="container-fluid">
             <div class="row row--padded cta__red">
                 <div class="col-xs-12">
