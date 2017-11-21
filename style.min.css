@@ -2136,6 +2136,7 @@ footer .row{padding-top:0}
 .page-template-hompage button.slick-prev,.page-template-hompage button.slick-next{display:none !important}
 .page-template-hompage .blank{content:'';position:relative;width:auto;left:auto;top:-520px;height:570px;margin-bottom:-600px;background-image:url(assets/img/home/bottom-lines_rb.svg),url(assets/img/home/top-lines_rb.svg);background-position:left 20% bottom 90%,right 20% top 0;background-repeat:no-repeat;background-size:320px 500px}
 .page-template-solutions #heading__solutions h1{font-weight:500;font-size:3.2rem}
+.page-template-solutions #heading__solutions .row--padded-bottom{padding-top:2rem;padding-bottom:2rem}
 .page-template-solutions .content.page-overview{z-index:1000}
 #curtain-slider__solutions{height:700px}
 .slide-header{position:absolute;top:0;left:0;width:100%;height:100%;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
@@ -2165,33 +2166,37 @@ footer .row{padding-top:0}
 #tabs .nav-tabs>li.active>a{border:0}
 #tabs .tab-pane img{padding:100px 0 50px 0}
 #tabs .button{display:inline-block;margin-top:50px}
-#tabs .content{text-align:center;padding:100px 0 200px 0}
+#tabs .content{text-align:center;padding:100px 0 50px 0}
 #tabs img{margin-bottom:50px}
 #tabs .content h3{margin:75px 0 25px 0}
-#content__marketing .bg-image-red{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;margin-left:-1550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+#tabs .scrollto-links a{color:#139fac}
+#content__marketing .bg-image-red{width:1200px;height:1250px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:55%;margin-left:-1052px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
 #content__marketing .bg-image-blue{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:3800px;margin-left:-1500px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:-1;left:50%}
-#content__marketing .marketing{padding:30px 0 28% 0;background-color:#f5f3f3;background:url("assets/img/solutions/backgroundshape-right.svg") no-repeat;background-size:100%}
+#content__marketing .marketing{padding:30px 0 20% 0;background-color:#f5f3f3;background:url("assets/img/solutions/backgroundshape-right.svg") no-repeat;background-size:100%}
 #content__marketing .image{position:relative}
 #content__marketing .image .marketer-image{position:relative;z-index:99}
 #content__marketing .image .bars-graph{position:absolute;top:-20%;left:78%;z-index:90}
 #content__marketing .image .circle-graph{position:absolute;left:87%;-webkit-transform:translateY(70%);-ms-transform:translateY(70%);transform:translateY(70%);z-index:100}
 #content__marketing .image .success-bars{position:absolute;bottom:-40px;left:-160px;width:360px;z-index:100}
 #content__marketing .solutions__copy{margin-top:92%}
-#content__product{padding-bottom:600px;overflow:hidden;position:relative;padding-top:410px}
-#content__product .bg-image-blue{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-right:-1550px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:0;right:50%}
+#content__marketing .solutions__copy a{color:#139fac}
+#content__product{padding-bottom:130px;overflow:hidden;position:relative;padding-top:0}
+#content__product .bg-image-blue{width:1200px;height:1250px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:55%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-right:-1052px;background-repeat:no-repeat;background-size:contain;position:absolute;z-index:0;right:50%}
 #content__product .image{position:relative}
 #content__product .image .arrow-graph{position:absolute;max-width:380px;bottom:0;left:88%;z-index:100}
 #content__product .image .diagrams{position:absolute;top:-29%;right:48%;max-width:460px;z-index:100}
 #content__product .image .prod-managers{position:relative;z-index:99}
 #content__product .solutions__copy{margin-top:200px}
+#content__product .solutions__copy a{color:#139fac}
 #content__product .marketing{padding:16% 0 28% 0;background-color:#f5f3f3;background:url("assets/img/solutions/backgroundshape-left.svg") no-repeat;background-size:100%}
-#content__designers{margin-bottom:350px;overflow:visible !important}
-#content__designers .bg-image-red{width:1750px;height:1750px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-left:-1550px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:0}
+#content__designers{margin-bottom:80px;overflow:visible !important}
+#content__designers .bg-image-red{width:1200px;height:1250px;background-image:url(//static.mailchimp.com/web/root/blank.gif);top:55%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-left:-1052px;background-repeat:no-repeat;background-size:contain;position:absolute;left:50%;z-index:0}
 #content__designers .image{position:relative}
 #content__designers .image .designers-img{position:relative;z-index:99}
 #content__designers .image .salesman{position:absolute;left:-33%;bottom:-16%;z-index:100;max-width:410px}
 #content__designers .image .business-card{position:absolute;top:-10%;right:-50%;z-index:100;max-width:410px}
 #content__designers .solutions__copy{margin-top:200px}
+#content__designers .solutions__copy a{color:#139fac}
 #content__designers .marketing{padding:30px 0 28% 0;background-color:#f5f3f3;background:url("assets/img/solutions/backgroundshape-right.svg") no-repeat;background-size:100%}
 hr.blue-bar{border-top:15px solid #07074e}
 .tl-red{color:#910811}
@@ -2215,7 +2220,8 @@ hr.blue-bar{border-top:15px solid #07074e}
 .page-template-landing .sub-footer{border-top-width:1px}
 .page-template-landing h1,.page-template-landing h2,.page-template-landing h3,.page-template-landing h4,.page-template-landing h5,.page-template-landing h6,.page-template-landing .tl-red{font-family:'PT Sans Caption',sans-serif}
 .gated-confirmation-page .triangle-ramp{background-size:cover}
-.page-template-landing .sharethis-inline-share-buttons,.gated-confirmation-page .sharethis-inline-share-buttons{text-align:center !important}
+.page-template-landing .sharethis-inline-share-buttons,.gated-confirmation-page .sharethis-inline-share-buttons{text-align:left !important}
+.gated-confirmation-page .sharethis-inline-share-buttons{text-align:center !important}
 .page-template-landing .sharethis-inline-share-buttons>div,.gated-confirmation-page .sharethis-inline-share-buttons>div{display:none !important}
 .page-template-landing .sharethis-inline-share-buttons>div[data-network="sharethis"],.gated-confirmation-page .sharethis-inline-share-buttons>div[data-network="sharethis"]{display:inline-block !important;background-color:#07074b !important;border-radius:50% !important;min-width:0 !important;border:3px solid #07074b !important;box-sizing:content-box !important;width:auto !important;height:auto !important;padding:10px !important;line-height:1 !important}
 .page-template-landing .sharethis-inline-share-buttons>div[data-network="sharethis"] svg,.gated-confirmation-page .sharethis-inline-share-buttons>div[data-network="sharethis"] svg{top:auto !important}
@@ -2579,12 +2585,27 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .bottom-row{margin-top:0}
 #panel-management .copy h2{font-size:2rem}
 #panel-management .copy p{font-size:1.4rem}
+}@media(min-width:769px){#culture .values{max-width:90%}
 }@media(min-width:769px) and (max-width:991px){.page-template-aboutus #team-left .profile{padding-left:220px !important}
 .page-template-aboutus #team-right .profile{padding-right:220px !important}
 body.single-post #cta .cta__blue .text-right{padding-top:10px;text-align:center}
-}@media(min-width:769px){#culture .values{max-width:90%}
 }@media(min-width:801px){.page-template-aboutus #leadership h1.section__title{padding-left:20%}
+}@media(min-width:845px) and (max-width:1319px){#content__product{overflow:visible;margin-top:70px}
+#content__product .bg-image-blue{width:56vw;background-size:cover;left:20%}
+#content__product .image .arrow-graph{max-width:210px;left:80%}
 }@media(min-width:861px){.page-template-hompage #cta .cta__red h2{margin-top:-10px}
+}@media(min-width:992px) and (max-width:1199px){.visible-md{display:block !important}
+table.visible-md{display:table !important}
+tr.visible-md{display:table-row !important}
+th.visible-md,td.visible-md{display:table-cell !important}
+.visible-md-block{display:block !important}
+.visible-md-inline{display:inline !important}
+.visible-md-inline-block{display:inline-block !important}
+.hidden-md{display:none !important}
+.page-template-hompage .blank{top:-370px;background-position:left 10% bottom 10%,right 10% top 0}
+.page-template-landing .triangle-ramp h2{font-size:2.2rem}
+.page-template-landing .triangle-ramp .tl-red{font-size:1.8rem}
+}@media(min-width:992px) and (max-width:1110px){.page-template-aboutus #team-left .profile{padding-left:100px !important}
 }@media(min-width:992px){.container{width:970px}
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
 .col-md-12{width:100%}
@@ -2641,19 +2662,6 @@ body.single-post #cta .cta__blue .text-right{padding-top:10px;text-align:center}
 .modal-lg{width:900px}
 .page-template-landing .get-free-form{margin-top:-120px}
 body.single-post #cta .cta__blue .text-right .request-toggle{margin:0 40px 10px}
-}@media(min-width:992px) and (max-width:1199px){.visible-md{display:block !important}
-table.visible-md{display:table !important}
-tr.visible-md{display:table-row !important}
-th.visible-md,td.visible-md{display:table-cell !important}
-.visible-md-block{display:block !important}
-.visible-md-inline{display:inline !important}
-.visible-md-inline-block{display:inline-block !important}
-.hidden-md{display:none !important}
-.page-template-hompage .blank{top:-370px;background-position:left 10% bottom 10%,right 10% top 0}
-.page-template-landing .triangle-ramp h2{font-size:2.2rem}
-.page-template-landing .triangle-ramp .tl-red{font-size:1.8rem}
-}@media(min-width:992px) and (max-width:1110px){.page-template-aboutus #team-left .profile{padding-left:100px !important}
-}@media(min-width:1200px) and (max-width:1500px){.bottom-row .image{margin-top:6%}
 }@media(min-width:1200px){.container{width:1170px}
 .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}
 .col-lg-12{width:100%}
@@ -2716,6 +2724,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .visible-lg-inline-block{display:inline-block !important}
 .hidden-lg{display:none !important}
 #middle .top-row .copy{margin-top:10%}
+}@media(min-width:1200px) and (max-width:1500px){.bottom-row .image{margin-top:6%}
 }@media(min-width:1201px) and (max-width:1540px){#panel-management .analyze{margin-top:16% !important}
 }@media only screen and (max-width:1585px){.page-template-aboutus #team-left .hexagon{margin-left:-48%}
 .page-template-aboutus #team-left .profile-image{margin-left:-40%}
