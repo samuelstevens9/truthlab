@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-    <section id="hero_solutions">
+    <section id="hero_solutions" data-aos="zoom-out-down" data-aos-easing="ease-in">
         <div class="hero__wrapper">
             <h1 class="front">SOLVED</h1>
             <h3 class="back">Problem Solved</h3>
@@ -58,7 +58,7 @@ get_header(); ?>
     <section id="content__marketing">
         <div class="row--padded marketing">
             <div class="container">
-                <div class="row" data-aos="slide-left" data-aos-offset="150" data-aos-delay="300">
+                <div class="row" data-aos="slide-right" data-aos-offset="150" data-aos-delay="100">
                     <div class="col-sm-6 col-sm-offset-2 image">
                         <img class="bars-graph"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.png"
@@ -92,7 +92,7 @@ get_header(); ?>
     <section id="content__product">
         <div class="row--padded marketing" id="content__product-managers">
             <div class="container">
-                <div class="row" data-aos="slide-right" data-aos-offset="150" data-aos-delay="300">
+                <div class="row" data-aos="slide-left" data-aos-offset="150" data-aos-delay="100">
                     <div class="col-sm-4 hidden-xs">
                         <div class="solutions__copy">
                             <h2>Product Managers</h2>
@@ -106,12 +106,14 @@ get_header(); ?>
                     <div class="col-sm-6 image">
                         <img class="arrow-graph"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.png"
-                             alt="project management "/>
+                             alt="project management "
+                             data-aos="zoom-in" data-aos-delay="1500"/>
                         <img class="prod-managers"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
                         <img class="diagrams"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png"
-                             alt="panel management screenshot"/>
+                             alt="panel management screenshot"
+                             data-aos="zoom-in" data-aos-delay="1500"/>
                         <div class="hexagon-wrapper">
                             <div class="bg-image-blue"
                                  data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
@@ -136,7 +138,7 @@ get_header(); ?>
     <section id="content__designers">
         <div class="row--padded marketing">
             <div class="container">
-                <div class="row" data-aos="slide-left" data-aos-offset="150" data-aos-delay="300">
+                <div class="row" data-aos="slide-right" data-aos-offset="150" data-aos-delay="100">
                     <div class="col-sm-6 col-sm-offset-2 image">
                         <img class="business-card"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png"

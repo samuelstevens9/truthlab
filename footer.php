@@ -227,7 +227,7 @@ if ( is_the_blog() ) {
 <script>
     AOS.init({
         easing: 'ease-out-back',
-        duration: 1000,
+        duration: 1500,
         once: true,
         offset: 200
     });
