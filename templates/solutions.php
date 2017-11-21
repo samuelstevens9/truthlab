@@ -30,7 +30,7 @@ get_header(); ?>
     <section id="tabs">
         <div class="row--padded-bottom">
             <div class="container">
-                <ul class="nav nav-tabs">
+                <ul class="nav nav-tabs scrollto-links">
                     <li class="active"><a data-toggle="tab" href="#content__solution">Overview</a></li>
                     <li><a data-toggle="tab" href="#content__marketing">For Marketers</a></li>
                     <li><a data-toggle="tab" href="#content__product-managers">For Product Managers</a></li>
@@ -112,9 +112,11 @@ get_header(); ?>
                         <img class="diagrams"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png"
                              alt="panel management screenshot"/>
-                        <div class="bg-image-blue"
-                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
-                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
+                        <div class="hexagon-wrapper">
+                            <div class="bg-image-blue"
+                                 data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
+                                 style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
+                        </div>
                     </div>
 
                     <div class="col-xs-12 visible-xs">
