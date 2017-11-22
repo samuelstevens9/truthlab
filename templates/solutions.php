@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-    <section id="hero_solutions" data-aos="zoom-out-down" data-aos-easing="ease-in">
+    <section id="hero_solutions" data-aos="slide-down" data-aos-easing="ease-in-out-back">
         <div class="hero__wrapper">
             <h1 class="front">SOLVED</h1>
             <h3 class="back">Problem Solved</h3>
