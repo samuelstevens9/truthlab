@@ -106,14 +106,12 @@ get_header(); ?>
                     <div class="col-sm-6 image">
                         <img class="arrow-graph"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.png"
-                             alt="project management "
-                             data-aos="zoom-in" data-aos-delay="1500"/>
+                             alt="project management"/>
                         <img class="prod-managers"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
                         <img class="diagrams"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png"
-                             alt="panel management screenshot"
-                             data-aos="zoom-in" data-aos-delay="1500"/>
+                             alt="panel management screenshot"/>
                         <div class="hexagon-wrapper">
                             <div class="bg-image-blue"
                                  data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
