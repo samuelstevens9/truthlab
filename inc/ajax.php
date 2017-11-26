@@ -10,10 +10,11 @@ class TruthlabAjax {
 
 		$paged         = ! empty( $_POST[ 'paged' ] ) ? $_POST[ 'paged' ] : 1;
 		$post_per_page = ( $paged == 1 ) ? 13 : 14;
+		$offset        = ( $paged > 1 ? ( 13 + ( $paged > 2 ? ( $paged - 2 ) * 14 : 0 ) ) : 0 );
 
 		$args = array(
 			'posts_per_page' => $post_per_page,
-			'paged'          => $paged,
+			'offset'         => $offset,
 			'post_status'    => 'publish'
 		);
 
@@ -49,11 +50,14 @@ class TruthlabAjax {
 		}
 		$output = ob_get_clean();
 
-		$has_more_pages = $the_query->max_num_pages > $paged;
+		$has_more_pages = $the_query->found_posts > ( $paged >= 1 ? ( 13 + ( $paged >= 2 ? ( $paged - 1 ) * 14 : 0 ) ) : 0 + ( $paged == 1 ? 13 : 14 ) );
 
 		wp_reset_postdata();
 
-		wp_die( wp_json_encode( array( 'html' => $output, 'has_more' => $has_more_pages ) ) );
+		wp_die( wp_json_encode( array(
+			'html'     => $output,
+			'has_more' => $has_more_pages
+		) ) );
 	}
 }
 
