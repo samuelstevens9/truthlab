@@ -8,14 +8,14 @@
 
 get_header(); ?>
 
-    <section id="hero_solutions">
+    <section id="hero_solutions" data-aos="slide-down" data-aos-easing="ease-in-out-back">
         <div class="hero__wrapper">
             <h1 class="front">SOLVED</h1>
             <h3 class="back">Problem Solved</h3>
         </div>
     </section>
 
-    <section id="heading__solutions">
+    <section id="heading__solutions" data-aos="slide-up">
         <div class="row--padded-bottom">
             <div class="container">
                 <div class="row">
@@ -30,7 +30,7 @@ get_header(); ?>
     <section id="tabs">
         <div class="row--padded-bottom">
             <div class="container">
-                <ul class="nav nav-tabs scrollto-links">
+                <ul class="nav nav-tabs scrollto-links" data-aos="slide-up">
                     <li class="active"><a data-toggle="tab" href="#content__solution">Overview</a></li>
                     <li><a data-toggle="tab" href="#content__marketing">For Marketers</a></li>
                     <li><a data-toggle="tab" href="#content__product-managers">For Product Managers</a></li>
@@ -38,7 +38,7 @@ get_header(); ?>
                 </ul>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 content page-overview">
-                        <div class="content page-overview__wrapper" id="content__solution">
+                        <div class="content page-overview__wrapper" id="content__solution" data-aos="slide-up">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
                             <h3>Our CXM Solution</h3>
                             <p>The current customer feedback loop takes weeks and doesn't fit into anyone's release
@@ -58,7 +58,7 @@ get_header(); ?>
     <section id="content__marketing">
         <div class="row--padded marketing">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="slide-right" data-aos-offset="150" data-aos-delay="100">
                     <div class="col-sm-6 col-sm-offset-2 image">
                         <img class="bars-graph"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph-right.png"
@@ -92,7 +92,7 @@ get_header(); ?>
     <section id="content__product">
         <div class="row--padded marketing" id="content__product-managers">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="slide-left" data-aos-offset="150" data-aos-delay="100">
                     <div class="col-sm-4 hidden-xs">
                         <div class="solutions__copy">
                             <h2>Product Managers</h2>
@@ -106,7 +106,7 @@ get_header(); ?>
                     <div class="col-sm-6 image">
                         <img class="arrow-graph"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.png"
-                             alt="project management "/>
+                             alt="project management"/>
                         <img class="prod-managers"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
                         <img class="diagrams"
@@ -136,7 +136,7 @@ get_header(); ?>
     <section id="content__designers">
         <div class="row--padded marketing">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="slide-right" data-aos-offset="150" data-aos-delay="100">
                     <div class="col-sm-6 col-sm-offset-2 image">
                         <img class="business-card"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png"
@@ -164,7 +164,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section id="cta">
+    <section id="cta" data-aos="slide-up" data-aos-offset="0">
         <div class="container-fluid">
             <div class="row row--padded cta__red">
                 <div class="col-xs-12">
