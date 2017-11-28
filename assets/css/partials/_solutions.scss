@@ -1,408 +1,502 @@
+.page-template-solutions {
+    #heading__solutions {
+        h1 {
+            font-weight: 500;
+            font-size: 3.2rem;
+        }
+
+        .row--padded-bottom {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .solutions__copy {
+        @media(min-width: 768px) {
+            background: #F4F3F3;
+            padding: 0 20px 20px 20px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+    }
+
+    .content.page-overview {
+        z-index: 1000;
+    }
+}
+
 #curtain-slider__solutions {
-  height:700px;
+    height: 700px;
 }
 
 .slide-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-#curtain-slider__solutions  {
-  width:100%;
-  & .center h1 {
-      font-size: 10vh;
-      line-height: 1;
-      font-family: "PT Sans Narrow",sans-serif;
-      color: $red;
-      margin-bottom: 100px;
-  }
-  & .slide-header:nth-child(1) .panel>* {
-    background: white;
-    background: white;
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 60s ease infinite;
-    animation: Gradient 60s ease infinite;
-    color: rgba(145,8,17,.6);
-  }
-  & .slider {
-     background-image:url('../truthlab/assets/img/solutions/hero-bottom.svg');
-     background-position:bottom;
-  }
+.angle-shadow {
+    height: 200px;
+    -webkit-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg);
+    margin-top: -111px;
+    box-shadow: 0px -2px 1px rgba(145, 8, 17, 0.25);
+    background: #FFF;
+    margin-bottom: -100px;
 }
 
-.page-template-solutions #cta {
-  transform:translateY(3500px);
+#hero_solutions {
+    background: url('assets/img/solutions/hero-bottom.svg') no-repeat;
+    background-position: bottom;
+    background-size: 110%;
+    height: 60vw;
+    max-height: 700px;
+    min-height: 360px;
+
+    @media (max-width: 767px) {
+        background-size: cover;
+    }
+
+    @media (max-width: 860px) {
+        margin-top: 40px;
+    }
+
+    .hero__wrapper {
+        padding-bottom: 21%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+    & .front {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: #e4b7b2;
+        font-size: 20rem;
+        opacity: 0.5;
+        padding: 0;
+        margin: 0;
+        margin-top: -10%;
+
+        @media (max-width: 860px) {
+            font-size: 33vw;
+        }
+    }
+    & .back {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: $red;
+        font-size: 5rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        margin-top: -10%;
+
+        @media (max-width: 860px) {
+            font-size: 13vw;
+        }
+    }
+
+}
+
+#curtain-slider__solutions {
+    width: 100%;
+    & .center h1 {
+        font-size: 10vh;
+        line-height: 1;
+        font-family: "PT Sans Narrow", sans-serif;
+        color: $red;
+        margin-bottom: 100px;
+    }
+    & .slide-header:nth-child(1) .panel > * {
+        background: white;
+        background-size: 400% 400%;
+        -webkit-animation: Gradient 60s ease infinite;
+        animation: Gradient 60s ease infinite;
+        color: rgba(145, 8, 17, .6);
+    }
+    & .slider {
+        background: url('assets/img/solutions/hero-bottom.svg') no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+    }
+    & .slide-header:nth-child(1) .panel > * {
+        background: none;
+    }
 }
 
 .page-template-solutions footer {
-  margin-top:25px;
-  transform:translateY(3500px);
+    margin-top: 25px;
 }
 
 .row__copy {
-  & a {
-    color:$blue;
-  }
-  padding:0px;
-  transform:translateY(-150px);
+    & a {
+        color: $blue;
+    }
+    padding: 0;
 }
 
-
 #solutions {
-  & .container {
+    & .container {
 
-  }
-  & .heading {
+    }
+    & .heading {
 
-  }
-  & .row {
-    padding-bottom:0px;
-  }
-  & .panel-heading {
-    color:$red;
-    background-color: white;
-    border:none;
-    padding:none;
-    border-bottom:none;
-    border-radius:none;
-  }
+    }
+    & .row {
+        padding-bottom: 0;
+    }
+    & .panel-heading {
+        color: $red;
+        background-color: white;
+        border: none;
+        padding: 0;
+        border-bottom: none;
+        border-radius: 0;
+    }
 }
 
 #tabs {
-  padding-bottom:370px;
-  & ul {
-    list-style: none;
-    position: relative;
-    float: left;
-    display: block;
-    left: 50%;
-  }
-  & ul li {
-    position:relative;
-    float: left;
-    display: block;
-    right: 50%;
-  }
-  & ul li a {
-    padding:0 65px;
-  }
-  & ul li:first-child a {
-    padding-left:0px;
-  }
-  & ul li:last-child a {
-    padding-right:0px;
-  }
-  .nav {
-    border-bottom:none;
-  }
-  & .nav>li>a:hover {
-    text-decoration: none;
-    background-color:white;
-    color:$red;
-    text-decoration:underline;
-  }
-  & .nav>li>a:focus {
-    text-decoration: none;
-    background-color:white;
-    color:$red;
-    text-decoration:underline;
-  }
-  & .nav-tabs>li>a:hover {
-    border-color:white;
-    background-color:none;
-  }
-  & .nav-tabs>li.active>a {
-      border:none;
-  }
-  & .tab-pane img {
-    padding:100px 0px 50px 0px;
-  }
-  & .button {
-    display:inline-block;
-    margin-top:50px;
-  }
-  & .content {
-    text-align:center;
-    padding:100px 0 200px 0px;
-  }
-  & img {
-    margin-bottom:50px;
-  }
-  & .content h3 {
-    margin:75px 0 25 0;
-  }
+    padding-bottom: 150px;
+    text-align: center;
+    & ul {
+        list-style: none;
+        display: inline-block;
+        float: none;
+    }
+    & ul li:first-child a {
+        padding-left: 0;
+    }
+    & ul li:last-child a {
+        padding-right: 0;
+    }
+    .nav {
+        border-bottom: none;
+    }
+    & .nav > li > a:hover {
+        background-color: white;
+        color: $red;
+        text-decoration: underline;
+    }
+    & .nav > li > a:focus {
+        background-color: white;
+        color: $red;
+        text-decoration: underline;
+    }
+    & .nav-tabs > li > a:hover {
+        border-color: white;
+        background-color: transparent;
+    }
+    & .nav-tabs > li.active > a {
+        border: none;
+    }
+    & .tab-pane img {
+        padding: 100px 0px 50px 0px;
+    }
+    & .button {
+        display: inline-block;
+        margin-top: 50px;
+    }
+    & .content {
+        text-align: center;
+        padding: 100px 0 50px 0;
+    }
+    & img {
+        margin-bottom: 50px;
+    }
+    & .content h3 {
+        margin: 75px 0 25px 0;
+    }
+    .scrollto-links {
+        a {
+            color: #139fac;
+        }
+    }
 }
 
 #content__marketing {
-    & .bg-image-red {
-      width: 2750px;
-      height: 2750px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 2600px;
-      margin-left: -2550px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      left: 50%;
-      z-index:-2;
+
+    .bg-image-red {
+        width: 1200px;
+        height: 1250px;
+        background-image: url(//static.mailchimp.com/web/root/blank.gif);
+        top: 55%;
+        margin-left: -1052px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        z-index: 0;
+        transform: translateY(-50%);
     }
     & .bg-image-blue {
-      width: 1750px;
-      height: 1750px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 3800px;
-      margin-left: -1500px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      z-index: -1;
-      left: 50%;
-    }
-    & .float-image-left {
-      width: 550px;
-      height: 311px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 225px;
-      margin-left: -250px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: 2;
-      left: 50%;
-    }
-    & .float-image-right {
-      width: 550px;
-      height: 187px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -50px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: 3;
-      right: 75%;
-    }
-    & .float-image-right-top {
-      width: 550px;
-      height: 187px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -390px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: -1;
-      right: 85%;
+        width: 1750px;
+        height: 1750px;
+        background-image: url(//static.mailchimp.com/web/root/blank.gif);
+        top: 3800px;
+        margin-left: -1500px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        z-index: -1;
+        left: 50%;
     }
     & .marketing {
-      padding:0px;
-      transform:translateY(50%);
-      margin-bottom:1000px;
-      background-color:#f5f3f3;
-      height:75px;
-      padding:100px 0px;
-      &:before {
-        content: '';
+        padding: 30px 0 20% 0;
+        background-color: #f5f3f3;
+        background: url('assets/img/solutions/backgroundshape-right.svg') no-repeat;
+        background-size: 100%;
+    }
+    .image {
         position: relative;
-        left: 0;
-        top: -55px;
-        width: 100%;
-        height: 110px;
-        background: #f5f3f3;
-        transform: skewY(-3deg);
-        -webkit-backface-visibility: hidden;
-        z-index:-2;
-      }
-      &:after {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
-        background-color:#f5f3f3;
-        position: absolute;
-        padding:300px 0px;
-        left: 0;
-        top: 100px;
-        width: 100%;
-        height: 135px;
-        z-index:-2;
-      }
-      & .round {
-        transform:translateY(-35%);
-        box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
-      }
+
+        @media(max-width: 767px) {
+            margin-top: 150px;
+        }
+
+        .marketer-image {
+            position: relative;
+            z-index: 99;
+        }
+        .bars-graph {
+            position: absolute;
+            top: -20%;
+            left: 78%;
+            z-index: 90;
+
+            @media(min-width: 768px) and (max-width: 1380px) {
+                max-width: 80%;
+            }
+
+            @media(max-width: 767px) {
+                left: 30%;
+                transform: translateX(-50%);
+                top: -46%;
+            }
+        }
+        .circle-graph {
+            position: absolute;
+            left: 87%;
+            transform: translateY(70%);
+            z-index: 100;
+
+            @media(min-width: 768px) and (max-width: 1380px) {
+                max-width: 80%;
+            }
+
+            @media(max-width: 767px) {
+                left: 50%;
+                transform: translateX(-50%);
+                top: -16%;
+            }
+        }
+        .success-bars {
+            position: absolute;
+            bottom: -40px;
+            left: -160px;
+            width: 360px;
+            z-index: 100;
+
+            @media(max-width: 767px) {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .solutions__copy {
+        margin-top: 92%;
+
+        @media(max-width: 767px) {
+            margin-top: 12%;
+        }
+
+        a {
+            color: #139fac;
+        }
     }
 }
 
 #content__product {
-    & .bg-image-red {
-      width: 2750px;
-      height: 2750px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 2600px;
-      margin-left: -2550px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      left: 50%;
-      z-index:-2;
+    padding-bottom: 130px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 0;
+
+    @media(min-width: 845px) and (max-width: 1319px) {
+        overflow: visible;
+        margin-top: 70px;
     }
+
+    @media(max-width: 767px) {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+
     & .bg-image-blue {
-      width: 2750px;
-      height: 2750px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 5200px;
-      margin-right: -2500px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      z-index: -1;
-      right: 50%;
+        width: 1200px;
+        height: 1250px;
+        background-image: url(//static.mailchimp.com/web/root/blank.gif);
+        top: 55%;
+        transform: translateY(-50%);
+        margin-right: -1052px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        z-index: 0;
+        right: 50%;
+
+        @media(min-width: 845px) and (max-width: 1319px) {
+            width: 56vw;
+            background-size: cover;
+            left: 20%;
+        }
     }
-    & .float-image-left {
-      width: 550px;
-      height: 311px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 100px;
-      margin-left: -250px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: 2;
-      left: 50%;
+    .image {
+        position: relative;
+
+        .arrow-graph {
+            position: absolute;
+            max-width: 380px;
+            bottom: 0;
+            left: 88%;
+            z-index: 100;
+
+            @media(min-width: 768px) and (max-width: 1380px) {
+                max-width: 80%;
+            }
+
+            @media(min-width: 845px) and (max-width: 1319px) {
+                max-width: 210px;
+                left: 80%;
+            }
+
+            @media(max-width: 767px) {
+                bottom: auto;
+                top: 0;
+                right: -10%;
+                left: auto;
+                max-width: 60%;
+            }
+        }
+        .diagrams {
+            position: absolute;
+            top: -29%;
+            right: 48%;
+            max-width: 460px;
+            z-index: 100;
+
+            @media(max-width: 767px) {
+                top: auto;
+                bottom: -10%;
+                right: auto;
+                left: 50%;
+                transform: translateX(-50%);
+                max-width: 60%;
+            }
+        }
+        .prod-managers {
+            position: relative;
+            z-index: 99;
+        }
     }
-    & .float-image-right {
-      width: 550px;
-      height: 187px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -100px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: 3;
-      right: 75%;
-    }
-    & .float-image-right-top {
-      width: 550px;
-      height: 187px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -200px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: -1;
-      right: 85%;
-    }
-    & .round {
-      transform:translateY(-55%);
-      box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
+    .solutions__copy {
+        margin-top: 200px;
+
+        @media(max-width: 767px) {
+            margin-top: 12%;
+        }
+
+        a {
+            color: #139fac;
+        }
     }
     & .marketing {
-      padding:0px;
-      transform:translateY(1900px);
-      margin-bottom:1000px;
-      background-color:#f5f3f3;
-      height:275px;
-      padding:100px 0px;
-      &:before {
-        clip-path: polygon(0 0, 100% 40%, 100% 77%, 0% 100%);
-        background-color:#f5f3f3;
-        position: absolute;
-        padding:300px 0px;
-        left: 0;
-        top: -250px;
-        width: 100%;
-        height: 135px;
-        z-index:-2;
-      }
-      &:after {
-        content: '';
-        position: relative;
-        left: 0;
-        top: -900px;
-        width: 100%;
-        height: 110px;
-        background: #f5f3f3;
-        transform: skewY(-3deg);
-        -webkit-backface-visibility: hidden;
-        z-index:-2;
-      }
+        padding: 16% 0 28% 0;
+        background-color: #f5f3f3;
+        background: url('assets/img/solutions/backgroundshape-left.svg') no-repeat;
+        background-size: 100%;
     }
 }
 
 #content__designers {
-    & .round {
-      transform:translateY(-45%);
-      box-shadow: 5px 30px 5px 0px rgba(145,8,17,0.55);
-    }
+    margin-bottom: 80px;
+    overflow: visible !important;
+
     & .bg-image-red {
-      width: 2750px;
-      height: 2750px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 7800px;
-      margin-left: -2550px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      left: 50%;
-      z-index:-2;
+        width: 1200px;
+        height: 1250px;
+        background-image: url(//static.mailchimp.com/web/root/blank.gif);
+        top: 55%;
+        transform: translateY(-50%);
+        margin-left: -1052px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        z-index: 0;
     }
-    & .float-image-left {
-      width: 550px;
-      height: 311px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: 100px;
-      margin-left: -100px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: 2;
-      left: 50%;
+    .image {
+        position: relative;
+
+        .designers-img {
+            position: relative;
+            z-index: 99;
+        }
+        .salesman {
+            position: absolute;
+            left: -33%;
+            bottom: -16%;
+            z-index: 100;
+            max-width: 410px;
+
+            @media(max-width: 767px) {
+                left: 10%;
+                max-width: 60%;
+            }
+        }
+        .business-card {
+            position: absolute;
+            top: -10%;
+            right: -50%;
+            z-index: 100;
+            max-width: 410px;
+
+            @media(max-width: 767px) {
+                top: -10%;
+                right: auto;
+                left: 10%;
+                max-width: 60%;
+            }
+        }
     }
-    & .float-image-right {
-      width: 500px;
-      height: 266px;
-      background-image: url(//static.mailchimp.com/web/root/blank.gif);
-      top: -350px;
-      margin-right: -50px;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
-      z-index: 3;
-      right: 75%;
+    .solutions__copy {
+        margin-top: 200px;
+
+        @media(max-width: 767px) {
+            margin-top: 18%;
+        }
+
+        a {
+            color: #139fac;
+        }
     }
     & .marketing {
-      padding:0px;
-      transform:translateY(2800px);
-      margin-bottom:1000px;
-      background-color:#f5f3f3;
-      height:75px;
-      padding:100px 0px;
-      &:before {
-        content: '';
-        position: relative;
-        left: 0;
-        top: -155px;
-        width: 100%;
-        height: 110px;
-        background: #f5f3f3;
-        transform: skewY(-3deg);
-        -webkit-backface-visibility: hidden;
-        z-index:-2;
-      }
-      &:after {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 23%);
-        background-color:#f5f3f3;
-        position: absolute;
-        padding:300px 0px;
-        left: 0;
-        top: 100px;
-        width: 100%;
-        height: 135px;
-        z-index:-2;
-      }
+        padding: 30px 0 28% 0;
+        background-color: #f5f3f3;
+        background: url('assets/img/solutions/backgroundshape-right.svg') no-repeat;
+        background-size: 100%;
     }
 }

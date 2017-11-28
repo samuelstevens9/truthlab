@@ -1,45 +1,224 @@
-hr.blue-bar{border-top: 15px solid #07074e;}
-.tl-red{color:$red;}/*#910811*/
-#primary.container{margin-bottom: 380px;/*to push footer down*/}
-#primary .row{ padding:0;}
-#primary ul{ padding-left:20px;}
-#primary li{ padding-left:0px;}
-.padded-{}
-.whitepaper_form{ }
-.whitepaper_form input{ width: 100%; border: 1px solid $blue;/* #07074e*/
+hr.blue-bar {
+    border-top: 15px solid #07074e;
+}
+
+.tl-red {
+    color: $red;
+}
+
+#primary .row {
+    padding: 0;
+}
+
+#primary ul {
+    padding-left: 20px;
+}
+
+#primary li {
+    padding-left: 0;
+}
+
+.whitepaper_form {
+    .blog-subscribe-checkbox {
+        font-size: 1.3rem;
+    }
+
+    button[type=submit] {
+        i.fa {
+            vertical-align: baseline;
+            font-size: inherit;
+            line-height: inherit;
+        }
+    }
+}
+
+.whitepaper_form input {
+    width: 100%;
+    border: 1px solid $blue; /* #07074e*/
     border-radius: 2px;
     padding: 2px 6px;
-    box-shadow: 2px 2px 0px #BB969A;
+    box-shadow: 2px 2px 0 #BB969A;
+    margin-bottom: 20px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ececed+0,fdfefe+50,fcfdff+100 */
-  background: #ececed; /* Old browsers */
-  background: -moz-linear-gradient(top, #ececed 0%, #fdfefe 50%, #fcfdff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ececed 0%,#fdfefe 50%,#fcfdff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ececed 0%,#fdfefe 50%,#fcfdff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececed', endColorstr='#fcfdff',GradientType=0 ); /* IE6-9 */
+    background: #fff; /* Old browsers */
+    background: -moz-linear-gradient(top, #edf0f9 0%, #fff 40%, #fff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #edf0f9 0%, #fff 40%, #fff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #edf0f9 0%, #fff 40%, #fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf0f9', endColorstr='#ffffff', GradientType=0); /* IE6-9 */
 }
-.whitepaper_form input[type="checkbox"],.whitepaper_form input[type="radio"]{ width: auto; }
-.whitepaper_form input[type="submit"], .whitepaper_form button, .whitepaper_form input[type="button"]{width:100%;border:none;padding:9px;background-color: #910811;box-shadow: 1px 2px 3px rgba(7, 7, 78, .2);border-radius: 2px;color:#FFF; }
-.triangle-ramp { 
-  background: url("assets/img/gated-bkg-blue.svg") no-repeat;
-  background-size: 100%;
-  padding: 30px !important;
-}
-.socialShare{
-  background: url("assets/img/socialShare.svg") no-repeat;
-  width: 48px;
-  height: 48px;
-  background-size: 100%;
-  display: block;
-  color: transparent;
-}
-.socialShare:hover,.socialShare:active,.socialShare:visited,.socialShare:focus{color: transparent;}
 
-.navbar.landing{top: 0 !important;}
+.whitepaper_form input[type="checkbox"], .whitepaper_form input[type="radio"] {
+    width: auto;
+}
 
-.request-dropdown-mobile.request-toggle{display: none;}
-@media only screen and (max-width: 768px){
-  #primary.container {
-    margin-top: 50px;
-  }
-  .request-dropdown-mobile.request-toggle{display: block;}
+.whitepaper_form input[type="submit"], .whitepaper_form button, .whitepaper_form input[type="button"] {
+    width: 100%;
+    border: 5px solid #910811;
+    padding: 9px;
+    background-color: #910811;
+    box-shadow: 1px 2px 3px rgba(7, 7, 78, .2);
+    border-radius: 2px;
+    color: #FFF;
+
+    &:hover {
+        background: #fff;
+        color: #910811;
+    }
+}
+
+.triangle-ramp {
+    background: url("assets/img/gated-bkg-blue.svg") no-repeat;
+    background-size: 100%;
+    padding: 30px !important;
+}
+
+.socialShare {
+    background: url("assets/img/socialShare.svg") no-repeat;
+    width: 48px;
+    height: 48px;
+    background-size: 100%;
+    display: block;
+    color: transparent;
+}
+
+.socialShare:hover, .socialShare:active, .socialShare:visited, .socialShare:focus {
+    color: transparent;
+}
+
+.navbar.landing {
+    top: 0 !important;
+}
+
+.request-dropdown-mobile.request-toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .request-dropdown-mobile.request-toggle {
+        display: block;
+    }
+}
+
+.page-template-landing {
+    #primary.container {
+        margin-bottom: 250px; /*to push footer down*/
+    }
+    .tl-red {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .about-white-paper {
+        p, ul, ol {
+            font-size: 1.8rem;
+        }
+        h4 {
+            @media(max-width: 767px) {
+                text-align: center;
+            }
+        }
+    }
+    .get-free-form {
+        @media(min-width: 992px) {
+            margin-top: -120px;
+        }
+        @media(max-width: 767px) {
+            margin-top: 50px;
+        }
+        h3 {
+            @media(max-width: 767px) {
+                text-align: center;
+            }
+        }
+    }
+    .sub-footer {
+        border-top-width: 1px;
+    }
+    h1, h2, h3, h4, h5, h6, .tl-red {
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    .triangle-ramp {
+        h2 {
+            @media (min-width: 992px) and (max-width: 1199px) {
+                font-size: 2.2rem;
+            }
+            @media(max-width: 767px) {
+                text-align: center;
+            }
+        }
+        .tl-red {
+            @media (min-width: 992px) and (max-width: 1199px) {
+                font-size: 1.8rem;
+            }
+            @media(max-width: 767px) {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.gated-confirmation-page {
+    .triangle-ramp {
+        background-size: cover;
+
+        @media(max-width: 991px) {
+            padding-top: 100px !important;
+        }
+    }
+}
+
+.page-template-landing, .gated-confirmation-page {
+    .sharethis-inline-share-buttons {
+        text-align: left !important;
+    }
+}
+
+.gated-confirmation-page {
+    .sharethis-inline-share-buttons {
+        text-align: center !important;
+    }
+}
+
+.page-template-landing, .gated-confirmation-page {
+    .sharethis-inline-share-buttons {
+
+        @media(max-width: 767px) {
+            text-align: center !important;
+        }
+
+        > div {
+            display: none !important;
+
+            &[data-network="sharethis"] {
+                display: inline-block !important;
+                background-color: #07074B !important;
+                border-radius: 50% !important;
+                min-width: 0 !important;
+                border: 3px solid #07074B !important;
+                box-sizing: content-box !important;
+                width: auto !important;
+                height: auto !important;
+                padding: 10px !important;
+                line-height: 1 !important;
+
+                svg {
+                    top: auto !important;
+                }
+
+                &:hover {
+                    background: #fff !important;
+                    top: auto !important;
+                    opacity: 1 !important;
+
+                    svg {
+                        color: #07074B !important;
+                        fill: #07074B !important;
+                    }
+                }
+
+                .st-label {
+                    display: none !important;
+                }
+            }
+        }
+    }
 }

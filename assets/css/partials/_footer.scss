@@ -3,91 +3,83 @@
 /***************************************************/
 
 footer {
-  transform:translateY(-380px);
-  font-size:1.5rem;
-  & .row{
-    padding-bottom:0rem;
-  }
+    font-size: 1.5rem;
+    & .row {
+        padding-bottom: 0rem;
+    }
 }
 
 .mobile-footer {
-  display:none;
+    display: none;
 }
 
 .main-footer {
-  display:block;
-  padding:0 0 25px 0;
-  & [class*="col-"] {
-    padding:0px;
-  }
-  & h4:hover {
-    color:$red;
-  }
-  & ul li {
-    list-style:none;
-    padding:.5rem 0px;
-  }
-  & ul li a {
-    color:$grey-medium;
-  }
-  & ul li a:hover {
-    color:$red;
-  }
-  & .address {
-    color:$blue;
-    & img {
-      margin:20px 0px;
-      height:15%;
-      width:15%;
+    display: block;
+    padding: 0 0 25px 0;
+    h4:hover {
+        color: $red;
     }
-  }
+    ul li {
+        list-style: none;
+        padding: .5rem 0px;
+    }
+    ul li a {
+        color: $grey-medium;
+    }
+    ul li a:hover {
+        color: $red;
+    }
+    .address {
+        color: $blue;
+        img {
+            margin: 20px 0;
+            width: 15%;
+        }
+    }
 }
 
 .sub-footer {
-  padding:25px 0;
-  border-top:15px solid $blue;
-  font-size:1.25rem;
-  & [class*="col-"] {
-    padding:0px;
-  }
-  & ul {
-    display:inline;
-    margin-left:15px;
-  }
-  & a {
-    display:inline;
-    color:$grey-medium;
-  }
-  & a:hover {
-    color:$red;
-  }
-  & ul li {
-    display:inline;
-    margin-right:1rem;
-  }
-  & ul li:last-child {
-    margin-right:0px;
-  }
-  & [class*="fa-"] {
-    color:$grey-medium;
-  }
-  & .fa-linkedin-square:hover{
-  	color:#0077b5;
-  }
-  & .fa-facebook-square:hover{
-  	color:#3c5a99;
-  }
-  & .fa-twitter-square:hover{
-  	color:#1da1f2;
-  }
-  & .fa-google-plus-square:hover{
-  	color:#db3236;
-  }
-  & .fa-linkedin-square, & .fa-facebook-square, & .fa-twitter-square, & .fa-google-plus-square{
-    transition: color .6s ease-out;
-  }
-  & .fa-linkedin-square:hover, & .fa-facebook-square:hover, & .fa-twitter-square:hover, & .fa-google-plus-square:hover{
-    transform: translateY(-5px);
-    text-shadow: 1px 1px rgba(7,7,78,.5);
-  }
+    padding: 25px 0;
+    border-top: 1px solid $blue;
+    font-size: 1.25rem;
+    ul {
+        display: inline;
+        margin-left: 15px;
+    }
+    a {
+        display: inline;
+        color: $grey-medium;
+    }
+    a:hover {
+        color: $red;
+    }
+    ul li {
+        display: inline;
+        margin-right: 1rem;
+    }
+    ul li:last-child {
+        margin-right: 0px;
+    }
+    [class*="fa-"] {
+        color: $grey-medium;
+    }
+    .fa-linkedin-square:hover {
+        color: #0077b5;
+    }
+    .fa-facebook-square:hover {
+        color: #3c5a99;
+    }
+    .fa-twitter-square:hover {
+        color: #1da1f2;
+    }
+    .fa-google-plus-square:hover {
+        color: #db3236;
+    }
+    .fa-linkedin-square, & .fa-facebook-square, & .fa-twitter-square, & .fa-google-plus-square {
+        transition: color .6s ease-out;
+    }
+    .fa-linkedin-square:hover, & .fa-facebook-square:hover, & .fa-twitter-square:hover, & .fa-google-plus-square:hover {
+        transform: translateY(-5px);
+        text-shadow: 1px 1px rgba(7, 7, 78, .5);
+    }
 }

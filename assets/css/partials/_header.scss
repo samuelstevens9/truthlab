@@ -1,102 +1,166 @@
 .navbar-header img {
-  height:37px;
-  width:144px;
+    height: 37px;
+    width: 144px;
 }
 
-.navbar-brand {height:auto;padding:0 15px;}
-.navbar {padding:1.2rem 15px;}
-.navbar-right {margin-right:-15px;}
+.navbar-brand {
+    height: auto;
+    padding: 0 15px;
+}
 
-.navbar-default {background-color:white;}
-.navbar-default .navbar-nav>li>a {
+.navbar {
+    padding: 1.2rem 15px;
+}
+
+.navbar-right {
+    margin-right: 0 !important;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
     color: $blue;
-    font-size:1.35rem;
-    padding:0 15px;
+    font-size: 1.35rem;
+    padding: 0 15px;
+
+    @media(min-width: 768px) and (max-width: 991px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.3rem;
+    }
 }
 
+.navbar-default .navbar-nav > li > a > i {
+    color: $blue !important;
+}
 
+.navbar-default .navbar-nav > li > a > i:hover {
+    color: $red !important;
+}
 
-.navbar-default .navbar-nav > li > a > i {color:$blue!important;}
-.navbar-default .navbar-nav > li > a > i:hover {color:$red!important;}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: $red;
-    background-color:white;
-    text-decoration:underline;
+    background-color: white;
+    text-decoration: underline;
 }
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: $red;
     background-color: transparent;
-    text-decoration:underline;
-}
-.navbar-default .navbar-nav>li>a>i {
-  color:$red;
-  margin-right:15px
+    text-decoration: underline;
 }
 
-.navbar-default .navbar-nav > li {height:46px;}
-.navbar-default .navbar-nav > li > a {margin-top:13px;}
-.navbar-default .navbar-nav>li>a.button {color:white;padding:7px 40px!important;margin-top:0px;}
-.navbar-default .navbar-nav>li>a.button:hover {color:$red;text-decoration:none;}
+.navbar-default .navbar-nav > li > a > i {
+    color: $red;
+    margin-right: 15px
+}
+
+.navbar-default .navbar-nav > li {
+    height: 46px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    margin-top: 13px;
+}
+
+.navbar-default .navbar-nav > li > a.button {
+    color: white;
+    padding: 7px 40px !important;
+    margin-top: 0;
+}
+
+.navbar-default .navbar-nav > li > a.button:hover {
+    color: $red;
+    text-decoration: none;
+}
 
 nav.navbar {
-  @include transition;
+    @include transition;
 }
 
 nav.navbar.shrink {
-  padding:10px 15px;
-  box-shadow: 0px 2px 3px rgba(7,7,78, .6);
+    padding: 10px 15px;
+    box-shadow: 0 2px 3px rgba(7, 7, 78, .6);
 }
 
 .search-dropdown {
-	display:none;
-  width: 100%;
-  padding:0 100px;
-  background: rgba(255,255,255, .9);
-  z-index:999999999999!important;
-  position:fixed;
-  top:0!important;
-  border-top:2px solid #d1d1d1;
-  border-bottom:2px solid #d1d1d1;
+    display: none;
+    width: 100%;
+    padding: 0 100px;
+    background: rgba(255, 255, 255, .9);
+    z-index: 999999999999 !important;
+    position: fixed;
+    top: 0 !important;
+    border-top: 2px solid #d1d1d1;
+    border-bottom: 2px solid #d1d1d1;
     & form {
-      padding:2rem 0;
+        padding: 2rem 0;
     }
     & input[type="text"] {
-      width:100%;
-      padding: 10px;
+        width: 100%;
+        padding: 10px;
     }
 }
 
 .request-dropdown {
-	display:none;
-  width: 100%;
-  padding:0 100px;
-  background: rgba(255,255,255, .9);
-  z-index:999999999999!important;
-  position:fixed;
-  top:0!important;
-  border-top:2px solid #d1d1d1;
-  border-bottom:2px solid #d1d1d1;
-    & form {
-      padding:0 0 2rem 0;
+    display: none;
+    width: 100%;
+    padding: 0 100px;
+    background: rgba(255, 255, 255, .9);
+    z-index: 999999999999 !important;
+    position: fixed;
+    top: 0 !important;
+    border-top: 2px solid #d1d1d1;
+    border-bottom: 2px solid #d1d1d1;
+    form {
+        padding: 0 0 2rem 0;
     }
-    & input[type="text"] {
-      width:100%;
-      padding: 10px;
-      font-size:28px;
-      background-color:#f3f3f3;
-      border:1px solid #333;
-      border-radius:2px;
+    input[type="text"], input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 28px;
+        background-color: #fff;
+        border: 1px solid #333;
+        border-radius: 2px;
+        box-shadow: 1px 1px 2px rgba(7, 7, 78, 0.2), inset 0px 0px 2px rgba(0, 0, 0, 0.05);
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: #ccc;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: #ccc;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+            color: #ccc;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: #ccc;
+        }
     }
-    & input[type="email"] {
-      width:100%;
-      padding: 10px;
-      font-size:28px;
-      background-color:#f3f3f3;
-      border:1px solid #333;
-      border-radius:2px;
+    [class*="col-"] {
+        padding-left: 0;
     }
-    & [class*="col-"] {
-      padding-left:0px;
+
+    form {
+        .response--success {
+            text-align: center;
+
+            h3 {
+                font-size: 4.1rem;
+            }
+
+            p {
+                a:not(:hover) {
+                    color: #0095A2;
+                    text-decoration: underline;
+                }
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 }
