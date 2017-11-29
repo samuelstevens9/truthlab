@@ -18,7 +18,7 @@ get_header(); ?>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title">Schedule Demo</h4>
+                    <h4 class="modal-title">Schedule A Demo</h4>
                 </div>
                 <div class="modal-body">
 					<?php echo do_shortcode( '[booked-calendar calendar=12]' ); ?>
@@ -56,7 +56,7 @@ get_header(); ?>
     </section>
 
     <section class="page-about">
-        <div class="content-wrapper">
+        <div class="content-wrapper" data-aos="fade-up">
             <h2 class="red">Truthlab Research Module</h2>
             <p class="red sub-header">Automatically Extract Insights and Act Upon Them</p>
             <p>The Truthlab Research Module enables your team to begin immediately receiving actionable insights from
@@ -194,7 +194,7 @@ get_header(); ?>
     <section class="testimonials">
         <div class="container-fluid">
             <div class="content-wrapper testimonials-wrapper">
-                <div class="testimonial">
+                <div class="testimonial" data-aos="fade-right">
                     <p>Truthlab’s UX research platform automatically creates highlight reels of my customer videos so I
                         can get to the most important parts without watching hours of videos.</p>
                     <p>UI/UX Manager<br>
@@ -202,7 +202,7 @@ get_header(); ?>
                     <img class="testimonial__client-logo"
                          src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/500-logo.png'; ?>">
                 </div>
-                <div class="testimonial">
+                <div class="testimonial" data-aos="fade-left">
                     <p>There’s value in watching each user complete a task using our product, but my team and I don’t
                         have time to watch all those videos.</p>
                     <p>Kevin Boodtama | Senior Designer</p>

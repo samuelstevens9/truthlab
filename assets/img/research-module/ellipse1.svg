@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 846 846" style="enable-background:new 0 0 846 846;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);}
+</style>
+<g class="st0">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="3" y1="423" x2="843" y2="423">
+		<stop  offset="0" style="stop-color:#07074E"/>
+		<stop  offset="6.081760e-03" style="stop-color:#070752;stop-opacity:0.9939"/>
+		<stop  offset="6.631500e-02" style="stop-color:#060671;stop-opacity:0.9337"/>
+		<stop  offset="0.1333" style="stop-color:#04048C;stop-opacity:0.8667"/>
+		<stop  offset="0.2102" style="stop-color:#0404A2;stop-opacity:0.7898"/>
+		<stop  offset="0.3001" style="stop-color:#0303B3;stop-opacity:0.6999"/>
+		<stop  offset="0.4112" style="stop-color:#0202BE;stop-opacity:0.5888"/>
+		<stop  offset="0.5672" style="stop-color:#0202C5;stop-opacity:0.4328"/>
+		<stop  offset="1" style="stop-color:#0202C7;stop-opacity:0"/>
+	</linearGradient>
+	<circle class="st1" cx="423" cy="423" r="420"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="3" y1="423" x2="843" y2="423">
+		<stop  offset="0" style="stop-color:#07074E"/>
+		<stop  offset="0.1454" style="stop-color:#060668;stop-opacity:0.8546"/>
+		<stop  offset="0.4083" style="stop-color:#040491;stop-opacity:0.5917"/>
+		<stop  offset="0.6476" style="stop-color:#0303AE;stop-opacity:0.3524"/>
+		<stop  offset="0.8528" style="stop-color:#0202C1;stop-opacity:0.1472"/>
+		<stop  offset="1" style="stop-color:#0202C7;stop-opacity:0"/>
+	</linearGradient>
+	<path class="st2" d="M423,11c55.6,0,109.6,10.9,160.4,32.4c49.1,20.8,93.1,50.5,131,88.3c37.8,37.8,67.5,81.9,88.3,131
+		C824.1,313.4,835,367.4,835,423s-10.9,109.6-32.4,160.4c-20.8,49.1-50.5,93.1-88.3,131c-37.8,37.8-81.9,67.5-131,88.3
+		C532.6,824.1,478.6,835,423,835s-109.6-10.9-160.4-32.4c-49.1-20.8-93.1-50.5-131-88.3c-37.8-37.8-67.5-81.9-88.3-131
+		C21.9,532.6,11,478.6,11,423s10.9-109.6,32.4-160.4c20.8-49.1,50.5-93.1,88.3-131c37.8-37.8,81.9-67.5,131-88.3
+		C313.4,21.9,367.4,11,423,11 M423,3C191,3,3,191,3,423s188,420,420,420s420-188,420-420S655,3,423,3L423,3z"/>
+</g>
+</svg>

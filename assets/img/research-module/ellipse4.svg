@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 394 394" style="enable-background:new 0 0 394 394;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);}
+</style>
+<g class="st0">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2" y1="197" x2="392" y2="197" gradientTransform="matrix(1 0 0 -1 0 394)">
+		<stop  offset="0" style="stop-color:#07074E"/>
+		<stop  offset="6.081760e-03" style="stop-color:#070752;stop-opacity:0.9939"/>
+		<stop  offset="6.631500e-02" style="stop-color:#060671;stop-opacity:0.9337"/>
+		<stop  offset="0.1333" style="stop-color:#04048C;stop-opacity:0.8667"/>
+		<stop  offset="0.2102" style="stop-color:#0404A2;stop-opacity:0.7898"/>
+		<stop  offset="0.3001" style="stop-color:#0303B3;stop-opacity:0.6999"/>
+		<stop  offset="0.4112" style="stop-color:#0202BE;stop-opacity:0.5888"/>
+		<stop  offset="0.5672" style="stop-color:#0202C5;stop-opacity:0.4328"/>
+		<stop  offset="1" style="stop-color:#0202C7;stop-opacity:0"/>
+	</linearGradient>
+	<circle class="st1" cx="197" cy="197" r="195"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2" y1="197" x2="392" y2="197" gradientTransform="matrix(1 0 0 -1 0 394)">
+		<stop  offset="0" style="stop-color:#07074E"/>
+		<stop  offset="0.1454" style="stop-color:#060668;stop-opacity:0.8546"/>
+		<stop  offset="0.4083" style="stop-color:#040491;stop-opacity:0.5917"/>
+		<stop  offset="0.6476" style="stop-color:#0303AE;stop-opacity:0.3524"/>
+		<stop  offset="0.8528" style="stop-color:#0202C1;stop-opacity:0.1472"/>
+		<stop  offset="1" style="stop-color:#0202C7;stop-opacity:0"/>
+	</linearGradient>
+	<path class="st2" d="M197,5.7c25.8,0,50.9,5.1,74.5,15c22.8,9.7,43.2,23.4,60.8,41c17.5,17.6,31.3,38,41,60.8
+		c9.9,23.5,15,48.6,15,74.4s-5.1,50.9-15,74.5c-9.7,22.8-23.4,43.2-41,60.8c-17.5,17.5-38,31.3-60.8,41c-23.5,9.9-48.6,15-74.4,15
+		s-50.9-5.1-74.5-15c-22.8-9.7-43.2-23.4-60.8-41c-17.6-17.5-31.3-38-41-60.8c-9.9-23.5-15-48.6-15-74.4s5.1-50.9,15-74.5
+		c9.7-22.8,23.4-43.2,41-60.8c17.6-17.6,38-31.3,60.8-41C146.1,10.8,171.2,5.7,197,5.7 M197,2C89.3,2,2,89.3,2,197s87.3,195,195,195
+		s195-87.3,195-195S304.7,2,197,2L197,2z"/>
+</g>
+</svg>
