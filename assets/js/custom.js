@@ -297,4 +297,20 @@ jQuery(document).ready(function ($) {
         });
     }, 50);
 
+    $('.product-demo__slider').slick({
+        dots: true,
+        arrows: false
+    }).on('beforeChange', function (event, slick, current_slide, next_slide) {
+        $('.product-demo__slider-pages li').eq(next_slide).trigger('click');
+    });
+
+    $('.product-demo__slider-pages li').click(function (event) {
+        event.preventDefault();
+
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+
+        $('.product-demo__slider').slick('slickGoTo', $(this).index());
+    });
+
 });

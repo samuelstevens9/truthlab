@@ -97,9 +97,8 @@ get_header(); ?>
                         <div class="solutions__copy">
                             <h2>Product Managers</h2>
                             <p>Understand and map the customer journey with custom interactive data visualizations
-                                that
-                                identify key product opportunities.</p>
-                            <a href="/contact/">Talk to a Specialist Today >></a>
+                                that identify key product opportunities.</p>
+                            <a href="/contact/">Talk to a Specialist Today &gt;&gt;</a>
                         </div>
                     </div>
 
@@ -123,9 +122,8 @@ get_header(); ?>
                         <div class="solutions__copy">
                             <h2>Product Managers</h2>
                             <p>Understand and map the customer journey with custom interactive data visualizations
-                                that
-                                identify key product opportunities.</p>
-                            <a href="#">Talk to a Specialist Today >></a>
+                                that identify key product opportunities.</p>
+                            <a href="#">Talk to a Specialist Today &gt;&gt;</a>
                         </div>
                     </div>
                 </div>
@@ -155,8 +153,9 @@ get_header(); ?>
                             <h2>Experience Designers</h2>
                             <p>Identify and analyze audience segments by connecting your user research panel to
                                 customizable personas.</p>
-                            <a href="https://vimeo.com/232169127?width=640&height=480" rel="wp-video-lightbox">Take a
-                                Product Tour Now >></a>
+                            <a href="https://vimeo.com/232169127?width=640&height=480" rel="wp-video-lightbox">
+                                Explore Product Features &gt;&gt;
+                            </a>
                         </div>
                     </div>
                 </div>
