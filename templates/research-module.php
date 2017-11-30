@@ -11,7 +11,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <div id="appointment-calendar" class="modal fade" tabindex="-1" role="dialog">
+    <div id="appointment-calendar" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -225,6 +225,10 @@ get_header(); ?>
             $(window).on('resize', function () {
                 $('body').css('padding-bottom', $('section.cta-demo').outerHeight());
             }).trigger('resize');
+
+            $('#appointment-calendar').on('shown.bs.modal', function () {
+                $(window).trigger('resize');
+            });
         });
     </script>
 <?php
