@@ -153,7 +153,7 @@ get_header(); ?>
                             <h2>Experience Designers</h2>
                             <p>Identify and analyze audience segments by connecting your user research panel to
                                 customizable personas.</p>
-                            <a href="https://vimeo.com/232169127?width=640&height=480" rel="wp-video-lightbox">
+                            <a href="/research-module/">
                                 Explore Product Features &gt;&gt;
                             </a>
                         </div>
