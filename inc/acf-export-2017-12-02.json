@@ -8,7 +8,6 @@
                 "label": "Takeaway",
                 "name": "takeaway",
                 "type": "repeater",
-                "value": null,
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
@@ -30,7 +29,6 @@
                         "label": "Tweet",
                         "name": "tweet",
                         "type": "text",
-                        "value": null,
                         "instructions": "",
                         "required": 0,
                         "conditional_logic": 0,
@@ -76,7 +74,6 @@
                 "label": "Listing Image",
                 "name": "listing_image",
                 "type": "image",
-                "value": null,
                 "instructions": "This image must be of square dimensions. It is displayed on post listings.",
                 "required": 1,
                 "conditional_logic": 0,
@@ -116,6 +113,122 @@
         "description": "Displays on the side"
     },
     {
+        "key": "group_5a22f94e00bc7",
+        "title": "Gated Insights Options",
+        "fields": [
+            {
+                "key": "field_5a22f977b9c55",
+                "label": "Sidebar",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a22f986b9c56",
+                "label": "Sidebar Blocks",
+                "name": "sidebar_blocks",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "5a22fabdced86": {
+                        "key": "5a22fabdced86",
+                        "name": "wysiwyg_block",
+                        "label": "WYSIWYG Block",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5a22fd01b5e27",
+                                "label": "Content",
+                                "name": "content",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "5a22fb23b9c58": {
+                        "key": "5a22fb23b9c58",
+                        "name": "html_block",
+                        "label": "HTML Block",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5a22fd10b5e28",
+                                "label": "Content",
+                                "name": "content",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "button_label": "Add Block",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/gated-insights.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
         "key": "group_59eec4389a54a",
         "title": "Privacy\/Policy Template",
         "fields": [
@@ -124,7 +237,6 @@
                 "label": "Sections",
                 "name": "sections",
                 "type": "repeater",
-                "value": null,
                 "instructions": "",
                 "required": 1,
                 "conditional_logic": 0,
@@ -144,7 +256,6 @@
                         "label": "Section Name",
                         "name": "section_name",
                         "type": "text",
-                        "value": null,
                         "instructions": "This is used to create different sections, i.e. \"User\", \"Tester\".",
                         "required": 1,
                         "conditional_logic": 0,
@@ -164,7 +275,6 @@
                         "label": "Content Blocks",
                         "name": "content_blocks",
                         "type": "flexible_content",
-                        "value": null,
                         "instructions": "",
                         "required": 0,
                         "conditional_logic": 0,
@@ -185,7 +295,6 @@
                                         "label": "Content",
                                         "name": "content",
                                         "type": "wysiwyg",
-                                        "value": null,
                                         "instructions": "",
                                         "required": 1,
                                         "conditional_logic": 0,
@@ -215,7 +324,6 @@
                                         "label": "Panels",
                                         "name": "panels",
                                         "type": "repeater",
-                                        "value": null,
                                         "instructions": "",
                                         "required": 1,
                                         "conditional_logic": 0,
@@ -235,7 +343,6 @@
                                                 "label": "Title",
                                                 "name": "title",
                                                 "type": "text",
-                                                "value": null,
                                                 "instructions": "",
                                                 "required": 1,
                                                 "conditional_logic": 0,
@@ -255,7 +362,6 @@
                                                 "label": "Content",
                                                 "name": "content",
                                                 "type": "wysiwyg",
-                                                "value": null,
                                                 "instructions": "",
                                                 "required": 1,
                                                 "conditional_logic": 0,
@@ -308,6 +414,64 @@
         "description": ""
     },
     {
+        "key": "group_59f8fe9830287",
+        "title": "Truthlab Options",
+        "fields": [
+            {
+                "key": "field_59f8fea66c1b5",
+                "label": "Posts",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_59f8feb46c1b6",
+                "label": "Takeaway Appended Text",
+                "name": "takeaway_appended_text",
+                "type": "text",
+                "instructions": "This text will be appended to every twitter message you define in the 'Takeaway' section on single posts.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "truthlab-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
         "key": "group_59e6e722b9685",
         "title": "User Fields",
         "fields": [
@@ -316,7 +480,6 @@
                 "label": "Professional Title",
                 "name": "professional_title",
                 "type": "text",
-                "value": null,
                 "instructions": "",
                 "required": 0,
                 "conditional_logic": 0,
