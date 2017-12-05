@@ -44,6 +44,10 @@ body.page-template-gated-insights {
         background: url('./assets/img/gated-insights/bg-main.png') center top no-repeat;
         padding-top: 60px;
 
+        @media(max-width: 580px) {
+            background-position-y: -10%;
+        }
+
         &:after {
             content: '';
             display: block;
@@ -51,12 +55,13 @@ body.page-template-gated-insights {
         }
 
         .main-content-wrapper {
-            width: 57%;
+            width: 62.5%;
             float: left;
-            margin-right: 100px;
+            margin-right: 40px;
+            margin-top: 5%;
 
             @media(max-width: 991px) {
-                margin-right: 50px;
+                margin-right: 25px;
             }
 
             @media(max-width: 767px) {
@@ -69,7 +74,8 @@ body.page-template-gated-insights {
             }
 
             ul, ol {
-                list-style-position: inside;
+                list-style-position: outside;
+                padding-left: 1em;
             }
 
             h1, h2, h3, h4, h5, h6 {
@@ -78,6 +84,7 @@ body.page-template-gated-insights {
 
             .main-content {
                 padding-left: 30px;
+                margin-top: 5%;
 
                 @media(max-width: 767px) {
                     padding: 0;
@@ -86,13 +93,14 @@ body.page-template-gated-insights {
         }
 
         aside {
-            width: calc(100% - 57% - 100px);
+            width: calc(100% - 62.5% - 40px);
             float: left;
             max-width: 300px;
+            margin-top: 5%;
 
             @media(max-width: 991px) {
                 padding-right: 25px;
-                width: calc(100% - 57% - 50px);
+                width: calc(100% - 62.5% - 25px);
             }
 
             @media(max-width: 767px) {
@@ -105,19 +113,23 @@ body.page-template-gated-insights {
                 font-size: 3.1rem;
                 margin-top: 0;
                 padding: 0;
-                line-height: 1.4;
+                line-height: 1.1;
+            }
+
+            > p {
+                margin-bottom: 15px;
             }
 
             //style forms
             form {
                 input {
-                    font-size: 1.6rem;
+                    font-size: 1.4rem;
                     width: 100%;
                     border: 1px solid $blue; /* #07074e*/
                     border-radius: 2px;
                     padding: 2px 6px;
                     box-shadow: 2px 2px 0 #BB969A;
-                    margin-bottom: 15px;
+                    margin-bottom: 10px;
                     background: #fff; /* Old browsers */
                     background: linear-gradient(to bottom, #edf0f9 0%, #fff 40%, #fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf0f9', endColorstr='#ffffff', GradientType=0); /* IE6-9 */
@@ -126,7 +138,7 @@ body.page-template-gated-insights {
                 input[type="submit"], button, input[type="button"] {
                     width: 100%;
                     border: 5px solid #910811;
-                    padding: 9px;
+                    padding: 5px;
                     background: #910811;
                     box-shadow: 1px 2px 3px rgba(7, 7, 78, .2);
                     border-radius: 2px;

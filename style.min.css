@@ -2491,15 +2491,16 @@ body.page-template-gated-insights footer .main-footer{display:none !important}
 body.page-template-gated-insights footer .sub-footer{border-top-width:25px}
 body.page-template-gated-insights .main-wrapper{background:url("./assets/img/gated-insights/bg-main.png") center top no-repeat;padding-top:60px}
 body.page-template-gated-insights .main-wrapper:after{content:'';display:block;clear:both}
-body.page-template-gated-insights .main-wrapper .main-content-wrapper{width:57%;float:left;margin-right:100px}
+body.page-template-gated-insights .main-wrapper .main-content-wrapper{width:62.5%;float:left;margin-right:40px;margin-top:5%}
 body.page-template-gated-insights .main-wrapper .main-content-wrapper p,body.page-template-gated-insights .main-wrapper .main-content-wrapper ul,body.page-template-gated-insights .main-wrapper .main-content-wrapper ol{font-size:1.6rem}
-body.page-template-gated-insights .main-wrapper .main-content-wrapper ul,body.page-template-gated-insights .main-wrapper .main-content-wrapper ol{list-style-position:inside}
+body.page-template-gated-insights .main-wrapper .main-content-wrapper ul,body.page-template-gated-insights .main-wrapper .main-content-wrapper ol{list-style-position:outside;padding-left:1em}
 body.page-template-gated-insights .main-wrapper .main-content-wrapper h1,body.page-template-gated-insights .main-wrapper .main-content-wrapper h2,body.page-template-gated-insights .main-wrapper .main-content-wrapper h3,body.page-template-gated-insights .main-wrapper .main-content-wrapper h4,body.page-template-gated-insights .main-wrapper .main-content-wrapper h5,body.page-template-gated-insights .main-wrapper .main-content-wrapper h6{font-weight:normal}
-body.page-template-gated-insights .main-wrapper .main-content-wrapper .main-content{padding-left:30px}
-body.page-template-gated-insights .main-wrapper aside{width:calc(100% - 57% - 100px);float:left;max-width:300px}
-body.page-template-gated-insights .main-wrapper aside h2{font-size:3.1rem;margin-top:0;padding:0;line-height:1.4}
-body.page-template-gated-insights .main-wrapper aside form input{font-size:1.6rem;width:100%;border:1px solid #07074e;border-radius:2px;padding:2px 6px;box-shadow:2px 2px 0 #bb969a;margin-bottom:15px;background:#fff;background:-webkit-linear-gradient(top,#edf0f9 0,#fff 40%,#fff 100%);background:linear-gradient(to bottom,#edf0f9 0,#fff 40%,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf0f9',endColorstr='#ffffff',GradientType=0)}
-body.page-template-gated-insights .main-wrapper aside form input[type="submit"],body.page-template-gated-insights .main-wrapper aside form button,body.page-template-gated-insights .main-wrapper aside form input[type="button"]{width:100%;border:5px solid #910811;padding:9px;background:#910811;box-shadow:1px 2px 3px rgba(7,7,78,0.2);border-radius:2px;color:#FFF}
+body.page-template-gated-insights .main-wrapper .main-content-wrapper .main-content{padding-left:30px;margin-top:5%}
+body.page-template-gated-insights .main-wrapper aside{width:calc(100% - 62.5% - 40px);float:left;max-width:300px;margin-top:5%}
+body.page-template-gated-insights .main-wrapper aside h2{font-size:3.1rem;margin-top:0;padding:0;line-height:1.1}
+body.page-template-gated-insights .main-wrapper aside>p{margin-bottom:15px}
+body.page-template-gated-insights .main-wrapper aside form input{font-size:1.4rem;width:100%;border:1px solid #07074e;border-radius:2px;padding:2px 6px;box-shadow:2px 2px 0 #bb969a;margin-bottom:10px;background:#fff;background:-webkit-linear-gradient(top,#edf0f9 0,#fff 40%,#fff 100%);background:linear-gradient(to bottom,#edf0f9 0,#fff 40%,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf0f9',endColorstr='#ffffff',GradientType=0)}
+body.page-template-gated-insights .main-wrapper aside form input[type="submit"],body.page-template-gated-insights .main-wrapper aside form button,body.page-template-gated-insights .main-wrapper aside form input[type="button"]{width:100%;border:5px solid #910811;padding:5px;background:#910811;box-shadow:1px 2px 3px rgba(7,7,78,0.2);border-radius:2px;color:#FFF}
 body.page-template-gated-insights .main-wrapper aside form input[type="submit"]:hover,body.page-template-gated-insights .main-wrapper aside form button:hover,body.page-template-gated-insights .main-wrapper aside form input[type="button"]:hover{background:#fff;color:#910811}
 @media screen{[hidden~="screen"]{display:inherit}
 [hidden~="screen"]:not(:active):not(:focus):not(:target){clip:rect(0 0 0 0) !important;position:absolute !important}
@@ -2835,6 +2836,9 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 #panel-management .analyze{margin-top:20% !important}
 }@media only screen and (max-width:1024px){#hero .front{top:18%;font-size:17rem}
 #hero .back{top:26%;font-size:5rem}
+}@media(max-width:991px){.gated-confirmation-page .triangle-ramp{padding-top:100px !important}
+body.page-template-gated-insights .main-wrapper .main-content-wrapper{margin-right:25px}
+body.page-template-gated-insights .main-wrapper aside{padding-right:25px;width:calc(100% - 62.5% - 25px)}
 }@media only screen and (max-width:991px){.navbar-default .navbar-nav>li>a.button{padding:7px 6px !important}
 .bottom-row{background-size:130%}
 .blank{height:400px;top:-500px;margin-bottom:-800px;width:80%;left:10%}
@@ -2843,9 +2847,6 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 #hero .front{font-size:16rem}
 .page-template-aboutus #team-left .profile-image{margin-left:-47%}
 .page-template-aboutus #team-left .hexagon{margin-left:-62%}
-}@media(max-width:991px){.gated-confirmation-page .triangle-ramp{padding-top:100px !important}
-body.page-template-gated-insights .main-wrapper .main-content-wrapper{margin-right:50px}
-body.page-template-gated-insights .main-wrapper aside{padding-right:25px;width:calc(100% - 57% - 50px)}
 }@media(max-width:860px){#hero_solutions{margin-top:40px}
 #hero_solutions .front{font-size:33vw}
 #hero_solutions .back{font-size:13vw}
@@ -3249,6 +3250,7 @@ body.page-template-gated-insights .main-wrapper aside{width:100%;max-width:none;
 }@media only screen and (max-width:660px){#hero .front{display:none}
 #hero .back{top:16%}
 }@media(max-width:600px){.author-header .author-header-copy{background-position-x:40vw}
+}@media(max-width:580px){body.page-template-gated-insights .main-wrapper{background-position-y:-10%}
 }@media(max-width:569px){#blog-filters .slick-slider .slick-slide>a{font-size:21px}
 }@media(max-width:440px){.author-header .author-header-copy{background-size:cover;background-position-x:20vw}
 }@media(max-width:419px){#blog-filters .nav li{text-align:center}
