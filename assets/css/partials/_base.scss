@@ -89,7 +89,7 @@ body {
     }
 
     #btn-wrapper {
-        .request-toggle {
+        .js--toggle-appointment-modal {
             visibility: visible !important;
 
             @media(max-width: 767px) {

@@ -28,10 +28,14 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                     </div>
                     <div class="center">
                         <h1>Create Better</h1>
-                        <a href="#" class="button button--white request-toggle" style="padding-top:100px">Request
-                            Demo</a>
-                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
+                        <a href="#" class="button button--white js--toggle-appointment-modal" style="padding-top:100px"
+                           data-toggle="modal" data-target="#appointment-calendar">
+                            Request Demo
+                        </a>
+                        <a href="#" class="down-chevron">
+                            <img style="width:30px;height:30px;"
+                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="slide-header">
@@ -41,9 +45,12 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                     </div>
                     <div class="center">
                         <h1>More Profitable</h1>
-                        <a href="#" class="button button--white request-toggle">Request Demo</a>
-                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
+                        <a href="#" class="button button--white js--toggle-appointment-modal" data-toggle="modal"
+                           data-target="#appointment-calendar">Request Demo</a>
+                        <a href="#" class="down-chevron">
+                            <img style="width:30px;height:30px;"
+                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="slide-header">
@@ -53,9 +60,12 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                     </div>
                     <div class="center">
                         <h1>Customer Experiences</h1>
-                        <a href="#" class="button button--white request-toggle">Request Demo</a>
-                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
+                        <a href="#" class="button button--white js--toggle-appointment-modal" data-toggle="modal"
+                           data-target="#appointment-calendar">Request Demo</a>
+                        <a href="#" class="down-chevron">
+                            <img style="width:30px;height:30px;"
+                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="slide-header">
@@ -65,9 +75,12 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                     </div>
                     <div class="center">
                         <h1>with Truthlab</h1>
-                        <a href="#" class="button button--white request-toggle">Request Demo</a>
-                        <a href="#" class="down-chevron"><img style="width:30px;height:30px;"
-                                                              src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/></a>
+                        <a href="#" class="button button--white js--toggle-appointment-modal" data-toggle="modal"
+                           data-target="#appointment-calendar">Request Demo</a>
+                        <a href="#" class="down-chevron">
+                            <img style="width:30px;height:30px;"
+                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
+                        </a>
                     </div>
                 </div>
             </div>

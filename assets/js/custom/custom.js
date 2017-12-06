@@ -93,9 +93,9 @@ function nextSlide() {
         jQuery('.slider .active').removeClass('active');
         jQuery('.slide-header:nth-child(1)').addClass('active');
     }
-    var $visible = jQuery('#curtain-slider .slider .active .request-toggle').css('visibility', 'hidden');
+    var $visible = jQuery('#curtain-slider .slider .active .js--toggle-appointment-modal').css('visibility', 'hidden');
     jQuery('#btn-wrapper').html($visible.clone());
-    var $static = jQuery('#btn-wrapper').find('.request-toggle');
+    var $static = jQuery('#btn-wrapper').find('.js--toggle-appointment-modal');
     $static.css({
         'position': 'absolute',
         'z-index': '999',
