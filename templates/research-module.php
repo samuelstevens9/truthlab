@@ -5,22 +5,6 @@
 
 get_header(); ?>
 
-    <div id="appointment-calendar" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title">Schedule A Demo</h4>
-                </div>
-                <div class="modal-body">
-					<?php echo do_shortcode( '[booked-calendar calendar=12]' ); ?>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
     <section class="hero-cta"
              style="background-image: url('<?= get_stylesheet_directory_uri() . '/assets/img/research-module/hero-bg.png'; ?>')">
         <video poster="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/hero-bg.png'; ?>"
@@ -228,10 +212,6 @@ get_header(); ?>
             $(window).on('resize', function () {
                 $('body').css('padding-bottom', $('section.cta-demo').outerHeight());
             }).trigger('resize');
-
-            $('#appointment-calendar').on('shown.bs.modal', function () {
-                $(window).trigger('resize');
-            });
 
             var controller = new ScrollMagic.Controller();
             var blockTween = new TweenMax.from('#quote-arrows', 1, {

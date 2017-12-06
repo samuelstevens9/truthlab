@@ -325,4 +325,8 @@ jQuery(document).ready(function ($) {
         $('.product-demo__slider').slick('slickGoTo', $(this).index());
     });
 
+    $('#appointment-calendar').on('shown.bs.modal', function () {
+        $(window).trigger('resize');
+    });
+
 });

@@ -51,7 +51,7 @@ if ( is_the_blog() ) {
 
 <body <?php body_class( $body_classes ); ?>>
 
-<?php if ( is_page_template( 'templates/research-module.php' ) ) { ?>
+<?php if ( is_page_template( 'templates/research-module.php' ) || ! is_the_blog() ) { ?>
     <a class="request-dropdown-mobile" data-toggle="modal" data-target="#appointment-calendar"
        style="z-index:5555;">
         Schedule Demo
@@ -60,9 +60,7 @@ if ( is_the_blog() ) {
 <?php } else { ?>
     <!-- Fixed navbar -->
     <a class="request-dropdown-mobile request-toggle" style="z-index:5555;">
-		<?php
-		echo is_the_blog() ? 'Subscribe' : 'Request a Demo';
-		?>
+        Subscribe
         <i class="fa fa-angle-right" aria-hidden="true"></i>
     </a>
 <?php } ?>
@@ -101,9 +99,6 @@ if ( is_the_blog() ) {
 				<?php if ( strpos( $_SERVER[ 'REQUEST_URI' ], 'blog' ) !== FALSE ): ?>
                     <li class="request-toggle"><a href="#" class="button button--red">Subscribe to Blog</a></li>
 				<?php else: ?>
-                    <li class="request-toggle"><a href="#" class="button button--red">Request a Demo</a></li>
-				<?php endif; ?>
-				<?php if ( is_page_template( 'templates/research-module.php' ) ) : ?>
                     <li class="request-appointment">
                         <a href="#" class="button button--red" data-toggle="modal" data-target="#appointment-calendar">
                             Schedule Demo
@@ -219,3 +214,6 @@ if ( is_the_blog() ) {
         <i class="fa fa-times-circle" aria-hidden="true"></i>
     </a>
 </div>
+
+<?php
+get_template_part( 'partials/appointment-modal' );
