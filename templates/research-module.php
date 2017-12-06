@@ -134,6 +134,10 @@ get_header(); ?>
         <div class="ellipsis-2"></div>
         <div class="ellipsis-3"></div>
         <div class="ellipsis-4"></div>
+        <div class="bg-bottom"></div>
+        <div class="bg-top"></div>
+        <div id="quote-arrows" class="bg-arrows"></div>
+
         <div class="content-wrapper">
             <div class="quote-text">
                 <h2>89%</h2>
@@ -228,6 +232,18 @@ get_header(); ?>
             $('#appointment-calendar').on('shown.bs.modal', function () {
                 $(window).trigger('resize');
             });
+
+            var controller = new ScrollMagic.Controller();
+            var blockTween = new TweenMax.from('#quote-arrows', 1, {
+                backgroundPositionY: '150%, 153%, 142%, 130%, 134%, 136%, 131%, 136%, 127%, 120%, 114%, 117%, 133%'
+            });
+            var containerScene = new ScrollMagic.Scene({
+                triggerElement: '#quote-arrows',
+                duration: 500,
+                offset: -50
+            })
+                .setTween(blockTween)
+                .addTo(controller);
         });
     </script>
 <?php
