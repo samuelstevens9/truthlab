@@ -3,9 +3,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 338 338" style="enable-background:new 0 0 338 338;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.5;fill:none;stroke:url(#SVGID_1_);stroke-width:8;stroke-miterlimit:10;}
+	.st0{opacity:0.25;fill:none;stroke:url(#SVGID_1_);stroke-width:8;stroke-miterlimit:10;enable-background:new    ;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="107.0498" y1="325.8072" x2="232.9502" y2="14.1928" gradientTransform="matrix(1 0 0 -1 0 340)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="107.0498" y1="114.1928" x2="232.9502" y2="425.8072" gradientTransform="matrix(1 0 0 1 0 -100)">
 	<stop  offset="0" style="stop-color:#D9DCEB"/>
 	<stop  offset="1" style="stop-color:#EDF0F9;stop-opacity:0"/>
 </linearGradient>

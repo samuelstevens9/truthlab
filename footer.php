@@ -229,7 +229,8 @@ if ( is_the_blog() ) {
         easing: 'ease-out-back',
         duration: 1500,
         once: true,
-        offset: 200
+        offset: 200,
+        disable: 'mobile'
     });
 </script>
 </body>

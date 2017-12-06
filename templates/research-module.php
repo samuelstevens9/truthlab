@@ -5,12 +5,6 @@
 
 get_header(); ?>
 
-    <section class="cta-demo">
-        <div class="container-fluid">
-            <a href="#" data-toggle="modal" data-target="#appointment-calendar">Schedule Demo</a>
-        </div>
-    </section>
-
     <div id="appointment-calendar" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -54,9 +48,14 @@ get_header(); ?>
             </div>
         </div>
     </section>
+    <section class="cta-demo">
+        <div class="container-fluid">
+            <a href="#" data-toggle="modal" data-target="#appointment-calendar">Schedule Demo</a>
+        </div>
+    </section>
 
     <section class="page-about">
-        <div class="content-wrapper" data-aos="fade-up">
+        <div class="content-wrapper container" data-aos="fade-up">
             <h2 class="red">Truthlab Research Module</h2>
             <p class="red sub-header">Automatically Extract Insights and Act Upon Them</p>
             <p>The Truthlab Research Module enables your team to begin immediately receiving actionable insights from
@@ -71,7 +70,7 @@ get_header(); ?>
         <div class="ellipsis-3"></div>
         <div class="ellipsis-4"></div>
 
-        <div class="container-fluid">
+        <div class="container">
             <ul class="product-demo__slider-pages">
                 <li class="active">Panel</li>
                 <li>Research</li>
@@ -82,7 +81,7 @@ get_header(); ?>
                     <div class="visible-xs-block">
                         <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/panel_mac.png' ?>">
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-5" data-aos="fade-right">
                         <h3>Panel</h3>
                         <p>Manage your own participants</p>
                         <p>Filter panelists and create static or smart lists</p>
@@ -91,7 +90,7 @@ get_header(); ?>
                         <p>Easy onboarding of any tester including employees or contractors either by name or leveraging
                             existing collaboration tools (i.e., Slack, Yammer, Chatter)</p>
                     </div>
-                    <div class="col-sm-7 hidden-xs">
+                    <div class="col-sm-7 hidden-xs" data-aos="fade-left">
                         <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/panel_mac.png' ?>">
                     </div>
                 </div>
@@ -147,26 +146,26 @@ get_header(); ?>
     </section>
 
     <section class="why-us">
-        <div class="container-fluid">
+        <div class="container">
             <div class="content-wrapper text-center" data-aos="fade-up">
                 <h2 class="red">Why Truthlab?</h2>
                 <p class="red sub-header">We have a solution for every member of your team</p>
             </div>
             <div class="content-wrapper why-us__facts">
                 <div class="row">
-                    <div class="col-sm-4" data-aos="fade-right">
+                    <div class="col-sm-4" data-aos="fade-right" data-aos-delay="250">
                         <h3>UX/UI Researchers</h3>
                         <p>Insights at a fraction of the time and cost</p>
                         <p>Aggregated reporting to show success/ failure stats</p>
                         <p>Spend less time gathering data and more time making decisions</p>
                     </div>
-                    <div class="col-sm-4" data-aos="fade-up">
+                    <div class="col-sm-4" data-aos="fade-up" data-aos-delay="250">
                         <h3>UX Designers</h3>
                         <p>See clips of users interacting with your product</p>
                         <p>Quickly identify design pain points</p>
                         <p>Instantly share feedback with your team</p>
                     </div>
-                    <div class="col-sm-4" data-aos="fade-left">
+                    <div class="col-sm-4" data-aos="fade-left" data-aos-delay="250">
                         <h3>Product Managers</h3>
                         <p>On-demand insights keep you ahead of release cycles</p>
                         <p>Discover the ‘why’ behind your quantitative data</p>
@@ -183,7 +182,7 @@ get_header(); ?>
         <div class="ellipsis-3"></div>
         <div class="ellipsis-4"></div>
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="content-wrapper">
                 <h2>60%</h2>
                 <p>of your time can be saved by collecting and processing qualitative data with Truthlab.</p>
@@ -192,7 +191,7 @@ get_header(); ?>
     </section>
 
     <section class="testimonials">
-        <div class="container-fluid">
+        <div class="container">
             <div class="content-wrapper testimonials-wrapper">
                 <div class="testimonial" data-aos="fade-right">
                     <p>Truthlab’s UX research platform automatically creates highlight reels of my customer videos so I

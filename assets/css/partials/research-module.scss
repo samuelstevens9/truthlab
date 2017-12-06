@@ -1,6 +1,12 @@
 body.page-template-research-module {
     height: auto;
 
+    @media(min-width: 1590px) {
+        .container {
+            width: 1560px;
+        }
+    }
+
     @media(min-width: 768px) {
         padding-top: 0;
 
@@ -11,7 +17,7 @@ body.page-template-research-module {
     }
 
     #navbar {
-        .request-toggle {
+        .request-toggle:not(.request-appointment) {
             display: none;
         }
     }
@@ -19,6 +25,10 @@ body.page-template-research-module {
     .booked-calendar-wrap {
         height: auto !important;
         margin-bottom: 0;
+    }
+
+    #appointment-calendar {
+        z-index: 9999;
     }
 
     section {
@@ -52,11 +62,8 @@ body.page-template-research-module {
     section.cta-demo {
         background: #139FAC;
         box-shadow: 0 13px 3px #D8D8E3;
-        position: fixed;
-        bottom: 0;
-        left: 0;
         width: 100%;
-        z-index: 11;
+        margin-bottom: 50px;
 
         a {
             display: block;
@@ -79,7 +86,6 @@ body.page-template-research-module {
     section.hero-cta {
         background-size: cover;
         padding: 80px 0;
-        margin-bottom: 50px;
         position: relative;
         overflow: hidden;
 
@@ -196,10 +202,10 @@ body.page-template-research-module {
 
         .ellipsis-1 {
             background-image: url('./assets/img/research-module/ellipse1.svg');
-            width: 40%;
-            padding-bottom: 40%;
-            left: -4%;
-            top: 7%;
+            width: 36%;
+            padding-bottom: 36%;
+            left: -3%;
+            top: 8%;
 
             @media(min-width: 768px) {
                 animation: bg-ellipse-animate-1 10s infinite;
@@ -208,10 +214,10 @@ body.page-template-research-module {
 
         .ellipsis-2 {
             background-image: url('./assets/img/research-module/ellipse2.svg');
-            width: 32%;
-            padding-bottom: 32%;
+            width: 30%;
+            padding-bottom: 30%;
             left: 50%;
-            top: 26%;
+            top: 23%;
             transform: translateX(-50%);
 
             @media(min-width: 768px) {
@@ -221,9 +227,9 @@ body.page-template-research-module {
 
         .ellipsis-3 {
             background-image: url('./assets/img/research-module/ellipse3.svg');
-            width: 18%;
-            padding-bottom: 18%;
-            right: 6%;
+            width: 16%;
+            padding-bottom: 16%;
+            right: 9%;
             top: 8%;
 
             @media(min-width: 768px) {
@@ -233,10 +239,10 @@ body.page-template-research-module {
 
         .ellipsis-4 {
             background-image: url('./assets/img/research-module/ellipse4.svg');
-            width: 20%;
-            padding-bottom: 20%;
-            right: -8%;
-            top: -1%;
+            width: 18%;
+            padding-bottom: 18%;
+            right: -5%;
+            top: 1%;
 
             @media(min-width: 768px) {
                 animation: bg-ellipse-animate-1 12s infinite;
@@ -270,7 +276,7 @@ body.page-template-research-module {
         }
 
         .product-demo__slider {
-            max-width: 1540px;
+            max-width: 1560px;
             margin: 0 auto;
 
             .slick-slide {
@@ -370,11 +376,17 @@ body.page-template-research-module {
         }
 
         @keyframes rotate-ellipse {
-            from {
+            0% {
                 transform: rotate(0deg);
             }
-            to {
-                transform: rotate(359deg);
+            25% {
+                transform: rotate(-15deg);
+            }
+            75% {
+                transform: rotate(15deg);
+            }
+            100% {
+                transform: rotate(0deg);
             }
         }
 
@@ -391,34 +403,34 @@ body.page-template-research-module {
 
         .ellipsis-1 {
             background-image: url('./assets/img/research-module/ellipse-quote-1.svg');
-            width: 23%;
-            padding-bottom: 23%;
-            left: 44%;
-            top: 9%;
+            width: 28%;
+            padding-bottom: 28%;
+            left: 41%;
+            top: 3%;
         }
 
         .ellipsis-2 {
             background-image: url('./assets/img/research-module/ellipse-quote-2.svg');
-            width: 13%;
-            padding-bottom: 13%;
+            width: 17%;
+            padding-bottom: 17%;
             left: 49%;
-            top: 19%;
+            top: 11%;
         }
 
         .ellipsis-3 {
             background-image: url('./assets/img/research-module/ellipse-quote-3.svg');
-            width: 23%;
-            padding-bottom: 23%;
-            left: 55%;
-            top: 34%;
+            width: 26%;
+            padding-bottom: 26%;
+            left: 57%;
+            top: 33%;
         }
 
         .ellipsis-4 {
             background-image: url('./assets/img/research-module/ellipse-quote-4.svg');
-            width: 23%;
-            padding-bottom: 23%;
+            width: 26%;
+            padding-bottom: 26%;
             left: 62%;
-            top: 30%;
+            top: 25%;
         }
 
         .content-wrapper {
@@ -515,8 +527,11 @@ body.page-template-research-module {
 
             .row {
                 > div {
-                    padding: 0 50px;
                     margin-bottom: 25px;
+
+                    @media(min-width: 768px) {
+                        padding: 0 35px;
+                    }
 
                     @media(max-width: 767px) {
                         text-align: center;
@@ -569,26 +584,26 @@ body.page-template-research-module {
 
         .ellipsis-1 {
             background-image: url('./assets/img/research-module/ellipse-quote-1.svg');
-            width: 23%;
-            padding-bottom: 23%;
-            left: 5%;
+            width: 28%;
+            padding-bottom: 28%;
+            left: 2%;
             top: 9%;
         }
 
         .ellipsis-2 {
             background-image: url('./assets/img/research-module/ellipse-quote-2.svg');
-            width: 13%;
-            padding-bottom: 13%;
-            left: 10%;
-            top: 20%;
+            width: 18%;
+            padding-bottom: 18%;
+            left: 9%;
+            top: 18%;
         }
 
         .ellipsis-3 {
             background-image: url('./assets/img/research-module/ellipse-quote-3.svg');
-            width: 23%;
-            padding-bottom: 23%;
-            left: 16%;
-            top: 34%;
+            width: 27%;
+            padding-bottom: 27%;
+            left: 17%;
+            top: 24%;
 
             @media(max-width: 767px) {
                 display: none;
@@ -597,10 +612,10 @@ body.page-template-research-module {
 
         .ellipsis-4 {
             background-image: url('./assets/img/research-module/ellipse-quote-4.svg');
-            width: 23%;
-            padding-bottom: 23%;
-            left: 23%;
-            top: 30%;
+            width: 27%;
+            padding-bottom: 27%;
+            left: 25%;
+            top: 18%;
 
             @media(max-width: 767px) {
                 display: none;
@@ -652,14 +667,13 @@ body.page-template-research-module {
 
     section.testimonials {
         padding: 120px 0;
-        background: linear-gradient(to top, #EEEEEE 0%, #fff 100%);
+        background: linear-gradient(to top, #edf0f9 0%, #fff 100%);
 
         .content-wrapper {
 
         }
 
         .testimonials-wrapper {
-            max-width: 1520px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
