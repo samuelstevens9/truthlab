@@ -5825,7 +5825,7 @@ body.page-template-research-module section.why-us .why-us__facts p:last-of-type 
 
 body.page-template-research-module section.truth-fact { background-image: url("./assets/img/research-module/fact-bg.jpg"); background-size: cover; background-position: center center; padding: 180px 0; position: relative; }
 
-@media (max-width: 767px) { body.page-template-research-module section.truth-fact { background-image: url("./assets/img/research-module/fact-bg-m.jpg"); } }
+@media (max-width: 767px) { body.page-template-research-module section.truth-fact { background-image: url("./assets/img/research-module/fact-bg-m.png"); } }
 
 body.page-template-research-module section.truth-fact .ellipsis-1, body.page-template-research-module section.truth-fact .ellipsis-2, body.page-template-research-module section.truth-fact .ellipsis-3, body.page-template-research-module section.truth-fact .ellipsis-4 { background-repeat: no-repeat; position: absolute; -webkit-animation: rotate-ellipse 15s infinite linear; animation: rotate-ellipse 15s infinite linear; background-size: contain; z-index: 10; opacity: 0.6; }
 
