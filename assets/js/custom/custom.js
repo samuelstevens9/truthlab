@@ -311,10 +311,17 @@ jQuery(document).ready(function ($) {
 
     $('.product-demo__slider').slick({
         dots: true,
-        arrows: false
+        arrows: true
     }).on('beforeChange', function (event, slick, current_slide, next_slide) {
         $('.product-demo__slider-pages li').eq(next_slide).trigger('click');
     });
+
+    $(window).on('resize', function () {
+        var slider_height = $('section.product-demo .slider-container').outerHeight();
+        var menu_height = $('nav.navbar').position().top + $('nav.navbar').outerHeight();
+        var show_arrows = ($(this).outerHeight() - menu_height) < slider_height;
+        $('.product-demo__slider').toggleClass('hide-arrows', !show_arrows);
+    }).trigger('resize');
 
     $('.product-demo__slider-pages li').click(function (event) {
         event.preventDefault();

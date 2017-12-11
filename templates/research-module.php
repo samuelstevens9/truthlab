@@ -54,7 +54,7 @@ get_header(); ?>
         <div class="ellipsis-3"></div>
         <div class="ellipsis-4"></div>
 
-        <div class="container">
+        <div class="container slider-container">
             <ul class="product-demo__slider-pages">
                 <li class="active">Panel</li>
                 <li>Research</li>
@@ -195,6 +195,31 @@ get_header(); ?>
                     <p>Kevin Boodtama | Senior Designer</p>
                     <img class="testimonial__client-logo"
                          src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/grubhub-logo.png'; ?>">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" data-aos="slide-up" data-aos-offset="0">
+        <div class="container-fluid">
+            <div class="row row--padded cta__red">
+                <div class="col-xs-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h2>Create Better Customer Experiences</h2>
+                                <div class="white"></div>
+                                <p>Learn how Truthlab can help you track, measure and improve every aspect of your
+                                    customers’
+                                    journey.</p>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-4 text-right">
+                                <a href="#" class="button button--white" data-toggle="modal"
+                                   data-target="#appointment-calendar">Schedule Demo</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
