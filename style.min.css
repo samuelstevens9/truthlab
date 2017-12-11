@@ -2661,10 +2661,10 @@ input[type="date"].input-lg,input[type="time"].input-lg,input[type="datetime-loc
 #blog-posts .courses .course.col--seventh .thumbnail .caption .title .line{display:none}
 body.page-template-research-module{padding-top:0}
 body.page-template-research-module .navbar.navbar-fixed-top:not(.shrink){background-color:transparent;border-color:transparent}
-body.page-template-research-module section.product-demo .ellipsis-1{-webkit-animation:bg-ellipse-animate-1 10s infinite;animation:bg-ellipse-animate-1 10s infinite}
-body.page-template-research-module section.product-demo .ellipsis-2{-webkit-animation:bg-ellipse-animate-2 13s infinite;animation:bg-ellipse-animate-2 13s infinite}
-body.page-template-research-module section.product-demo .ellipsis-3{-webkit-animation:bg-ellipse-animate-1 7s infinite;animation:bg-ellipse-animate-1 7s infinite}
-body.page-template-research-module section.product-demo .ellipsis-4{-webkit-animation:bg-ellipse-animate-1 12s infinite;animation:bg-ellipse-animate-1 12s infinite}
+body.page-template-research-module section.product-demo .ellipsis-1{-webkit-animation:bg-ellipse-animate-1 30s infinite;animation:bg-ellipse-animate-1 30s infinite}
+body.page-template-research-module section.product-demo .ellipsis-2{-webkit-animation:bg-ellipse-animate-2 39s infinite;animation:bg-ellipse-animate-2 39s infinite}
+body.page-template-research-module section.product-demo .ellipsis-3{-webkit-animation:bg-ellipse-animate-1 21s infinite;animation:bg-ellipse-animate-1 21s infinite}
+body.page-template-research-module section.product-demo .ellipsis-4{-webkit-animation:bg-ellipse-animate-1 36s infinite;animation:bg-ellipse-animate-1 36s infinite}
 body.page-template-research-module section.why-us .why-us__facts .row>div{padding:0 35px}
 }@media(min-width:768px) and (min-width:768px) and (max-width:991px){#blog-posts .courses .course.col--seventh .thumbnail .caption .title h2{font-size:32px}
 #blog-posts .courses .course.col--seventh .thumbnail .caption .title h2:after{font-size:28px}
