@@ -23,16 +23,15 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
             <div class="slider">
                 <div class="slide-header active">
                     <div class="panel">
-                        <div class="top" data-back="BETTER"></div>
-                        <div class="bottom" data-back="BETTER"></div>
+                        <div class="top" data-back="PANEL"></div>
+                        <div class="bottom" data-back="PANEL"></div>
                     </div>
                     <div class="center">
-                        <h1>Create Better</h1>
-                        <a href="#" class="button button--white js--toggle-appointment-modal" style="padding-top:100px"
-                           data-toggle="modal" data-target="#appointment-calendar">
-                            Request Demo
+                        <h1 style="font-size: 10vh !important;">Build Your Panel</h1>
+                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
+                            Learn more
                         </a>
-                        <a href="#" class="down-chevron">
+                        <a href="http://truthlab.com/research-module/" class="down-chevron">
                             <img style="width:30px;height:30px;"
                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
                         </a>
@@ -40,14 +39,15 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 </div>
                 <div class="slide-header">
                     <div class="panel">
-                        <div class="top" data-back="PROFITABLE"></div>
-                        <div class="bottom" data-back="PROFITABLE"></div>
+                        <div class="top" data-back="CAPTURE"></div>
+                        <div class="bottom" data-back="CAPTURE"></div>
                     </div>
                     <div class="center">
-                        <h1>More Profitable</h1>
-                        <a href="#" class="button button--white js--toggle-appointment-modal" data-toggle="modal"
-                           data-target="#appointment-calendar">Request Demo</a>
-                        <a href="#" class="down-chevron">
+                        <h1 style="font-size: 6vh !important;" >Capture Customer Experiences</h1>
+                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
+                            Learn more
+                        </a>
+                        <a href="http://truthlab.com/research-module/" class="down-chevron">
                             <img style="width:30px;height:30px;"
                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
                         </a>
@@ -55,14 +55,31 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 </div>
                 <div class="slide-header">
                     <div class="panel">
-                        <div class="top" data-back="EXPERIENCES"></div>
-                        <div class="bottom" data-back="EXPERIENCES"></div>
+                        <div class="top" data-back="DRIVE"></div>
+                        <div class="bottom" data-back="DRIVE"></div>
                     </div>
                     <div class="center">
-                        <h1>Customer Experiences</h1>
-                        <a href="#" class="button button--white js--toggle-appointment-modal" data-toggle="modal"
-                           data-target="#appointment-calendar">Request Demo</a>
-                        <a href="#" class="down-chevron">
+                        <h1 style="font-size: 6vh !important;">Drive Deeper Collaboration</h1>
+                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
+                            Learn more
+                        </a>
+                        <a href="http://truthlab.com/research-module/" class="down-chevron">
+                            <img style="width:30px;height:30px;"
+                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-header">
+                    <div class="panel">
+                        <div class="top" data-back="VISIBILITY"></div>
+                        <div class="bottom" data-back="VISIBILITY"></div>
+                    </div>
+                    <div class="center">
+                        <h1 style="font-size: 10vh !important;">Boost UX Visibility</h1>
+                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
+                            Learn more
+                        </a>
+                        <a href="http://truthlab.com/research-module/" class="down-chevron">
                             <img style="width:30px;height:30px;"
                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
                         </a>
@@ -74,10 +91,11 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                         <div class="bottom" data-back="TRUTHLAB"></div>
                     </div>
                     <div class="center">
-                        <h1>with Truthlab</h1>
-                        <a href="#" class="button button--white js--toggle-appointment-modal" data-toggle="modal"
-                           data-target="#appointment-calendar">Request Demo</a>
-                        <a href="#" class="down-chevron">
+                        <h1 style="font-size: 10vh !important;">with Truthlab</h1>
+                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
+                            Learn more
+                        </a>
+                        <a href="http://truthlab.com/research-module/" class="down-chevron">
                             <img style="width:30px;height:30px;"
                                  src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
                         </a>
