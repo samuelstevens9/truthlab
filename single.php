@@ -8,18 +8,26 @@
  */
 
 get_header( 'single' ); ?>
-
+<!-- single.php -->
     <div id="primary" class="container single-post">
         <main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+                    <?php 
+                    if(function_exists('has_post_video') && has_post_video()){
+                      echo '<div class="videoWrapper">';
+                        the_post_video( array(1110,624) );
+                        echo '</div><br />';
+                    }else{
+                    ?>
                     <div class="section slider-header">
 						<?= do_shortcode( '[rev_slider alias="single-blog-post"]' ); ?>
                     </div>
-
+                    <?php 
+                  } //end else not has_post_video
+                    ?>
                     <div class="twitter twitter-desktop">
                         <h2>Top Takeaways</h2>
                         <img class="twitter-dropdown"

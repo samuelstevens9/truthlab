@@ -2517,6 +2517,8 @@ body.page-template-gated-insights .main-wrapper aside>p{margin-bottom:15px}
 body.page-template-gated-insights .main-wrapper aside form input{font-size:1.4rem;width:100%;border:1px solid #07074e;border-radius:2px;padding:2px 6px;box-shadow:2px 2px 0 #bb969a;margin-bottom:10px;background:#fff;background:-webkit-linear-gradient(top,#edf0f9 0,#fff 40%,#fff 100%);background:linear-gradient(to bottom,#edf0f9 0,#fff 40%,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf0f9',endColorstr='#ffffff',GradientType=0)}
 body.page-template-gated-insights .main-wrapper aside form input[type="submit"],body.page-template-gated-insights .main-wrapper aside form button,body.page-template-gated-insights .main-wrapper aside form input[type="button"]{width:100%;border:5px solid #910811;padding:5px;background:#910811;box-shadow:1px 2px 3px rgba(7,7,78,0.2);border-radius:2px;color:#FFF}
 body.page-template-gated-insights .main-wrapper aside form input[type="submit"]:hover,body.page-template-gated-insights .main-wrapper aside form button:hover,body.page-template-gated-insights .main-wrapper aside form input[type="button"]:hover{background:#fff;color:#910811}
+.videoWrapper{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}
+.videoWrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 @media screen{[hidden~="screen"]{display:inherit}
 [hidden~="screen"]:not(:active):not(:focus):not(:target){clip:rect(0 0 0 0) !important;position:absolute !important}
 }@media screen and (-webkit-min-device-pixel-ratio:0){input[type="date"].form-control,input[type="time"].form-control,input[type="datetime-local"].form-control,input[type="month"].form-control{line-height:34px}
