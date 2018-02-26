@@ -14,7 +14,7 @@ if ( is_author() ) {
 }
 
 get_header(); ?>
-<!-- index.php -->
+
     <div id="primary" class="container">
         <main id="main" class="site-main" role="main">
 			<?php if ( $the_author ): ?>

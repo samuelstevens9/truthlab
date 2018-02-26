@@ -360,7 +360,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 </div>
                 <div class="col-md-6 col-md-pull-6 copy">
                     <h3>We Provide Amazing Customer Experiences</h3>
-                    <p>Out most important and guiding principal, providing amaszing customer experiences.</p>
+                    <p>Our most important and guiding principal is providing amazing customer experiences.</p>
                 </div>
 
             </div>
@@ -368,7 +368,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 <div class="col-md-6 great-product"></div>
                 <div class="col-md-6 copy">
                     <h3>We Build Great Product</h3>
-                    <p>We build with a roadmap because we hold each other accountable.</p>
+                    <p>We build product on a defined roadmap and hold each other accountable.</p>
                 </div>
             </div>
             <div class="row" style="padding:0px;">

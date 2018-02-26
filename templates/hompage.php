@@ -23,8 +23,8 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
             <div class="slider">
                 <div class="slide-header active">
                     <div class="panel">
-                        <div class="top" data-back="PANEL"></div>
-                        <div class="bottom" data-back="PANEL"></div>
+                        <div class="top" data-back="BUILD"></div>
+                        <div class="bottom" data-back="BUILD"></div>
                     </div>
                     <div class="center">
                         <h1 style="font-size: 10vh !important;">Build Your Panel</h1>
