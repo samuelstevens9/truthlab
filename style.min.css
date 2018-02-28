@@ -1912,6 +1912,8 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 #back-to-top:hover{background-image:url("./assets/img/totop-white.svg"),none}
 .page-overview .page-overview__wrapper{max-width:600px;margin:0 auto}
 #appointment-calendar{z-index:9999}
+.videoWrapper{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}
+.videoWrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 *,*:after,*:before{box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
 html{font-size:62.5%;height:100%;min-height:100%}
 body{font-family:'PT Sans Narrow',sans-serif;font:400 11px/1.4 sans-serif;margin:0;height:100%;min-height:100%}
@@ -2517,8 +2519,6 @@ body.page-template-gated-insights .main-wrapper aside>p{margin-bottom:15px}
 body.page-template-gated-insights .main-wrapper aside form input{font-size:1.4rem;width:100%;border:1px solid #07074e;border-radius:2px;padding:2px 6px;box-shadow:2px 2px 0 #bb969a;margin-bottom:10px;background:#fff;background:-webkit-linear-gradient(top,#edf0f9 0,#fff 40%,#fff 100%);background:linear-gradient(to bottom,#edf0f9 0,#fff 40%,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf0f9',endColorstr='#ffffff',GradientType=0)}
 body.page-template-gated-insights .main-wrapper aside form input[type="submit"],body.page-template-gated-insights .main-wrapper aside form button,body.page-template-gated-insights .main-wrapper aside form input[type="button"]{width:100%;border:5px solid #910811;padding:5px;background:#910811;box-shadow:1px 2px 3px rgba(7,7,78,0.2);border-radius:2px;color:#FFF}
 body.page-template-gated-insights .main-wrapper aside form input[type="submit"]:hover,body.page-template-gated-insights .main-wrapper aside form button:hover,body.page-template-gated-insights .main-wrapper aside form input[type="button"]:hover{background:#fff;color:#910811}
-.videoWrapper{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}
-.videoWrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 @media screen{[hidden~="screen"]{display:inherit}
 [hidden~="screen"]:not(:active):not(:focus):not(:target){clip:rect(0 0 0 0) !important;position:absolute !important}
 }@media screen and (-webkit-min-device-pixel-ratio:0){input[type="date"].form-control,input[type="time"].form-control,input[type="datetime-local"].form-control,input[type="month"].form-control{line-height:34px}
@@ -3111,6 +3111,7 @@ body.page-template-gated-insights .main-wrapper aside{width:100%;max-width:none;
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:white}
 .navbar{top:55px}
 .navbar-default .navbar-nav>li.request-toggle{display:none}
+.videoWrapper{margin-top:71px}
 .mobile-footer{display:block;padding:0}
 .mobile-footer a:hover{text-decoration:none}
 .mobile-footer .accordion-toggle:hover{text-decoration:none;color:#910811}
