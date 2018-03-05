@@ -6,6 +6,10 @@
  * @since 1.0.0
  */
 
+function getViewportWidth() {
+    return Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+}
+
 /* Minimize navigation */
 jQuery(window).scroll(function () {
     if (jQuery(document).scrollTop() > 50) {
@@ -37,11 +41,6 @@ jQuery(document).ready(function ($) {
         event.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
     });
-
-
-    function getViewportWidth() {
-        return Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    }
 
     if (getViewportWidth() < 768) {
         var $slick_slider = $('#blog-filters').find('ul.nav.navbar-nav');
@@ -82,26 +81,6 @@ jQuery(document).ready(function ($) {
 
 function isOverflown(element) {
     return element.scrollHeight - 6 > element.clientHeight || element.scrollWidth > element.clientWidth;
-}
-
-/* Hero Slider */
-function nextSlide() {
-    if (jQuery('.active + .slide-header').length > 0) {
-        jQuery('.active + .slide-header').addClass('active');
-        jQuery(jQuery('.slider .active')[0]).removeClass('active');
-    } else {
-        jQuery('.slider .active').removeClass('active');
-        jQuery('.slide-header:nth-child(1)').addClass('active');
-    }
-    var $visible = jQuery('#curtain-slider .slider .active .js--toggle-appointment-modal').css('visibility', 'hidden');
-    jQuery('#btn-wrapper').html($visible.clone());
-    var $static = jQuery('#btn-wrapper').find('.js--toggle-appointment-modal');
-    $static.css({
-        'position': 'absolute',
-        'z-index': '999',
-        'left': $visible.offset().left,
-        'top': $visible.offset().top
-    });
 }
 
 jQuery(document).ready(function ($) {
@@ -297,17 +276,19 @@ jQuery(document).ready(function ($) {
         });
     }, 50);
 
-    var controller = new ScrollMagic.Controller();
-    var blockTween = new TweenMax.from('#vector-lines', 1, {
-        backgroundPositionY: '690%, -610%'
-    });
-    var containerScene = new ScrollMagic.Scene({
-        triggerElement: '#vector-lines',
-        duration: 500,
-        offset: -50
-    })
-        .setTween(blockTween)
-        .addTo(controller);
+    if (getViewportWidth() >= 768) {
+        var controller = new ScrollMagic.Controller();
+        var blockTween = new TweenMax.from('#vector-lines', 1, {
+            backgroundPositionY: '690%, -610%'
+        });
+        var containerScene = new ScrollMagic.Scene({
+            triggerElement: '#vector-lines',
+            duration: 500,
+            offset: -50
+        })
+            .setTween(blockTween)
+            .addTo(controller);
+    }
 
     $('.product-demo__slider').slick({
         dots: true,

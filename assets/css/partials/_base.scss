@@ -80,27 +80,6 @@ body {
     flex-direction: row;
 }
 
-#curtain-slider {
-    height: 800px;
-    height: 70vh;
-
-    @media(min-width: 768px) {
-        height: 90vh;
-    }
-
-    #btn-wrapper {
-        .js--toggle-appointment-modal {
-            visibility: visible !important;
-
-            @media(max-width: 767px) {
-                &:after {
-                    display: none;
-                }
-            }
-        }
-    }
-}
-
 .round {
     border-radius: 50%;
     border: 1px solid $blue;

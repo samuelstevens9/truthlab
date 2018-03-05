@@ -7,106 +7,44 @@
  */
 
 get_header();
-$user_agent = $_SERVER[ 'HTTP_USER_AGENT' ];
-$is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', $user_agent );
 ?>
-<?php if ( $is_ie ): ?>
-    <section id="simple-home-hero">
-        <div class="">
-			<?php echo do_shortcode( '[rev_slider alias="home_page"]' ); ?>
-        </div>
-    </section>
-<?php else: ?>
-    <section id="curtain-slider">
-        <div id="slider-wrapper">
-            <div id="btn-wrapper"></div>
-            <div class="slider">
-                <div class="slide-header active">
-                    <div class="panel">
-                        <div class="top" data-back="BUILD"></div>
-                        <div class="bottom" data-back="BUILD"></div>
-                    </div>
-                    <div class="center">
-                        <h1 style="font-size: 10vh !important;">Build Your Panel</h1>
-                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
-                            Learn more
-                        </a>
-                        <a href="http://truthlab.com/research-module/" class="down-chevron">
-                            <img style="width:30px;height:30px;"
-                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
-                        </a>
-                    </div>
+    <section id="homepage-hero">
+        <div class="video-wrapper">
+            <video poster="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-poster.png'; ?>"
+                   id="hero-bg-vid" playsinline autoplay muted loop>
+                <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.mp4'; ?>" type="video/mp4">
+                <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.webm'; ?>"
+                        type="video/webm">
+            </video>
+            <div class="hero-cta">
+                <div class="cta-line" data-aos="slide-right" data-aos-easing="ease-out">
+                    Understand &amp; Improve Your
                 </div>
-                <div class="slide-header">
-                    <div class="panel">
-                        <div class="top" data-back="CAPTURE"></div>
-                        <div class="bottom" data-back="CAPTURE"></div>
-                    </div>
-                    <div class="center">
-                        <h1 style="font-size: 6vh !important;" >Capture Customer Experiences</h1>
-                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
-                            Learn more
-                        </a>
-                        <a href="http://truthlab.com/research-module/" class="down-chevron">
-                            <img style="width:30px;height:30px;"
-                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
-                        </a>
-                    </div>
+                <br>
+                <div class="cta-line" data-aos="slide-right" data-aos-easing="ease-out" data-aos-delay="300">
+                    Customer Experience
                 </div>
-                <div class="slide-header">
-                    <div class="panel">
-                        <div class="top" data-back="DRIVE"></div>
-                        <div class="bottom" data-back="DRIVE"></div>
-                    </div>
-                    <div class="center">
-                        <h1 style="font-size: 6vh !important;">Drive Deeper Collaboration</h1>
-                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
-                            Learn more
-                        </a>
-                        <a href="http://truthlab.com/research-module/" class="down-chevron">
-                            <img style="width:30px;height:30px;"
-                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
-                        </a>
-                    </div>
-                </div>
-                <div class="slide-header">
-                    <div class="panel">
-                        <div class="top" data-back="VISIBILITY"></div>
-                        <div class="bottom" data-back="VISIBILITY"></div>
-                    </div>
-                    <div class="center">
-                        <h1 style="font-size: 10vh !important;">Boost UX Visibility</h1>
-                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
-                            Learn more
-                        </a>
-                        <a href="http://truthlab.com/research-module/" class="down-chevron">
-                            <img style="width:30px;height:30px;"
-                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
-                        </a>
-                    </div>
-                </div>
-                <div class="slide-header">
-                    <div class="panel">
-                        <div class="top" data-back="TRUTHLAB"></div>
-                        <div class="bottom" data-back="TRUTHLAB"></div>
-                    </div>
-                    <div class="center">
-                        <h1 style="font-size: 10vh !important;">with Truthlab</h1>
-                        <a href="http://truthlab.com/research-module/" class="button button--white" style="padding-top:100px">
-                            Learn more
-                        </a>
-                        <a href="http://truthlab.com/research-module/" class="down-chevron">
-                            <img style="width:30px;height:30px;"
-                                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/white-chevron-down.svg"/>
-                        </a>
-                    </div>
+                <br>
+                <div class="cta-line cta-line--small" data-aos="slide-right" data-aos-easing="ease-out"
+                     data-aos-delay="600">
+                    <p>Map, validate, collaborate and improve your customer experience with Truthlab.</p>
+                    <p>
+                        <a href="/research-module/">Learn More &gt;&gt;</a>
+                    </p>
                 </div>
             </div>
-            <div class="slider-drop-shadow"></div>
         </div>
+        <div class="slider-drop-shadow"></div>
     </section>
-    <script>setInterval(nextSlide, 3 * 1000);</script>
-<?php endif; ?>
+
+    <script>
+        var vid = document.getElementById("hero-bg-vid");
+
+        if (window.matchMedia('(prefers-reduced-motion)').matches) {
+            vid.removeAttribute("autoplay");
+            vid.pause();
+        }
+    </script>
 
     <section id="about">
         <div class="row--padded">
@@ -114,16 +52,15 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                 <div class="row" data-aos="slide-up">
                     <div class="col-md-8 col-md-offset-2 text-center heading page-overview">
                         <div class="page-overview__wrapper">
-                            <h1>Truthlab is a<br/>Customer Experience Management (CXM) company</h1>
+                            <h1>Walk in Your Customers' Shoes</h1>
                             <p>
-                                Our proven solutions help B2B companies to deliver consistently amazing customer
-                                experiences
-                                that drive satisfaction, retention and advocacy.
+                                Take your first step toward truly understanding the customer journey with the Truthlab
+                                platform.
                             </p>
                             <p>
-                                We enable companies to orchestrate and analyze customer data, insights and interactions
-                                –
-                                all on one powerful CXM platform.
+                                Our powerful Customer Experience Management (CXM) platform helps B2B companies deliver
+                                consistently amazing experiences throughout their customer journey that drive
+                                satisfaction, retention and advocacy.
                             </p>
                         </div>
                     </div>
@@ -134,39 +71,51 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
 
     <section id="middle">
         <div class="row--padded top-row">
+            <img class="row-bg-triangle"
+                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/home-bg-triangle-01.svg"/>
             <div class="container">
-                <div class="row" data-aos="slide-left" data-aos-offset="300">
+                <div class="row vcenter" data-aos="slide-left" data-aos-offset="300">
                     <div class="col-md-8 col-sm-7 image">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/get-immediate-insights.png"/>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/map.png"
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/map.gif"/>
                     </div>
-                    <div class="col-md-4 col-sm-5 text-right copy">
-                        <h2>Get Immediate Insights</h2>
-                        <p>Instantly extract quantitative and qualitative insights that allow you to make educated
-                            customer experience decisions. No more watching hundreds of videos to get what you need.</p>
-                        <a href="/solutions/" class="button button--blue-outline">Learn More</a>
+                    <div class="col-md-4 col-sm-5 copy">
+                        <h2>Map</h2>
+                        <p>
+                            Map your customer journey to identify the moments of truth that define your relationship
+                            with your customers.
+                        </p>
+                        <a href="#" class="button button--blue-outline" data-toggle="modal"
+                           data-target="#appointment-calendar">Schedule Demo</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div id="vector-lines" class="row--padded blank" style="z-index:-1;">
+        <div class="vector-lines-container">
+            <div class="container">
+                <div id="vector-lines" class="row--padded blank" style="z-index:-1;">
+                </div>
             </div>
         </div>
 
         <div class="row--padded bottom-row">
+            <img class="row-bg-triangle"
+                 src="<?php echo get_template_directory_uri() ?>/assets/img/home/home-bg-triangle-02.svg"/>
             <div class="container" data-aos="slide-right" data-aos-offset="300">
-                <div class="row">
+                <div class="row vcenter">
                     <div class="col-md-8 col-sm-7 col-md-push-4 col-sm-push-5 text-right image">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/watch-highlight-reels.png"/>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/validate.png"
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/validate.gif"/>
                     </div>
                     <div class="col-md-4 col-sm-5 col-md-pull-8 col-sm-pull-7 text-left copy">
-                        <h2>Watch Highlight Reels</h2>
-                        <p>The Truthlab platform instantly generates highlight reels of your videos, whether they were
-                            created on the platform or elsewhere. No more expensive professional service costs to create
-                            actionable insights.</p>
+                        <h2>Validate</h2>
+                        <p>
+                            Validate experiences with real customers to ensure you are meeting their needs every step of
+                            the way.
+                        </p>
                         <a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wp-video-lightbox"
-                           class="button button--blue-outline">Watch Now</a>
+                           class="button button--blue-outline">Watch Video</a>
                     </div>
                 </div>
             </div>
@@ -177,47 +126,62 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
         <div class="row--padded">
             <div class="container take-action">
                 <div class="row" data-aos="slide-left" data-aos-offset="300">
-                    <div class="col-md-8 col-sm-6 image">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
-                        <div class="bg-image-red">
-                            <svg>
-                                <g>
-                                    <path class="st0"
-                                          d="M3785.4,487.5l1198.4,2075.7L3785.4,4639H1388.6L190.1,2563.2L1388.6,487.5H3785.4 M3802.8,457.5H1371.2 L155.5,2563.2L1371.2,4669h2431.5l1215.8-2105.7L3802.8,457.5L3802.8,457.5z"></path>
-                                </g>
-                            </svg>
+                    <div class="col-md-9 col-sm-6 image">
+                        <div class="texture-bg texture-bg--left">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_left.svg"/>
+                        </div>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/collaborate.png"
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/collaborate.gif"/>
+                        <div class="bg-image-red"
+                             data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
+                             style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');">
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 text-left copy">
-                        <h2>Take Action with Panel Management</h2>
-                        <p>Easily invite, register and onboard your testers via email, Slack, IM and message boards,
-                            without training or IT involvement. No more professional testers from panel companies.</p>
-                        <a href="/solutions/" class="button button--blue-outline">Find Out How</a>
+                    <div class="col-md-3 col-sm-6 text-left copy">
+                        <h2>Collaborate</h2>
+                        <p>
+                            Collaborate cross-functionally to build a shared understanding of your customer experience.
+                        </p>
+                        <a href="/solutions/" class="button button--no-outline">See our solutions</a>
                     </div>
                 </div>
             </div>
             <div class="container analyze">
                 <div class="row" data-aos="slide-right" data-aos-offset="300">
                     <div class="col-md-8 col-sm-6 visible-xs image">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png"/>
+                        <div class="texture-bg texture-bg--left">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_left.svg"/>
+                        </div>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.png"
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.gif"/>
                         <div class="bg-image-blue"
                              data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
                              style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
                     </div>
                     <div class="col-md-4 col-sm-6 text-left copy">
-                        <h2>Analyze Full Length Video</h2>
-                        <p>Full access and unlimited storage of your testers’ entire journey with transcription, event
-                            logging and complete search capabilities. And, no more hidden costs.</p>
-                        <a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wp-video-lightbox"
-                           class="button button--blue-outline">See Video</a>
+                        <h2>Improve</h2>
+                        <p>
+                            Improve your experiences by helping your customers achieve their goals at each stage of
+                            their journey.
+                        </p>
+                        <a href="#" class="button button--no-outline"
+                           onclick="jQuery('.talk-to-expert').slideToggle(); return false;">Talk to an
+                            expert</a>
+						<?php get_template_part( 'partials/home-talk-expert' ); ?>
                     </div>
                     <div class="col-md-8 col-sm-6 hidden-xs pull-right image">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/full-length-video.png"/>
+                        <div class="texture-bg texture-bg--right">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_right.svg"/>
+                        </div>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.png"
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.gif"/>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+<?php get_template_part( 'partials/home-talk-expert' ); ?>
 
     <section id="clients" data-aos="slide-up">
         <div class="row--padded">
@@ -328,12 +292,46 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                         </div>
                         <div class="col-md-1"></div>
                         <div class="col-md-4 text-right">
-                            <a href="#" class="button button--white request-toggle">Request a Demo</a>
+                            <a href="#" class="button button--white" data-toggle="modal"
+                               data-target="#appointment-calendar">Schedule a Demo</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script>
+        function whichTransitionEvent() {
+            var t;
+            var el = document.createElement('fakeelement');
+            var transitions = {
+                'transition': 'transitionend',
+                'OTransition': 'oTransitionEnd',
+                'MozTransition': 'transitionend',
+                'WebkitTransition': 'webkitTransitionEnd'
+            };
+
+            for (t in transitions) {
+                if (el.style[t] !== undefined) {
+                    return transitions[t];
+                }
+            }
+        }
+
+        jQuery(document).ready(function ($) {
+            var $img_gif = $('[data-gif-src]');
+            if (getViewportWidth() >= 768) {
+                $img_gif.closest('[data-aos]').one(whichTransitionEvent(), function () {
+                    var $img = $(this).find('[data-gif-src]');
+                    $img.prop('src', $img.data('gif-src'));
+                })
+            } else {
+                $img_gif.each(function () {
+                    $(this).prop('src', $(this).data('gif-src'));
+                });
+            }
+        });
+    </script>
 
 <?php get_footer();

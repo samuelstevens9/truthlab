@@ -201,14 +201,14 @@ if ( is_the_blog() ) {
         </form>
 	<?php endif; ?>
     <script>
-        (function ($) {
-            $('#mc-embedded-subscribe-form, #mc-embedded-subscribe-blog-form').submit(function (event) {
+        jQuery(document).ready(function ($) {
+            $('#mc-embedded-subscribe-form, #mc-embedded-subscribe-blog-form, .mc-embedded-subscribe-form').submit(function (event) {
                 event.preventDefault();
                 $.post('https://app.truthlab.com/p/api/v2/demo/handler/', $(this).serialize());
                 $(this).find('.response--success').show();
                 $(this).find('.fields-wrapper').hide();
             });
-        })(jQuery.noConflict());
+        })
     </script>
     <a href="#" class="request-toggle" style="position:absolute;top:2%;right:2%;font-size:40px;">
         <i class="fa fa-times-circle" aria-hidden="true"></i>

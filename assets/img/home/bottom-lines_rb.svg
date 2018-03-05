@@ -1,12 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 450 696" style="enable-background:new 0 0 450 696;" xml:space="preserve">
-<style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 450 900"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bottom-lines_rb.svg"
+   width="450"
+   height="900"><metadata
+     id="metadata15"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs13" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1865"
+     inkscape:window-height="1056"
+     id="namedview11"
+     showgrid="false"
+     borderlayer="false"
+     inkscape:zoom="0.47953218"
+     inkscape:cx="236.98297"
+     inkscape:cy="385.70306"
+     inkscape:window-x="55"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style3">
 	.st0{fill:#07074E;}
 	.st1{fill:#910811;}
-</style>
-<rect x="210.9" y="1" class="st0" width="30" height="695"/>
-<rect x="425.3" y="6.2" class="st1" width="20" height="690"/>
-<rect x="6.4" y="256.2" class="st1" width="20" height="440"/>
-</svg>
+</style><polygon
+     class="st0"
+     points="210.9,1 240.9,26 240.9,696 210.9,696 "
+     id="polygon5"
+     style="fill:#07074e"
+     transform="matrix(1,0,0,1.2935252,0,-0.29352518)" /><polygon
+     class="st1"
+     points="425.3,6.2 445.3,31.2 445.3,696.2 425.3,696.2 "
+     id="polygon7"
+     style="fill:#910811"
+     transform="matrix(1,0,0,1.2956522,0,-1.8330435)" /><polygon
+     class="st1"
+     points="6.4,256.2 26.4,281.2 26.4,696.2 6.4,696.2 "
+     id="polygon9"
+     style="fill:#910811"
+     transform="matrix(1,0,0,1.4636364,0,-118.78364)" /></svg>

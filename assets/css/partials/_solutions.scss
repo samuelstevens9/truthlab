@@ -25,10 +25,6 @@
     }
 }
 
-#curtain-slider__solutions {
-    height: 700px;
-}
-
 .slide-header {
     position: absolute;
     top: 0;
@@ -110,32 +106,6 @@
         }
     }
 
-}
-
-#curtain-slider__solutions {
-    width: 100%;
-    & .center h1 {
-        font-size: 10vh;
-        line-height: 1;
-        font-family: "PT Sans Narrow", sans-serif;
-        color: $red;
-        margin-bottom: 100px;
-    }
-    & .slide-header:nth-child(1) .panel > * {
-        background: white;
-        background-size: 400% 400%;
-        -webkit-animation: Gradient 60s ease infinite;
-        animation: Gradient 60s ease infinite;
-        color: rgba(145, 8, 17, .6);
-    }
-    & .slider {
-        background: url('assets/img/solutions/hero-bottom.svg') no-repeat;
-        background-position: bottom;
-        background-size: 100%;
-    }
-    & .slide-header:nth-child(1) .panel > * {
-        background: none;
-    }
 }
 
 .page-template-solutions footer {
