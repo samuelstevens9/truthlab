@@ -3180,9 +3180,9 @@ h1{font-size:3rem}
 #middle h2{font-size:2rem !important}
 #middle p{font-size:1.4rem !important}
 #middle .row-bg-triangle{width:auto;height:100%}
-.top-row{margin-bottom:50%;overflow:hidden}
+.top-row{overflow:hidden}
 .top-row .container{padding-bottom:50%}
-.bottom-row{overflow:hidden}
+.bottom-row{overflow:hidden;margin-top:-100px}
 .bottom-row .container{padding-bottom:20% !important}
 #panel-management .container{margin-top:-5%}
 .page-template-hompage .talk-to-expert{margin-top:-100px}

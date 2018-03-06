@@ -16,16 +16,16 @@ get_header();
                 <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.webm'; ?>"
                         type="video/webm">
             </video>
-            <div class="hero-cta">
-                <div class="cta-line" data-aos="slide-right" data-aos-easing="ease-out">
+            <div class="hero-cta" data-aos="slide-right" data-aos-easing="ease-out">
+                <div class="cta-line">
                     Understand &amp; Improve Your
                 </div>
                 <br>
-                <div class="cta-line" data-aos="slide-right" data-aos-easing="ease-out">
+                <div class="cta-line">
                     Customer Experience
                 </div>
                 <br>
-                <div class="cta-line cta-line--small" data-aos="slide-right" data-aos-easing="ease-out">
+                <div class="cta-line cta-line--small">
                     <p>Map, validate, collaborate and improve your customer experience with Truthlab.</p>
                     <p>
                         <a href="/research-module/">Learn More &gt;&gt;</a>
