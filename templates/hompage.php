@@ -21,12 +21,11 @@ get_header();
                     Understand &amp; Improve Your
                 </div>
                 <br>
-                <div class="cta-line" data-aos="slide-right" data-aos-easing="ease-out" data-aos-delay="300">
+                <div class="cta-line" data-aos="slide-right" data-aos-easing="ease-out">
                     Customer Experience
                 </div>
                 <br>
-                <div class="cta-line cta-line--small" data-aos="slide-right" data-aos-easing="ease-out"
-                     data-aos-delay="600">
+                <div class="cta-line cta-line--small" data-aos="slide-right" data-aos-easing="ease-out">
                     <p>Map, validate, collaborate and improve your customer experience with Truthlab.</p>
                     <p>
                         <a href="/research-module/">Learn More &gt;&gt;</a>

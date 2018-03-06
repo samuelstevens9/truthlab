@@ -34,6 +34,7 @@
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response response--success" id="mce-success-response"
                  style="display:none">
+                <span class="js--close-talk-to-expert" onclick="jQuery(this).closest('.talk-to-expert').slideUp()">&times;</span>
                 <h3>Thank You!</h3>
                 <p class="message">
                     We received your request and will be in touch with you shortly.

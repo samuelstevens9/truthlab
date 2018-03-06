@@ -66,10 +66,10 @@
             }
 
             &.cta-line--small {
-                font-size: 37px;
+                font-size: 24px;
                 font-family: $font--pt-sans;
                 font-weight: normal;
-                max-width: 57%;
+                max-width: 65%;
 
                 p {
                     font-size: inherit;
@@ -163,7 +163,6 @@
     }
     .image {
         img {
-            border-radius: 50%;
             width: 100%;
             max-width: 730px;
         }
@@ -499,10 +498,10 @@
         float: left;
         margin: -10px 0px 10px 0px;
     }
-    & .text-right {
-        padding: 140px 10px 0 0;
+    .text-right {
+        padding: 80px 10px 0 0;
     }
-    & a {
+    a {
         color: white !important;
     }
 
@@ -609,6 +608,18 @@ footer {
             margin-top: -100px;
             .row > div {
                 margin-bottom: 10px;
+            }
+        }
+
+        .js--close-talk-to-expert {
+            position: absolute;
+            right: 25px;
+            top: 25px;
+            font-size: 3rem;
+            cursor: pointer;
+
+            &:hover {
+                color: #000;
             }
         }
     }
