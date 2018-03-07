@@ -16,7 +16,7 @@ get_header();
                 <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.webm'; ?>"
                         type="video/webm">
             </video>
-            <div class="hero-cta" data-aos="slide-right" data-aos-easing="ease-out">
+            <div class="hero-cta" data-aos="slide-right" data-aos-easing="ease-out" data-aos-duration="800">
                 <div class="cta-line">
                     Understand &amp; Improve Your
                 </div>
@@ -147,7 +147,7 @@ get_header();
             </div>
             <div class="container analyze">
                 <div class="row" data-aos="slide-right" data-aos-offset="300">
-                    <div class="col-md-8 col-sm-6 visible-xs image">
+                    <div class="col-md-9 col-sm-6 visible-xs image">
                         <div class="texture-bg texture-bg--left">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_left.svg"/>
                         </div>
@@ -157,7 +157,7 @@ get_header();
                              data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
                              style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
                     </div>
-                    <div class="col-md-4 col-sm-6 text-left copy">
+                    <div class="col-md-3 col-sm-6 text-left copy">
                         <h2>Improve</h2>
                         <p>
                             Improve your experiences by helping your customers achieve their goals at each stage of
@@ -168,7 +168,7 @@ get_header();
                             expert</a>
 						<?php get_template_part( 'partials/home-talk-expert' ); ?>
                     </div>
-                    <div class="col-md-8 col-sm-6 hidden-xs pull-right image">
+                    <div class="col-md-9 col-sm-6 hidden-xs pull-right image">
                         <div class="texture-bg texture-bg--right">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_right.svg"/>
                         </div>

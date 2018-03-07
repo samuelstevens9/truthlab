@@ -25,7 +25,7 @@
                     <button type="submit" value="Submit" name="subscribe"
                             id="mc-embedded-subscribe"
                             class="button button--blue-outline" style="margin:0px;">
-                        Contact Us &gt;
+                        Contact Us
                     </button>
                 </div>
             </div>
