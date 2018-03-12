@@ -16,7 +16,7 @@ get_header();
                 <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.webm'; ?>"
                         type="video/webm">
             </video>
-            <div class="hero-cta" data-aos="slide-right" data-aos-easing="ease-out" data-aos-duration="800">
+            <div class="hero-cta">
                 <div class="cta-line">
                     Understand &amp; Improve Your
                 </div>
@@ -28,7 +28,7 @@ get_header();
                 <div class="cta-line cta-line--small">
                     <p>Map, validate, collaborate and improve your customer experience with Truthlab.</p>
                     <p>
-                        <a href="/research-module/">Learn More &gt;&gt;</a>
+                        <a href="#middle">Learn More &gt;&gt;</a>
                     </p>
                 </div>
             </div>

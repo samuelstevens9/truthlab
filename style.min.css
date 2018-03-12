@@ -2040,13 +2040,13 @@ footer .row{padding-bottom:0}
 #homepage-hero{height:70vh;position:relative}
 #homepage-hero .video-wrapper{height:100%;width:100%;position:relative;overflow:hidden;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 90%);clip-path:polygon(0 0,100% 0,100% 100%,0 90%);z-index:99}
 #homepage-hero #hero-bg-vid{position:absolute;width:auto;height:auto;z-index:99;top:50%;left:50%;min-width:100%;min-height:100%;-webkit-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}
-#homepage-hero .hero-cta{position:absolute;bottom:12vh;z-index:100;will-change:transform}
-#homepage-hero .hero-cta .cta-line{background:#910811;color:#fff;margin-bottom:14px;font-size:48px;font-family:"PT Sans Caption",sans-serif;font-weight:700;padding:10px 50px 20px 110px;background:-webkit-linear-gradient(left,#910811 0,#bc0409 100%);background:linear-gradient(to right,#910811 0,#bc0409 100%);-webkit-clip-path:polygon(0 0,100% 0,96% 100%,0 100%);clip-path:polygon(0 0,100% 0,96% 100%,0 100%);display:inline-block}
-#homepage-hero .hero-cta .cta-line.cta-line--small{font-size:24px;font-family:"PT Sans",sans-serif;font-weight:normal;max-width:65%}
-#homepage-hero .hero-cta .cta-line.cta-line--small p{font-size:inherit}
+#homepage-hero .hero-cta{position:absolute;bottom:12vh;z-index:100}
+#homepage-hero .hero-cta .cta-line{color:#910811;margin-bottom:14px;font-size:48px;font-family:"PT Sans Caption",sans-serif;font-weight:700;padding:0 0 0 70px;display:inline-block;line-height:1}
+#homepage-hero .hero-cta .cta-line.cta-line--small{font-size:24px;font-family:"PT Sans",sans-serif;font-weight:normal;max-width:65%;margin-top:20px}
+#homepage-hero .hero-cta .cta-line.cta-line--small p{font-size:inherit;margin-bottom:30px}
 #homepage-hero .hero-cta .cta-line a{color:inherit;font-style:italic;font-weight:700}
 #homepage-hero .hero-cta .cta-line p:last-of-type{margin-bottom:0}
-#homepage-hero .hero-cta .cta-line:last-of-type{margin-bottom:0}
+#homepage-hero .hero-cta .cta-line:last-of-type{margin-bottom:25px}
 #homepage-hero .slider-drop-shadow{position:absolute;width:100%;top:15px;left:0;display:block;background:#910811;height:90vh;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 90%);clip-path:polygon(0 0,100% 0,100% 100%,0 90%);z-index:98}
 .sig{position:fixed;bottom:8px;right:8px;text-decoration:none;font-size:12px;font-weight:100;font-family:sans-serif;color:rgba(255,255,255,0.4);letter-spacing:2px}
 .heading p{margin:2rem 0;font-size:2rem;color:#555}
@@ -3173,11 +3173,12 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}
 h1{font-size:3rem}
-#homepage-hero .hero-cta{background:-webkit-linear-gradient(left,#910811 0,#bc0409 100%);background:linear-gradient(to right,#910811 0,#bc0409 100%);-webkit-clip-path:polygon(0 0,100% 0,96% 100%,0 100%);clip-path:polygon(0 0,100% 0,96% 100%,0 100%);max-width:90%;padding:15px 10px 15px 20px}
-#homepage-hero .hero-cta .cta-line{background:transparent;-webkit-clip-path:none;clip-path:none;padding:0;line-height:1;margin-bottom:0}
+#homepage-hero .hero-cta{max-width:60%;padding:15px 10px 15px 20px;bottom:8vh}
+#homepage-hero .hero-cta .cta-line{padding:0;line-height:1;margin-bottom:0}
 #homepage-hero .hero-cta .cta-line.cta-line--small{max-width:none;margin-top:15px;font-size:22px}
 #homepage-hero .hero-cta .cta-line.cta-line--small p{line-height:1.4}
 #homepage-hero .hero-cta .cta-line.cta-line--small a{font-size:120%}
+#homepage-hero .hero-cta .cta-line:last-of-type{margin-bottom:0}
 #middle h2{font-size:2rem !important}
 #middle p{font-size:1.4rem !important}
 #middle .row-bg-triangle{width:auto;height:100%}

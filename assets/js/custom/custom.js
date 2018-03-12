@@ -162,8 +162,9 @@ jQuery(document).ready(function ($) {
                     // Only prevent default if animation is actually gonna happen
                     event.preventDefault();
                     jQuery('html, body').animate({
-                        scrollTop: target.offset().top
+                        scrollTop: target.offset().top - ($('.navbar-fixed-top').outerHeight())
                     }, 1000, function () {
+                        return false; //cancel callback because it causes a jump scroll
                         // Callback after animation
                         // Must change focus!
                         var jQuerytarget = jQuery(target);

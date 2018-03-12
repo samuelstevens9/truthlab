@@ -32,26 +32,22 @@
         position: absolute;
         bottom: 12vh;
         z-index: 100;
-        will-change: transform;
 
         @media(max-width: 767px) {
-            background: linear-gradient(to right, $red 0%, #BC0409 100%);
-            clip-path: polygon(0 0, 100% 0, 96% 100%, 0 100%);
-            max-width: 90%;
+            max-width: 60%;
             padding: 15px 10px 15px 20px;
+            bottom: 8vh;
         }
 
         .cta-line {
-            background: $red;
-            color: #fff;
+            color: $red;
             margin-bottom: 14px;
             font-size: 48px;
             font-family: $font--pt-sans-caption;
             font-weight: 700;
-            padding: 10px 50px 20px 110px;
-            background: linear-gradient(to right, $red 0%, #BC0409 100%);
-            clip-path: polygon(0 0, 100% 0, 96% 100%, 0 100%);
+            padding: 0 0 0 70px;
             display: inline-block;
+            line-height: 1;
 
             @media(max-width: 1140px) {
                 font-size: 36px;
@@ -59,8 +55,6 @@
             }
 
             @media(max-width: 767px) {
-                background: transparent;
-                clip-path: none;
                 padding: 0;
                 line-height: 1;
                 margin-bottom: 0;
@@ -71,9 +65,11 @@
                 font-family: $font--pt-sans;
                 font-weight: normal;
                 max-width: 65%;
+                margin-top: 20px;
 
                 p {
                     font-size: inherit;
+                    margin-bottom: 30px;
                 }
 
                 @media(max-width: 1140px) {
@@ -107,7 +103,11 @@
             }
 
             &:last-of-type {
-                margin-bottom: 0;
+                margin-bottom: 25px;
+
+                @media(max-width: 767px) {
+                    margin-bottom: 0;
+                }
             }
         }
     }
