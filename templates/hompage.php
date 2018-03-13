@@ -11,7 +11,7 @@ get_header();
     <section id="homepage-hero">
         <div class="video-wrapper">
             <video poster="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-poster.png'; ?>"
-                   id="hero-bg-vid" playsinline autoplay muted loop>
+                   id="hero-bg-vid" playsinline autoplay muted>
                 <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.mp4'; ?>" type="video/mp4">
                 <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.webm'; ?>"
                         type="video/webm">

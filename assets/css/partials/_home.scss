@@ -41,6 +41,7 @@
 
         .cta-line {
             color: $red;
+            text-shadow: 1px 1px 1px #ffffff;
             margin-bottom: 14px;
             font-size: 48px;
             font-family: $font--pt-sans-caption;
@@ -96,6 +97,7 @@
                 color: inherit;
                 font-style: italic;
                 font-weight: 700;
+                text-decoration: none;
             }
 
             p:last-of-type {
