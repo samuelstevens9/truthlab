@@ -11,7 +11,13 @@ get_header();
     <section id="homepage-hero">
         <div class="video-wrapper">
             <video poster="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-poster.png'; ?>"
-                   id="hero-bg-vid" playsinline autoplay muted>
+                   id="hero-bg-vid" class="hidden-xs" playsinline autoplay muted>
+                <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.mp4'; ?>" type="video/mp4">
+                <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.webm'; ?>"
+                        type="video/webm">
+            </video>
+            <video poster="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-poster-mobile.png'; ?>"
+                   id="hero-bg-vid" class="visible-xs" playsinline autoplay muted>
                 <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.mp4'; ?>" type="video/mp4">
                 <source src="<?= get_stylesheet_directory_uri() . '/assets/img/home/hero-vid.webm'; ?>"
                         type="video/webm">
