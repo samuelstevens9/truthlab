@@ -28,6 +28,7 @@
     bottom: 10px;
     right: 10px;
     z-index: 9999;
+    display: none !important; //see trello card
 
     &:hover {
         background-image: url('./assets/img/totop-white.svg'), none;
