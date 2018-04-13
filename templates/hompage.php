@@ -119,7 +119,7 @@ get_header();
                             Validate experiences with real customers to ensure you are meeting their needs every step of
                             the way.
                         </p>
-                        <a href="https://vimeo.com/232169127?width=640&amp;height=480" rel="wp-video-lightbox"
+                        <a href="https://youtu.be/Ivcev-o93t0?rel=0&amp;autoplay=1" rel="wp-video-lightbox"
                            class="button button--blue-outline">Watch Video</a>
                     </div>
                 </div>
