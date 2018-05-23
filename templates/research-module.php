@@ -63,7 +63,7 @@ get_header(); ?>
             <div class="product-demo__slider">
                 <div class="row">
                     <div class="visible-xs-block">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/panel_mac.png' ?>">
+                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/panel_mac.png' ?>" alt="Truthlab, B2B customer experience platform dashboard" />
                     </div>
                     <div class="col-sm-5" data-aos="fade-right">
                         <h3>Panel</h3>
@@ -75,12 +75,12 @@ get_header(); ?>
                             existing collaboration tools (i.e., Slack, Yammer, Chatter)</p>
                     </div>
                     <div class="col-sm-7 hidden-xs" data-aos="fade-left">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/panel_mac.png' ?>">
+                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/panel_mac.png' ?>" alt="Truthlab, B2B customer experience platform dashboard">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-7">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/research_mac.png' ?>">
+                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/research_mac.png' ?>" alt="Truthlab, B2B customer experience platform research" />
                     </div>
                     <div class="col-sm-5">
                         <h3>Research</h3>
@@ -93,7 +93,7 @@ get_header(); ?>
                 </div>
                 <div class="row">
                     <div class="visible-xs-block">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/insights_mac.png' ?>">
+                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/insights_mac.png' ?>" alt="Truthlab, B2B customer experience platform insights" />
                     </div>
                     <div class="col-sm-5">
                         <h3>Insights</h3>
@@ -106,7 +106,7 @@ get_header(); ?>
                         <p>Quickly issue spot and gain qualitative understanding to fix negative experiences</p>
                     </div>
                     <div class="col-sm-7 hidden-xs">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/insights_mac.png' ?>">
+                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/insights_mac.png' ?>" alt="Truthlab, B2B customer experience platform insights" />
                     </div>
                 </div>
             </div>
@@ -187,14 +187,14 @@ get_header(); ?>
                     <p>UI/UX Manager<br>
                         Fortune 500 Tech Company</p>
                     <img class="testimonial__client-logo"
-                         src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/500-logo.png'; ?>">
+                         src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/500-logo.png'; ?>" alt="Fortune 500 Company" />
                 </div>
                 <div class="testimonial" data-aos="fade-left">
                     <p>There’s value in watching each user complete a task using our product, but my team and I don’t
                         have time to watch all those videos.</p>
                     <p>Kevin Boodtama | Senior Designer</p>
                     <img class="testimonial__client-logo"
-                         src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/grubhub-logo.png'; ?>">
+                         src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/grubhub-logo.png'; ?>" alt="GRUBHUB logo" />
                 </div>
             </div>
         </div>

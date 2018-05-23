@@ -82,7 +82,7 @@ get_header();
                 <div class="row vcenter" data-aos="slide-left" data-aos-offset="300">
                     <div class="col-md-8 col-sm-7 image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/map.png"
-                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/map.gif"/>
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/map.gif" alt="Truthlab, B2B customer experience platform" />
                     </div>
                     <div class="col-md-4 col-sm-5 copy">
                         <h2>Map</h2>
@@ -111,7 +111,7 @@ get_header();
                 <div class="row vcenter">
                     <div class="col-md-8 col-sm-7 col-md-push-4 col-sm-push-5 text-right image">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/validate.png"
-                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/validate.gif"/>
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/validate.gif" alt="Truthlab, B2B customer experience software" />
                     </div>
                     <div class="col-md-4 col-sm-5 col-md-pull-8 col-sm-pull-7 text-left copy">
                         <h2>Validate</h2>
@@ -136,7 +136,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_left.svg"/>
                         </div>
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/collaborate.png"
-                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/collaborate.gif"/>
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/collaborate.gif" alt="Truthlab, B2B customer experience journey" />
                         <div class="bg-image-red"
                              data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg"
                              style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/red-line.svg');">
@@ -158,7 +158,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_left.svg"/>
                         </div>
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.png"
-                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.gif"/>
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.gif" alt="Truthlab, B2B customer journey mapping software" />
                         <div class="bg-image-blue"
                              data-background-src="<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg"
                              style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/home/blue-line.svg');"></div>
@@ -179,7 +179,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/texture_right.svg"/>
                         </div>
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.png"
-                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.gif"/>
+                             data-gif-src="<?php echo get_template_directory_uri() ?>/assets/img/home/improve.gif" alt="Truthlab, B2B customer journey mapping software" />
                     </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@ get_header();
                                                             in the three prior years!
                                                         </div>
                                                         <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 testimonial__author">
-                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png"/>
+                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_dell.png" alt="DELL logo"/>
                                                             <div>
                                                                 Maryanne P.<br/>
                                                                 Dir. Customer Experience<br/>
@@ -236,7 +236,7 @@ get_header();
                                                             which experiences need to improve.
                                                         </div>
                                                         <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 testimonial__author">
-                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png"/>
+                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_microsoft.png" alt="Microsoft Windows logo" />
                                                             <div>
                                                                 Mark M. <br/>
                                                                 Customer Experience Researcher<br/>
@@ -256,7 +256,7 @@ get_header();
                                                             platform to close the gaps that were previously identified.
                                                         </div>
                                                         <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-1 testimonial__author">
-                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png"/>
+                                                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/t_cisco.png" alt="Cisco logo" />
                                                             <div>
                                                                 Bill T. <br/>
                                                                 Dir. Customer Marketing<br/>

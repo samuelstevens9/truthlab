@@ -42,7 +42,7 @@
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="<?php echo get_site_url() ?>"><img
-                        src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg"/></a>
+                        src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" alt="Truthlab, B2B marketing strategies"/></a>
         </div>
 
     </div>

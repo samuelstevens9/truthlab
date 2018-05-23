@@ -39,7 +39,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 content page-overview">
                         <div class="content page-overview__wrapper" id="content__solution" data-aos="slide-up">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png"/>
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/home/panel-management.png" alt="Truthlab, B2B customer journey mapping tools" />
                             <h3>Our CXM Solution</h3>
                             <p>The current customer feedback loop takes weeks and doesn't fit into anyone's release
                                 cycles.
@@ -67,7 +67,7 @@ get_header(); ?>
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-circle-graph.png"
                              alt="success circle graph"/>
                         <img class="marketer-image"
-                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/marketer.png"/>
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/marketer.png" alt="B2B customer experience platform for B2B marketing management" />
                         <img class="success-bars"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/success-bar-graph.png"
                              alt="success bar graph"/>
@@ -107,7 +107,7 @@ get_header(); ?>
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/arrows_pms_rb-2.png"
                              alt="project management"/>
                         <img class="prod-managers"
-                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png"/>
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/product-managers.png" alt="B2B customer journey mapping software with data visualization" />
                         <img class="diagrams"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/pmScreenShot.png"
                              alt="panel management screenshot"/>
@@ -140,7 +140,7 @@ get_header(); ?>
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/business-development.png"
                              alt="business development"/>
                         <img class="designers-img"
-                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/designers.png"/>
+                             src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/designers.png" alt="B2B experience designers" />
                         <img class="salesman"
                              src="<?php echo get_template_directory_uri() ?>/assets/img/solutions/salesman.png"
                              alt="sales persona"/>

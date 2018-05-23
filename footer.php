@@ -124,7 +124,7 @@ $is_ie      = preg_match( '/Edge/i', $user_agent ) || preg_match( '/Trident/i', 
                     <a href="/blog/"><h4>Blog</h4></a>
                 </div>
                 <div class="col-md-3 text-right address">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/map-marker.png"/>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/map-marker.png" alt="Location point logo" />
                     <address>
                         N Ellsworth &amp; 1st Street<br/>
                         San Mateo, California 94401

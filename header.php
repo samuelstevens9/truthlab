@@ -76,7 +76,7 @@ if ( is_the_blog() ) {
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="<?php echo get_site_url() ?>"><img
-                        src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg"/></a>
+                        src="<?php echo get_template_directory_uri() ?>/assets/img/truthlab-logo.svg" alt="Truthlab, B2B marketing strategies"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
