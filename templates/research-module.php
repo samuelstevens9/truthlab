@@ -20,10 +20,10 @@ get_header(); ?>
         </video>
         <div class="container-fluid">
             <div class="content-wrapper">
-                <h2>
+                <h1>
                     CX Leaders Grow<br>
                     Substantially Faster than Laggards
-                </h2>
+                </h1>
                 <p>
                     From 2010 to 2015, the Compound Average Revenue Growth<br>
                     rate for CX Leaders was 17% compared to 4% for Laggards.<br>

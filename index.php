@@ -29,7 +29,7 @@ get_header(); ?>
                         <div class="author-header-copy col-sm-6 col-sm-pull-6"
                              style="background-image: url(<?= scrapeImage( get_wp_user_avatar( $the_author->ID ) ); ?>)">
                             <p class="spotlight">Author Spotlight</p>
-                            <h2><?= $the_author->display_name; ?></h2>
+                            <h1><?= $the_author->display_name; ?></h1>
                             <p class="author-header-desc">
 								<?= get_the_author_meta( 'description', $the_author->ID ); ?>
                             </p>

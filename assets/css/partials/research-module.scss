@@ -28,7 +28,8 @@ body.page-template-research-module {
     }
 
     section {
-        h2 {
+        h1,h2 {
+            color: $blue;
             font-size: 66px;
             padding: 0;
 
