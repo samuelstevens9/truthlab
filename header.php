@@ -52,8 +52,7 @@ if ( is_the_blog() ) {
 <body <?php body_class( $body_classes ); ?>>
 
 <?php if ( is_page_template( 'templates/research-module.php' ) || ! is_the_blog() ) { ?>
-    <a class="request-dropdown-mobile" data-toggle="modal" data-target="#appointment-calendar"
-       style="z-index:5555;">
+    <a class="request-dropdown-mobile" href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo">
         Schedule Demo
         <i class="fa fa-angle-right" aria-hidden="true"></i>
     </a>
@@ -82,7 +81,19 @@ if ( is_the_blog() ) {
             <ul class="nav navbar-nav">
                 <li class="<?php if ( is_page( 'solutions' ) ) {
 					echo ' active ';
-				} ?>"><a href="/solutions/">Solutions</a></li>
+				} ?>">
+
+                <div class="dropdown">
+                  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Solutions
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="/solutions/">All Solutions</a></li>
+                    <li><a href="/research-module">Research</a></li>
+                  </ul>
+                </div>
+
+
                 <li class="<?php if ( is_page( 'about' ) ) {
 					echo ' active ';
 				} ?>"><a href="/about/">About</a></li>
@@ -100,7 +111,7 @@ if ( is_the_blog() ) {
                     <li class="request-toggle"><a href="#" class="button button--red">Subscribe to Blog</a></li>
 				<?php else: ?>
                     <li class="request-appointment">
-                        <a href="#" class="button button--red" data-toggle="modal" data-target="#appointment-calendar">
+                        <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo" class="button button--red">
                             Schedule Demo
                         </a>
                     </li>

@@ -34,7 +34,7 @@ get_header(); ?>
     </section>
     <section class="cta-demo">
         <div class="container-fluid">
-            <a href="#" data-toggle="modal" data-target="#appointment-calendar">Schedule Demo</a>
+            <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo" >Schedule Demo</a>
         </div>
     </section>
 
@@ -67,7 +67,7 @@ get_header(); ?>
                     </div>
                     <div class="col-sm-5" data-aos="fade-right">
                         <h3>Panel</h3>
-                        <p>Manage  your  own  participants  and  customer  advisory  boards </p>
+                        <p>Manage your own participants and customer advisory boards </p>
                         <p>Filter panelists and create static or smart lists</p>
                         <p>Smart audience lists automatically add and remove panelists based on your filter settings</p>
                         <p>Easy onboarding of any tester including employees or contractors either by name or leveraging
@@ -211,8 +211,7 @@ get_header(); ?>
                             </div>
                             <div class="col-md-1"></div>
                             <div class="col-md-4 text-right">
-                                <a href="#" class="button button--white" data-toggle="modal"
-                                   data-target="#appointment-calendar">Schedule Demo</a>
+                                <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo" class="button button--white" >Schedule Demo</a>
                             </div>
                         </div>
                     </div>

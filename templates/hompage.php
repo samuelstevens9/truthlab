@@ -90,8 +90,7 @@ get_header();
                             Map your customer journey to identify the moments of truth that define your relationship
                             with your customers.
                         </p>
-                        <a href="#" class="button button--blue-outline" data-toggle="modal"
-                           data-target="#appointment-calendar">Schedule Demo</a>
+                        <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo" class="button button--blue-outline">Schedule Demo</a>
                     </div>
                 </div>
             </div>
@@ -297,8 +296,7 @@ get_header();
                         </div>
                         <div class="col-md-1"></div>
                         <div class="col-md-4 text-right">
-                            <a href="#" class="button button--white" data-toggle="modal"
-                               data-target="#appointment-calendar">Schedule a Demo</a>
+                            <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo" class="button button--white" >Schedule a Demo</a>
                         </div>
                     </div>
                 </div>
