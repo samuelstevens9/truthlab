@@ -79,19 +79,19 @@ if ( is_the_blog() ) {
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="<?php if ( is_page( 'solutions' ) ) {
+                <li class="dropdown <?php if ( is_page( 'solutions' ) ) {
 					echo ' active ';
 				} ?>">
 
-                <div class="dropdown">
-                  <button class="dropbtn" aria-haspopup="true" aria-expanded="true">
+                <!-- <div class="dropdown"> -->
+                  <a class="dropbtn" aria-haspopup="true" aria-expanded="true">
                     Solutions
-                  </button>
+                  </a>
                   <div class="dropdown-content" >
                     <a href="/solutions/">All Solutions</a>
                     <a href="/research-module">Research</a>
                   </div>
-                </div>
+                <!--</div> -->
 
 
                 <li class="<?php if ( is_page( 'about' ) ) {

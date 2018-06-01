@@ -2014,6 +2014,12 @@ nav.navbar.shrink{padding:10px 15px;box-shadow:0 2px 3px rgba(7,7,78,0.6)}
 .request-dropdown form .response--success h3{font-size:4.1rem}
 .request-dropdown form .response--success p a:not(:hover){color:#0095a2;text-decoration:underline}
 .request-dropdown form .response--success p:last-of-type{margin-bottom:0}
+.dropbtn{color:#07074e;font-size:1.35rem;padding:0 15px;margin-top:13px}
+.dropdown{position:relative;display:inline-block}
+.dropdown-content{display:none;position:absolute;background-color:#FFF;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);z-index:1}
+.dropdown-content a{color:black;padding:12px 16px;text-decoration:none;display:block;font-size:1.35rem}
+.dropdown-content a:hover{color:#910811;background-color:transparent;text-decoration:underline}
+.dropdown:hover .dropdown-content{display:block}
 footer{font-size:1.5rem}
 footer .row{padding-bottom:0}
 .mobile-footer{display:none}
