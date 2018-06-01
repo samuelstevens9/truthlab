@@ -165,13 +165,17 @@ nav.navbar.shrink {
     }
 }
 
+.navbar-collapse{
+  font-family: "PT Sans"
+}
 /* Dropdown Button */
 .dropbtn {
     /*background-color: #4CAF50;*/
     color: #07074e;
     font-size: 1.35rem;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     margin-top: 13px;
+    padding-bottom: 15%;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -188,11 +192,13 @@ nav.navbar.shrink {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-left: 10%;
+    font-family: "PT Sans Narrow";
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #6f7291;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -202,9 +208,9 @@ nav.navbar.shrink {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   /*background-color: #ddd*/
-  color: #910811;
+  color: #e4b7b2;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Show the dropdown menu on hover */
