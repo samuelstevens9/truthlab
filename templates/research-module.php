@@ -67,10 +67,9 @@ get_header(); ?>
                     </div>
                     <div class="col-sm-5" data-aos="fade-right">
                         <h3>Panel</h3>
-                        <p>Manage your own participants</p>
+                        <p>Manage  your  own  participants  and  customer  advisory  boards </p>
                         <p>Filter panelists and create static or smart lists</p>
                         <p>Smart audience lists automatically add and remove panelists based on your filter settings</p>
-                        <p>Once your filters are set, no further management is required</p>
                         <p>Easy onboarding of any tester including employees or contractors either by name or leveraging
                             existing collaboration tools (i.e., Slack, Yammer, Chatter)</p>
                     </div>
@@ -88,25 +87,22 @@ get_header(); ?>
                         <p>Does not require any custom integration</p>
                         <p>Distribute to panelists by link or Smart Audiences</p>
                         <p>Define success criteria for Success/Failure testing</p>
-                        <p>Conduct research in a matter of minutes</p>
+                        <p>Conduct moderated and/or unmoderated research in a matter of minutes.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="visible-xs-block">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/insights_mac.png' ?>" alt="Truthlab, B2B customer experience platform insights" />
+                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/videoPlayer_MacBook.png' ?>" alt="Truthlab, B2B customer experience platform insights" />
                     </div>
                     <div class="col-sm-5">
                         <h3>Insights</h3>
-                        <p>Review individual and/or aggregated insights so you can quickly analyze, identify and correct
-                            issues</p>
-                        <p>Upload historical studies to generate insights immediately</p>
-                        <p>Usability Waterfall Chart gives you visibility into aggregate clicks, page-loads and
-                            time-on-task</p>
-                        <p>Tester Journey shows how each panelist progressed during the task</p>
-                        <p>Quickly issue spot and gain qualitative understanding to fix negative experiences</p>
+                        <p>Watch live moderated and unmoderated user test sessions in an interactive platform.</p>
+                        <p>Work with full video transcript and video clipping to make actionable observations and share them in seconds</p>
+                        <p>Upload historical studies to get them transcribed and generate insights immediately.</p>
+                        <p>Quickly issue spot and gain qualitative understanding to improve negative experiences</p>
                     </div>
                     <div class="col-sm-7 hidden-xs">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/insights_mac.png' ?>" alt="Truthlab, B2B customer experience platform insights" />
+                        <img src="<?= get_stylesheet_directory_uri() . '/assets/img/research-module/videoPlayer_MacBook.png' ?>" alt="Truthlab, B2B customer experience platform insights" />
                     </div>
                 </div>
             </div>
