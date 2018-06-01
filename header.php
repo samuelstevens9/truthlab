@@ -89,7 +89,7 @@ if ( is_the_blog() ) {
                   </a>
                   <div class="dropdown-content" >
                     <a href="/solutions/">All Solutions</a>
-                    <a href="/research-module">Research</a>
+                    <a href="/research-module">Research Module</a>
                   </div>
                 <!--</div> -->
 
