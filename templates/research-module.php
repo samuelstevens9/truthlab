@@ -34,7 +34,7 @@ get_header(); ?>
     </section>
     <section class="cta-demo">
         <div class="container-fluid">
-            <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo" >Schedule Demo</a>
+            <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo">Schedule Demo</a>
         </div>
     </section>
 
