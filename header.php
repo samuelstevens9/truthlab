@@ -84,13 +84,13 @@ if ( is_the_blog() ) {
 				} ?>">
 
                 <div class="dropdown">
-                  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <button class="dropbtn" aria-haspopup="true" aria-expanded="true">
                     Solutions
                   </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="/solutions/">All Solutions</a></li>
-                    <li><a href="/research-module">Research</a></li>
-                  </ul>
+                  <div class="dropdown-content" >
+                    <a href="/solutions/">All Solutions</a>
+                    <a href="/research-module">Research</a>
+                  </div>
                 </div>
 
 
