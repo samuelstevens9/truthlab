@@ -108,7 +108,7 @@ if ( is_the_blog() ) {
                 <li><a href="https://app.truthlab.com/c/login/">Sign In</a></li>
                 <li class="search-toggle"><a href="#"><i class="fa fa-search"></i></a></li>
 				<?php if ( strpos( $_SERVER[ 'REQUEST_URI' ], 'blog' ) !== FALSE ): ?>
-                    <li class="request-toggle"><a href="#" class="button button--red">Subscribe to Blog</a></li>
+                    <li ><a href="https://mailchi.mp/f57d73ca5156/w2fwyvta2t" class="button button--red">Subscribe to Blog</a></li>
 				<?php else: ?>
                     <li class="request-appointment">
                         <a href="https://mailchi.mp/b4542bd1f679/easy-powerful-complete-truthlab-demo" class="button button--red">
